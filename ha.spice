@@ -1,0 +1,68 @@
+* SPICE3 file created from ha.ext - technology: scmos
+
+M1000 ha_sum xor2_0/nand2_4/nand_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=286p ps=242u 
+M1001 Vdd xor2_0/nand2_4/nand_in2 ha_sum Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1002 xor2_0/nand2_4/a_n37_n6# xor2_0/nand2_4/nand_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=114p ps=108u 
+M1003 ha_sum xor2_0/nand2_4/nand_in2 xor2_0/nand2_4/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1004 xor2_0/nand2_4/nand_in1 ha_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1005 Vdd xor2_0/nand2_3/nand_in2 xor2_0/nand2_4/nand_in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1006 xor2_0/nand2_3/a_n37_n6# ha_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1007 xor2_0/nand2_4/nand_in1 xor2_0/nand2_3/nand_in2 xor2_0/nand2_3/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1008 xor2_0/nand2_4/nand_in2 xor2_0/nand2_3/nand_in2 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1009 Vdd ha_in2 xor2_0/nand2_4/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1010 xor2_0/nand2_2/a_n37_n6# xor2_0/nand2_3/nand_in2 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1011 xor2_0/nand2_4/nand_in2 ha_in2 xor2_0/nand2_2/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1012 xor2_0/nand2_3/nand_in2 ha_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1013 Vdd ha_in2 xor2_0/nand2_3/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1014 xor2_0/nand2_1/a_n37_n6# ha_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1015 xor2_0/nand2_3/nand_in2 ha_in2 xor2_0/nand2_1/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1016 ha_cout not1_0/X Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1017 ha_cout not1_0/X GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1018 not1_0/X ha_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1019 Vdd ha_in2 not1_0/X Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1020 nand2_0/a_n37_n6# ha_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1021 not1_0/X ha_in2 nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 ha_cout gnd! 2.8fF
+C1 Vdd gnd! 49.4fF
+C2 not1_0/X gnd! 9.8fF
+C3 ha_in2 gnd! 35.5fF
+C4 xor2_0/nand2_3/nand_in2 gnd! 28.1fF
+C5 ha_in1 gnd! 26.1fF
+C6 ha_sum gnd! 8.3fF
+C7 xor2_0/nand2_4/nand_in2 gnd! 17.8fF
+C8 xor2_0/nand2_4/nand_in1 gnd! 12.2fF
+
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 ha_in1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 250ns 500ns)
+Vin2 ha_in2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 100ns 300ns)
+.tran 5ns 1000ns
+.probe
+.end

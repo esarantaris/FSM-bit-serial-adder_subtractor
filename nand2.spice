@@ -1,0 +1,25 @@
+* SPICE3 file created from nand2.ext - technology: scmos
+
+M1000 nand_out nand_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=52p ps=44u 
+M1001 Vdd nand_in2 nand_out Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1002 a_n37_n6# nand_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=19p ps=18u 
+M1003 nand_out nand_in2 a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 nand_out gnd! 2.7fF
+C1 nand_in2 gnd! 7.4fF
+C2 nand_in1 gnd! 6.4fF
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 nand_in1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 250ns 500ns)
+Vin2 nand_in2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 100ns 300ns)
+.tran 5ns 1000ns
+.probe
+.end

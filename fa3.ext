@@ -1,0 +1,52 @@
+timestamp 1352408105
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use ha ha_0 1 0 0 0 1 0
+use ha ha_1 1 0 73 0 1 0
+use nor2 nor2_0 1 0 196 0 1 114
+use not1 not1_0 1 0 183 0 1 113
+node "GND!" 7 58515 0 -3 m1 0 0 0 0 0 0 0 0 0 0 0 0 1245 836 0 0 0 0
+node "Vdd!" 3 24534 39 131 m1 0 0 0 0 0 0 0 0 0 0 0 0 540 366 0 0 0 0
+node "a_73_24#" 131 2938 73 24 p 0 0 0 0 22 26 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_165_93#" 128 7834 165 93 pc 0 0 0 0 30 30 0 0 0 0 0 0 57 48 173 120 0 0
+node "a_180_113#" 24 3596 180 113 pc 0 0 0 0 16 16 0 0 0 0 0 0 52 40 0 0 0 0
+node "cout" 213 8620 187 136 p 0 0 0 0 44 44 0 0 0 0 0 0 88 64 0 0 0 0
+node "a_155_141#" 226 14598 155 141 pc 0 0 0 0 46 46 0 0 0 0 0 0 90 70 359 244 0 0
+node "sum" 334 21716 145 23 pc 0 0 0 0 64 64 0 0 0 0 0 0 332 226 0 0 0 0
+node "cin" 179 3890 92 132 p 0 0 0 0 30 34 0 0 0 0 0 0 0 0 0 0 0 0
+node "in2" 179 3890 19 132 p 0 0 0 0 30 34 0 0 0 0 0 0 0 0 0 0 0 0
+node "in1" 179 3890 11 132 p 0 0 0 0 30 34 0 0 0 0 0 0 0 0 0 0 0 0
+cap "GND!" "a_165_93#" 405
+cap "a_155_141#" "cin" 114
+cap "Vdd!" "a_155_141#" 585
+cap "Vdd!" "sum" 180
+cap "a_165_93#" "sum" 405
+cap "a_155_141#" "sum" 180
+cap "Vdd!" "cin" 180
+cap "ha_0/GND!" "ha_0/ha_sum" 180
+cap "a_165_93#" "ha_1/xor2_0/Vdd!" 405
+cap "ha_0/ha_cout" "ha_0/Vdd!" 405
+merge "not1_0/not_in" "nor2_0/out" -956 0 0 0 0 -4 -10 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nor2_0/out" "a_180_113#"
+merge "not1_0/GND" "nor2_0/GND!" -2491 0 0 0 0 0 0 0 0 0 0 0 0 -47 -125 0 0 0 0
+merge "nor2_0/GND!" "ha_1/GND!"
+merge "ha_1/GND!" "ha_0/GND!"
+merge "ha_0/GND!" "GND!"
+merge "nor2_0/in1" "ha_0/ha_cout" -1205 0 0 0 0 -6 -10 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "ha_0/ha_cout" "a_155_141#"
+merge "nor2_0/in2" "ha_1/ha_cout" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 -10 0 -4 0 0
+merge "ha_1/ha_cout" "a_165_93#"
+merge "ha_1/ha_in2" "cin" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "ha_0/ha_in1" "in1" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "ha_0/ha_in2" "in2" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "not1_0/Vdd" "nor2_0/Vdd!" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -30 0 0 0 0
+merge "nor2_0/Vdd!" "ha_1/Vdd!"
+merge "ha_1/Vdd!" "ha_0/Vdd!"
+merge "ha_0/Vdd!" "Vdd!"
+merge "ha_1/xor2_0/xor_in1" "ha_0/ha_sum" -640 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "ha_0/ha_sum" "a_73_24#"
+merge "ha_1/ha_sum" "sum" -7168 0 0 0 0 -22 -26 0 0 0 0 0 0 -106 -73 0 0 0 0
+merge "not1_0/not_out" "cout" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0

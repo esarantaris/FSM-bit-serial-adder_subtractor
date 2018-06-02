@@ -1,0 +1,428 @@
+h Vdd!
+l GND!
+vector A A7 A6 A5 A4 A3 A2 A1 A0
+vector B B7 B6 B5 B4 B3 B2 B1 B0
+vector SUM SUM7 SUM6 SUM5 SUM4 SUM3 SUM2 SUM1 SUM0
+vector S SA1 SA0 SB1 SB0 SS0
+analyzer CLK RST AbS A B SUM S
+l CLK
+h RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+h RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+l RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+h RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+h RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+l CLK
+h RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+h CLK
+h RST
+setvector A 00101001
+setvector B 00000111
+l AbS
+s
+s
+s
+s
+s
+s
+s
+stepsize 100
+s

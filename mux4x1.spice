@@ -1,0 +1,47 @@
+* SPICE3 file created from mux4x1.ext - technology: scmos
+
+M1000 mux2x1_2/Min2 S1 mux2x1_1/Min2 Vdd pfet w=6u l=2u
++ ad=147p pd=90u as=49p ps=30u 
+M1001 mux2x1_2/Min2 mux2x1_1/Smb mux2x1_1/Min2 Gnd nfet w=3u l=2u
++ ad=84p pd=72u as=28p ps=24u 
+M1002 mux2x1_2/Min2 mux2x1_1/Smb in3 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=49p ps=30u 
+M1003 mux2x1_2/Min2 S1 in3 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=28p ps=24u 
+M1004 out S0 mux2x1_2/Min2 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1005 out mux2x1_2/Smb mux2x1_2/Min2 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1006 out mux2x1_2/Smb mux2x1_2/Min1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=147p ps=90u 
+M1007 out S0 mux2x1_2/Min1 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=84p ps=72u 
+M1008 mux2x1_2/Min1 S1 in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=49p ps=30u 
+M1009 mux2x1_2/Min1 mux2x1_1/Smb in2 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=28p ps=24u 
+M1010 mux2x1_2/Min1 mux2x1_1/Smb in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=49p ps=30u 
+M1011 mux2x1_2/Min1 S1 in1 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=28p ps=24u 
+M1012 mux2x1_2/Smb S0 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=52p ps=44u 
+M1013 mux2x1_2/Smb S0 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=38p ps=36u 
+M1014 mux2x1_1/Smb S1 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1015 mux2x1_1/Smb S1 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 mux2x1_1/Smb gnd! 38.1fF
+C1 S1 gnd! 36.5fF
+C2 GND gnd! 4.6fF
+C3 mux2x1_2/Smb gnd! 19.1fF
+C4 Vdd gnd! 7.0fF
+C5 S0 gnd! 19.7fF
+C6 in1 gnd! 3.2fF
+C7 in2 gnd! 3.2fF
+C8 mux2x1_2/Min1 gnd! 9.7fF
+C9 out gnd! 5.5fF
+C10 in3 gnd! 3.2fF
+C11 mux2x1_2/Min2 gnd! 12.1fF
+C12 mux2x1_1/Min2 gnd! 2.4fF

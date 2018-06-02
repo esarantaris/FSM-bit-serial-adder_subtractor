@@ -1,0 +1,25 @@
+magic
+tech scmos
+timestamp 1353607821
+<< polysilicon >>
+rect -5 13 -3 43
+rect 22 13 24 43
+<< metal1 >>
+rect -8 47 -1 50
+rect 17 22 20 34
+rect -8 6 -1 9
+use gate gate_1
+timestamp 1353094667
+transform 0 1 2 -1 0 42
+box -9 -5 9 20
+use gate gate_0
+timestamp 1353094667
+transform 0 -1 17 1 0 14
+box -9 -5 9 20
+<< labels >>
+rlabel polysilicon -4 28 -4 28 3 Sm
+rlabel polysilicon 23 28 23 28 7 Smb
+rlabel metal1 -6 48 -6 48 4 Min1
+rlabel metal1 -6 7 -6 7 2 Min2
+rlabel metal1 18 28 18 28 1 Mout
+<< end >>

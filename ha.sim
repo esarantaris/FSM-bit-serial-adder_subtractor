@@ -1,0 +1,48 @@
+| units: 100 tech: scmos format: MIT
+p xor2_0/nand2_4/nand_in1 Vdd! ha_sum 2 6 40 16
+p xor2_0/nand2_4/nand_in2 ha_sum Vdd! 2 6 48 16
+n xor2_0/nand2_4/nand_in1 GND! xor2_0/nand2_4/a_n37_n6# 2 3 40 38
+n xor2_0/nand2_4/nand_in2 xor2_0/nand2_4/a_n37_n6# ha_sum 2 3 44 38
+p ha_in1 Vdd! xor2_0/nand2_4/nand_in1 2 6 11 16
+p xor2_0/nand2_3/nand_in2 xor2_0/nand2_4/nand_in1 Vdd! 2 6 19 16
+n ha_in1 GND! xor2_0/nand2_3/a_n37_n6# 2 3 11 38
+n xor2_0/nand2_3/nand_in2 xor2_0/nand2_3/a_n37_n6# xor2_0/nand2_4/nand_in1 2 3 15 38
+p xor2_0/nand2_3/nand_in2 Vdd! xor2_0/nand2_4/nand_in2 2 6 40 72
+p ha_in2 xor2_0/nand2_4/nand_in2 Vdd! 2 6 48 72
+n xor2_0/nand2_3/nand_in2 GND! xor2_0/nand2_2/a_n37_n6# 2 3 40 50
+n ha_in2 xor2_0/nand2_2/a_n37_n6# xor2_0/nand2_4/nand_in2 2 3 44 50
+p ha_in1 Vdd! xor2_0/nand2_3/nand_in2 2 6 11 72
+p ha_in2 xor2_0/nand2_3/nand_in2 Vdd! 2 6 19 72
+n ha_in1 GND! xor2_0/nand2_1/a_n37_n6# 2 3 11 50
+n ha_in2 xor2_0/nand2_1/a_n37_n6# xor2_0/nand2_3/nand_in2 2 3 15 50
+p not1_0/X not1_0/Vdd ha_cout 2 6 35 119
+n not1_0/X GND! ha_cout 2 3 35 105
+p ha_in1 Vdd! not1_0/X 2 6 11 121
+p ha_in2 not1_0/X Vdd! 2 6 19 121
+n ha_in1 GND! nand2_0/a_n37_n6# 2 3 11 99
+n ha_in2 nand2_0/a_n37_n6# not1_0/X 2 3 15 99
+R nand2_0/a_n37_n6# 40
+R GND! 631
+C ha_cout GND 2.8
+R ha_cout 176
+R not1_0/Vdd 131
+C not1_0/X GND 9.8
+R not1_0/X 401
+R xor2_0/nand2_1/a_n37_n6# 40
+R xor2_0/nand2_2/a_n37_n6# 40
+C ha_in2 GND 35.5
+R ha_in2 2042
+R xor2_0/nand2_3/a_n37_n6# 40
+C xor2_0/nand2_3/nand_in2 GND 28.1
+R xor2_0/nand2_3/nand_in2 1381
+C ha_in1 GND 26.1
+R ha_in1 1566
+R xor2_0/nand2_4/a_n37_n6# 40
+C Vdd! GND 40.6
+R Vdd! 2657
+C ha_sum GND 8.3
+R ha_sum 292
+C xor2_0/nand2_4/nand_in2 GND 17.8
+R xor2_0/nand2_4/nand_in2 748
+C xor2_0/nand2_4/nand_in1 GND 12.2
+R xor2_0/nand2_4/nand_in1 485

@@ -1,0 +1,18 @@
+timestamp 1288918752
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_n37_n6#" 40 0 -37 -6 ndiff 6 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND!" 44 0 -44 -7 ndc 19 18 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Vdd!" 131 0 -29 16 pdiff 0 0 26 22 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "nand_out" 104 2679 -37 16 pdiff 19 18 36 24 0 0 0 0 0 0 0 0 101 72 0 0 0 0
+node "Vdd!" 131 0 -44 16 pdc 0 0 26 22 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "nand_in2" 429 7386 -35 -8 p 0 0 0 0 72 76 0 0 0 0 0 0 0 0 0 0 0 0
+node "nand_in1" 382 6434 -39 -8 p 0 0 0 0 64 68 0 0 0 0 0 0 0 0 0 0 0 0
+cap "nand_out" "nand_in2" 360
+device mosfet nfet -35 -6 -34 -5 2 3 "Gnd!" "nand_in2" 4 0 "a_n37_n6#" 3 0 "nand_out" 3 0
+device mosfet nfet -39 -6 -38 -5 2 3 "Gnd!" "nand_in1" 4 0 "GND!" 3 0 "a_n37_n6#" 3 0
+device mosfet pfet -31 16 -30 17 2 6 "Vdd!" "nand_in2" 4 0 "nand_out" 6 0 "Vdd!" 6 0
+device mosfet pfet -39 16 -38 17 2 6 "Vdd!" "nand_in1" 4 0 "Vdd!" 6 0 "nand_out" 6 0

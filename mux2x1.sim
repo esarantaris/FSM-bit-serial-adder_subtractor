@@ -1,0 +1,15 @@
+| units: 100 tech: scmos format: MIT
+p Sm Min2 Mout 2 6 5 13
+n Smb Min2 Mout 2 3 18 13
+p Smb Min1 Mout 2 6 13 42
+n Sm Min1 Mout 2 3 0 42
+C Min1 GND 2.4
+R Min1 201
+C Smb GND 11.0
+R Smb 608
+C Mout GND 4.5
+R Mout 638
+C Sm GND 11.0
+R Sm 608
+C Min2 GND 2.4
+R Min2 201

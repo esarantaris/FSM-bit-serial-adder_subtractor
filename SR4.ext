@@ -1,0 +1,188 @@
+timestamp 1354649573
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use inverter inverter_1 1 0 -79 0 1 235
+use inverter inverter_0 1 0 34 0 1 240
+use mux2x1 mux2x1_1 1 0 -74 0 1 173
+use dffP dffP_0 0 1 -45 -1 0 129
+use mux2x1 mux2x1_0 1 0 39 0 1 178
+use dff3B dff3B_0 0 1 72 -1 0 130
+use inverter inverter_2 1 0 151 0 1 240
+use mux2x1 mux2x1_2 1 0 156 0 1 178
+use dff3B dff3B_1 0 1 189 -1 0 130
+use inverter inverter_3 1 0 268 0 1 240
+use mux2x1 mux2x1_3 1 0 273 0 1 178
+use dff3B dff3B_2 0 1 306 -1 0 130
+node "Q3" 6 54849 228 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 1167 784 0 0 0 0
+node "CLK" 11 84211 -98 19 v 0 0 0 0 0 0 0 0 0 0 0 0 1742 1186 287 210 0 0
+node "Q2" 10 88407 111 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 1881 1260 0 0 0 0
+node "Q1" 10 88407 -6 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 1881 1260 0 0 0 0
+node "Q0" 10 88266 -123 11 m1 0 0 0 0 0 0 0 0 0 0 0 0 1878 1258 0 0 0 0
+node "m1_263_233#" 1 3260 263 233 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 166 116 0 0
+node "m1_146_233#" 1 3260 146 233 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 166 116 0 0
+node "m1_29_233#" 1 3260 29 233 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 166 116 0 0
+node "INP" 0 846 -86 220 m1 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "m1_n84_228#" 0 3203 -84 228 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 157 110 0 0
+node "Vdd!" 5 28669 -84 244 v 0 0 0 0 0 0 0 0 0 0 0 0 80 80 1451 970 0 0
+node "GND!" 5 34421 -38 221 m1 0 0 0 0 0 0 0 0 0 0 0 0 337 246 1078 722 0 0
+node "a_n47_206#" 76 3887 -47 206 pc 0 0 0 0 22 22 0 0 0 0 0 0 43 34 0 0 0 0
+node "a_301_212#" 102 4504 301 212 pc 0 0 0 0 26 26 0 0 0 0 0 0 46 36 0 0 0 0
+node "a_184_212#" 102 4504 184 212 pc 0 0 0 0 26 26 0 0 0 0 0 0 46 36 0 0 0 0
+node "a_67_212#" 102 4504 67 212 pc 0 0 0 0 26 26 0 0 0 0 0 0 46 36 0 0 0 0
+node "a_268_219#" 143 3176 268 219 p 0 0 0 0 24 28 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_292_235#" 233 9062 292 235 pc 0 0 0 0 57 52 0 0 0 0 0 0 82 58 0 0 0 0
+node "a_151_219#" 143 3176 151 219 p 0 0 0 0 24 28 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_175_235#" 233 9062 175 235 pc 0 0 0 0 57 52 0 0 0 0 0 0 82 58 0 0 0 0
+node "a_34_219#" 143 3176 34 219 p 0 0 0 0 24 28 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_58_235#" 233 9062 58 235 pc 0 0 0 0 57 52 0 0 0 0 0 0 82 58 0 0 0 0
+node "a_n79_214#" 143 3176 -79 214 p 0 0 0 0 24 28 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n55_230#" 233 9062 -55 230 pc 0 0 0 0 57 52 0 0 0 0 0 0 82 58 0 0 0 0
+node "RST" 1926 86223 -31 263 pc 0 0 0 0 330 330 0 0 0 0 0 0 1081 724 0 0 0 0
+node "S" 1151 70894 -79 249 p 0 0 0 0 200 200 0 0 0 0 0 0 1066 714 0 0 0 0
+cap "CLK" "Q2" 405
+cap "m1_n84_228#" "Q0" 135
+cap "m1_n84_228#" "INP" 405
+cap "CLK" "Q1" 405
+cap "m1_29_233#" "Q0" 405
+cap "GND!" "S" 342
+cap "m1_263_233#" "Q3" 405
+cap "GND!" "Vdd!" 1620
+cap "GND!" "RST" 342
+cap "m1_146_233#" "Q2" 405
+cap "Q0" "CLK" 405
+cap "m1_263_233#" "Q2" 405
+cap "m1_146_233#" "Q1" 405
+cap "S" "RST" 540
+cap "Vdd!" "RST" 456
+cap "m1_29_233#" "Q1" 405
+cap "Q3" "CLK" 405
+cap "dffP_0/Vdd!" "Q0" 2025
+cap "dff3B_0/Vdd!" "Q1" 4275
+cap "dffP_0/Vdd!" "Q0" 405
+cap "dff3B_0/Q" "dff3B_0/Vdd!" 405
+cap "Q2" "dff3B_1/Vdd!" 1395
+cap "Q3" "dff3B_2/Vdd!" 630
+cap "dff3B_1/Vdd!" "dff3B_1/Q" 405
+cap "dff3B_1/Vdd!" "Q2" 2880
+cap "dff3B_2/Vdd!" "Q3" 3645
+cap "dff3B_2/Q" "dff3B_2/Vdd!" 405
+cap "dffP_0/GND!" "mux2x1_1/Min2" 4968
+cap "m1_29_233#" "mux2x1_0/Min2" 360
+cap "dff3B_1/GND!" "mux2x1_2/Min2" 360
+cap "dff3B_2/GND!" "mux2x1_3/Min2" 180
+cap "dff3B_2/GND!" "mux2x1_3/gate_0/Gin" 180
+cap "dffP_0/nor2_0/in1" "Vdd!" 114
+cap "mux2x1_1/Min1" "m1_n84_228#" 405
+cap "dffP_0/nor2_0/GND!" "Vdd!" 405
+cap "inverter_1/in" "mux2x1_1/Min1" 180
+cap "inverter_1/Vdd" "dffP_0/nor2_0/in1" -114
+cap "inverter_1/out" "Vdd!" 470
+cap "inverter_1/Vdd" "Vdd!" 786
+cap "inverter_1/Vdd" "dffP_0/nor2_0/GND!" -405
+cap "inverter_1/GND" "m1_n84_228#" 720
+cap "inverter_1/out" "mux2x1_1/Mout" 180
+cap "inverter_1/GND" "mux2x1_1/Min1" -405
+cap "mux2x1_0/Min1" "m1_29_233#" 405
+cap "inverter_0/Vdd" "Vdd!" 830
+cap "inverter_0/GND" "mux2x1_0/Min1" -405
+cap "inverter_0/GND" "m1_29_233#" 720
+cap "mux2x1_0/Min1" "inverter_0/in" 180
+cap "inverter_0/out" "Vdd!" 470
+cap "mux2x1_0/Mout" "inverter_0/out" 180
+cap "inverter_2/Vdd" "dff3B_0/inverter_7/GND" -405
+cap "inverter_2/Vdd" "Vdd!" 786
+cap "mux2x1_2/Min1" "inverter_2/GND" -405
+cap "inverter_2/Vdd" "dff3B_0/CLR" -114
+cap "inverter_2/out" "Vdd!" 470
+cap "mux2x1_2/Min1" "inverter_2/in" 180
+cap "dff3B_0/inverter_7/out" "mux2x1_2/Min1" 180
+cap "m1_146_233#" "mux2x1_2/Min1" 405
+cap "dff3B_0/D" "mux2x1_2/Min1" 180
+cap "dff3B_0/inverter_7/GND" "Vdd!" 405
+cap "m1_146_233#" "inverter_2/GND" 720
+cap "Vdd!" "dff3B_0/CLR" 114
+cap "dff3B_1/D" "mux2x1_2/Smb" 180
+cap "Vdd!" "inverter_3/out" 470
+cap "mux2x1_3/Min1" "dff3B_1/inverter_7/out" 180
+cap "Vdd!" "inverter_3/Vdd" 786
+cap "mux2x1_3/Min1" "inverter_3/GND" -405
+cap "mux2x1_3/Min1" "m1_263_233#" 405
+cap "dff3B_1/D" "mux2x1_3/Min1" 180
+cap "inverter_3/GND" "m1_263_233#" 720
+cap "dff3B_1/CLR" "inverter_3/Vdd" -114
+cap "dff3B_1/inverter_7/GND" "inverter_3/Vdd" -405
+cap "mux2x1_3/Min1" "inverter_3/in" 180
+cap "Vdd!" "dff3B_1/CLR" 114
+cap "dff3B_1/inverter_7/GND" "Vdd!" 405
+cap "mux2x1_3/Mout" "mux2x1_3/Smb" 180
+merge "mux2x1_3/Min1" "mux2x1_2/Min2" -20163 0 0 0 0 0 0 0 0 0 0 0 0 -411 -297 0 0 0 0
+merge "mux2x1_2/Min2" "dff3B_1/Q"
+merge "dff3B_1/Q" "Q2"
+merge "inverter_3/GND" "dff3B_2/GND!" -3260 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -166 -116 0 0
+merge "dff3B_2/GND!" "m1_263_233#"
+merge "dff3B_2/Vdd!" "inverter_3/Vdd" -25078 0 0 0 0 0 0 0 0 0 0 0 0 -80 -80 -1263 -862 0 0
+merge "inverter_3/Vdd" "dff3B_1/Vdd!"
+merge "dff3B_1/Vdd!" "inverter_2/Vdd"
+merge "inverter_2/Vdd" "dff3B_0/Vdd!"
+merge "dff3B_0/Vdd!" "dffP_0/Vdd!"
+merge "dffP_0/Vdd!" "inverter_0/Vdd"
+merge "inverter_0/Vdd" "inverter_1/Vdd"
+merge "inverter_1/Vdd" "Vdd!"
+merge "dff3B_2/inverter_7/in" "dff3B_1/CLR" -10086 0 0 0 0 -74 -90 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dff3B_1/CLR" "dff3B_0/CLR"
+merge "dff3B_0/CLR" "dffP_0/nor2_0/in1"
+merge "dffP_0/nor2_0/in1" "RST"
+merge "mux2x1_3/Min2" "dff3B_2/Q" -7473 0 0 0 0 0 0 0 0 0 0 0 0 -159 -123 0 0 0 0
+merge "dff3B_2/Q" "Q3"
+merge "mux2x1_3/Sm" "inverter_3/in" -1912 0 0 0 0 -8 -20 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_3/in" "mux2x1_2/Sm"
+merge "mux2x1_2/Sm" "inverter_2/in"
+merge "inverter_2/in" "mux2x1_0/Sm"
+merge "mux2x1_0/Sm" "inverter_0/in"
+merge "inverter_0/in" "mux2x1_1/Sm"
+merge "mux2x1_1/Sm" "inverter_1/in"
+merge "inverter_1/in" "S"
+merge "S" "a_n79_214#"
+merge "a_n79_214#" "a_34_219#"
+merge "a_34_219#" "a_151_219#"
+merge "a_151_219#" "a_268_219#"
+merge "mux2x1_3/Smb" "inverter_3/out" -1078 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_3/out" "a_292_235#"
+merge "dff3B_2/inverter_7/GND" "dff3B_1/inverter_7/GND" -1269 0 0 0 0 0 0 0 0 0 0 0 0 -27 -42 0 0 0 0
+merge "dff3B_1/inverter_7/GND" "dff3B_0/inverter_7/GND"
+merge "dff3B_0/inverter_7/GND" "dffP_0/nor2_0/GND!"
+merge "dffP_0/nor2_0/GND!" "GND!"
+merge "inverter_1/GND" "dffP_0/GND!" -3203 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -157 -110 0 0
+merge "dffP_0/GND!" "m1_n84_228#"
+merge "dff3B_2/nand2_0/nand_in2" "mux2x1_3/Mout" -1360 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux2x1_3/Mout" "a_301_212#"
+merge "dff3B_0/nand2_0/nand_in2" "mux2x1_0/Mout" -1360 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux2x1_0/Mout" "a_67_212#"
+merge "dff3B_2/CLK" "dff3B_1/CLK" -987 0 0 0 0 0 0 0 0 0 0 0 0 -21 -38 0 0 0 0
+merge "dff3B_1/CLK" "dff3B_0/CLK"
+merge "dff3B_0/CLK" "dffP_0/CLK"
+merge "dffP_0/CLK" "CLK"
+merge "mux2x1_2/Min1" "mux2x1_0/Min2" -15792 0 0 0 0 0 0 0 0 0 0 0 0 -318 -232 0 0 0 0
+merge "mux2x1_0/Min2" "dff3B_0/Q"
+merge "dff3B_0/Q" "Q1"
+merge "inverter_0/GND" "dff3B_0/GND!" -5312 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -274 -228 0 0
+merge "dff3B_0/GND!" "m1_29_233#"
+merge "mux2x1_0/Min1" "mux2x1_1/Min2" -24252 0 0 0 0 0 0 0 0 0 0 0 0 -510 -367 0 0 0 0
+merge "mux2x1_1/Min2" "dffP_0/Q"
+merge "dffP_0/Q" "Q0"
+merge "mux2x1_0/Smb" "inverter_0/out" -1078 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_0/out" "a_58_235#"
+merge "inverter_2/GND" "dff3B_1/GND!" -3260 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -166 -116 0 0
+merge "dff3B_1/GND!" "m1_146_233#"
+merge "mux2x1_1/Min1" "INP" -564 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "dffP_0/nor2_0/in2" "mux2x1_1/Mout" -1122 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux2x1_1/Mout" "a_n47_206#"
+merge "mux2x1_1/Smb" "inverter_1/out" -1078 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_1/out" "a_n55_230#"
+merge "mux2x1_2/Smb" "inverter_2/out" -1078 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_2/out" "a_175_235#"
+merge "dff3B_1/D" "mux2x1_2/Mout" -1360 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux2x1_2/Mout" "a_184_212#"

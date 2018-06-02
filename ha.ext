@@ -1,0 +1,41 @@
+timestamp 1354114587
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use nand2 nand2_0 1 0 50 0 1 105
+use not1 not1_0 1 0 35 0 1 112
+use xor2 xor2_0 1 0 47 0 1 62
+node "GND!" 2 18706 0 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 414 282 0 0 0 0
+node "ha_cout" 0 1410 42 112 m1 0 0 0 0 0 0 0 0 0 0 0 0 30 26 0 0 0 0
+node "Vdd!" 2 15416 6 125 m1 0 0 0 0 0 0 0 0 0 0 0 0 336 230 0 0 0 0
+node "ha_sum" 188 4760 57 23 pc 0 0 0 0 40 40 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_15_91#" 119 2700 15 91 p 0 0 0 0 20 24 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_11_91#" 72 1748 11 91 p 0 0 0 0 12 16 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_32_112#" 24 3314 32 112 pc 0 0 0 0 16 16 0 0 0 0 0 0 46 36 0 0 0 0
+node "ha_in2" 36 1034 19 129 p 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0 0 0
+node "ha_in1" 36 1034 11 129 p 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0 0 0
+cap "GND!" "a_15_91#" 300
+cap "Vdd!" "ha_in1" 120
+cap "GND!" "a_11_91#" 180
+cap "Vdd!" "ha_in2" 120
+cap "xor2_0/xor_out" "xor2_0/Vdd!" 180
+cap "nand2_0/nand_in1" "nand2_0/Vdd!" 60
+cap "nand2_0/nand_in2" "nand2_0/Vdd!" 60
+merge "not1_0/GND" "xor2_0/GND!" -6486 0 0 0 0 0 0 0 0 0 0 0 0 -138 -110 0 0 0 0
+merge "xor2_0/GND!" "nand2_0/GND!"
+merge "nand2_0/GND!" "GND!"
+merge "xor2_0/xor_in1" "nand2_0/nand_in1" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/nand_in1" "a_11_91#"
+merge "a_11_91#" "ha_in1"
+merge "xor2_0/xor_in2" "nand2_0/nand_in2" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/nand_in2" "a_15_91#"
+merge "a_15_91#" "ha_in2"
+merge "not1_0/not_in" "nand2_0/nand_out" -956 0 0 0 0 -4 -10 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nand2_0/nand_out" "a_32_112#"
+merge "xor2_0/xor_out" "ha_sum" -141 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "not1_0/Vdd" "nand2_0/Vdd!" -658 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "nand2_0/Vdd!" "xor2_0/Vdd!"
+merge "xor2_0/Vdd!" "Vdd!"
+merge "not1_0/not_out" "ha_cout" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0

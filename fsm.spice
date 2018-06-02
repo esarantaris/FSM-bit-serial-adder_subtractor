@@ -1,0 +1,1021 @@
+* SPICE3 file created from fsm.ext - technology: scmos
+
+M1000 SB1 nor2_3/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=3822p ps=3234u 
+M1001 SB1 nor2_3/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=2660p ps=2520u 
+M1002 SA1 nor2_4/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1003 SA1 nor2_4/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1004 SS0 inverter_9/in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1005 SS0 inverter_9/in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1006 nor2_3/a_n37_6# SS0 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1007 nor2_3/out SB0 nor2_3/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1008 nor2_3/out SS0 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1009 GND SB0 nor2_3/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1010 SB0 inverter_8/in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1011 SB0 inverter_8/in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1012 nor2_4/a_n37_6# SS0 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1013 nor2_4/out SA0 nor2_4/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1014 nor2_4/out SS0 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1015 GND SA0 nor2_4/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1016 SA0 inverter_7/in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1017 SA0 inverter_7/in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1018 nor2_0/a_n37_6# B2 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1019 nor2_0/out B1 nor2_0/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1020 nor2_0/out B2 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1021 GND B1 nor2_0/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1022 nor2_2/in2 nor2_0/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1023 nor2_2/in2 nor2_0/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1024 nor2_1/a_n37_6# B0 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1025 nor2_1/out B3 nor2_1/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1026 nor2_1/out B0 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1027 GND B3 nor2_1/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1028 nor2_2/in1 nor2_1/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1029 nor2_2/in1 nor2_1/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1030 nor2_2/a_n37_6# nor2_2/in1 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1031 nor2_2/out nor2_2/in2 nor2_2/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1032 nor2_2/out nor2_2/in1 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1033 GND nor2_2/in2 nor2_2/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1034 G nor2_2/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1035 G nor2_2/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1036 nor2_5/a_n37_6# A4 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1037 nor2_5/out A3 nor2_5/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1038 nor2_5/out A4 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1039 GND A3 nor2_5/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1040 inverter_12/out nor2_5/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1041 inverter_12/out nor2_5/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1042 inverter_9/in G Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1043 Vdd inverter_12/out inverter_9/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1044 nand2_3/a_n37_n6# G GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1045 inverter_9/in inverter_12/out nand2_3/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1046 inverter_8/in G Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1047 Vdd SR4_0/Q2 inverter_8/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1048 nand2_2/a_n37_n6# G GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1049 inverter_8/in SR4_0/Q2 nand2_2/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1050 inverter_7/in G Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1051 Vdd A1 inverter_7/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1052 nand2_1/a_n37_n6# G GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1053 inverter_7/in A1 nand2_1/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1054 SR4_1/dff3B_2/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1055 SR4_1/dff3B_2/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1056 SR4_1/dff3B_2/gate_0/S SR4_1/dff3B_2/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1057 SR4_1/dff3B_2/gate_0/S SR4_1/dff3B_2/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1058 SR4_1/dff3B_2/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1059 SR4_1/dff3B_2/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1060 SR4_1/dff3B_2/gate_3/Gout B3 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1061 SR4_1/dff3B_2/gate_3/Gout B3 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1062 SR4_1/dff3B_2/gate_3/Gout CLK SR4_1/dff3B_2/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1063 SR4_1/dff3B_2/gate_3/Gout SR4_1/dff3B_2/gate_1/S SR4_1/dff3B_2/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1064 SR4_1/dff3B_2/gate_2/Gout SR4_1/dff3B_2/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1065 SR4_1/dff3B_2/gate_2/Gout SR4_1/dff3B_2/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1066 SR4_1/dff3B_2/gate_2/Gout SR4_1/dff3B_2/gate_2/S SR4_1/dff3B_2/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1067 SR4_1/dff3B_2/gate_2/Gout SR4_1/dff3B_2/gate_0/S SR4_1/dff3B_2/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1068 SR4_1/dff3B_2/Qb B3 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1069 SR4_1/dff3B_2/Qb B3 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1070 B3 SR4_1/dff3B_2/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1071 B3 SR4_1/dff3B_2/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1072 SR4_1/dff3B_2/gate_3/Gin SR4_1/dff3B_2/gate_1/S SR4_1/dff3B_2/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1073 SR4_1/dff3B_2/gate_3/Gin CLK SR4_1/dff3B_2/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1074 SR4_1/dff3B_2/gate_1/Gin SR4_1/dff3B_2/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1075 SR4_1/dff3B_2/gate_1/Gin SR4_1/dff3B_2/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1076 SR4_1/dff3B_2/gate_2/Gin SR4_1/dff3B_2/gate_0/S SR4_1/dff3B_2/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1077 SR4_1/dff3B_2/gate_2/Gin SR4_1/dff3B_2/gate_2/S SR4_1/dff3B_2/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1078 SR4_1/dff3B_2/gate_0/Gin SR4_1/dff3B_2/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1079 SR4_1/dff3B_2/gate_0/Gin SR4_1/dff3B_2/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1080 SR4_1/dff3B_2/inverter_11/in SR4_1/dff3B_2/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1081 Vdd SR4_1/dff3B_2/D SR4_1/dff3B_2/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1082 SR4_1/dff3B_2/nand2_0/a_n37_n6# SR4_1/dff3B_2/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1083 SR4_1/dff3B_2/inverter_11/in SR4_1/dff3B_2/D SR4_1/dff3B_2/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1084 SR4_1/dff3B_2/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1085 SR4_1/dff3B_2/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1086 SR4_1/dff3B_2/D SR4_1/S B3 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1087 SR4_1/dff3B_2/D SR4_1/mux2x1_3/Smb B3 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1088 SR4_1/dff3B_2/D SR4_1/mux2x1_3/Smb B2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1089 SR4_1/dff3B_2/D SR4_1/S B2 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1090 SR4_1/mux2x1_3/Smb SR4_1/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1091 SR4_1/mux2x1_3/Smb SR4_1/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1092 SR4_1/dff3B_1/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1093 SR4_1/dff3B_1/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1094 SR4_1/dff3B_1/gate_0/S SR4_1/dff3B_1/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1095 SR4_1/dff3B_1/gate_0/S SR4_1/dff3B_1/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1096 SR4_1/dff3B_1/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1097 SR4_1/dff3B_1/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1098 SR4_1/dff3B_1/gate_3/Gout B2 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1099 SR4_1/dff3B_1/gate_3/Gout B2 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1100 SR4_1/dff3B_1/gate_3/Gout CLK SR4_1/dff3B_1/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1101 SR4_1/dff3B_1/gate_3/Gout SR4_1/dff3B_1/gate_1/S SR4_1/dff3B_1/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1102 SR4_1/dff3B_1/gate_2/Gout SR4_1/dff3B_1/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1103 SR4_1/dff3B_1/gate_2/Gout SR4_1/dff3B_1/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1104 SR4_1/dff3B_1/gate_2/Gout SR4_1/dff3B_1/gate_2/S SR4_1/dff3B_1/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1105 SR4_1/dff3B_1/gate_2/Gout SR4_1/dff3B_1/gate_0/S SR4_1/dff3B_1/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1106 SR4_1/dff3B_1/Qb B2 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1107 SR4_1/dff3B_1/Qb B2 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1108 B2 SR4_1/dff3B_1/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1109 B2 SR4_1/dff3B_1/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1110 SR4_1/dff3B_1/gate_3/Gin SR4_1/dff3B_1/gate_1/S SR4_1/dff3B_1/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1111 SR4_1/dff3B_1/gate_3/Gin CLK SR4_1/dff3B_1/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1112 SR4_1/dff3B_1/gate_1/Gin SR4_1/dff3B_1/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1113 SR4_1/dff3B_1/gate_1/Gin SR4_1/dff3B_1/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1114 SR4_1/dff3B_1/gate_2/Gin SR4_1/dff3B_1/gate_0/S SR4_1/dff3B_1/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1115 SR4_1/dff3B_1/gate_2/Gin SR4_1/dff3B_1/gate_2/S SR4_1/dff3B_1/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1116 SR4_1/dff3B_1/gate_0/Gin SR4_1/dff3B_1/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1117 SR4_1/dff3B_1/gate_0/Gin SR4_1/dff3B_1/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1118 SR4_1/dff3B_1/inverter_11/in SR4_1/dff3B_1/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1119 Vdd SR4_1/dff3B_1/D SR4_1/dff3B_1/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1120 SR4_1/dff3B_1/nand2_0/a_n37_n6# SR4_1/dff3B_1/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1121 SR4_1/dff3B_1/inverter_11/in SR4_1/dff3B_1/D SR4_1/dff3B_1/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1122 SR4_1/dff3B_1/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1123 SR4_1/dff3B_1/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1124 SR4_1/dff3B_1/D SR4_1/S B2 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1125 SR4_1/dff3B_1/D SR4_1/mux2x1_2/Smb B2 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1126 SR4_1/dff3B_1/D SR4_1/mux2x1_2/Smb B1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1127 SR4_1/dff3B_1/D SR4_1/S B1 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1128 SR4_1/mux2x1_2/Smb SR4_1/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1129 SR4_1/mux2x1_2/Smb SR4_1/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1130 SR4_1/dff3B_0/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1131 SR4_1/dff3B_0/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1132 SR4_1/dff3B_0/gate_0/S SR4_1/dff3B_0/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1133 SR4_1/dff3B_0/gate_0/S SR4_1/dff3B_0/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1134 SR4_1/dff3B_0/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1135 SR4_1/dff3B_0/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1136 SR4_1/dff3B_0/gate_3/Gout B1 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1137 SR4_1/dff3B_0/gate_3/Gout B1 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1138 SR4_1/dff3B_0/gate_3/Gout CLK SR4_1/dff3B_0/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1139 SR4_1/dff3B_0/gate_3/Gout SR4_1/dff3B_0/gate_1/S SR4_1/dff3B_0/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1140 SR4_1/dff3B_0/gate_2/Gout SR4_1/dff3B_0/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1141 SR4_1/dff3B_0/gate_2/Gout SR4_1/dff3B_0/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1142 SR4_1/dff3B_0/gate_2/Gout SR4_1/dff3B_0/gate_2/S SR4_1/dff3B_0/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1143 SR4_1/dff3B_0/gate_2/Gout SR4_1/dff3B_0/gate_0/S SR4_1/dff3B_0/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1144 SR4_1/dff3B_0/Qb B1 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1145 SR4_1/dff3B_0/Qb B1 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1146 B1 SR4_1/dff3B_0/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1147 B1 SR4_1/dff3B_0/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1148 SR4_1/dff3B_0/gate_3/Gin SR4_1/dff3B_0/gate_1/S SR4_1/dff3B_0/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1149 SR4_1/dff3B_0/gate_3/Gin CLK SR4_1/dff3B_0/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1150 SR4_1/dff3B_0/gate_1/Gin SR4_1/dff3B_0/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1151 SR4_1/dff3B_0/gate_1/Gin SR4_1/dff3B_0/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1152 SR4_1/dff3B_0/gate_2/Gin SR4_1/dff3B_0/gate_0/S SR4_1/dff3B_0/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1153 SR4_1/dff3B_0/gate_2/Gin SR4_1/dff3B_0/gate_2/S SR4_1/dff3B_0/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1154 SR4_1/dff3B_0/gate_0/Gin SR4_1/dff3B_0/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1155 SR4_1/dff3B_0/gate_0/Gin SR4_1/dff3B_0/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1156 SR4_1/dff3B_0/inverter_11/in SR4_1/dff3B_0/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1157 Vdd SR4_1/dff3B_0/D SR4_1/dff3B_0/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1158 SR4_1/dff3B_0/nand2_0/a_n37_n6# SR4_1/dff3B_0/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1159 SR4_1/dff3B_0/inverter_11/in SR4_1/dff3B_0/D SR4_1/dff3B_0/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1160 SR4_1/dff3B_0/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1161 SR4_1/dff3B_0/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1162 SR4_1/dff3B_0/D SR4_1/S B1 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1163 SR4_1/dff3B_0/D SR4_1/mux2x1_0/Smb B1 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1164 SR4_1/dff3B_0/D SR4_1/mux2x1_0/Smb B0 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1165 SR4_1/dff3B_0/D SR4_1/S B0 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1166 SR4_1/dffP_0/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1167 SR4_1/dffP_0/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1168 SR4_1/dffP_0/gate_0/S SR4_1/dffP_0/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1169 SR4_1/dffP_0/gate_0/S SR4_1/dffP_0/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1170 SR4_1/dffP_0/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1171 SR4_1/dffP_0/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1172 SR4_1/dffP_0/gate_3/Gout B0 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1173 SR4_1/dffP_0/gate_3/Gout B0 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1174 SR4_1/dffP_0/gate_3/Gout CLK SR4_1/dffP_0/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1175 SR4_1/dffP_0/gate_3/Gout SR4_1/dffP_0/gate_1/S SR4_1/dffP_0/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1176 SR4_1/dffP_0/gate_2/Gout SR4_1/dffP_0/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1177 SR4_1/dffP_0/gate_2/Gout SR4_1/dffP_0/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1178 SR4_1/dffP_0/gate_2/Gout SR4_1/dffP_0/gate_2/S SR4_1/dffP_0/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1179 SR4_1/dffP_0/gate_2/Gout SR4_1/dffP_0/gate_0/S SR4_1/dffP_0/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1180 SR4_1/dffP_0/Qb B0 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1181 SR4_1/dffP_0/Qb B0 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1182 B0 SR4_1/dffP_0/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1183 B0 SR4_1/dffP_0/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1184 SR4_1/dffP_0/gate_3/Gin SR4_1/dffP_0/gate_1/S SR4_1/dffP_0/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1185 SR4_1/dffP_0/gate_3/Gin CLK SR4_1/dffP_0/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1186 SR4_1/dffP_0/gate_1/Gin SR4_1/dffP_0/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1187 SR4_1/dffP_0/gate_1/Gin SR4_1/dffP_0/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1188 SR4_1/dffP_0/gate_2/Gin SR4_1/dffP_0/gate_0/S SR4_1/dffP_0/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1189 SR4_1/dffP_0/gate_2/Gin SR4_1/dffP_0/gate_2/S SR4_1/dffP_0/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1190 SR4_1/dffP_0/gate_0/Gin SR4_1/dffP_0/nor2_0/out Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1191 SR4_1/dffP_0/gate_0/Gin SR4_1/dffP_0/nor2_0/out GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1192 SR4_1/dffP_0/nor2_0/a_n37_6# RST Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1193 SR4_1/dffP_0/nor2_0/out SR4_1/dffP_0/D SR4_1/dffP_0/nor2_0/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1194 SR4_1/dffP_0/nor2_0/out RST GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1195 GND SR4_1/dffP_0/D SR4_1/dffP_0/nor2_0/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1196 SR4_1/dffP_0/D SR4_1/S B0 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1197 SR4_1/dffP_0/D SR4_1/mux2x1_1/Smb B0 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1198 SR4_1/dffP_0/D SR4_1/mux2x1_1/Smb SR4_1/INP Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1199 SR4_1/dffP_0/D SR4_1/S SR4_1/INP Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1200 SR4_1/mux2x1_0/Smb SR4_1/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1201 SR4_1/mux2x1_0/Smb SR4_1/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1202 SR4_1/mux2x1_1/Smb SR4_1/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1203 SR4_1/mux2x1_1/Smb SR4_1/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1204 SR4_1/INP B3 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1205 SR4_1/INP B3 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1206 dff3B_0/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1207 dff3B_0/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1208 dff3B_0/gate_0/S dff3B_0/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1209 dff3B_0/gate_0/S dff3B_0/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1210 dff3B_0/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1211 dff3B_0/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1212 dff3B_0/gate_3/Gout A4 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1213 dff3B_0/gate_3/Gout A4 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1214 dff3B_0/gate_3/Gout CLK dff3B_0/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1215 dff3B_0/gate_3/Gout dff3B_0/gate_1/S dff3B_0/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1216 dff3B_0/gate_2/Gout dff3B_0/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1217 dff3B_0/gate_2/Gout dff3B_0/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1218 dff3B_0/gate_2/Gout dff3B_0/gate_2/S dff3B_0/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1219 dff3B_0/gate_2/Gout dff3B_0/gate_0/S dff3B_0/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1220 dff3B_0/Qb A4 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1221 dff3B_0/Qb A4 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1222 A4 dff3B_0/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1223 A4 dff3B_0/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1224 dff3B_0/gate_3/Gin dff3B_0/gate_1/S dff3B_0/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1225 dff3B_0/gate_3/Gin CLK dff3B_0/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1226 dff3B_0/gate_1/Gin dff3B_0/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1227 dff3B_0/gate_1/Gin dff3B_0/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1228 dff3B_0/gate_2/Gin dff3B_0/gate_0/S dff3B_0/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1229 dff3B_0/gate_2/Gin dff3B_0/gate_2/S dff3B_0/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1230 dff3B_0/gate_0/Gin dff3B_0/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1231 dff3B_0/gate_0/Gin dff3B_0/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1232 dff3B_0/inverter_11/in dff3B_0/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1233 Vdd dff3B_0/D dff3B_0/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1234 dff3B_0/nand2_0/a_n37_n6# dff3B_0/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1235 dff3B_0/inverter_11/in dff3B_0/D dff3B_0/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1236 dff3B_0/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1237 dff3B_0/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1238 SR4_1/S inverter_2/in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1239 SR4_1/S inverter_2/in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1240 inverter_2/in A4 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1241 Vdd G inverter_2/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1242 nand2_0/a_n37_n6# A4 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1243 inverter_2/in G nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1244 dff3B_0/D SR4_0/S A4 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1245 dff3B_0/D mux2x1_0/Smb A4 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1246 dff3B_0/D mux2x1_0/Smb A3 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1247 dff3B_0/D SR4_0/S A3 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1248 SR4_0/S A4 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1249 SR4_0/S A4 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1250 mux2x1_0/Smb SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1251 mux2x1_0/Smb SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1252 SR4_0/dff3B_2/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1253 SR4_0/dff3B_2/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1254 SR4_0/dff3B_2/gate_0/S SR4_0/dff3B_2/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1255 SR4_0/dff3B_2/gate_0/S SR4_0/dff3B_2/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1256 SR4_0/dff3B_2/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1257 SR4_0/dff3B_2/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1258 SR4_0/dff3B_2/gate_3/Gout A3 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1259 SR4_0/dff3B_2/gate_3/Gout A3 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1260 SR4_0/dff3B_2/gate_3/Gout CLK SR4_0/dff3B_2/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1261 SR4_0/dff3B_2/gate_3/Gout SR4_0/dff3B_2/gate_1/S SR4_0/dff3B_2/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1262 SR4_0/dff3B_2/gate_2/Gout SR4_0/dff3B_2/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1263 SR4_0/dff3B_2/gate_2/Gout SR4_0/dff3B_2/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1264 SR4_0/dff3B_2/gate_2/Gout SR4_0/dff3B_2/gate_2/S SR4_0/dff3B_2/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1265 SR4_0/dff3B_2/gate_2/Gout SR4_0/dff3B_2/gate_0/S SR4_0/dff3B_2/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1266 SR4_0/dff3B_2/Qb A3 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1267 SR4_0/dff3B_2/Qb A3 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1268 A3 SR4_0/dff3B_2/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1269 A3 SR4_0/dff3B_2/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1270 SR4_0/dff3B_2/gate_3/Gin SR4_0/dff3B_2/gate_1/S SR4_0/dff3B_2/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1271 SR4_0/dff3B_2/gate_3/Gin CLK SR4_0/dff3B_2/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1272 SR4_0/dff3B_2/gate_1/Gin SR4_0/dff3B_2/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1273 SR4_0/dff3B_2/gate_1/Gin SR4_0/dff3B_2/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1274 SR4_0/dff3B_2/gate_2/Gin SR4_0/dff3B_2/gate_0/S SR4_0/dff3B_2/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1275 SR4_0/dff3B_2/gate_2/Gin SR4_0/dff3B_2/gate_2/S SR4_0/dff3B_2/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1276 SR4_0/dff3B_2/gate_0/Gin SR4_0/dff3B_2/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1277 SR4_0/dff3B_2/gate_0/Gin SR4_0/dff3B_2/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1278 SR4_0/dff3B_2/inverter_11/in SR4_0/dff3B_2/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1279 Vdd SR4_0/dff3B_2/D SR4_0/dff3B_2/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1280 SR4_0/dff3B_2/nand2_0/a_n37_n6# SR4_0/dff3B_2/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1281 SR4_0/dff3B_2/inverter_11/in SR4_0/dff3B_2/D SR4_0/dff3B_2/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1282 SR4_0/dff3B_2/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1283 SR4_0/dff3B_2/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1284 SR4_0/dff3B_2/D SR4_0/S A3 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1285 SR4_0/dff3B_2/D SR4_0/mux2x1_3/Smb A3 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1286 SR4_0/dff3B_2/D SR4_0/mux2x1_3/Smb SR4_0/Q2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1287 SR4_0/dff3B_2/D SR4_0/S SR4_0/Q2 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1288 SR4_0/mux2x1_3/Smb SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1289 SR4_0/mux2x1_3/Smb SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1290 SR4_0/dff3B_1/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1291 SR4_0/dff3B_1/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1292 SR4_0/dff3B_1/gate_0/S SR4_0/dff3B_1/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1293 SR4_0/dff3B_1/gate_0/S SR4_0/dff3B_1/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1294 SR4_0/dff3B_1/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1295 SR4_0/dff3B_1/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1296 SR4_0/dff3B_1/gate_3/Gout SR4_0/Q2 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1297 SR4_0/dff3B_1/gate_3/Gout SR4_0/Q2 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1298 SR4_0/dff3B_1/gate_3/Gout CLK SR4_0/dff3B_1/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1299 SR4_0/dff3B_1/gate_3/Gout SR4_0/dff3B_1/gate_1/S SR4_0/dff3B_1/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1300 SR4_0/dff3B_1/gate_2/Gout SR4_0/dff3B_1/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1301 SR4_0/dff3B_1/gate_2/Gout SR4_0/dff3B_1/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1302 SR4_0/dff3B_1/gate_2/Gout SR4_0/dff3B_1/gate_2/S SR4_0/dff3B_1/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1303 SR4_0/dff3B_1/gate_2/Gout SR4_0/dff3B_1/gate_0/S SR4_0/dff3B_1/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1304 SR4_0/dff3B_1/Qb SR4_0/Q2 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1305 SR4_0/dff3B_1/Qb SR4_0/Q2 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1306 SR4_0/Q2 SR4_0/dff3B_1/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1307 SR4_0/Q2 SR4_0/dff3B_1/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1308 SR4_0/dff3B_1/gate_3/Gin SR4_0/dff3B_1/gate_1/S SR4_0/dff3B_1/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1309 SR4_0/dff3B_1/gate_3/Gin CLK SR4_0/dff3B_1/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1310 SR4_0/dff3B_1/gate_1/Gin SR4_0/dff3B_1/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1311 SR4_0/dff3B_1/gate_1/Gin SR4_0/dff3B_1/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1312 SR4_0/dff3B_1/gate_2/Gin SR4_0/dff3B_1/gate_0/S SR4_0/dff3B_1/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1313 SR4_0/dff3B_1/gate_2/Gin SR4_0/dff3B_1/gate_2/S SR4_0/dff3B_1/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1314 SR4_0/dff3B_1/gate_0/Gin SR4_0/dff3B_1/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1315 SR4_0/dff3B_1/gate_0/Gin SR4_0/dff3B_1/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1316 SR4_0/dff3B_1/inverter_11/in SR4_0/dff3B_1/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1317 Vdd SR4_0/dff3B_1/D SR4_0/dff3B_1/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1318 SR4_0/dff3B_1/nand2_0/a_n37_n6# SR4_0/dff3B_1/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1319 SR4_0/dff3B_1/inverter_11/in SR4_0/dff3B_1/D SR4_0/dff3B_1/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1320 SR4_0/dff3B_1/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1321 SR4_0/dff3B_1/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1322 SR4_0/dff3B_1/D SR4_0/S SR4_0/Q2 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1323 SR4_0/dff3B_1/D SR4_0/mux2x1_2/Smb SR4_0/Q2 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1324 SR4_0/dff3B_1/D SR4_0/mux2x1_2/Smb A1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1325 SR4_0/dff3B_1/D SR4_0/S A1 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1326 SR4_0/mux2x1_2/Smb SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1327 SR4_0/mux2x1_2/Smb SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1328 SR4_0/dff3B_0/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1329 SR4_0/dff3B_0/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1330 SR4_0/dff3B_0/gate_0/S SR4_0/dff3B_0/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1331 SR4_0/dff3B_0/gate_0/S SR4_0/dff3B_0/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1332 SR4_0/dff3B_0/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1333 SR4_0/dff3B_0/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1334 SR4_0/dff3B_0/gate_3/Gout A1 Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1335 SR4_0/dff3B_0/gate_3/Gout A1 GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1336 SR4_0/dff3B_0/gate_3/Gout CLK SR4_0/dff3B_0/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1337 SR4_0/dff3B_0/gate_3/Gout SR4_0/dff3B_0/gate_1/S SR4_0/dff3B_0/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1338 SR4_0/dff3B_0/gate_2/Gout SR4_0/dff3B_0/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1339 SR4_0/dff3B_0/gate_2/Gout SR4_0/dff3B_0/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1340 SR4_0/dff3B_0/gate_2/Gout SR4_0/dff3B_0/gate_2/S SR4_0/dff3B_0/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1341 SR4_0/dff3B_0/gate_2/Gout SR4_0/dff3B_0/gate_0/S SR4_0/dff3B_0/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1342 SR4_0/dff3B_0/Qb A1 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1343 SR4_0/dff3B_0/Qb A1 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1344 A1 SR4_0/dff3B_0/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1345 A1 SR4_0/dff3B_0/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1346 SR4_0/dff3B_0/gate_3/Gin SR4_0/dff3B_0/gate_1/S SR4_0/dff3B_0/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1347 SR4_0/dff3B_0/gate_3/Gin CLK SR4_0/dff3B_0/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1348 SR4_0/dff3B_0/gate_1/Gin SR4_0/dff3B_0/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1349 SR4_0/dff3B_0/gate_1/Gin SR4_0/dff3B_0/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1350 SR4_0/dff3B_0/gate_2/Gin SR4_0/dff3B_0/gate_0/S SR4_0/dff3B_0/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1351 SR4_0/dff3B_0/gate_2/Gin SR4_0/dff3B_0/gate_2/S SR4_0/dff3B_0/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1352 SR4_0/dff3B_0/gate_0/Gin SR4_0/dff3B_0/inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1353 SR4_0/dff3B_0/gate_0/Gin SR4_0/dff3B_0/inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1354 SR4_0/dff3B_0/inverter_11/in SR4_0/dff3B_0/inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1355 Vdd SR4_0/dff3B_0/D SR4_0/dff3B_0/inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1356 SR4_0/dff3B_0/nand2_0/a_n37_n6# SR4_0/dff3B_0/inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1357 SR4_0/dff3B_0/inverter_11/in SR4_0/dff3B_0/D SR4_0/dff3B_0/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1358 SR4_0/dff3B_0/inverter_7/out RST Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1359 SR4_0/dff3B_0/inverter_7/out RST GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1360 SR4_0/dff3B_0/D SR4_0/S A1 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1361 SR4_0/dff3B_0/D SR4_0/mux2x1_0/Smb A1 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1362 SR4_0/dff3B_0/D SR4_0/mux2x1_0/Smb CLR Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=124p ps=82u 
+M1363 SR4_0/dff3B_0/D SR4_0/S CLR Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=75p ps=66u 
+M1364 SR4_0/dffP_0/gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1365 SR4_0/dffP_0/gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1366 SR4_0/dffP_0/gate_0/S SR4_0/dffP_0/gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1367 SR4_0/dffP_0/gate_0/S SR4_0/dffP_0/gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1368 SR4_0/dffP_0/gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1369 SR4_0/dffP_0/gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1370 SR4_0/dffP_0/gate_3/Gout CLR Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1371 SR4_0/dffP_0/gate_3/Gout CLR GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1372 SR4_0/dffP_0/gate_3/Gout CLK SR4_0/dffP_0/gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1373 SR4_0/dffP_0/gate_3/Gout SR4_0/dffP_0/gate_1/S SR4_0/dffP_0/gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1374 SR4_0/dffP_0/gate_2/Gout SR4_0/dffP_0/gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1375 SR4_0/dffP_0/gate_2/Gout SR4_0/dffP_0/gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1376 SR4_0/dffP_0/gate_2/Gout SR4_0/dffP_0/gate_2/S SR4_0/dffP_0/gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1377 SR4_0/dffP_0/gate_2/Gout SR4_0/dffP_0/gate_0/S SR4_0/dffP_0/gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1378 SR4_0/dffP_0/Qb CLR Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1379 SR4_0/dffP_0/Qb CLR GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1380 CLR SR4_0/dffP_0/gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1381 CLR SR4_0/dffP_0/gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1382 SR4_0/dffP_0/gate_3/Gin SR4_0/dffP_0/gate_1/S SR4_0/dffP_0/gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1383 SR4_0/dffP_0/gate_3/Gin CLK SR4_0/dffP_0/gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1384 SR4_0/dffP_0/gate_1/Gin SR4_0/dffP_0/gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1385 SR4_0/dffP_0/gate_1/Gin SR4_0/dffP_0/gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1386 SR4_0/dffP_0/gate_2/Gin SR4_0/dffP_0/gate_0/S SR4_0/dffP_0/gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1387 SR4_0/dffP_0/gate_2/Gin SR4_0/dffP_0/gate_2/S SR4_0/dffP_0/gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1388 SR4_0/dffP_0/gate_0/Gin SR4_0/dffP_0/nor2_0/out Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1389 SR4_0/dffP_0/gate_0/Gin SR4_0/dffP_0/nor2_0/out GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1390 SR4_0/dffP_0/nor2_0/a_n37_6# RST Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1391 SR4_0/dffP_0/nor2_0/out SR4_0/dffP_0/D SR4_0/dffP_0/nor2_0/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1392 SR4_0/dffP_0/nor2_0/out RST GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1393 GND SR4_0/dffP_0/D SR4_0/dffP_0/nor2_0/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1394 SR4_0/dffP_0/D SR4_0/S CLR Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=0p ps=0u 
+M1395 SR4_0/dffP_0/D SR4_0/mux2x1_1/Smb CLR Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=0p ps=0u 
+M1396 SR4_0/dffP_0/D SR4_0/mux2x1_1/Smb SS1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=85p ps=54u 
+M1397 SR4_0/dffP_0/D SR4_0/S SS1 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1398 SR4_0/mux2x1_0/Smb SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1399 SR4_0/mux2x1_0/Smb SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1400 SR4_0/mux2x1_1/Smb SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1401 SR4_0/mux2x1_1/Smb SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1402 SS1 xor2_0/nand2_4/nand_in1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1403 Vdd xor2_0/nand2_4/nand_in2 SS1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1404 xor2_0/nand2_4/a_n37_n6# xor2_0/nand2_4/nand_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1405 SS1 xor2_0/nand2_4/nand_in2 xor2_0/nand2_4/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1406 xor2_0/nand2_4/nand_in1 SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1407 Vdd xor2_0/nand2_3/nand_in2 xor2_0/nand2_4/nand_in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1408 xor2_0/nand2_3/a_n37_n6# SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1409 xor2_0/nand2_4/nand_in1 xor2_0/nand2_3/nand_in2 xor2_0/nand2_3/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1410 xor2_0/nand2_4/nand_in2 xor2_0/nand2_3/nand_in2 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1411 Vdd SR4_0/S xor2_0/nand2_4/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1412 xor2_0/nand2_2/a_n37_n6# xor2_0/nand2_3/nand_in2 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1413 xor2_0/nand2_4/nand_in2 SR4_0/S xor2_0/nand2_2/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1414 xor2_0/nand2_3/nand_in2 SR4_0/S Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1415 Vdd SR4_0/S xor2_0/nand2_3/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1416 xor2_0/nand2_1/a_n37_n6# SR4_0/S GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1417 xor2_0/nand2_3/nand_in2 SR4_0/S xor2_0/nand2_1/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 Vdd CLR 2.8fF
+C1 Vdd B1 5.3fF
+C2 Vdd B2 5.4fF
+C3 A1 Vdd 5.0fF
+C4 Vdd A3 5.7fF
+C5 Vdd CLK 9.6fF
+C6 Vdd B3 5.4fF
+C7 Vdd SR4_0/Q2 5.3fF
+C8 B0 Vdd 2.8fF
+C9 xor2_0/nand2_3/nand_in2 gnd! 28.1fF
+C10 xor2_0/nand2_4/nand_in2 gnd! 17.8fF
+C11 xor2_0/nand2_4/nand_in1 gnd! 12.2fF
+C12 SS1 gnd! 9.9fF
+C13 SR4_0/mux2x1_1/Smb gnd! 20.4fF
+C14 SR4_0/dffP_0/D gnd! 13.4fF
+C15 SR4_0/dffP_0/nor2_0/out gnd! 9.3fF
+C16 SR4_0/dffP_0/gate_0/Gin gnd! 6.2fF
+C17 SR4_0/dffP_0/Qb gnd! 2.1fF
+C18 SR4_0/dffP_0/gate_2/Gin gnd! 16.9fF
+C19 SR4_0/dffP_0/gate_2/Gout gnd! 4.4fF
+C20 SR4_0/dffP_0/gate_1/Gin gnd! 17.3fF
+C21 SR4_0/dffP_0/gate_3/Gin gnd! 17.4fF
+C22 SR4_0/dffP_0/gate_3/Gout gnd! 4.4fF
+C23 SR4_0/dffP_0/gate_0/S gnd! 26.8fF
+C24 SR4_0/dffP_0/gate_2/S gnd! 33.8fF
+C25 SR4_0/dffP_0/gate_1/S gnd! 26.8fF
+C26 CLR gnd! 96.2fF
+C27 SR4_0/mux2x1_0/Smb gnd! 20.4fF
+C28 SR4_0/dff3B_0/D gnd! 15.5fF
+C29 SR4_0/dff3B_0/inverter_7/out gnd! 11.5fF
+C30 SR4_0/dff3B_0/inverter_11/in gnd! 10.5fF
+C31 SR4_0/dff3B_0/gate_0/Gin gnd! 6.2fF
+C32 SR4_0/dff3B_0/Qb gnd! 2.1fF
+C33 SR4_0/dff3B_0/gate_2/Gin gnd! 16.9fF
+C34 SR4_0/dff3B_0/gate_2/Gout gnd! 4.4fF
+C35 SR4_0/dff3B_0/gate_1/Gin gnd! 17.3fF
+C36 SR4_0/dff3B_0/gate_3/Gin gnd! 17.4fF
+C37 SR4_0/dff3B_0/gate_3/Gout gnd! 4.4fF
+C38 SR4_0/dff3B_0/gate_0/S gnd! 26.8fF
+C39 SR4_0/dff3B_0/gate_2/S gnd! 33.8fF
+C40 SR4_0/dff3B_0/gate_1/S gnd! 26.8fF
+C41 SR4_0/mux2x1_2/Smb gnd! 20.4fF
+C42 SR4_0/dff3B_1/D gnd! 15.5fF
+C43 SR4_0/dff3B_1/inverter_7/out gnd! 11.5fF
+C44 SR4_0/dff3B_1/inverter_11/in gnd! 10.5fF
+C45 SR4_0/dff3B_1/gate_0/Gin gnd! 6.2fF
+C46 SR4_0/dff3B_1/Qb gnd! 2.1fF
+C47 SR4_0/dff3B_1/gate_2/Gin gnd! 16.9fF
+C48 SR4_0/dff3B_1/gate_2/Gout gnd! 4.4fF
+C49 SR4_0/dff3B_1/gate_1/Gin gnd! 17.3fF
+C50 SR4_0/dff3B_1/gate_3/Gin gnd! 17.4fF
+C51 SR4_0/dff3B_1/gate_3/Gout gnd! 4.4fF
+C52 SR4_0/dff3B_1/gate_0/S gnd! 26.8fF
+C53 SR4_0/dff3B_1/gate_2/S gnd! 33.8fF
+C54 SR4_0/dff3B_1/gate_1/S gnd! 26.8fF
+C55 SR4_0/mux2x1_3/Smb gnd! 20.4fF
+C56 SR4_0/dff3B_2/D gnd! 15.5fF
+C57 SR4_0/dff3B_2/inverter_7/out gnd! 11.5fF
+C58 SR4_0/dff3B_2/inverter_11/in gnd! 10.5fF
+C59 SR4_0/dff3B_2/gate_0/Gin gnd! 6.2fF
+C60 SR4_0/dff3B_2/Qb gnd! 2.1fF
+C61 SR4_0/dff3B_2/gate_2/Gin gnd! 16.9fF
+C62 SR4_0/dff3B_2/gate_2/Gout gnd! 4.4fF
+C63 SR4_0/dff3B_2/gate_1/Gin gnd! 17.3fF
+C64 SR4_0/dff3B_2/gate_3/Gin gnd! 17.4fF
+C65 SR4_0/dff3B_2/gate_3/Gout gnd! 4.4fF
+C66 SR4_0/dff3B_2/gate_0/S gnd! 26.8fF
+C67 SR4_0/dff3B_2/gate_2/S gnd! 33.8fF
+C68 SR4_0/dff3B_2/gate_1/S gnd! 26.8fF
+C69 SR4_0/S gnd! 256.3fF
+C70 A3 gnd! 110.7fF
+C71 mux2x1_0/Smb gnd! 20.3fF
+C72 G gnd! 87.0fF
+C73 A4 gnd! 100.8fF
+C74 inverter_2/in gnd! 9.8fF
+C75 dff3B_0/D gnd! 15.4fF
+C76 dff3B_0/inverter_7/out gnd! 11.5fF
+C77 dff3B_0/inverter_11/in gnd! 10.5fF
+C78 dff3B_0/gate_0/Gin gnd! 6.2fF
+C79 dff3B_0/Qb gnd! 2.1fF
+C80 dff3B_0/gate_2/Gin gnd! 16.9fF
+C81 dff3B_0/gate_2/Gout gnd! 4.4fF
+C82 dff3B_0/gate_1/Gin gnd! 17.3fF
+C83 dff3B_0/gate_3/Gin gnd! 17.4fF
+C84 dff3B_0/gate_3/Gout gnd! 4.4fF
+C85 dff3B_0/gate_0/S gnd! 26.8fF
+C86 dff3B_0/gate_2/S gnd! 33.8fF
+C87 dff3B_0/gate_1/S gnd! 26.8fF
+C88 CLK gnd! 664.6fF
+C89 B3 gnd! 173.1fF
+C90 SR4_1/INP gnd! 6.2fF
+C91 SR4_1/mux2x1_1/Smb gnd! 20.4fF
+C92 SR4_1/dffP_0/D gnd! 13.4fF
+C93 SR4_1/dffP_0/nor2_0/out gnd! 9.3fF
+C94 SR4_1/dffP_0/gate_0/Gin gnd! 6.2fF
+C95 SR4_1/dffP_0/Qb gnd! 2.1fF
+C96 SR4_1/dffP_0/gate_2/Gin gnd! 16.9fF
+C97 SR4_1/dffP_0/gate_2/Gout gnd! 4.4fF
+C98 SR4_1/dffP_0/gate_1/Gin gnd! 17.3fF
+C99 SR4_1/dffP_0/gate_3/Gin gnd! 17.4fF
+C100 SR4_1/dffP_0/gate_3/Gout gnd! 4.4fF
+C101 SR4_1/dffP_0/gate_0/S gnd! 26.8fF
+C102 SR4_1/dffP_0/gate_2/S gnd! 33.8fF
+C103 SR4_1/dffP_0/gate_1/S gnd! 26.8fF
+C104 SR4_1/mux2x1_0/Smb gnd! 20.4fF
+C105 SR4_1/dff3B_0/D gnd! 15.5fF
+C106 SR4_1/dff3B_0/inverter_7/out gnd! 11.5fF
+C107 SR4_1/dff3B_0/inverter_11/in gnd! 10.5fF
+C108 SR4_1/dff3B_0/gate_0/Gin gnd! 6.2fF
+C109 SR4_1/dff3B_0/Qb gnd! 2.1fF
+C110 SR4_1/dff3B_0/gate_2/Gin gnd! 16.9fF
+C111 SR4_1/dff3B_0/gate_2/Gout gnd! 4.4fF
+C112 SR4_1/dff3B_0/gate_1/Gin gnd! 17.3fF
+C113 SR4_1/dff3B_0/gate_3/Gin gnd! 17.4fF
+C114 SR4_1/dff3B_0/gate_3/Gout gnd! 4.4fF
+C115 SR4_1/dff3B_0/gate_0/S gnd! 26.8fF
+C116 SR4_1/dff3B_0/gate_2/S gnd! 33.8fF
+C117 SR4_1/dff3B_0/gate_1/S gnd! 27.0fF
+C118 B1 gnd! 113.0fF
+C119 SR4_1/mux2x1_2/Smb gnd! 20.4fF
+C120 SR4_1/dff3B_1/D gnd! 15.5fF
+C121 SR4_1/dff3B_1/inverter_7/out gnd! 11.5fF
+C122 SR4_1/dff3B_1/inverter_11/in gnd! 10.5fF
+C123 SR4_1/dff3B_1/gate_0/Gin gnd! 6.2fF
+C124 SR4_1/dff3B_1/Qb gnd! 2.1fF
+C125 SR4_1/dff3B_1/gate_2/Gin gnd! 16.9fF
+C126 SR4_1/dff3B_1/gate_2/Gout gnd! 4.4fF
+C127 SR4_1/dff3B_1/gate_1/Gin gnd! 17.3fF
+C128 SR4_1/dff3B_1/gate_3/Gin gnd! 17.4fF
+C129 SR4_1/dff3B_1/gate_3/Gout gnd! 4.4fF
+C130 SR4_1/dff3B_1/gate_0/S gnd! 26.8fF
+C131 SR4_1/dff3B_1/gate_2/S gnd! 33.8fF
+C132 SR4_1/dff3B_1/gate_1/S gnd! 26.8fF
+C133 B2 gnd! 118.3fF
+C134 SR4_1/mux2x1_3/Smb gnd! 20.4fF
+C135 SR4_1/S gnd! 156.9fF
+C136 RST gnd! 231.7fF
+C137 SR4_1/dff3B_2/D gnd! 15.5fF
+C138 SR4_1/dff3B_2/inverter_7/out gnd! 11.5fF
+C139 SR4_1/dff3B_2/inverter_11/in gnd! 10.5fF
+C140 SR4_1/dff3B_2/gate_0/Gin gnd! 6.2fF
+C141 SR4_1/dff3B_2/Qb gnd! 2.1fF
+C142 SR4_1/dff3B_2/gate_2/Gin gnd! 16.9fF
+C143 SR4_1/dff3B_2/gate_2/Gout gnd! 4.4fF
+C144 SR4_1/dff3B_2/gate_1/Gin gnd! 17.3fF
+C145 SR4_1/dff3B_2/gate_3/Gin gnd! 17.4fF
+C146 SR4_1/dff3B_2/gate_3/Gout gnd! 4.4fF
+C147 Vdd gnd! 124.0fF
+C148 SR4_1/dff3B_2/gate_0/S gnd! 26.8fF
+C149 SR4_1/dff3B_2/gate_2/S gnd! 33.8fF
+C150 SR4_1/dff3B_2/gate_1/S gnd! 26.8fF
+C151 A1 gnd! 112.4fF
+C152 SR4_0/Q2 gnd! 108.3fF
+C153 inverter_12/out gnd! 11.0fF
+C154 nor2_5/out gnd! 9.5fF
+C155 nor2_2/out gnd! 9.2fF
+C156 nor2_2/in1 gnd! 8.8fF
+C157 nor2_1/out gnd! 9.2fF
+C158 B0 gnd! 105.2fF
+C159 nor2_2/in2 gnd! 19.2fF
+C160 nor2_0/out gnd! 9.2fF
+C161 inverter_7/in gnd! 10.4fF
+C162 SA0 gnd! 22.1fF
+C163 inverter_8/in gnd! 10.4fF
+C164 SB0 gnd! 16.0fF
+C165 SS0 gnd! 31.3fF
+C166 inverter_9/in gnd! 10.4fF
+C167 SA1 gnd! 3.4fF
+C168 nor2_4/out gnd! 11.0fF
+C169 SB1 gnd! 3.1fF
+C170 nor2_3/out gnd! 11.0fF
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 CLK 0 pulse(0 2.8 2ns 0.1ns 0.1ns 25ns 50ns)
+Vin2 RST 0 pulse(0 2.8 0ns 0.1ns 0.1ns 55ns 650ns)
+.tran 5ns 650ns
+.probe
+.end

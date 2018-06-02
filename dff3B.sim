@@ -1,0 +1,69 @@
+| units: 100 tech: scmos format: MIT
+p CLK Vdd! gate_1/S 2 6 48 -46
+n CLK GND! gate_1/S 2 3 48 -60
+p gate_2/S Vdd! gate_0/S 2 6 -4 -47
+n gate_2/S GND! gate_0/S 2 3 -4 -61
+p CLK Vdd! gate_2/S 2 6 -34 -48
+n CLK GND! gate_2/S 2 3 -34 -62
+p Q Vdd! gate_3/Gout 2 6 94 -18
+n Q GND! gate_3/Gout 2 3 94 -4
+p CLK gate_3/Gin gate_3/Gout 2 6 68 -9
+n gate_1/S gate_3/Gin gate_3/Gout 2 3 68 -22
+p gate_1/Gin Vdd! gate_2/Gout 2 6 25 -18
+n gate_1/Gin GND! gate_2/Gout 2 3 25 -4
+p gate_2/S gate_2/Gin gate_2/Gout 2 6 -1 -9
+n gate_0/S gate_2/Gin gate_2/Gout 2 3 -1 -22
+p Q Vdd! Qb 2 6 112 24
+n Q GND! Qb 2 3 112 10
+p gate_3/Gin Vdd! Q 2 6 77 24
+n gate_3/Gin GND! Q 2 3 77 10
+p gate_1/S gate_1/Gin gate_3/Gin 2 6 39 23
+n CLK gate_1/Gin gate_3/Gin 2 3 39 10
+p gate_2/Gin Vdd! gate_1/Gin 2 6 3 24
+n gate_2/Gin GND! gate_1/Gin 2 3 3 10
+p gate_0/S gate_0/Gin gate_2/Gin 2 6 -29 23
+n gate_2/S gate_0/Gin gate_2/Gin 2 3 -29 10
+p inverter_11/in Vdd! gate_0/Gin 2 6 -65 21
+n inverter_11/in GND! gate_0/Gin 2 3 -65 7
+p inverter_7/out Vdd! inverter_11/in 2 6 -89 26
+p D inverter_11/in Vdd! 2 6 -81 26
+n inverter_7/out GND! nand2_0/a_n37_n6# 2 3 -89 4
+n D nand2_0/a_n37_n6# inverter_11/in 2 3 -85 4
+p CLR Vdd! inverter_7/out 2 6 -105 21
+n CLR GND! inverter_7/out 2 3 -105 7
+C CLR GND 5.6
+R CLR 334
+R nand2_0/a_n37_n6# 40
+C D GND 8.1
+R D 465
+C inverter_7/out GND 11.5
+R inverter_7/out 689
+C inverter_11/in GND 10.5
+R inverter_11/in 401
+C gate_0/Gin GND 6.2
+R gate_0/Gin 603
+C Qb GND 2.1
+R Qb 176
+C gate_2/Gin GND 16.9
+R gate_2/Gin 935
+C gate_2/Gout GND 4.4
+R gate_2/Gout 603
+C gate_1/Gin GND 17.3
+R gate_1/Gin 1151
+C gate_3/Gin GND 17.4
+R gate_3/Gin 936
+R GND! 1199
+C gate_3/Gout GND 4.4
+R gate_3/Gout 603
+C Vdd! GND 6.6
+R Vdd! 3208
+C Q GND 21.2
+R Q 1058
+C gate_0/S GND 26.8
+R gate_0/S 976
+C gate_2/S GND 33.8
+R gate_2/S 1215
+C gate_1/S GND 26.8
+R gate_1/S 999
+C CLK GND 52.2
+R CLK 1482

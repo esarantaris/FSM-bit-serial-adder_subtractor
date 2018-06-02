@@ -1,0 +1,129 @@
+| units: 100 tech: scmos format: MIT
+p nor2_0/out Vdd! cout 2 6 183 120
+n nor2_0/out GND! cout 2 3 183 106
+p nor2_0/in1 Vdd! nor2_0/a_n37_6# 2 6 157 120
+p nor2_0/in2 nor2_0/a_n37_6# nor2_0/out 2 6 161 120
+n nor2_0/in1 GND! nor2_0/out 2 3 157 106
+n nor2_0/in2 nor2_0/out GND! 2 3 165 106
+p ha_1/xor2_0/nand2_4/nand_in1 Vdd! sum 2 6 113 16
+p ha_1/xor2_0/nand2_4/nand_in2 sum Vdd! 2 6 121 16
+n ha_1/xor2_0/nand2_4/nand_in1 GND! ha_1/xor2_0/nand2_4/a_n37_n6# 2 3 113 38
+n ha_1/xor2_0/nand2_4/nand_in2 ha_1/xor2_0/nand2_4/a_n37_n6# sum 2 3 117 38
+p ha_1/ha_in1 Vdd! ha_1/xor2_0/nand2_4/nand_in1 2 6 84 16
+p ha_1/xor2_0/nand2_3/nand_in2 ha_1/xor2_0/nand2_4/nand_in1 Vdd! 2 6 92 16
+n ha_1/ha_in1 GND! ha_1/xor2_0/nand2_3/a_n37_n6# 2 3 84 38
+n ha_1/xor2_0/nand2_3/nand_in2 ha_1/xor2_0/nand2_3/a_n37_n6# ha_1/xor2_0/nand2_4/nand_in1 2 3 88 38
+p ha_1/xor2_0/nand2_3/nand_in2 Vdd! ha_1/xor2_0/nand2_4/nand_in2 2 6 113 72
+p cin ha_1/xor2_0/nand2_4/nand_in2 Vdd! 2 6 121 72
+n ha_1/xor2_0/nand2_3/nand_in2 GND! ha_1/xor2_0/nand2_2/a_n37_n6# 2 3 113 50
+n cin ha_1/xor2_0/nand2_2/a_n37_n6# ha_1/xor2_0/nand2_4/nand_in2 2 3 117 50
+p ha_1/ha_in1 Vdd! ha_1/xor2_0/nand2_3/nand_in2 2 6 84 72
+p cin ha_1/xor2_0/nand2_3/nand_in2 Vdd! 2 6 92 72
+n ha_1/ha_in1 GND! ha_1/xor2_0/nand2_1/a_n37_n6# 2 3 84 50
+n cin ha_1/xor2_0/nand2_1/a_n37_n6# ha_1/xor2_0/nand2_3/nand_in2 2 3 88 50
+p ha_1/not1_0/not_in Vdd! nor2_0/in2 2 6 108 119
+n ha_1/not1_0/not_in GND! nor2_0/in2 2 3 108 105
+p ha_1/ha_in1 Vdd! ha_1/not1_0/not_in 2 6 84 121
+p cin ha_1/not1_0/not_in Vdd! 2 6 92 121
+n ha_1/ha_in1 GND! ha_1/nand2_0/a_n37_n6# 2 3 84 99
+n cin ha_1/nand2_0/a_n37_n6# ha_1/not1_0/not_in 2 3 88 99
+p ha_0/xor2_0/nand2_4/nand_in1 Vdd! ha_1/ha_in1 2 6 40 16
+p ha_0/xor2_0/nand2_4/nand_in2 ha_1/ha_in1 Vdd! 2 6 48 16
+n ha_0/xor2_0/nand2_4/nand_in1 GND! ha_0/xor2_0/nand2_4/a_n37_n6# 2 3 40 38
+n ha_0/xor2_0/nand2_4/nand_in2 ha_0/xor2_0/nand2_4/a_n37_n6# ha_1/ha_in1 2 3 44 38
+p in1 Vdd! ha_0/xor2_0/nand2_4/nand_in1 2 6 11 16
+p ha_0/xor2_0/nand2_3/nand_in2 ha_0/xor2_0/nand2_4/nand_in1 Vdd! 2 6 19 16
+n in1 GND! ha_0/xor2_0/nand2_3/a_n37_n6# 2 3 11 38
+n ha_0/xor2_0/nand2_3/nand_in2 ha_0/xor2_0/nand2_3/a_n37_n6# ha_0/xor2_0/nand2_4/nand_in1 2 3 15 38
+p ha_0/xor2_0/nand2_3/nand_in2 Vdd! ha_0/xor2_0/nand2_4/nand_in2 2 6 40 72
+p ha_0/ha_in2 ha_0/xor2_0/nand2_4/nand_in2 Vdd! 2 6 48 72
+n ha_0/xor2_0/nand2_3/nand_in2 GND! ha_0/xor2_0/nand2_2/a_n37_n6# 2 3 40 50
+n ha_0/ha_in2 ha_0/xor2_0/nand2_2/a_n37_n6# ha_0/xor2_0/nand2_4/nand_in2 2 3 44 50
+p in1 Vdd! ha_0/xor2_0/nand2_3/nand_in2 2 6 11 72
+p ha_0/ha_in2 ha_0/xor2_0/nand2_3/nand_in2 Vdd! 2 6 19 72
+n in1 GND! ha_0/xor2_0/nand2_1/a_n37_n6# 2 3 11 50
+n ha_0/ha_in2 ha_0/xor2_0/nand2_1/a_n37_n6# ha_0/xor2_0/nand2_3/nand_in2 2 3 15 50
+p ha_0/not1_0/not_in Vdd! nor2_0/in1 2 6 35 119
+n ha_0/not1_0/not_in GND! nor2_0/in1 2 3 35 105
+p in1 Vdd! ha_0/not1_0/not_in 2 6 11 121
+p ha_0/ha_in2 ha_0/not1_0/not_in Vdd! 2 6 19 121
+n in1 GND! ha_0/nand2_0/a_n37_n6# 2 3 11 99
+n ha_0/ha_in2 ha_0/nand2_0/a_n37_n6# ha_0/not1_0/not_in 2 3 15 99
+p xor2_0/nand2_4/nand_in1 Vdd! ha_0/ha_in2 2 6 -31 59
+p xor2_0/nand2_4/nand_in2 ha_0/ha_in2 Vdd! 2 6 -23 59
+n xor2_0/nand2_4/nand_in1 GND! xor2_0/nand2_4/a_n37_n6# 2 3 -31 81
+n xor2_0/nand2_4/nand_in2 xor2_0/nand2_4/a_n37_n6# ha_0/ha_in2 2 3 -27 81
+p AbS Vdd! xor2_0/nand2_4/nand_in1 2 6 -60 59
+p xor2_0/nand2_3/nand_in2 xor2_0/nand2_4/nand_in1 Vdd! 2 6 -52 59
+n AbS GND! xor2_0/nand2_3/a_n37_n6# 2 3 -60 81
+n xor2_0/nand2_3/nand_in2 xor2_0/nand2_3/a_n37_n6# xor2_0/nand2_4/nand_in1 2 3 -56 81
+p xor2_0/nand2_3/nand_in2 Vdd! xor2_0/nand2_4/nand_in2 2 6 -31 115
+p in2 xor2_0/nand2_4/nand_in2 Vdd! 2 6 -23 115
+n xor2_0/nand2_3/nand_in2 GND! xor2_0/nand2_2/a_n37_n6# 2 3 -31 93
+n in2 xor2_0/nand2_2/a_n37_n6# xor2_0/nand2_4/nand_in2 2 3 -27 93
+p AbS Vdd! xor2_0/nand2_3/nand_in2 2 6 -60 115
+p in2 xor2_0/nand2_3/nand_in2 Vdd! 2 6 -52 115
+n AbS GND! xor2_0/nand2_1/a_n37_n6# 2 3 -60 93
+n in2 xor2_0/nand2_1/a_n37_n6# xor2_0/nand2_3/nand_in2 2 3 -56 93
+R xor2_0/nand2_1/a_n37_n6# 40
+R xor2_0/nand2_2/a_n37_n6# 40
+C in2 GND 27.5
+R in2 1515
+R xor2_0/nand2_3/a_n37_n6# 40
+C xor2_0/nand2_3/nand_in2 GND 28.1
+R xor2_0/nand2_3/nand_in2 1381
+C AbS GND 20.1
+R AbS 1133
+R xor2_0/nand2_4/a_n37_n6# 40
+C xor2_0/nand2_4/nand_in2 GND 17.8
+R xor2_0/nand2_4/nand_in2 748
+C xor2_0/nand2_4/nand_in1 GND 12.2
+R xor2_0/nand2_4/nand_in1 485
+R ha_0/nand2_0/a_n37_n6# 40
+C ha_0/not1_0/not_in GND 9.8
+R ha_0/not1_0/not_in 401
+R ha_0/xor2_0/nand2_1/a_n37_n6# 40
+R ha_0/xor2_0/nand2_2/a_n37_n6# 40
+C ha_0/ha_in2 GND 48.0
+R ha_0/ha_in2 2242
+R ha_0/xor2_0/nand2_3/a_n37_n6# 40
+C ha_0/xor2_0/nand2_3/nand_in2 GND 28.1
+R ha_0/xor2_0/nand2_3/nand_in2 1381
+C in1 GND 29.7
+R in1 1745
+R ha_0/xor2_0/nand2_4/a_n37_n6# 40
+C ha_0/xor2_0/nand2_4/nand_in2 GND 17.8
+R ha_0/xor2_0/nand2_4/nand_in2 748
+C ha_0/xor2_0/nand2_4/nand_in1 GND 12.2
+R ha_0/xor2_0/nand2_4/nand_in1 485
+R ha_1/nand2_0/a_n37_n6# 40
+C ha_1/not1_0/not_in GND 9.8
+R ha_1/not1_0/not_in 401
+R ha_1/xor2_0/nand2_1/a_n37_n6# 40
+R ha_1/xor2_0/nand2_2/a_n37_n6# 40
+C cin GND 39.1
+R cin 2221
+R ha_1/xor2_0/nand2_3/a_n37_n6# 40
+C ha_1/xor2_0/nand2_3/nand_in2 GND 28.1
+R ha_1/xor2_0/nand2_3/nand_in2 1381
+C ha_1/ha_in1 GND 36.9
+R ha_1/ha_in1 1990
+R ha_1/xor2_0/nand2_4/a_n37_n6# 40
+C sum GND 23.1
+R sum 511
+C ha_1/xor2_0/nand2_4/nand_in2 GND 17.8
+R ha_1/xor2_0/nand2_4/nand_in2 748
+C ha_1/xor2_0/nand2_4/nand_in1 GND 12.2
+R ha_1/xor2_0/nand2_4/nand_in1 485
+R nor2_0/a_n37_6# 179
+C nor2_0/in2 GND 16.5
+R nor2_0/in2 652
+C nor2_0/in1 GND 21.2
+R nor2_0/in1 677
+R GND! 2123
+C cout GND 10.0
+R cout 388
+C Vdd! GND 158.8
+R Vdd! 8771
+C nor2_0/out GND 8.8
+R nor2_0/out 483

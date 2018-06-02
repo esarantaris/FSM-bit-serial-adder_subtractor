@@ -1,0 +1,577 @@
+h Vdd!
+l GND!
+analyzer CLK AbS Sel S1 S0 CLR Aout0 Bout0 SUM7 SUM6 SUM5 SUM4 SUM3 SUM2 SUM1 SUM0
+l CLK
+h CLR
+l S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+h CLR
+l S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h S1
+l S0
+l AbS
+h Sel
+l A7
+l A6
+l A5
+l A4
+l A3
+l A2
+l A1
+l A0
+h B7
+h B6
+h B5
+h B4
+h B3
+h B2
+h B1
+h B0
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+stepsize 100
+s

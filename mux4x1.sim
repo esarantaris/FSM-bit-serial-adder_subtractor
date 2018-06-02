@@ -1,0 +1,43 @@
+| units: 100 tech: scmos format: MIT
+p S1 mux2x1_1/Min2 mux2x1_2/Min2 2 6 13 -48
+n mux2x1_1/Smb mux2x1_1/Min2 mux2x1_2/Min2 2 3 26 -48
+p mux2x1_1/Smb in3 mux2x1_2/Min2 2 6 21 -19
+n S1 in3 mux2x1_2/Min2 2 3 8 -19
+p S0 mux2x1_2/Min2 out 2 6 54 8
+n mux2x1_2/Smb mux2x1_2/Min2 out 2 3 67 8
+p mux2x1_2/Smb mux2x1_2/Min1 out 2 6 62 37
+n S0 mux2x1_2/Min1 out 2 3 49 37
+p S1 in2 mux2x1_2/Min1 2 6 13 8
+n mux2x1_1/Smb in2 mux2x1_2/Min1 2 3 26 8
+p mux2x1_1/Smb in1 mux2x1_2/Min1 2 6 21 37
+n S1 in1 mux2x1_2/Min1 2 3 8 37
+p S0 Vdd! mux2x1_2/Smb 2 6 44 64
+n S0 GND mux2x1_2/Smb 2 3 44 50
+p S1 Vdd! mux2x1_1/Smb 2 6 3 64
+n S1 GND mux2x1_1/Smb 2 3 3 50
+C mux2x1_1/Smb GND 38.1
+R mux2x1_1/Smb 1989
+C S1 GND 36.5
+R S1 2040
+C GND GND 4.6
+R GND 171
+C mux2x1_2/Smb GND 19.1
+R mux2x1_2/Smb 963
+C Vdd! GND 7.0
+R Vdd! 428
+C S0 GND 19.7
+R S0 1121
+C in1 GND 3.2
+R in1 201
+C in2 GND 3.2
+R in2 201
+C mux2x1_2/Min1 GND 9.7
+R mux2x1_2/Min1 1054
+C out GND 5.5
+R out 638
+C in3 GND 3.2
+R in3 201
+C mux2x1_2/Min2 GND 12.1
+R mux2x1_2/Min2 1054
+C mux2x1_1/Min2 GND 2.4
+R mux2x1_1/Min2 201

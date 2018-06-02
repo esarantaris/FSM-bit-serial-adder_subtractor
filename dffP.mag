@@ -1,0 +1,204 @@
+magic
+tech scmos
+timestamp 1354644235
+<< polysilicon >>
+rect -89 29 -87 32
+rect -85 29 -83 32
+rect -44 20 -27 22
+rect -44 4 -42 20
+rect 39 20 53 22
+rect -29 2 -27 8
+rect 24 -2 26 17
+rect 39 6 41 8
+rect 51 3 53 20
+rect 49 1 53 3
+rect 93 -2 95 16
+rect -15 -12 1 -10
+rect -15 -18 -13 -12
+rect 42 -12 70 -10
+rect -1 -28 1 -24
+rect 68 -28 70 -24
+rect -34 -67 -32 -63
+<< metal1 >>
+rect -79 15 -68 18
+rect -61 17 -35 20
+rect -21 18 0 21
+rect -45 -31 -42 0
+rect -45 -35 -44 -31
+rect -30 -46 -27 -2
+rect -15 -12 -12 18
+rect 9 18 23 21
+rect 27 18 34 21
+rect 47 18 74 21
+rect 37 -9 40 2
+rect -15 -15 -6 -12
+rect 5 -13 22 -10
+rect 37 -13 38 -9
+rect -16 -51 -13 -22
+rect -4 -32 -1 -31
+rect -4 -34 3 -32
+rect 0 -46 3 -34
+rect 37 -50 40 -13
+rect 46 -29 49 -1
+rect 54 -12 57 18
+rect 83 20 109 21
+rect 83 18 92 20
+rect 96 18 109 20
+rect 117 18 124 21
+rect 54 -15 63 -12
+rect 76 -14 89 -11
+rect 46 -32 66 -29
+rect 58 -47 61 -32
+rect -29 -54 -7 -51
+rect 37 -53 45 -50
+rect 54 -50 61 -47
+rect 66 -52 71 -49
+rect 37 -69 40 -53
+rect 66 -69 69 -52
+rect -31 -71 69 -69
+rect -35 -72 69 -71
+<< metal2 >>
+rect -70 27 -2 30
+rect -90 23 -70 26
+rect 2 27 72 30
+rect 76 27 107 30
+rect 111 27 126 30
+rect -90 7 -78 10
+rect -74 7 -70 10
+rect -70 6 -66 7
+rect -54 10 -2 13
+rect 2 10 72 13
+rect 76 10 99 13
+rect -54 6 -51 10
+rect -70 3 -51 6
+rect -54 -59 -51 3
+rect 28 -3 31 10
+rect 97 9 99 10
+rect 103 10 107 13
+rect 97 -3 100 9
+rect 127 4 130 26
+rect 111 1 130 4
+rect 31 -23 96 -20
+rect 111 -20 114 1
+rect 100 -23 114 -20
+rect -40 -34 -8 -31
+rect 111 -40 114 -23
+rect -39 -41 43 -40
+rect -39 -42 -9 -41
+rect -35 -43 -9 -42
+rect -5 -43 43 -41
+rect 47 -43 114 -40
+rect -54 -62 -39 -59
+rect -35 -61 -9 -59
+rect -5 -60 43 -59
+rect -5 -61 47 -60
+rect -35 -62 47 -61
+<< polycontact >>
+rect -68 14 -64 18
+rect 0 17 4 21
+rect 23 17 27 21
+rect -45 0 -41 4
+rect -31 -2 -27 2
+rect 37 2 41 6
+rect 74 17 78 21
+rect 92 16 96 20
+rect 109 17 113 21
+rect 45 -1 49 3
+rect 38 -13 42 -9
+rect -17 -22 -13 -18
+rect -1 -32 3 -28
+rect 66 -32 70 -28
+rect -7 -54 -3 -50
+rect 45 -53 49 -49
+rect -35 -71 -31 -67
+<< m2contact >>
+rect -94 23 -90 27
+rect -70 23 -66 27
+rect -2 26 2 30
+rect 72 26 76 30
+rect 107 26 111 30
+rect 126 26 130 30
+rect -94 7 -90 11
+rect -78 7 -74 11
+rect -70 7 -66 11
+rect -44 -35 -40 -31
+rect -39 -46 -35 -42
+rect -2 10 2 14
+rect 27 -7 31 -3
+rect 27 -23 31 -19
+rect -8 -35 -4 -31
+rect -9 -45 -5 -41
+rect 72 10 76 14
+rect 99 9 103 13
+rect 107 10 111 14
+rect 96 -7 100 -3
+rect 96 -23 100 -19
+rect 43 -44 47 -40
+rect -39 -62 -35 -58
+rect -9 -61 -5 -57
+rect 43 -60 47 -56
+use nor2 nor2_0
+timestamp 1351504687
+transform 1 0 -50 0 1 15
+box -44 -11 -24 15
+use inverter inverter_11
+timestamp 1351319193
+transform 1 0 -65 0 1 14
+box -5 -10 7 15
+use gate gate_0
+timestamp 1353094667
+transform 1 0 -28 0 1 12
+box -9 -5 9 20
+use inverter inverter_0
+timestamp 1351319193
+transform 1 0 3 0 1 17
+box -5 -10 7 15
+use gate gate_1
+timestamp 1353094667
+transform 1 0 40 0 1 12
+box -9 -5 9 20
+use inverter inverter_1
+timestamp 1351319193
+transform 1 0 77 0 1 17
+box -5 -10 7 15
+use inverter inverter_10
+timestamp 1351319193
+transform 1 0 112 0 1 17
+box -5 -10 7 15
+use gate gate_2
+timestamp 1353094667
+transform 1 0 0 0 1 -20
+box -9 -5 9 20
+use inverter inverter_2
+timestamp 1351319193
+transform -1 0 26 0 -1 -10
+box -5 -10 7 15
+use gate gate_3
+timestamp 1353094667
+transform 1 0 69 0 1 -20
+box -9 -5 9 20
+use inverter inverter_3
+timestamp 1351319193
+transform -1 0 95 0 -1 -10
+box -5 -10 7 15
+use inverter inverter_4
+timestamp 1351319193
+transform 1 0 -34 0 1 -55
+box -5 -10 7 15
+use inverter inverter_5
+timestamp 1351319193
+transform 1 0 -4 0 1 -54
+box -5 -10 7 15
+use inverter inverter_6
+timestamp 1351319193
+transform 1 0 48 0 1 -53
+box -5 -10 7 15
+<< labels >>
+rlabel m2contact 101 11 101 11 1 GND!
+rlabel metal1 104 19 104 19 1 Q
+rlabel metal1 122 19 122 19 1 Qb
+rlabel m2contact 128 28 128 28 6 Vdd!
+rlabel metal1 68 -51 68 -51 1 CLK
+rlabel polysilicon -88 31 -88 31 5 CLR
+rlabel polysilicon -84 31 -84 31 5 D
+<< end >>

@@ -1,0 +1,44 @@
+timestamp 1352389694
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use nand2 nand2_1 1 0 3 0 1 -6
+use nand2 nand2_2 1 0 32 0 1 -6
+use nand2 nand2_3 1 0 3 0 -1 -29
+use nand2 nand2_4 1 0 32 0 -1 -29
+node "xor_out" 0 987 4 -38 m1 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "GND!" 2 12690 -47 -62 m1 0 0 0 0 0 0 0 0 0 0 0 0 282 194 0 0 0 0
+node "Vdd!" 4 35673 -41 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 783 528 0 0 0 0
+node "a_n10_n39#" 24 4019 -10 -39 pc 0 0 0 0 16 16 0 0 0 0 0 0 61 46 0 0 0 0
+node "a_n3_n21#" 212 8056 -3 -21 p 0 0 0 0 44 44 0 0 0 0 0 0 76 56 0 0 0 0
+node "a_n36_n21#" 84 1986 -36 -21 p 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n32_n21#" 512 12737 -32 -21 p 0 0 0 0 94 94 0 0 0 0 0 0 65 48 0 0 0 0
+node "xor_in2" 501 10316 -28 18 p 0 0 0 0 84 88 0 0 0 0 0 0 0 0 0 0 0 0
+node "xor_in1" 131 2938 -36 18 p 0 0 0 0 22 26 0 0 0 0 0 0 0 0 0 0 0 0
+cap "xor_in1" "Vdd!" 180
+cap "GND!" "a_n32_n21#" 180
+cap "GND!" "a_n36_n21#" 180
+cap "xor_in2" "Vdd!" 540
+merge "nand2_3/nand_in1" "nand2_1/nand_in1" -960 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_1/nand_in1" "xor_in1"
+merge "xor_in1" "a_n36_n21#"
+merge "nand2_4/GND!" "nand2_3/GND!" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "nand2_3/GND!" "nand2_2/GND!"
+merge "nand2_2/GND!" "nand2_1/GND!"
+merge "nand2_1/GND!" "GND!"
+merge "nand2_2/nand_in2" "nand2_1/nand_in2" -640 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_1/nand_in2" "xor_in2"
+merge "nand2_4/nand_in1" "nand2_3/nand_out" -956 0 0 0 0 -4 -10 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nand2_3/nand_out" "a_n10_n39#"
+merge "nand2_3/nand_in2" "nand2_2/nand_in1" -1276 0 0 0 0 -4 -14 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nand2_2/nand_in1" "nand2_1/nand_out"
+merge "nand2_1/nand_out" "a_n32_n21#"
+merge "nand2_4/Vdd!" "nand2_3/Vdd!" -1034 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 0 0 0 0
+merge "nand2_3/Vdd!" "nand2_2/Vdd!"
+merge "nand2_2/Vdd!" "nand2_1/Vdd!"
+merge "nand2_1/Vdd!" "Vdd!"
+merge "nand2_4/nand_in2" "nand2_2/nand_out" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nand2_2/nand_out" "a_n3_n21#"
+merge "nand2_4/nand_out" "xor_out" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0

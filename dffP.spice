@@ -1,0 +1,78 @@
+* SPICE3 file created from dffP.ext - technology: scmos
+
+M1000 gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=260p ps=220u 
+M1001 gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=209p ps=198u 
+M1002 gate_0/S gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1003 gate_0/S gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1004 gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1005 gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1006 gate_3/Gout Q Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1007 gate_3/Gout Q GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1008 gate_3/Gout CLK gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1009 gate_3/Gout gate_1/S gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1010 gate_2/Gout gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1011 gate_2/Gout gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1012 gate_2/Gout gate_2/S gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1013 gate_2/Gout gate_0/S gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1014 Qb Q Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1015 Qb Q GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1016 Q gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1017 Q gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1018 gate_3/Gin gate_1/S gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1019 gate_3/Gin CLK gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1020 gate_1/Gin gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1021 gate_1/Gin gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1022 gate_2/Gin gate_0/S gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1023 gate_2/Gin gate_2/S gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1024 gate_0/Gin nor2_0/out Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1025 gate_0/Gin nor2_0/out GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1026 nor2_0/a_n37_6# CLR Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1027 nor2_0/out D nor2_0/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1028 nor2_0/out CLR GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1029 GND D nor2_0/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+C0 D gnd! 6.4fF
+C1 CLR gnd! 5.5fF
+C2 nor2_0/out gnd! 9.3fF
+C3 gate_0/Gin gnd! 6.2fF
+C4 Qb gnd! 2.1fF
+C5 Vdd gnd! 6.5fF
+C6 Q gnd! 21.2fF
+C7 gate_2/Gin gnd! 16.9fF
+C8 gate_2/Gout gnd! 4.4fF
+C9 gate_1/Gin gnd! 17.3fF
+C10 gate_3/Gin gnd! 17.4fF
+C11 gate_3/Gout gnd! 4.4fF
+C12 gate_0/S gnd! 26.8fF
+C13 gate_2/S gnd! 33.8fF
+C14 gate_1/S gnd! 26.8fF
+C15 CLK gnd! 52.2fF

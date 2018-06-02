@@ -1,0 +1,127 @@
+h Vdd!
+l GND!
+vector S SA1 SA0 SB1 SB0 SS1 SS0
+analyzer CLK RST CLR S
+l CLK
+h RST
+s
+h CLK
+h RST
+s
+l CLK
+h RST
+s
+h CLK
+h RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+l RST
+s
+h CLK
+l RST
+s
+l CLK
+h RST
+s
+h CLK
+h RST
+s
+l CLK
+h RST
+s
+h CLK
+h RST
+s
+s
+stepsize 6
+s

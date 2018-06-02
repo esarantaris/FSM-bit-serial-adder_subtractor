@@ -1,0 +1,15 @@
+* SPICE3 file created from mux2x1.ext - technology: scmos
+
+M1000 Mout Sm Min2 Vdd pfet w=6u l=2u
++ ad=98p pd=60u as=49p ps=30u 
+M1001 Mout Smb Min2 Gnd nfet w=3u l=2u
++ ad=56p pd=48u as=28p ps=24u 
+M1002 Mout Smb Min1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=49p ps=30u 
+M1003 Mout Sm Min1 Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=28p ps=24u 
+C0 Min1 gnd! 2.4fF
+C1 Smb gnd! 11.0fF
+C2 Mout gnd! 4.5fF
+C3 Sm gnd! 11.0fF
+C4 Min2 gnd! 2.4fF

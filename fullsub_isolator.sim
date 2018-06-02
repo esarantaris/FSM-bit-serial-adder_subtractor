@@ -1,0 +1,3115 @@
+| units: 100 tech: scmos format: MIT
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_7/gate_1/S 2 6 1261 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_7/gate_1/S 2 3 1247 113
+p SubB_0/SR2B_2/dff3B_7/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_7/gate_0/S 2 6 1260 165
+n SubB_0/SR2B_2/dff3B_7/gate_2/S GND! SubB_0/SR2B_2/dff3B_7/gate_0/S 2 3 1246 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_7/gate_2/S 2 6 1259 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_7/gate_2/S 2 3 1245 195
+p SUM0 Vdd! SubB_0/SR2B_2/dff3B_7/gate_3/Gout 2 6 1289 67
+n SUM0 GND! SubB_0/SR2B_2/dff3B_7/gate_3/Gout 2 3 1303 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_7/gate_3/Gin SubB_0/SR2B_2/dff3B_7/gate_3/Gout 2 6 1298 93
+n SubB_0/SR2B_2/dff3B_7/gate_1/S SubB_0/SR2B_2/dff3B_7/gate_3/Gin SubB_0/SR2B_2/dff3B_7/gate_3/Gout 2 3 1285 93
+p SubB_0/SR2B_2/dff3B_7/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_7/gate_2/Gout 2 6 1289 136
+n SubB_0/SR2B_2/dff3B_7/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_7/gate_2/Gout 2 3 1303 136
+p SubB_0/SR2B_2/dff3B_7/gate_2/S SubB_0/SR2B_2/dff3B_7/gate_2/Gin SubB_0/SR2B_2/dff3B_7/gate_2/Gout 2 6 1298 162
+n SubB_0/SR2B_2/dff3B_7/gate_0/S SubB_0/SR2B_2/dff3B_7/gate_2/Gin SubB_0/SR2B_2/dff3B_7/gate_2/Gout 2 3 1285 162
+p SUM0 Vdd! SubB_0/SR2B_2/dff3B_7/Qb 2 6 1331 49
+n SUM0 GND! SubB_0/SR2B_2/dff3B_7/Qb 2 3 1317 49
+p SubB_0/SR2B_2/dff3B_7/gate_3/Gin Vdd! SUM0 2 6 1331 84
+n SubB_0/SR2B_2/dff3B_7/gate_3/Gin GND! SUM0 2 3 1317 84
+p SubB_0/SR2B_2/dff3B_7/gate_1/S SubB_0/SR2B_2/dff3B_7/gate_1/Gin SubB_0/SR2B_2/dff3B_7/gate_3/Gin 2 6 1330 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_7/gate_1/Gin SubB_0/SR2B_2/dff3B_7/gate_3/Gin 2 3 1317 122
+p SubB_0/SR2B_2/dff3B_7/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_7/gate_1/Gin 2 6 1331 158
+n SubB_0/SR2B_2/dff3B_7/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_7/gate_1/Gin 2 3 1317 158
+p SubB_0/SR2B_2/dff3B_7/gate_0/S SubB_0/SR2B_2/dff3B_7/gate_0/Gin SubB_0/SR2B_2/dff3B_7/gate_2/Gin 2 6 1330 190
+n SubB_0/SR2B_2/dff3B_7/gate_2/S SubB_0/SR2B_2/dff3B_7/gate_0/Gin SubB_0/SR2B_2/dff3B_7/gate_2/Gin 2 3 1317 190
+p SubB_0/SR2B_2/dff3B_7/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_7/gate_0/Gin 2 6 1328 226
+n SubB_0/SR2B_2/dff3B_7/inverter_11/in GND! SubB_0/SR2B_2/dff3B_7/gate_0/Gin 2 3 1314 226
+p SubB_0/SR2B_2/dff3B_7/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_7/inverter_11/in 2 6 1333 250
+p SubB_0/SR2B_2/dff3B_7/D SubB_0/SR2B_2/dff3B_7/inverter_11/in Vdd! 2 6 1333 242
+n SubB_0/SR2B_2/dff3B_7/inverter_7/out GND! SubB_0/SR2B_2/dff3B_7/nand2_0/a_n37_n6# 2 3 1311 250
+n SubB_0/SR2B_2/dff3B_7/D SubB_0/SR2B_2/dff3B_7/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_7/inverter_11/in 2 3 1311 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_7/inverter_7/out 2 6 1328 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_7/inverter_7/out 2 3 1314 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_6/gate_1/S 2 6 1128 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_6/gate_1/S 2 3 1114 113
+p SubB_0/SR2B_2/dff3B_6/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_6/gate_0/S 2 6 1127 165
+n SubB_0/SR2B_2/dff3B_6/gate_2/S GND! SubB_0/SR2B_2/dff3B_6/gate_0/S 2 3 1113 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_6/gate_2/S 2 6 1126 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_6/gate_2/S 2 3 1112 195
+p SUM1 Vdd! SubB_0/SR2B_2/dff3B_6/gate_3/Gout 2 6 1156 67
+n SUM1 GND! SubB_0/SR2B_2/dff3B_6/gate_3/Gout 2 3 1170 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_6/gate_3/Gin SubB_0/SR2B_2/dff3B_6/gate_3/Gout 2 6 1165 93
+n SubB_0/SR2B_2/dff3B_6/gate_1/S SubB_0/SR2B_2/dff3B_6/gate_3/Gin SubB_0/SR2B_2/dff3B_6/gate_3/Gout 2 3 1152 93
+p SubB_0/SR2B_2/dff3B_6/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_6/gate_2/Gout 2 6 1156 136
+n SubB_0/SR2B_2/dff3B_6/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_6/gate_2/Gout 2 3 1170 136
+p SubB_0/SR2B_2/dff3B_6/gate_2/S SubB_0/SR2B_2/dff3B_6/gate_2/Gin SubB_0/SR2B_2/dff3B_6/gate_2/Gout 2 6 1165 162
+n SubB_0/SR2B_2/dff3B_6/gate_0/S SubB_0/SR2B_2/dff3B_6/gate_2/Gin SubB_0/SR2B_2/dff3B_6/gate_2/Gout 2 3 1152 162
+p SUM1 Vdd! SubB_0/SR2B_2/dff3B_6/Qb 2 6 1198 49
+n SUM1 GND! SubB_0/SR2B_2/dff3B_6/Qb 2 3 1184 49
+p SubB_0/SR2B_2/dff3B_6/gate_3/Gin Vdd! SUM1 2 6 1198 84
+n SubB_0/SR2B_2/dff3B_6/gate_3/Gin GND! SUM1 2 3 1184 84
+p SubB_0/SR2B_2/dff3B_6/gate_1/S SubB_0/SR2B_2/dff3B_6/gate_1/Gin SubB_0/SR2B_2/dff3B_6/gate_3/Gin 2 6 1197 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_6/gate_1/Gin SubB_0/SR2B_2/dff3B_6/gate_3/Gin 2 3 1184 122
+p SubB_0/SR2B_2/dff3B_6/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_6/gate_1/Gin 2 6 1198 158
+n SubB_0/SR2B_2/dff3B_6/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_6/gate_1/Gin 2 3 1184 158
+p SubB_0/SR2B_2/dff3B_6/gate_0/S SubB_0/SR2B_2/dff3B_6/gate_0/Gin SubB_0/SR2B_2/dff3B_6/gate_2/Gin 2 6 1197 190
+n SubB_0/SR2B_2/dff3B_6/gate_2/S SubB_0/SR2B_2/dff3B_6/gate_0/Gin SubB_0/SR2B_2/dff3B_6/gate_2/Gin 2 3 1184 190
+p SubB_0/SR2B_2/dff3B_6/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_6/gate_0/Gin 2 6 1195 226
+n SubB_0/SR2B_2/dff3B_6/inverter_11/in GND! SubB_0/SR2B_2/dff3B_6/gate_0/Gin 2 3 1181 226
+p SubB_0/SR2B_2/dff3B_6/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_6/inverter_11/in 2 6 1200 250
+p SubB_0/SR2B_2/dff3B_6/D SubB_0/SR2B_2/dff3B_6/inverter_11/in Vdd! 2 6 1200 242
+n SubB_0/SR2B_2/dff3B_6/inverter_7/out GND! SubB_0/SR2B_2/dff3B_6/nand2_0/a_n37_n6# 2 3 1178 250
+n SubB_0/SR2B_2/dff3B_6/D SubB_0/SR2B_2/dff3B_6/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_6/inverter_11/in 2 3 1178 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_6/inverter_7/out 2 6 1195 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_6/inverter_7/out 2 3 1181 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_5/gate_1/S 2 6 995 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_5/gate_1/S 2 3 981 113
+p SubB_0/SR2B_2/dff3B_5/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_5/gate_0/S 2 6 994 165
+n SubB_0/SR2B_2/dff3B_5/gate_2/S GND! SubB_0/SR2B_2/dff3B_5/gate_0/S 2 3 980 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_5/gate_2/S 2 6 993 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_5/gate_2/S 2 3 979 195
+p SUM2 Vdd! SubB_0/SR2B_2/dff3B_5/gate_3/Gout 2 6 1023 67
+n SUM2 GND! SubB_0/SR2B_2/dff3B_5/gate_3/Gout 2 3 1037 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_5/gate_3/Gin SubB_0/SR2B_2/dff3B_5/gate_3/Gout 2 6 1032 93
+n SubB_0/SR2B_2/dff3B_5/gate_1/S SubB_0/SR2B_2/dff3B_5/gate_3/Gin SubB_0/SR2B_2/dff3B_5/gate_3/Gout 2 3 1019 93
+p SubB_0/SR2B_2/dff3B_5/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_5/gate_2/Gout 2 6 1023 136
+n SubB_0/SR2B_2/dff3B_5/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_5/gate_2/Gout 2 3 1037 136
+p SubB_0/SR2B_2/dff3B_5/gate_2/S SubB_0/SR2B_2/dff3B_5/gate_2/Gin SubB_0/SR2B_2/dff3B_5/gate_2/Gout 2 6 1032 162
+n SubB_0/SR2B_2/dff3B_5/gate_0/S SubB_0/SR2B_2/dff3B_5/gate_2/Gin SubB_0/SR2B_2/dff3B_5/gate_2/Gout 2 3 1019 162
+p SUM2 Vdd! SubB_0/SR2B_2/dff3B_5/Qb 2 6 1065 49
+n SUM2 GND! SubB_0/SR2B_2/dff3B_5/Qb 2 3 1051 49
+p SubB_0/SR2B_2/dff3B_5/gate_3/Gin Vdd! SUM2 2 6 1065 84
+n SubB_0/SR2B_2/dff3B_5/gate_3/Gin GND! SUM2 2 3 1051 84
+p SubB_0/SR2B_2/dff3B_5/gate_1/S SubB_0/SR2B_2/dff3B_5/gate_1/Gin SubB_0/SR2B_2/dff3B_5/gate_3/Gin 2 6 1064 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_5/gate_1/Gin SubB_0/SR2B_2/dff3B_5/gate_3/Gin 2 3 1051 122
+p SubB_0/SR2B_2/dff3B_5/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_5/gate_1/Gin 2 6 1065 158
+n SubB_0/SR2B_2/dff3B_5/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_5/gate_1/Gin 2 3 1051 158
+p SubB_0/SR2B_2/dff3B_5/gate_0/S SubB_0/SR2B_2/dff3B_5/gate_0/Gin SubB_0/SR2B_2/dff3B_5/gate_2/Gin 2 6 1064 190
+n SubB_0/SR2B_2/dff3B_5/gate_2/S SubB_0/SR2B_2/dff3B_5/gate_0/Gin SubB_0/SR2B_2/dff3B_5/gate_2/Gin 2 3 1051 190
+p SubB_0/SR2B_2/dff3B_5/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_5/gate_0/Gin 2 6 1062 226
+n SubB_0/SR2B_2/dff3B_5/inverter_11/in GND! SubB_0/SR2B_2/dff3B_5/gate_0/Gin 2 3 1048 226
+p SubB_0/SR2B_2/dff3B_5/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_5/inverter_11/in 2 6 1067 250
+p SubB_0/SR2B_2/dff3B_5/D SubB_0/SR2B_2/dff3B_5/inverter_11/in Vdd! 2 6 1067 242
+n SubB_0/SR2B_2/dff3B_5/inverter_7/out GND! SubB_0/SR2B_2/dff3B_5/nand2_0/a_n37_n6# 2 3 1045 250
+n SubB_0/SR2B_2/dff3B_5/D SubB_0/SR2B_2/dff3B_5/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_5/inverter_11/in 2 3 1045 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_5/inverter_7/out 2 6 1062 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_5/inverter_7/out 2 3 1048 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_4/gate_1/S 2 6 862 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_4/gate_1/S 2 3 848 113
+p SubB_0/SR2B_2/dff3B_4/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_4/gate_0/S 2 6 861 165
+n SubB_0/SR2B_2/dff3B_4/gate_2/S GND! SubB_0/SR2B_2/dff3B_4/gate_0/S 2 3 847 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_4/gate_2/S 2 6 860 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_4/gate_2/S 2 3 846 195
+p SUM3 Vdd! SubB_0/SR2B_2/dff3B_4/gate_3/Gout 2 6 890 67
+n SUM3 GND! SubB_0/SR2B_2/dff3B_4/gate_3/Gout 2 3 904 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_4/gate_3/Gin SubB_0/SR2B_2/dff3B_4/gate_3/Gout 2 6 899 93
+n SubB_0/SR2B_2/dff3B_4/gate_1/S SubB_0/SR2B_2/dff3B_4/gate_3/Gin SubB_0/SR2B_2/dff3B_4/gate_3/Gout 2 3 886 93
+p SubB_0/SR2B_2/dff3B_4/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_4/gate_2/Gout 2 6 890 136
+n SubB_0/SR2B_2/dff3B_4/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_4/gate_2/Gout 2 3 904 136
+p SubB_0/SR2B_2/dff3B_4/gate_2/S SubB_0/SR2B_2/dff3B_4/gate_2/Gin SubB_0/SR2B_2/dff3B_4/gate_2/Gout 2 6 899 162
+n SubB_0/SR2B_2/dff3B_4/gate_0/S SubB_0/SR2B_2/dff3B_4/gate_2/Gin SubB_0/SR2B_2/dff3B_4/gate_2/Gout 2 3 886 162
+p SUM3 Vdd! SubB_0/SR2B_2/dff3B_4/Qb 2 6 932 49
+n SUM3 GND! SubB_0/SR2B_2/dff3B_4/Qb 2 3 918 49
+p SubB_0/SR2B_2/dff3B_4/gate_3/Gin Vdd! SUM3 2 6 932 84
+n SubB_0/SR2B_2/dff3B_4/gate_3/Gin GND! SUM3 2 3 918 84
+p SubB_0/SR2B_2/dff3B_4/gate_1/S SubB_0/SR2B_2/dff3B_4/gate_1/Gin SubB_0/SR2B_2/dff3B_4/gate_3/Gin 2 6 931 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_4/gate_1/Gin SubB_0/SR2B_2/dff3B_4/gate_3/Gin 2 3 918 122
+p SubB_0/SR2B_2/dff3B_4/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_4/gate_1/Gin 2 6 932 158
+n SubB_0/SR2B_2/dff3B_4/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_4/gate_1/Gin 2 3 918 158
+p SubB_0/SR2B_2/dff3B_4/gate_0/S SubB_0/SR2B_2/dff3B_4/gate_0/Gin SubB_0/SR2B_2/dff3B_4/gate_2/Gin 2 6 931 190
+n SubB_0/SR2B_2/dff3B_4/gate_2/S SubB_0/SR2B_2/dff3B_4/gate_0/Gin SubB_0/SR2B_2/dff3B_4/gate_2/Gin 2 3 918 190
+p SubB_0/SR2B_2/dff3B_4/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_4/gate_0/Gin 2 6 929 226
+n SubB_0/SR2B_2/dff3B_4/inverter_11/in GND! SubB_0/SR2B_2/dff3B_4/gate_0/Gin 2 3 915 226
+p SubB_0/SR2B_2/dff3B_4/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_4/inverter_11/in 2 6 934 250
+p SubB_0/SR2B_2/dff3B_4/D SubB_0/SR2B_2/dff3B_4/inverter_11/in Vdd! 2 6 934 242
+n SubB_0/SR2B_2/dff3B_4/inverter_7/out GND! SubB_0/SR2B_2/dff3B_4/nand2_0/a_n37_n6# 2 3 912 250
+n SubB_0/SR2B_2/dff3B_4/D SubB_0/SR2B_2/dff3B_4/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_4/inverter_11/in 2 3 912 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_4/inverter_7/out 2 6 929 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_4/inverter_7/out 2 3 915 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_3/gate_1/S 2 6 729 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_3/gate_1/S 2 3 715 113
+p SubB_0/SR2B_2/dff3B_3/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_3/gate_0/S 2 6 728 165
+n SubB_0/SR2B_2/dff3B_3/gate_2/S GND! SubB_0/SR2B_2/dff3B_3/gate_0/S 2 3 714 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_3/gate_2/S 2 6 727 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_3/gate_2/S 2 3 713 195
+p SUM4 Vdd! SubB_0/SR2B_2/dff3B_3/gate_3/Gout 2 6 757 67
+n SUM4 GND! SubB_0/SR2B_2/dff3B_3/gate_3/Gout 2 3 771 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_3/gate_3/Gin SubB_0/SR2B_2/dff3B_3/gate_3/Gout 2 6 766 93
+n SubB_0/SR2B_2/dff3B_3/gate_1/S SubB_0/SR2B_2/dff3B_3/gate_3/Gin SubB_0/SR2B_2/dff3B_3/gate_3/Gout 2 3 753 93
+p SubB_0/SR2B_2/dff3B_3/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_3/gate_2/Gout 2 6 757 136
+n SubB_0/SR2B_2/dff3B_3/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_3/gate_2/Gout 2 3 771 136
+p SubB_0/SR2B_2/dff3B_3/gate_2/S SubB_0/SR2B_2/dff3B_3/gate_2/Gin SubB_0/SR2B_2/dff3B_3/gate_2/Gout 2 6 766 162
+n SubB_0/SR2B_2/dff3B_3/gate_0/S SubB_0/SR2B_2/dff3B_3/gate_2/Gin SubB_0/SR2B_2/dff3B_3/gate_2/Gout 2 3 753 162
+p SUM4 Vdd! SubB_0/SR2B_2/dff3B_3/Qb 2 6 799 49
+n SUM4 GND! SubB_0/SR2B_2/dff3B_3/Qb 2 3 785 49
+p SubB_0/SR2B_2/dff3B_3/gate_3/Gin Vdd! SUM4 2 6 799 84
+n SubB_0/SR2B_2/dff3B_3/gate_3/Gin GND! SUM4 2 3 785 84
+p SubB_0/SR2B_2/dff3B_3/gate_1/S SubB_0/SR2B_2/dff3B_3/gate_1/Gin SubB_0/SR2B_2/dff3B_3/gate_3/Gin 2 6 798 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_3/gate_1/Gin SubB_0/SR2B_2/dff3B_3/gate_3/Gin 2 3 785 122
+p SubB_0/SR2B_2/dff3B_3/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_3/gate_1/Gin 2 6 799 158
+n SubB_0/SR2B_2/dff3B_3/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_3/gate_1/Gin 2 3 785 158
+p SubB_0/SR2B_2/dff3B_3/gate_0/S SubB_0/SR2B_2/dff3B_3/gate_0/Gin SubB_0/SR2B_2/dff3B_3/gate_2/Gin 2 6 798 190
+n SubB_0/SR2B_2/dff3B_3/gate_2/S SubB_0/SR2B_2/dff3B_3/gate_0/Gin SubB_0/SR2B_2/dff3B_3/gate_2/Gin 2 3 785 190
+p SubB_0/SR2B_2/dff3B_3/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_3/gate_0/Gin 2 6 796 226
+n SubB_0/SR2B_2/dff3B_3/inverter_11/in GND! SubB_0/SR2B_2/dff3B_3/gate_0/Gin 2 3 782 226
+p SubB_0/SR2B_2/dff3B_3/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_3/inverter_11/in 2 6 801 250
+p SubB_0/SR2B_2/dff3B_3/D SubB_0/SR2B_2/dff3B_3/inverter_11/in Vdd! 2 6 801 242
+n SubB_0/SR2B_2/dff3B_3/inverter_7/out GND! SubB_0/SR2B_2/dff3B_3/nand2_0/a_n37_n6# 2 3 779 250
+n SubB_0/SR2B_2/dff3B_3/D SubB_0/SR2B_2/dff3B_3/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_3/inverter_11/in 2 3 779 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_3/inverter_7/out 2 6 796 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_3/inverter_7/out 2 3 782 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_2/gate_1/S 2 6 596 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_2/gate_1/S 2 3 582 113
+p SubB_0/SR2B_2/dff3B_2/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_2/gate_0/S 2 6 595 165
+n SubB_0/SR2B_2/dff3B_2/gate_2/S GND! SubB_0/SR2B_2/dff3B_2/gate_0/S 2 3 581 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_2/gate_2/S 2 6 594 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_2/gate_2/S 2 3 580 195
+p SUM5 Vdd! SubB_0/SR2B_2/dff3B_2/gate_3/Gout 2 6 624 67
+n SUM5 GND! SubB_0/SR2B_2/dff3B_2/gate_3/Gout 2 3 638 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_2/gate_3/Gin SubB_0/SR2B_2/dff3B_2/gate_3/Gout 2 6 633 93
+n SubB_0/SR2B_2/dff3B_2/gate_1/S SubB_0/SR2B_2/dff3B_2/gate_3/Gin SubB_0/SR2B_2/dff3B_2/gate_3/Gout 2 3 620 93
+p SubB_0/SR2B_2/dff3B_2/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_2/gate_2/Gout 2 6 624 136
+n SubB_0/SR2B_2/dff3B_2/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_2/gate_2/Gout 2 3 638 136
+p SubB_0/SR2B_2/dff3B_2/gate_2/S SubB_0/SR2B_2/dff3B_2/gate_2/Gin SubB_0/SR2B_2/dff3B_2/gate_2/Gout 2 6 633 162
+n SubB_0/SR2B_2/dff3B_2/gate_0/S SubB_0/SR2B_2/dff3B_2/gate_2/Gin SubB_0/SR2B_2/dff3B_2/gate_2/Gout 2 3 620 162
+p SUM5 Vdd! SubB_0/SR2B_2/dff3B_2/Qb 2 6 666 49
+n SUM5 GND! SubB_0/SR2B_2/dff3B_2/Qb 2 3 652 49
+p SubB_0/SR2B_2/dff3B_2/gate_3/Gin Vdd! SUM5 2 6 666 84
+n SubB_0/SR2B_2/dff3B_2/gate_3/Gin GND! SUM5 2 3 652 84
+p SubB_0/SR2B_2/dff3B_2/gate_1/S SubB_0/SR2B_2/dff3B_2/gate_1/Gin SubB_0/SR2B_2/dff3B_2/gate_3/Gin 2 6 665 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_2/gate_1/Gin SubB_0/SR2B_2/dff3B_2/gate_3/Gin 2 3 652 122
+p SubB_0/SR2B_2/dff3B_2/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_2/gate_1/Gin 2 6 666 158
+n SubB_0/SR2B_2/dff3B_2/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_2/gate_1/Gin 2 3 652 158
+p SubB_0/SR2B_2/dff3B_2/gate_0/S SubB_0/SR2B_2/dff3B_2/gate_0/Gin SubB_0/SR2B_2/dff3B_2/gate_2/Gin 2 6 665 190
+n SubB_0/SR2B_2/dff3B_2/gate_2/S SubB_0/SR2B_2/dff3B_2/gate_0/Gin SubB_0/SR2B_2/dff3B_2/gate_2/Gin 2 3 652 190
+p SubB_0/SR2B_2/dff3B_2/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_2/gate_0/Gin 2 6 663 226
+n SubB_0/SR2B_2/dff3B_2/inverter_11/in GND! SubB_0/SR2B_2/dff3B_2/gate_0/Gin 2 3 649 226
+p SubB_0/SR2B_2/dff3B_2/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_2/inverter_11/in 2 6 668 250
+p SubB_0/SR2B_2/dff3B_2/D SubB_0/SR2B_2/dff3B_2/inverter_11/in Vdd! 2 6 668 242
+n SubB_0/SR2B_2/dff3B_2/inverter_7/out GND! SubB_0/SR2B_2/dff3B_2/nand2_0/a_n37_n6# 2 3 646 250
+n SubB_0/SR2B_2/dff3B_2/D SubB_0/SR2B_2/dff3B_2/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_2/inverter_11/in 2 3 646 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_2/inverter_7/out 2 6 663 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_2/inverter_7/out 2 3 649 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_1/gate_1/S 2 6 463 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_1/gate_1/S 2 3 449 113
+p SubB_0/SR2B_2/dff3B_1/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_1/gate_0/S 2 6 462 165
+n SubB_0/SR2B_2/dff3B_1/gate_2/S GND! SubB_0/SR2B_2/dff3B_1/gate_0/S 2 3 448 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_1/gate_2/S 2 6 461 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_1/gate_2/S 2 3 447 195
+p SUM6 Vdd! SubB_0/SR2B_2/dff3B_1/gate_3/Gout 2 6 491 67
+n SUM6 GND! SubB_0/SR2B_2/dff3B_1/gate_3/Gout 2 3 505 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_1/gate_3/Gin SubB_0/SR2B_2/dff3B_1/gate_3/Gout 2 6 500 93
+n SubB_0/SR2B_2/dff3B_1/gate_1/S SubB_0/SR2B_2/dff3B_1/gate_3/Gin SubB_0/SR2B_2/dff3B_1/gate_3/Gout 2 3 487 93
+p SubB_0/SR2B_2/dff3B_1/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_1/gate_2/Gout 2 6 491 136
+n SubB_0/SR2B_2/dff3B_1/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_1/gate_2/Gout 2 3 505 136
+p SubB_0/SR2B_2/dff3B_1/gate_2/S SubB_0/SR2B_2/dff3B_1/gate_2/Gin SubB_0/SR2B_2/dff3B_1/gate_2/Gout 2 6 500 162
+n SubB_0/SR2B_2/dff3B_1/gate_0/S SubB_0/SR2B_2/dff3B_1/gate_2/Gin SubB_0/SR2B_2/dff3B_1/gate_2/Gout 2 3 487 162
+p SUM6 Vdd! SubB_0/SR2B_2/dff3B_1/Qb 2 6 533 49
+n SUM6 GND! SubB_0/SR2B_2/dff3B_1/Qb 2 3 519 49
+p SubB_0/SR2B_2/dff3B_1/gate_3/Gin Vdd! SUM6 2 6 533 84
+n SubB_0/SR2B_2/dff3B_1/gate_3/Gin GND! SUM6 2 3 519 84
+p SubB_0/SR2B_2/dff3B_1/gate_1/S SubB_0/SR2B_2/dff3B_1/gate_1/Gin SubB_0/SR2B_2/dff3B_1/gate_3/Gin 2 6 532 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_1/gate_1/Gin SubB_0/SR2B_2/dff3B_1/gate_3/Gin 2 3 519 122
+p SubB_0/SR2B_2/dff3B_1/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_1/gate_1/Gin 2 6 533 158
+n SubB_0/SR2B_2/dff3B_1/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_1/gate_1/Gin 2 3 519 158
+p SubB_0/SR2B_2/dff3B_1/gate_0/S SubB_0/SR2B_2/dff3B_1/gate_0/Gin SubB_0/SR2B_2/dff3B_1/gate_2/Gin 2 6 532 190
+n SubB_0/SR2B_2/dff3B_1/gate_2/S SubB_0/SR2B_2/dff3B_1/gate_0/Gin SubB_0/SR2B_2/dff3B_1/gate_2/Gin 2 3 519 190
+p SubB_0/SR2B_2/dff3B_1/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_1/gate_0/Gin 2 6 530 226
+n SubB_0/SR2B_2/dff3B_1/inverter_11/in GND! SubB_0/SR2B_2/dff3B_1/gate_0/Gin 2 3 516 226
+p SubB_0/SR2B_2/dff3B_1/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_1/inverter_11/in 2 6 535 250
+p SubB_0/SR2B_2/dff3B_1/D SubB_0/SR2B_2/dff3B_1/inverter_11/in Vdd! 2 6 535 242
+n SubB_0/SR2B_2/dff3B_1/inverter_7/out GND! SubB_0/SR2B_2/dff3B_1/nand2_0/a_n37_n6# 2 3 513 250
+n SubB_0/SR2B_2/dff3B_1/D SubB_0/SR2B_2/dff3B_1/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_1/inverter_11/in 2 3 513 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_1/inverter_7/out 2 6 530 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_1/inverter_7/out 2 3 516 266
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_0/gate_1/S 2 6 330 113
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_0/gate_1/S 2 3 316 113
+p SubB_0/SR2B_2/dff3B_0/gate_2/S Vdd! SubB_0/SR2B_2/dff3B_0/gate_0/S 2 6 329 165
+n SubB_0/SR2B_2/dff3B_0/gate_2/S GND! SubB_0/SR2B_2/dff3B_0/gate_0/S 2 3 315 165
+p fsm_0/CLK Vdd! SubB_0/SR2B_2/dff3B_0/gate_2/S 2 6 328 195
+n fsm_0/CLK GND! SubB_0/SR2B_2/dff3B_0/gate_2/S 2 3 314 195
+p SUM7 Vdd! SubB_0/SR2B_2/dff3B_0/gate_3/Gout 2 6 358 67
+n SUM7 GND! SubB_0/SR2B_2/dff3B_0/gate_3/Gout 2 3 372 67
+p fsm_0/CLK SubB_0/SR2B_2/dff3B_0/gate_3/Gin SubB_0/SR2B_2/dff3B_0/gate_3/Gout 2 6 367 93
+n SubB_0/SR2B_2/dff3B_0/gate_1/S SubB_0/SR2B_2/dff3B_0/gate_3/Gin SubB_0/SR2B_2/dff3B_0/gate_3/Gout 2 3 354 93
+p SubB_0/SR2B_2/dff3B_0/gate_1/Gin Vdd! SubB_0/SR2B_2/dff3B_0/gate_2/Gout 2 6 358 136
+n SubB_0/SR2B_2/dff3B_0/gate_1/Gin GND! SubB_0/SR2B_2/dff3B_0/gate_2/Gout 2 3 372 136
+p SubB_0/SR2B_2/dff3B_0/gate_2/S SubB_0/SR2B_2/dff3B_0/gate_2/Gin SubB_0/SR2B_2/dff3B_0/gate_2/Gout 2 6 367 162
+n SubB_0/SR2B_2/dff3B_0/gate_0/S SubB_0/SR2B_2/dff3B_0/gate_2/Gin SubB_0/SR2B_2/dff3B_0/gate_2/Gout 2 3 354 162
+p SUM7 Vdd! SubB_0/SR2B_2/dff3B_0/Qb 2 6 400 49
+n SUM7 GND! SubB_0/SR2B_2/dff3B_0/Qb 2 3 386 49
+p SubB_0/SR2B_2/dff3B_0/gate_3/Gin Vdd! SUM7 2 6 400 84
+n SubB_0/SR2B_2/dff3B_0/gate_3/Gin GND! SUM7 2 3 386 84
+p SubB_0/SR2B_2/dff3B_0/gate_1/S SubB_0/SR2B_2/dff3B_0/gate_1/Gin SubB_0/SR2B_2/dff3B_0/gate_3/Gin 2 6 399 122
+n fsm_0/CLK SubB_0/SR2B_2/dff3B_0/gate_1/Gin SubB_0/SR2B_2/dff3B_0/gate_3/Gin 2 3 386 122
+p SubB_0/SR2B_2/dff3B_0/gate_2/Gin Vdd! SubB_0/SR2B_2/dff3B_0/gate_1/Gin 2 6 400 158
+n SubB_0/SR2B_2/dff3B_0/gate_2/Gin GND! SubB_0/SR2B_2/dff3B_0/gate_1/Gin 2 3 386 158
+p SubB_0/SR2B_2/dff3B_0/gate_0/S SubB_0/SR2B_2/dff3B_0/gate_0/Gin SubB_0/SR2B_2/dff3B_0/gate_2/Gin 2 6 399 190
+n SubB_0/SR2B_2/dff3B_0/gate_2/S SubB_0/SR2B_2/dff3B_0/gate_0/Gin SubB_0/SR2B_2/dff3B_0/gate_2/Gin 2 3 386 190
+p SubB_0/SR2B_2/dff3B_0/inverter_11/in Vdd! SubB_0/SR2B_2/dff3B_0/gate_0/Gin 2 6 397 226
+n SubB_0/SR2B_2/dff3B_0/inverter_11/in GND! SubB_0/SR2B_2/dff3B_0/gate_0/Gin 2 3 383 226
+p SubB_0/SR2B_2/dff3B_0/inverter_7/out Vdd! SubB_0/SR2B_2/dff3B_0/inverter_11/in 2 6 402 250
+p SubB_0/SR2B_2/dff3B_0/D SubB_0/SR2B_2/dff3B_0/inverter_11/in Vdd! 2 6 402 242
+n SubB_0/SR2B_2/dff3B_0/inverter_7/out GND! SubB_0/SR2B_2/dff3B_0/nand2_0/a_n37_n6# 2 3 380 250
+n SubB_0/SR2B_2/dff3B_0/D SubB_0/SR2B_2/dff3B_0/nand2_0/a_n37_n6# SubB_0/SR2B_2/dff3B_0/inverter_11/in 2 3 380 246
+p fsm_0/CLR Vdd! SubB_0/SR2B_2/dff3B_0/inverter_7/out 2 6 397 266
+n fsm_0/CLR GND! SubB_0/SR2B_2/dff3B_0/inverter_7/out 2 3 383 266
+p nor2_0/out SUM0 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 2 6 1234 213
+n SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb SUM0 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 2 3 1247 213
+p SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb SL SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 2 6 1242 242
+n nor2_0/out SL SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 2 3 1229 242
+p SS0 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_7/D 2 6 1275 269
+n SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_7/D 2 3 1288 269
+p SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_7/D 2 6 1283 298
+n SS0 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_7/D 2 3 1270 298
+p nor2_0/out SUM1 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 2 6 1234 269
+n SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb SUM1 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 2 3 1247 269
+p SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb D7 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 2 6 1242 298
+n nor2_0/out D7 SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 2 3 1229 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Smb 2 6 1265 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Smb 2 3 1265 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb 2 6 1224 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb 2 3 1224 311
+p nor2_0/out SUM1 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 2 6 1101 213
+n SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb SUM1 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 2 3 1114 213
+p SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb SUM0 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 2 6 1109 242
+n nor2_0/out SUM0 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 2 3 1096 242
+p SS0 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_6/D 2 6 1142 269
+n SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_6/D 2 3 1155 269
+p SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_6/D 2 6 1150 298
+n SS0 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_6/D 2 3 1137 298
+p nor2_0/out SUM2 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 2 6 1101 269
+n SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb SUM2 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 2 3 1114 269
+p SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb D6 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 2 6 1109 298
+n nor2_0/out D6 SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 2 3 1096 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Smb 2 6 1132 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Smb 2 3 1132 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb 2 6 1091 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb 2 3 1091 311
+p nor2_0/out SUM2 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 2 6 968 213
+n SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb SUM2 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 2 3 981 213
+p SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb SUM1 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 2 6 976 242
+n nor2_0/out SUM1 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 2 3 963 242
+p SS0 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_5/D 2 6 1009 269
+n SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_5/D 2 3 1022 269
+p SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_5/D 2 6 1017 298
+n SS0 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_5/D 2 3 1004 298
+p nor2_0/out SUM3 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 2 6 968 269
+n SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb SUM3 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 2 3 981 269
+p SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb D5 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 2 6 976 298
+n nor2_0/out D5 SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 2 3 963 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Smb 2 6 999 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Smb 2 3 999 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb 2 6 958 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb 2 3 958 311
+p nor2_0/out SUM3 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 2 6 835 213
+n SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb SUM3 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 2 3 848 213
+p SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb SUM2 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 2 6 843 242
+n nor2_0/out SUM2 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 2 3 830 242
+p SS0 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_4/D 2 6 876 269
+n SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_4/D 2 3 889 269
+p SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_4/D 2 6 884 298
+n SS0 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_4/D 2 3 871 298
+p nor2_0/out SUM4 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 2 6 835 269
+n SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb SUM4 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 2 3 848 269
+p SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb D4 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 2 6 843 298
+n nor2_0/out D4 SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 2 3 830 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Smb 2 6 866 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Smb 2 3 866 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb 2 6 825 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb 2 3 825 311
+p nor2_0/out SUM4 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 2 6 702 213
+n SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb SUM4 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 2 3 715 213
+p SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb SUM3 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 2 6 710 242
+n nor2_0/out SUM3 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 2 3 697 242
+p SS0 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_3/D 2 6 743 269
+n SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_3/D 2 3 756 269
+p SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_3/D 2 6 751 298
+n SS0 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_3/D 2 3 738 298
+p nor2_0/out SUM5 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 2 6 702 269
+n SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb SUM5 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 2 3 715 269
+p SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb D3 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 2 6 710 298
+n nor2_0/out D3 SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 2 3 697 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Smb 2 6 733 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Smb 2 3 733 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb 2 6 692 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb 2 3 692 311
+p nor2_0/out SUM5 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 2 6 569 213
+n SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb SUM5 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 2 3 582 213
+p SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb SUM4 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 2 6 577 242
+n nor2_0/out SUM4 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 2 3 564 242
+p SS0 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_2/D 2 6 610 269
+n SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_2/D 2 3 623 269
+p SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_2/D 2 6 618 298
+n SS0 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_2/D 2 3 605 298
+p nor2_0/out SUM6 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 2 6 569 269
+n SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb SUM6 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 2 3 582 269
+p SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb D2 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 2 6 577 298
+n nor2_0/out D2 SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 2 3 564 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Smb 2 6 600 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Smb 2 3 600 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb 2 6 559 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb 2 3 559 311
+p nor2_0/out SUM6 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 2 6 436 213
+n SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb SUM6 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 2 3 449 213
+p SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb SUM5 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 2 6 444 242
+n nor2_0/out SUM5 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 2 3 431 242
+p SS0 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_1/D 2 6 477 269
+n SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_1/D 2 3 490 269
+p SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_1/D 2 6 485 298
+n SS0 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_1/D 2 3 472 298
+p nor2_0/out SUM7 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 2 6 436 269
+n SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb SUM7 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 2 3 449 269
+p SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb D1 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 2 6 444 298
+n nor2_0/out D1 SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 2 3 431 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Smb 2 6 467 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Smb 2 3 467 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb 2 6 426 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb 2 3 426 311
+p nor2_0/out SUM7 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 2 6 303 213
+n SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb SUM7 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 2 3 316 213
+p SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb SUM6 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 2 6 311 242
+n nor2_0/out SUM6 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 2 3 298 242
+p SS0 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_0/D 2 6 344 269
+n SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 SubB_0/SR2B_2/dff3B_0/D 2 3 357 269
+p SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Smb SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_0/D 2 6 352 298
+n SS0 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 SubB_0/SR2B_2/dff3B_0/D 2 3 339 298
+p nor2_0/out SubB_0/abs_0/sum SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 2 6 303 269
+n SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb SubB_0/abs_0/sum SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 2 3 316 269
+p SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb D0 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 2 6 311 298
+n nor2_0/out D0 SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 2 3 298 298
+p SS0 Vdd! SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Smb 2 6 334 325
+n SS0 GND! SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Smb 2 3 334 311
+p nor2_0/out Vdd! SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb 2 6 293 325
+n nor2_0/out GND! SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb 2 3 293 311
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_7/gate_1/S 2 6 1261 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_7/gate_1/S 2 3 1247 479
+p SubB_0/SR2B_1/dff3B_7/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_7/gate_0/S 2 6 1260 531
+n SubB_0/SR2B_1/dff3B_7/gate_2/S GND! SubB_0/SR2B_1/dff3B_7/gate_0/S 2 3 1246 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_7/gate_2/S 2 6 1259 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_7/gate_2/S 2 3 1245 561
+p SubB_0/SR2B_1/Q7 Vdd! SubB_0/SR2B_1/dff3B_7/gate_3/Gout 2 6 1289 433
+n SubB_0/SR2B_1/Q7 GND! SubB_0/SR2B_1/dff3B_7/gate_3/Gout 2 3 1303 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_7/gate_3/Gin SubB_0/SR2B_1/dff3B_7/gate_3/Gout 2 6 1298 459
+n SubB_0/SR2B_1/dff3B_7/gate_1/S SubB_0/SR2B_1/dff3B_7/gate_3/Gin SubB_0/SR2B_1/dff3B_7/gate_3/Gout 2 3 1285 459
+p SubB_0/SR2B_1/dff3B_7/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_7/gate_2/Gout 2 6 1289 502
+n SubB_0/SR2B_1/dff3B_7/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_7/gate_2/Gout 2 3 1303 502
+p SubB_0/SR2B_1/dff3B_7/gate_2/S SubB_0/SR2B_1/dff3B_7/gate_2/Gin SubB_0/SR2B_1/dff3B_7/gate_2/Gout 2 6 1298 528
+n SubB_0/SR2B_1/dff3B_7/gate_0/S SubB_0/SR2B_1/dff3B_7/gate_2/Gin SubB_0/SR2B_1/dff3B_7/gate_2/Gout 2 3 1285 528
+p SubB_0/SR2B_1/Q7 Vdd! SubB_0/SR2B_1/dff3B_7/Qb 2 6 1331 415
+n SubB_0/SR2B_1/Q7 GND! SubB_0/SR2B_1/dff3B_7/Qb 2 3 1317 415
+p SubB_0/SR2B_1/dff3B_7/gate_3/Gin Vdd! SubB_0/SR2B_1/Q7 2 6 1331 450
+n SubB_0/SR2B_1/dff3B_7/gate_3/Gin GND! SubB_0/SR2B_1/Q7 2 3 1317 450
+p SubB_0/SR2B_1/dff3B_7/gate_1/S SubB_0/SR2B_1/dff3B_7/gate_1/Gin SubB_0/SR2B_1/dff3B_7/gate_3/Gin 2 6 1330 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_7/gate_1/Gin SubB_0/SR2B_1/dff3B_7/gate_3/Gin 2 3 1317 488
+p SubB_0/SR2B_1/dff3B_7/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_7/gate_1/Gin 2 6 1331 524
+n SubB_0/SR2B_1/dff3B_7/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_7/gate_1/Gin 2 3 1317 524
+p SubB_0/SR2B_1/dff3B_7/gate_0/S SubB_0/SR2B_1/dff3B_7/gate_0/Gin SubB_0/SR2B_1/dff3B_7/gate_2/Gin 2 6 1330 556
+n SubB_0/SR2B_1/dff3B_7/gate_2/S SubB_0/SR2B_1/dff3B_7/gate_0/Gin SubB_0/SR2B_1/dff3B_7/gate_2/Gin 2 3 1317 556
+p SubB_0/SR2B_1/dff3B_7/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_7/gate_0/Gin 2 6 1328 592
+n SubB_0/SR2B_1/dff3B_7/inverter_11/in GND! SubB_0/SR2B_1/dff3B_7/gate_0/Gin 2 3 1314 592
+p SubB_0/SR2B_1/dff3B_7/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_7/inverter_11/in 2 6 1333 616
+p SubB_0/SR2B_1/dff3B_7/D SubB_0/SR2B_1/dff3B_7/inverter_11/in Vdd! 2 6 1333 608
+n SubB_0/SR2B_1/dff3B_7/inverter_7/out GND! SubB_0/SR2B_1/dff3B_7/nand2_0/a_n37_n6# 2 3 1311 616
+n SubB_0/SR2B_1/dff3B_7/D SubB_0/SR2B_1/dff3B_7/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_7/inverter_11/in 2 3 1311 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_7/inverter_7/out 2 6 1328 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_7/inverter_7/out 2 3 1314 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_6/gate_1/S 2 6 1128 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_6/gate_1/S 2 3 1114 479
+p SubB_0/SR2B_1/dff3B_6/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_6/gate_0/S 2 6 1127 531
+n SubB_0/SR2B_1/dff3B_6/gate_2/S GND! SubB_0/SR2B_1/dff3B_6/gate_0/S 2 3 1113 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_6/gate_2/S 2 6 1126 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_6/gate_2/S 2 3 1112 561
+p SubB_0/SR2B_1/Q6 Vdd! SubB_0/SR2B_1/dff3B_6/gate_3/Gout 2 6 1156 433
+n SubB_0/SR2B_1/Q6 GND! SubB_0/SR2B_1/dff3B_6/gate_3/Gout 2 3 1170 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_6/gate_3/Gin SubB_0/SR2B_1/dff3B_6/gate_3/Gout 2 6 1165 459
+n SubB_0/SR2B_1/dff3B_6/gate_1/S SubB_0/SR2B_1/dff3B_6/gate_3/Gin SubB_0/SR2B_1/dff3B_6/gate_3/Gout 2 3 1152 459
+p SubB_0/SR2B_1/dff3B_6/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_6/gate_2/Gout 2 6 1156 502
+n SubB_0/SR2B_1/dff3B_6/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_6/gate_2/Gout 2 3 1170 502
+p SubB_0/SR2B_1/dff3B_6/gate_2/S SubB_0/SR2B_1/dff3B_6/gate_2/Gin SubB_0/SR2B_1/dff3B_6/gate_2/Gout 2 6 1165 528
+n SubB_0/SR2B_1/dff3B_6/gate_0/S SubB_0/SR2B_1/dff3B_6/gate_2/Gin SubB_0/SR2B_1/dff3B_6/gate_2/Gout 2 3 1152 528
+p SubB_0/SR2B_1/Q6 Vdd! SubB_0/SR2B_1/dff3B_6/Qb 2 6 1198 415
+n SubB_0/SR2B_1/Q6 GND! SubB_0/SR2B_1/dff3B_6/Qb 2 3 1184 415
+p SubB_0/SR2B_1/dff3B_6/gate_3/Gin Vdd! SubB_0/SR2B_1/Q6 2 6 1198 450
+n SubB_0/SR2B_1/dff3B_6/gate_3/Gin GND! SubB_0/SR2B_1/Q6 2 3 1184 450
+p SubB_0/SR2B_1/dff3B_6/gate_1/S SubB_0/SR2B_1/dff3B_6/gate_1/Gin SubB_0/SR2B_1/dff3B_6/gate_3/Gin 2 6 1197 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_6/gate_1/Gin SubB_0/SR2B_1/dff3B_6/gate_3/Gin 2 3 1184 488
+p SubB_0/SR2B_1/dff3B_6/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_6/gate_1/Gin 2 6 1198 524
+n SubB_0/SR2B_1/dff3B_6/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_6/gate_1/Gin 2 3 1184 524
+p SubB_0/SR2B_1/dff3B_6/gate_0/S SubB_0/SR2B_1/dff3B_6/gate_0/Gin SubB_0/SR2B_1/dff3B_6/gate_2/Gin 2 6 1197 556
+n SubB_0/SR2B_1/dff3B_6/gate_2/S SubB_0/SR2B_1/dff3B_6/gate_0/Gin SubB_0/SR2B_1/dff3B_6/gate_2/Gin 2 3 1184 556
+p SubB_0/SR2B_1/dff3B_6/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_6/gate_0/Gin 2 6 1195 592
+n SubB_0/SR2B_1/dff3B_6/inverter_11/in GND! SubB_0/SR2B_1/dff3B_6/gate_0/Gin 2 3 1181 592
+p SubB_0/SR2B_1/dff3B_6/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_6/inverter_11/in 2 6 1200 616
+p SubB_0/SR2B_1/dff3B_6/D SubB_0/SR2B_1/dff3B_6/inverter_11/in Vdd! 2 6 1200 608
+n SubB_0/SR2B_1/dff3B_6/inverter_7/out GND! SubB_0/SR2B_1/dff3B_6/nand2_0/a_n37_n6# 2 3 1178 616
+n SubB_0/SR2B_1/dff3B_6/D SubB_0/SR2B_1/dff3B_6/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_6/inverter_11/in 2 3 1178 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_6/inverter_7/out 2 6 1195 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_6/inverter_7/out 2 3 1181 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_5/gate_1/S 2 6 995 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_5/gate_1/S 2 3 981 479
+p SubB_0/SR2B_1/dff3B_5/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_5/gate_0/S 2 6 994 531
+n SubB_0/SR2B_1/dff3B_5/gate_2/S GND! SubB_0/SR2B_1/dff3B_5/gate_0/S 2 3 980 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_5/gate_2/S 2 6 993 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_5/gate_2/S 2 3 979 561
+p SubB_0/SR2B_1/Q5 Vdd! SubB_0/SR2B_1/dff3B_5/gate_3/Gout 2 6 1023 433
+n SubB_0/SR2B_1/Q5 GND! SubB_0/SR2B_1/dff3B_5/gate_3/Gout 2 3 1037 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_5/gate_3/Gin SubB_0/SR2B_1/dff3B_5/gate_3/Gout 2 6 1032 459
+n SubB_0/SR2B_1/dff3B_5/gate_1/S SubB_0/SR2B_1/dff3B_5/gate_3/Gin SubB_0/SR2B_1/dff3B_5/gate_3/Gout 2 3 1019 459
+p SubB_0/SR2B_1/dff3B_5/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_5/gate_2/Gout 2 6 1023 502
+n SubB_0/SR2B_1/dff3B_5/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_5/gate_2/Gout 2 3 1037 502
+p SubB_0/SR2B_1/dff3B_5/gate_2/S SubB_0/SR2B_1/dff3B_5/gate_2/Gin SubB_0/SR2B_1/dff3B_5/gate_2/Gout 2 6 1032 528
+n SubB_0/SR2B_1/dff3B_5/gate_0/S SubB_0/SR2B_1/dff3B_5/gate_2/Gin SubB_0/SR2B_1/dff3B_5/gate_2/Gout 2 3 1019 528
+p SubB_0/SR2B_1/Q5 Vdd! SubB_0/SR2B_1/dff3B_5/Qb 2 6 1065 415
+n SubB_0/SR2B_1/Q5 GND! SubB_0/SR2B_1/dff3B_5/Qb 2 3 1051 415
+p SubB_0/SR2B_1/dff3B_5/gate_3/Gin Vdd! SubB_0/SR2B_1/Q5 2 6 1065 450
+n SubB_0/SR2B_1/dff3B_5/gate_3/Gin GND! SubB_0/SR2B_1/Q5 2 3 1051 450
+p SubB_0/SR2B_1/dff3B_5/gate_1/S SubB_0/SR2B_1/dff3B_5/gate_1/Gin SubB_0/SR2B_1/dff3B_5/gate_3/Gin 2 6 1064 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_5/gate_1/Gin SubB_0/SR2B_1/dff3B_5/gate_3/Gin 2 3 1051 488
+p SubB_0/SR2B_1/dff3B_5/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_5/gate_1/Gin 2 6 1065 524
+n SubB_0/SR2B_1/dff3B_5/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_5/gate_1/Gin 2 3 1051 524
+p SubB_0/SR2B_1/dff3B_5/gate_0/S SubB_0/SR2B_1/dff3B_5/gate_0/Gin SubB_0/SR2B_1/dff3B_5/gate_2/Gin 2 6 1064 556
+n SubB_0/SR2B_1/dff3B_5/gate_2/S SubB_0/SR2B_1/dff3B_5/gate_0/Gin SubB_0/SR2B_1/dff3B_5/gate_2/Gin 2 3 1051 556
+p SubB_0/SR2B_1/dff3B_5/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_5/gate_0/Gin 2 6 1062 592
+n SubB_0/SR2B_1/dff3B_5/inverter_11/in GND! SubB_0/SR2B_1/dff3B_5/gate_0/Gin 2 3 1048 592
+p SubB_0/SR2B_1/dff3B_5/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_5/inverter_11/in 2 6 1067 616
+p SubB_0/SR2B_1/dff3B_5/D SubB_0/SR2B_1/dff3B_5/inverter_11/in Vdd! 2 6 1067 608
+n SubB_0/SR2B_1/dff3B_5/inverter_7/out GND! SubB_0/SR2B_1/dff3B_5/nand2_0/a_n37_n6# 2 3 1045 616
+n SubB_0/SR2B_1/dff3B_5/D SubB_0/SR2B_1/dff3B_5/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_5/inverter_11/in 2 3 1045 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_5/inverter_7/out 2 6 1062 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_5/inverter_7/out 2 3 1048 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_4/gate_1/S 2 6 862 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_4/gate_1/S 2 3 848 479
+p SubB_0/SR2B_1/dff3B_4/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_4/gate_0/S 2 6 861 531
+n SubB_0/SR2B_1/dff3B_4/gate_2/S GND! SubB_0/SR2B_1/dff3B_4/gate_0/S 2 3 847 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_4/gate_2/S 2 6 860 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_4/gate_2/S 2 3 846 561
+p SubB_0/SR2B_1/Q4 Vdd! SubB_0/SR2B_1/dff3B_4/gate_3/Gout 2 6 890 433
+n SubB_0/SR2B_1/Q4 GND! SubB_0/SR2B_1/dff3B_4/gate_3/Gout 2 3 904 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_4/gate_3/Gin SubB_0/SR2B_1/dff3B_4/gate_3/Gout 2 6 899 459
+n SubB_0/SR2B_1/dff3B_4/gate_1/S SubB_0/SR2B_1/dff3B_4/gate_3/Gin SubB_0/SR2B_1/dff3B_4/gate_3/Gout 2 3 886 459
+p SubB_0/SR2B_1/dff3B_4/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_4/gate_2/Gout 2 6 890 502
+n SubB_0/SR2B_1/dff3B_4/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_4/gate_2/Gout 2 3 904 502
+p SubB_0/SR2B_1/dff3B_4/gate_2/S SubB_0/SR2B_1/dff3B_4/gate_2/Gin SubB_0/SR2B_1/dff3B_4/gate_2/Gout 2 6 899 528
+n SubB_0/SR2B_1/dff3B_4/gate_0/S SubB_0/SR2B_1/dff3B_4/gate_2/Gin SubB_0/SR2B_1/dff3B_4/gate_2/Gout 2 3 886 528
+p SubB_0/SR2B_1/Q4 Vdd! SubB_0/SR2B_1/dff3B_4/Qb 2 6 932 415
+n SubB_0/SR2B_1/Q4 GND! SubB_0/SR2B_1/dff3B_4/Qb 2 3 918 415
+p SubB_0/SR2B_1/dff3B_4/gate_3/Gin Vdd! SubB_0/SR2B_1/Q4 2 6 932 450
+n SubB_0/SR2B_1/dff3B_4/gate_3/Gin GND! SubB_0/SR2B_1/Q4 2 3 918 450
+p SubB_0/SR2B_1/dff3B_4/gate_1/S SubB_0/SR2B_1/dff3B_4/gate_1/Gin SubB_0/SR2B_1/dff3B_4/gate_3/Gin 2 6 931 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_4/gate_1/Gin SubB_0/SR2B_1/dff3B_4/gate_3/Gin 2 3 918 488
+p SubB_0/SR2B_1/dff3B_4/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_4/gate_1/Gin 2 6 932 524
+n SubB_0/SR2B_1/dff3B_4/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_4/gate_1/Gin 2 3 918 524
+p SubB_0/SR2B_1/dff3B_4/gate_0/S SubB_0/SR2B_1/dff3B_4/gate_0/Gin SubB_0/SR2B_1/dff3B_4/gate_2/Gin 2 6 931 556
+n SubB_0/SR2B_1/dff3B_4/gate_2/S SubB_0/SR2B_1/dff3B_4/gate_0/Gin SubB_0/SR2B_1/dff3B_4/gate_2/Gin 2 3 918 556
+p SubB_0/SR2B_1/dff3B_4/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_4/gate_0/Gin 2 6 929 592
+n SubB_0/SR2B_1/dff3B_4/inverter_11/in GND! SubB_0/SR2B_1/dff3B_4/gate_0/Gin 2 3 915 592
+p SubB_0/SR2B_1/dff3B_4/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_4/inverter_11/in 2 6 934 616
+p SubB_0/SR2B_1/dff3B_4/D SubB_0/SR2B_1/dff3B_4/inverter_11/in Vdd! 2 6 934 608
+n SubB_0/SR2B_1/dff3B_4/inverter_7/out GND! SubB_0/SR2B_1/dff3B_4/nand2_0/a_n37_n6# 2 3 912 616
+n SubB_0/SR2B_1/dff3B_4/D SubB_0/SR2B_1/dff3B_4/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_4/inverter_11/in 2 3 912 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_4/inverter_7/out 2 6 929 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_4/inverter_7/out 2 3 915 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_3/gate_1/S 2 6 729 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_3/gate_1/S 2 3 715 479
+p SubB_0/SR2B_1/dff3B_3/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_3/gate_0/S 2 6 728 531
+n SubB_0/SR2B_1/dff3B_3/gate_2/S GND! SubB_0/SR2B_1/dff3B_3/gate_0/S 2 3 714 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_3/gate_2/S 2 6 727 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_3/gate_2/S 2 3 713 561
+p SubB_0/SR2B_1/Q3 Vdd! SubB_0/SR2B_1/dff3B_3/gate_3/Gout 2 6 757 433
+n SubB_0/SR2B_1/Q3 GND! SubB_0/SR2B_1/dff3B_3/gate_3/Gout 2 3 771 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_3/gate_3/Gin SubB_0/SR2B_1/dff3B_3/gate_3/Gout 2 6 766 459
+n SubB_0/SR2B_1/dff3B_3/gate_1/S SubB_0/SR2B_1/dff3B_3/gate_3/Gin SubB_0/SR2B_1/dff3B_3/gate_3/Gout 2 3 753 459
+p SubB_0/SR2B_1/dff3B_3/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_3/gate_2/Gout 2 6 757 502
+n SubB_0/SR2B_1/dff3B_3/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_3/gate_2/Gout 2 3 771 502
+p SubB_0/SR2B_1/dff3B_3/gate_2/S SubB_0/SR2B_1/dff3B_3/gate_2/Gin SubB_0/SR2B_1/dff3B_3/gate_2/Gout 2 6 766 528
+n SubB_0/SR2B_1/dff3B_3/gate_0/S SubB_0/SR2B_1/dff3B_3/gate_2/Gin SubB_0/SR2B_1/dff3B_3/gate_2/Gout 2 3 753 528
+p SubB_0/SR2B_1/Q3 Vdd! SubB_0/SR2B_1/dff3B_3/Qb 2 6 799 415
+n SubB_0/SR2B_1/Q3 GND! SubB_0/SR2B_1/dff3B_3/Qb 2 3 785 415
+p SubB_0/SR2B_1/dff3B_3/gate_3/Gin Vdd! SubB_0/SR2B_1/Q3 2 6 799 450
+n SubB_0/SR2B_1/dff3B_3/gate_3/Gin GND! SubB_0/SR2B_1/Q3 2 3 785 450
+p SubB_0/SR2B_1/dff3B_3/gate_1/S SubB_0/SR2B_1/dff3B_3/gate_1/Gin SubB_0/SR2B_1/dff3B_3/gate_3/Gin 2 6 798 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_3/gate_1/Gin SubB_0/SR2B_1/dff3B_3/gate_3/Gin 2 3 785 488
+p SubB_0/SR2B_1/dff3B_3/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_3/gate_1/Gin 2 6 799 524
+n SubB_0/SR2B_1/dff3B_3/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_3/gate_1/Gin 2 3 785 524
+p SubB_0/SR2B_1/dff3B_3/gate_0/S SubB_0/SR2B_1/dff3B_3/gate_0/Gin SubB_0/SR2B_1/dff3B_3/gate_2/Gin 2 6 798 556
+n SubB_0/SR2B_1/dff3B_3/gate_2/S SubB_0/SR2B_1/dff3B_3/gate_0/Gin SubB_0/SR2B_1/dff3B_3/gate_2/Gin 2 3 785 556
+p SubB_0/SR2B_1/dff3B_3/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_3/gate_0/Gin 2 6 796 592
+n SubB_0/SR2B_1/dff3B_3/inverter_11/in GND! SubB_0/SR2B_1/dff3B_3/gate_0/Gin 2 3 782 592
+p SubB_0/SR2B_1/dff3B_3/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_3/inverter_11/in 2 6 801 616
+p SubB_0/SR2B_1/dff3B_3/D SubB_0/SR2B_1/dff3B_3/inverter_11/in Vdd! 2 6 801 608
+n SubB_0/SR2B_1/dff3B_3/inverter_7/out GND! SubB_0/SR2B_1/dff3B_3/nand2_0/a_n37_n6# 2 3 779 616
+n SubB_0/SR2B_1/dff3B_3/D SubB_0/SR2B_1/dff3B_3/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_3/inverter_11/in 2 3 779 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_3/inverter_7/out 2 6 796 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_3/inverter_7/out 2 3 782 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_2/gate_1/S 2 6 596 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_2/gate_1/S 2 3 582 479
+p SubB_0/SR2B_1/dff3B_2/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_2/gate_0/S 2 6 595 531
+n SubB_0/SR2B_1/dff3B_2/gate_2/S GND! SubB_0/SR2B_1/dff3B_2/gate_0/S 2 3 581 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_2/gate_2/S 2 6 594 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_2/gate_2/S 2 3 580 561
+p SubB_0/SR2B_1/Q2 Vdd! SubB_0/SR2B_1/dff3B_2/gate_3/Gout 2 6 624 433
+n SubB_0/SR2B_1/Q2 GND! SubB_0/SR2B_1/dff3B_2/gate_3/Gout 2 3 638 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_2/gate_3/Gin SubB_0/SR2B_1/dff3B_2/gate_3/Gout 2 6 633 459
+n SubB_0/SR2B_1/dff3B_2/gate_1/S SubB_0/SR2B_1/dff3B_2/gate_3/Gin SubB_0/SR2B_1/dff3B_2/gate_3/Gout 2 3 620 459
+p SubB_0/SR2B_1/dff3B_2/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_2/gate_2/Gout 2 6 624 502
+n SubB_0/SR2B_1/dff3B_2/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_2/gate_2/Gout 2 3 638 502
+p SubB_0/SR2B_1/dff3B_2/gate_2/S SubB_0/SR2B_1/dff3B_2/gate_2/Gin SubB_0/SR2B_1/dff3B_2/gate_2/Gout 2 6 633 528
+n SubB_0/SR2B_1/dff3B_2/gate_0/S SubB_0/SR2B_1/dff3B_2/gate_2/Gin SubB_0/SR2B_1/dff3B_2/gate_2/Gout 2 3 620 528
+p SubB_0/SR2B_1/Q2 Vdd! SubB_0/SR2B_1/dff3B_2/Qb 2 6 666 415
+n SubB_0/SR2B_1/Q2 GND! SubB_0/SR2B_1/dff3B_2/Qb 2 3 652 415
+p SubB_0/SR2B_1/dff3B_2/gate_3/Gin Vdd! SubB_0/SR2B_1/Q2 2 6 666 450
+n SubB_0/SR2B_1/dff3B_2/gate_3/Gin GND! SubB_0/SR2B_1/Q2 2 3 652 450
+p SubB_0/SR2B_1/dff3B_2/gate_1/S SubB_0/SR2B_1/dff3B_2/gate_1/Gin SubB_0/SR2B_1/dff3B_2/gate_3/Gin 2 6 665 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_2/gate_1/Gin SubB_0/SR2B_1/dff3B_2/gate_3/Gin 2 3 652 488
+p SubB_0/SR2B_1/dff3B_2/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_2/gate_1/Gin 2 6 666 524
+n SubB_0/SR2B_1/dff3B_2/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_2/gate_1/Gin 2 3 652 524
+p SubB_0/SR2B_1/dff3B_2/gate_0/S SubB_0/SR2B_1/dff3B_2/gate_0/Gin SubB_0/SR2B_1/dff3B_2/gate_2/Gin 2 6 665 556
+n SubB_0/SR2B_1/dff3B_2/gate_2/S SubB_0/SR2B_1/dff3B_2/gate_0/Gin SubB_0/SR2B_1/dff3B_2/gate_2/Gin 2 3 652 556
+p SubB_0/SR2B_1/dff3B_2/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_2/gate_0/Gin 2 6 663 592
+n SubB_0/SR2B_1/dff3B_2/inverter_11/in GND! SubB_0/SR2B_1/dff3B_2/gate_0/Gin 2 3 649 592
+p SubB_0/SR2B_1/dff3B_2/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_2/inverter_11/in 2 6 668 616
+p SubB_0/SR2B_1/dff3B_2/D SubB_0/SR2B_1/dff3B_2/inverter_11/in Vdd! 2 6 668 608
+n SubB_0/SR2B_1/dff3B_2/inverter_7/out GND! SubB_0/SR2B_1/dff3B_2/nand2_0/a_n37_n6# 2 3 646 616
+n SubB_0/SR2B_1/dff3B_2/D SubB_0/SR2B_1/dff3B_2/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_2/inverter_11/in 2 3 646 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_2/inverter_7/out 2 6 663 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_2/inverter_7/out 2 3 649 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_1/gate_1/S 2 6 463 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_1/gate_1/S 2 3 449 479
+p SubB_0/SR2B_1/dff3B_1/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_1/gate_0/S 2 6 462 531
+n SubB_0/SR2B_1/dff3B_1/gate_2/S GND! SubB_0/SR2B_1/dff3B_1/gate_0/S 2 3 448 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_1/gate_2/S 2 6 461 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_1/gate_2/S 2 3 447 561
+p SubB_0/SR2B_1/Q1 Vdd! SubB_0/SR2B_1/dff3B_1/gate_3/Gout 2 6 491 433
+n SubB_0/SR2B_1/Q1 GND! SubB_0/SR2B_1/dff3B_1/gate_3/Gout 2 3 505 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_1/gate_3/Gin SubB_0/SR2B_1/dff3B_1/gate_3/Gout 2 6 500 459
+n SubB_0/SR2B_1/dff3B_1/gate_1/S SubB_0/SR2B_1/dff3B_1/gate_3/Gin SubB_0/SR2B_1/dff3B_1/gate_3/Gout 2 3 487 459
+p SubB_0/SR2B_1/dff3B_1/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_1/gate_2/Gout 2 6 491 502
+n SubB_0/SR2B_1/dff3B_1/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_1/gate_2/Gout 2 3 505 502
+p SubB_0/SR2B_1/dff3B_1/gate_2/S SubB_0/SR2B_1/dff3B_1/gate_2/Gin SubB_0/SR2B_1/dff3B_1/gate_2/Gout 2 6 500 528
+n SubB_0/SR2B_1/dff3B_1/gate_0/S SubB_0/SR2B_1/dff3B_1/gate_2/Gin SubB_0/SR2B_1/dff3B_1/gate_2/Gout 2 3 487 528
+p SubB_0/SR2B_1/Q1 Vdd! SubB_0/SR2B_1/dff3B_1/Qb 2 6 533 415
+n SubB_0/SR2B_1/Q1 GND! SubB_0/SR2B_1/dff3B_1/Qb 2 3 519 415
+p SubB_0/SR2B_1/dff3B_1/gate_3/Gin Vdd! SubB_0/SR2B_1/Q1 2 6 533 450
+n SubB_0/SR2B_1/dff3B_1/gate_3/Gin GND! SubB_0/SR2B_1/Q1 2 3 519 450
+p SubB_0/SR2B_1/dff3B_1/gate_1/S SubB_0/SR2B_1/dff3B_1/gate_1/Gin SubB_0/SR2B_1/dff3B_1/gate_3/Gin 2 6 532 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_1/gate_1/Gin SubB_0/SR2B_1/dff3B_1/gate_3/Gin 2 3 519 488
+p SubB_0/SR2B_1/dff3B_1/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_1/gate_1/Gin 2 6 533 524
+n SubB_0/SR2B_1/dff3B_1/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_1/gate_1/Gin 2 3 519 524
+p SubB_0/SR2B_1/dff3B_1/gate_0/S SubB_0/SR2B_1/dff3B_1/gate_0/Gin SubB_0/SR2B_1/dff3B_1/gate_2/Gin 2 6 532 556
+n SubB_0/SR2B_1/dff3B_1/gate_2/S SubB_0/SR2B_1/dff3B_1/gate_0/Gin SubB_0/SR2B_1/dff3B_1/gate_2/Gin 2 3 519 556
+p SubB_0/SR2B_1/dff3B_1/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_1/gate_0/Gin 2 6 530 592
+n SubB_0/SR2B_1/dff3B_1/inverter_11/in GND! SubB_0/SR2B_1/dff3B_1/gate_0/Gin 2 3 516 592
+p SubB_0/SR2B_1/dff3B_1/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_1/inverter_11/in 2 6 535 616
+p SubB_0/SR2B_1/dff3B_1/D SubB_0/SR2B_1/dff3B_1/inverter_11/in Vdd! 2 6 535 608
+n SubB_0/SR2B_1/dff3B_1/inverter_7/out GND! SubB_0/SR2B_1/dff3B_1/nand2_0/a_n37_n6# 2 3 513 616
+n SubB_0/SR2B_1/dff3B_1/D SubB_0/SR2B_1/dff3B_1/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_1/inverter_11/in 2 3 513 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_1/inverter_7/out 2 6 530 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_1/inverter_7/out 2 3 516 632
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_0/gate_1/S 2 6 330 479
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_0/gate_1/S 2 3 316 479
+p SubB_0/SR2B_1/dff3B_0/gate_2/S Vdd! SubB_0/SR2B_1/dff3B_0/gate_0/S 2 6 329 531
+n SubB_0/SR2B_1/dff3B_0/gate_2/S GND! SubB_0/SR2B_1/dff3B_0/gate_0/S 2 3 315 531
+p fsm_0/CLK Vdd! SubB_0/SR2B_1/dff3B_0/gate_2/S 2 6 328 561
+n fsm_0/CLK GND! SubB_0/SR2B_1/dff3B_0/gate_2/S 2 3 314 561
+p SubB_0/QB0 Vdd! SubB_0/SR2B_1/dff3B_0/gate_3/Gout 2 6 358 433
+n SubB_0/QB0 GND! SubB_0/SR2B_1/dff3B_0/gate_3/Gout 2 3 372 433
+p fsm_0/CLK SubB_0/SR2B_1/dff3B_0/gate_3/Gin SubB_0/SR2B_1/dff3B_0/gate_3/Gout 2 6 367 459
+n SubB_0/SR2B_1/dff3B_0/gate_1/S SubB_0/SR2B_1/dff3B_0/gate_3/Gin SubB_0/SR2B_1/dff3B_0/gate_3/Gout 2 3 354 459
+p SubB_0/SR2B_1/dff3B_0/gate_1/Gin Vdd! SubB_0/SR2B_1/dff3B_0/gate_2/Gout 2 6 358 502
+n SubB_0/SR2B_1/dff3B_0/gate_1/Gin GND! SubB_0/SR2B_1/dff3B_0/gate_2/Gout 2 3 372 502
+p SubB_0/SR2B_1/dff3B_0/gate_2/S SubB_0/SR2B_1/dff3B_0/gate_2/Gin SubB_0/SR2B_1/dff3B_0/gate_2/Gout 2 6 367 528
+n SubB_0/SR2B_1/dff3B_0/gate_0/S SubB_0/SR2B_1/dff3B_0/gate_2/Gin SubB_0/SR2B_1/dff3B_0/gate_2/Gout 2 3 354 528
+p SubB_0/QB0 Vdd! SubB_0/SR2B_1/dff3B_0/Qb 2 6 400 415
+n SubB_0/QB0 GND! SubB_0/SR2B_1/dff3B_0/Qb 2 3 386 415
+p SubB_0/SR2B_1/dff3B_0/gate_3/Gin Vdd! SubB_0/QB0 2 6 400 450
+n SubB_0/SR2B_1/dff3B_0/gate_3/Gin GND! SubB_0/QB0 2 3 386 450
+p SubB_0/SR2B_1/dff3B_0/gate_1/S SubB_0/SR2B_1/dff3B_0/gate_1/Gin SubB_0/SR2B_1/dff3B_0/gate_3/Gin 2 6 399 488
+n fsm_0/CLK SubB_0/SR2B_1/dff3B_0/gate_1/Gin SubB_0/SR2B_1/dff3B_0/gate_3/Gin 2 3 386 488
+p SubB_0/SR2B_1/dff3B_0/gate_2/Gin Vdd! SubB_0/SR2B_1/dff3B_0/gate_1/Gin 2 6 400 524
+n SubB_0/SR2B_1/dff3B_0/gate_2/Gin GND! SubB_0/SR2B_1/dff3B_0/gate_1/Gin 2 3 386 524
+p SubB_0/SR2B_1/dff3B_0/gate_0/S SubB_0/SR2B_1/dff3B_0/gate_0/Gin SubB_0/SR2B_1/dff3B_0/gate_2/Gin 2 6 399 556
+n SubB_0/SR2B_1/dff3B_0/gate_2/S SubB_0/SR2B_1/dff3B_0/gate_0/Gin SubB_0/SR2B_1/dff3B_0/gate_2/Gin 2 3 386 556
+p SubB_0/SR2B_1/dff3B_0/inverter_11/in Vdd! SubB_0/SR2B_1/dff3B_0/gate_0/Gin 2 6 397 592
+n SubB_0/SR2B_1/dff3B_0/inverter_11/in GND! SubB_0/SR2B_1/dff3B_0/gate_0/Gin 2 3 383 592
+p SubB_0/SR2B_1/dff3B_0/inverter_7/out Vdd! SubB_0/SR2B_1/dff3B_0/inverter_11/in 2 6 402 616
+p SubB_0/SR2B_1/dff3B_0/D SubB_0/SR2B_1/dff3B_0/inverter_11/in Vdd! 2 6 402 608
+n SubB_0/SR2B_1/dff3B_0/inverter_7/out GND! SubB_0/SR2B_1/dff3B_0/nand2_0/a_n37_n6# 2 3 380 616
+n SubB_0/SR2B_1/dff3B_0/D SubB_0/SR2B_1/dff3B_0/nand2_0/a_n37_n6# SubB_0/SR2B_1/dff3B_0/inverter_11/in 2 3 380 612
+p fsm_0/CLR Vdd! SubB_0/SR2B_1/dff3B_0/inverter_7/out 2 6 397 632
+n fsm_0/CLR GND! SubB_0/SR2B_1/dff3B_0/inverter_7/out 2 3 383 632
+p SB1 SubB_0/SR2B_1/Q7 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 2 6 1234 579
+n SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb SubB_0/SR2B_1/Q7 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 2 3 1247 579
+p SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb SubB_0/QB0 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 2 6 1242 608
+n SB1 SubB_0/QB0 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 2 3 1229 608
+p SB0 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_7/D 2 6 1275 635
+n SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_7/D 2 3 1288 635
+p SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_7/D 2 6 1283 664
+n SB0 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_7/D 2 3 1270 664
+p SB1 SubB_0/SR2B_1/Q6 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 2 6 1234 635
+n SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb SubB_0/SR2B_1/Q6 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 2 3 1247 635
+p SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb B7 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 2 6 1242 664
+n SB1 B7 SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 2 3 1229 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Smb 2 6 1265 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Smb 2 3 1265 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb 2 6 1224 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb 2 3 1224 677
+p SB1 SubB_0/SR2B_1/Q6 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 2 6 1101 579
+n SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb SubB_0/SR2B_1/Q6 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 2 3 1114 579
+p SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb SubB_0/SR2B_1/Q7 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 2 6 1109 608
+n SB1 SubB_0/SR2B_1/Q7 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 2 3 1096 608
+p SB0 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_6/D 2 6 1142 635
+n SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_6/D 2 3 1155 635
+p SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_6/D 2 6 1150 664
+n SB0 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_6/D 2 3 1137 664
+p SB1 SubB_0/SR2B_1/Q5 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 2 6 1101 635
+n SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb SubB_0/SR2B_1/Q5 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 2 3 1114 635
+p SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb B6 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 2 6 1109 664
+n SB1 B6 SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 2 3 1096 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Smb 2 6 1132 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Smb 2 3 1132 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb 2 6 1091 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb 2 3 1091 677
+p SB1 SubB_0/SR2B_1/Q5 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 2 6 968 579
+n SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb SubB_0/SR2B_1/Q5 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 2 3 981 579
+p SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb SubB_0/SR2B_1/Q6 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 2 6 976 608
+n SB1 SubB_0/SR2B_1/Q6 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 2 3 963 608
+p SB0 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_5/D 2 6 1009 635
+n SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_5/D 2 3 1022 635
+p SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_5/D 2 6 1017 664
+n SB0 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_5/D 2 3 1004 664
+p SB1 SubB_0/SR2B_1/Q4 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 2 6 968 635
+n SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb SubB_0/SR2B_1/Q4 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 2 3 981 635
+p SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb B5 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 2 6 976 664
+n SB1 B5 SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 2 3 963 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Smb 2 6 999 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Smb 2 3 999 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb 2 6 958 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb 2 3 958 677
+p SB1 SubB_0/SR2B_1/Q4 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 2 6 835 579
+n SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb SubB_0/SR2B_1/Q4 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 2 3 848 579
+p SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb SubB_0/SR2B_1/Q5 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 2 6 843 608
+n SB1 SubB_0/SR2B_1/Q5 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 2 3 830 608
+p SB0 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_4/D 2 6 876 635
+n SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_4/D 2 3 889 635
+p SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_4/D 2 6 884 664
+n SB0 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_4/D 2 3 871 664
+p SB1 SubB_0/SR2B_1/Q3 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 2 6 835 635
+n SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb SubB_0/SR2B_1/Q3 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 2 3 848 635
+p SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb B4 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 2 6 843 664
+n SB1 B4 SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 2 3 830 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Smb 2 6 866 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Smb 2 3 866 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb 2 6 825 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb 2 3 825 677
+p SB1 SubB_0/SR2B_1/Q3 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 2 6 702 579
+n SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb SubB_0/SR2B_1/Q3 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 2 3 715 579
+p SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb SubB_0/SR2B_1/Q4 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 2 6 710 608
+n SB1 SubB_0/SR2B_1/Q4 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 2 3 697 608
+p SB0 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_3/D 2 6 743 635
+n SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_3/D 2 3 756 635
+p SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_3/D 2 6 751 664
+n SB0 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_3/D 2 3 738 664
+p SB1 SubB_0/SR2B_1/Q2 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 2 6 702 635
+n SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb SubB_0/SR2B_1/Q2 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 2 3 715 635
+p SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb B3 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 2 6 710 664
+n SB1 B3 SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 2 3 697 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Smb 2 6 733 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Smb 2 3 733 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb 2 6 692 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb 2 3 692 677
+p SB1 SubB_0/SR2B_1/Q2 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 2 6 569 579
+n SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb SubB_0/SR2B_1/Q2 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 2 3 582 579
+p SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb SubB_0/SR2B_1/Q3 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 2 6 577 608
+n SB1 SubB_0/SR2B_1/Q3 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 2 3 564 608
+p SB0 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_2/D 2 6 610 635
+n SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_2/D 2 3 623 635
+p SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_2/D 2 6 618 664
+n SB0 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_2/D 2 3 605 664
+p SB1 SubB_0/SR2B_1/Q1 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 2 6 569 635
+n SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb SubB_0/SR2B_1/Q1 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 2 3 582 635
+p SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb B2 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 2 6 577 664
+n SB1 B2 SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 2 3 564 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Smb 2 6 600 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Smb 2 3 600 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb 2 6 559 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb 2 3 559 677
+p SB1 SubB_0/SR2B_1/Q1 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 2 6 436 579
+n SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb SubB_0/SR2B_1/Q1 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 2 3 449 579
+p SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb SubB_0/SR2B_1/Q2 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 2 6 444 608
+n SB1 SubB_0/SR2B_1/Q2 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 2 3 431 608
+p SB0 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_1/D 2 6 477 635
+n SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_1/D 2 3 490 635
+p SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_1/D 2 6 485 664
+n SB0 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_1/D 2 3 472 664
+p SB1 SubB_0/QB0 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 2 6 436 635
+n SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb SubB_0/QB0 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 2 3 449 635
+p SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb B1 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 2 6 444 664
+n SB1 B1 SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 2 3 431 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Smb 2 6 467 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Smb 2 3 467 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb 2 6 426 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb 2 3 426 677
+p SB1 SubB_0/QB0 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 2 6 303 579
+n SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb SubB_0/QB0 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 2 3 316 579
+p SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb SubB_0/SR2B_1/Q1 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 2 6 311 608
+n SB1 SubB_0/SR2B_1/Q1 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 2 3 298 608
+p SB0 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_0/D 2 6 344 635
+n SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 SubB_0/SR2B_1/dff3B_0/D 2 3 357 635
+p SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Smb SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_0/D 2 6 352 664
+n SB0 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 SubB_0/SR2B_1/dff3B_0/D 2 3 339 664
+p SB1 SR2 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 2 6 303 635
+n SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb SR2 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 2 3 316 635
+p SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb B0 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 2 6 311 664
+n SB1 B0 SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 2 3 298 664
+p SB0 Vdd! SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Smb 2 6 334 691
+n SB0 GND! SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Smb 2 3 334 677
+p SB1 Vdd! SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb 2 6 293 691
+n SB1 GND! SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb 2 3 293 677
+p fsm_0/CLK Vdd! SubB_0/dff3B_0/gate_1/S 2 6 218 591
+n fsm_0/CLK GND! SubB_0/dff3B_0/gate_1/S 2 3 232 591
+p SubB_0/dff3B_0/gate_2/S Vdd! SubB_0/dff3B_0/gate_0/S 2 6 219 539
+n SubB_0/dff3B_0/gate_2/S GND! SubB_0/dff3B_0/gate_0/S 2 3 233 539
+p fsm_0/CLK Vdd! SubB_0/dff3B_0/gate_2/S 2 6 220 509
+n fsm_0/CLK GND! SubB_0/dff3B_0/gate_2/S 2 3 234 509
+p SubB_0/dff3B_0/Q Vdd! nor2_0/in2 2 6 190 637
+n SubB_0/dff3B_0/Q GND! nor2_0/in2 2 3 176 637
+p fsm_0/CLK SubB_0/dff3B_0/gate_3/Gin nor2_0/in2 2 6 181 611
+n SubB_0/dff3B_0/gate_1/S SubB_0/dff3B_0/gate_3/Gin nor2_0/in2 2 3 194 611
+p SubB_0/dff3B_0/gate_1/Gin Vdd! SubB_0/dff3B_0/gate_2/Gout 2 6 190 568
+n SubB_0/dff3B_0/gate_1/Gin GND! SubB_0/dff3B_0/gate_2/Gout 2 3 176 568
+p SubB_0/dff3B_0/gate_2/S SubB_0/dff3B_0/gate_2/Gin SubB_0/dff3B_0/gate_2/Gout 2 6 181 542
+n SubB_0/dff3B_0/gate_0/S SubB_0/dff3B_0/gate_2/Gin SubB_0/dff3B_0/gate_2/Gout 2 3 194 542
+p SubB_0/dff3B_0/Q Vdd! SubB_0/dff3B_0/Qb 2 6 148 655
+n SubB_0/dff3B_0/Q GND! SubB_0/dff3B_0/Qb 2 3 162 655
+p SubB_0/dff3B_0/gate_3/Gin Vdd! SubB_0/dff3B_0/Q 2 6 148 620
+n SubB_0/dff3B_0/gate_3/Gin GND! SubB_0/dff3B_0/Q 2 3 162 620
+p SubB_0/dff3B_0/gate_1/S SubB_0/dff3B_0/gate_1/Gin SubB_0/dff3B_0/gate_3/Gin 2 6 149 582
+n fsm_0/CLK SubB_0/dff3B_0/gate_1/Gin SubB_0/dff3B_0/gate_3/Gin 2 3 162 582
+p SubB_0/dff3B_0/gate_2/Gin Vdd! SubB_0/dff3B_0/gate_1/Gin 2 6 148 546
+n SubB_0/dff3B_0/gate_2/Gin GND! SubB_0/dff3B_0/gate_1/Gin 2 3 162 546
+p SubB_0/dff3B_0/gate_0/S SubB_0/dff3B_0/gate_0/Gin SubB_0/dff3B_0/gate_2/Gin 2 6 149 514
+n SubB_0/dff3B_0/gate_2/S SubB_0/dff3B_0/gate_0/Gin SubB_0/dff3B_0/gate_2/Gin 2 3 162 514
+p SubB_0/dff3B_0/inverter_11/in Vdd! SubB_0/dff3B_0/gate_0/Gin 2 6 151 478
+n SubB_0/dff3B_0/inverter_11/in GND! SubB_0/dff3B_0/gate_0/Gin 2 3 165 478
+p SubB_0/dff3B_0/inverter_7/out Vdd! SubB_0/dff3B_0/inverter_11/in 2 6 146 454
+p SubB_0/dff3B_0/D SubB_0/dff3B_0/inverter_11/in Vdd! 2 6 146 462
+n SubB_0/dff3B_0/inverter_7/out GND! SubB_0/dff3B_0/nand2_0/a_n37_n6# 2 3 168 454
+n SubB_0/dff3B_0/D SubB_0/dff3B_0/nand2_0/a_n37_n6# SubB_0/dff3B_0/inverter_11/in 2 3 168 458
+p fsm_0/CLR Vdd! SubB_0/dff3B_0/inverter_7/out 2 6 151 438
+n fsm_0/CLR GND! SubB_0/dff3B_0/inverter_7/out 2 3 165 438
+p SubB_0/xor2_0/nand2_4/nand_in1 Vdd! Cout 2 6 16 599
+p SubB_0/xor2_0/nand2_4/nand_in2 Cout Vdd! 2 6 16 591
+n SubB_0/xor2_0/nand2_4/nand_in1 GND! SubB_0/xor2_0/nand2_4/a_n37_n6# 2 3 38 599
+n SubB_0/xor2_0/nand2_4/nand_in2 SubB_0/xor2_0/nand2_4/a_n37_n6# Cout 2 3 38 595
+p AbS Vdd! SubB_0/xor2_0/nand2_4/nand_in1 2 6 16 628
+p SubB_0/xor2_0/nand2_3/nand_in2 SubB_0/xor2_0/nand2_4/nand_in1 Vdd! 2 6 16 620
+n AbS GND! SubB_0/xor2_0/nand2_3/a_n37_n6# 2 3 38 628
+n SubB_0/xor2_0/nand2_3/nand_in2 SubB_0/xor2_0/nand2_3/a_n37_n6# SubB_0/xor2_0/nand2_4/nand_in1 2 3 38 624
+p SubB_0/xor2_0/nand2_3/nand_in2 Vdd! SubB_0/xor2_0/nand2_4/nand_in2 2 6 72 599
+p SubB_0/dff3B_0/Q SubB_0/xor2_0/nand2_4/nand_in2 Vdd! 2 6 72 591
+n SubB_0/xor2_0/nand2_3/nand_in2 GND! SubB_0/xor2_0/nand2_2/a_n37_n6# 2 3 50 599
+n SubB_0/dff3B_0/Q SubB_0/xor2_0/nand2_2/a_n37_n6# SubB_0/xor2_0/nand2_4/nand_in2 2 3 50 595
+p AbS Vdd! SubB_0/xor2_0/nand2_3/nand_in2 2 6 72 628
+p SubB_0/dff3B_0/Q SubB_0/xor2_0/nand2_3/nand_in2 Vdd! 2 6 72 620
+n AbS GND! SubB_0/xor2_0/nand2_1/a_n37_n6# 2 3 50 628
+n SubB_0/dff3B_0/Q SubB_0/xor2_0/nand2_1/a_n37_n6# SubB_0/xor2_0/nand2_3/nand_in2 2 3 50 624
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_7/gate_1/S 2 6 1262 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_7/gate_1/S 2 3 1248 845
+p SubB_0/SR2B_0/dff3B_7/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_7/gate_0/S 2 6 1261 897
+n SubB_0/SR2B_0/dff3B_7/gate_2/S GND! SubB_0/SR2B_0/dff3B_7/gate_0/S 2 3 1247 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_7/gate_2/S 2 6 1260 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_7/gate_2/S 2 3 1246 927
+p SubB_0/SR2B_0/Q7 Vdd! SubB_0/SR2B_0/dff3B_7/gate_3/Gout 2 6 1290 799
+n SubB_0/SR2B_0/Q7 GND! SubB_0/SR2B_0/dff3B_7/gate_3/Gout 2 3 1304 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_7/gate_3/Gin SubB_0/SR2B_0/dff3B_7/gate_3/Gout 2 6 1299 825
+n SubB_0/SR2B_0/dff3B_7/gate_1/S SubB_0/SR2B_0/dff3B_7/gate_3/Gin SubB_0/SR2B_0/dff3B_7/gate_3/Gout 2 3 1286 825
+p SubB_0/SR2B_0/dff3B_7/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_7/gate_2/Gout 2 6 1290 868
+n SubB_0/SR2B_0/dff3B_7/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_7/gate_2/Gout 2 3 1304 868
+p SubB_0/SR2B_0/dff3B_7/gate_2/S SubB_0/SR2B_0/dff3B_7/gate_2/Gin SubB_0/SR2B_0/dff3B_7/gate_2/Gout 2 6 1299 894
+n SubB_0/SR2B_0/dff3B_7/gate_0/S SubB_0/SR2B_0/dff3B_7/gate_2/Gin SubB_0/SR2B_0/dff3B_7/gate_2/Gout 2 3 1286 894
+p SubB_0/SR2B_0/Q7 Vdd! SubB_0/SR2B_0/dff3B_7/Qb 2 6 1332 781
+n SubB_0/SR2B_0/Q7 GND! SubB_0/SR2B_0/dff3B_7/Qb 2 3 1318 781
+p SubB_0/SR2B_0/dff3B_7/gate_3/Gin Vdd! SubB_0/SR2B_0/Q7 2 6 1332 816
+n SubB_0/SR2B_0/dff3B_7/gate_3/Gin GND! SubB_0/SR2B_0/Q7 2 3 1318 816
+p SubB_0/SR2B_0/dff3B_7/gate_1/S SubB_0/SR2B_0/dff3B_7/gate_1/Gin SubB_0/SR2B_0/dff3B_7/gate_3/Gin 2 6 1331 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_7/gate_1/Gin SubB_0/SR2B_0/dff3B_7/gate_3/Gin 2 3 1318 854
+p SubB_0/SR2B_0/dff3B_7/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_7/gate_1/Gin 2 6 1332 890
+n SubB_0/SR2B_0/dff3B_7/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_7/gate_1/Gin 2 3 1318 890
+p SubB_0/SR2B_0/dff3B_7/gate_0/S SubB_0/SR2B_0/dff3B_7/gate_0/Gin SubB_0/SR2B_0/dff3B_7/gate_2/Gin 2 6 1331 922
+n SubB_0/SR2B_0/dff3B_7/gate_2/S SubB_0/SR2B_0/dff3B_7/gate_0/Gin SubB_0/SR2B_0/dff3B_7/gate_2/Gin 2 3 1318 922
+p SubB_0/SR2B_0/dff3B_7/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_7/gate_0/Gin 2 6 1329 958
+n SubB_0/SR2B_0/dff3B_7/inverter_11/in GND! SubB_0/SR2B_0/dff3B_7/gate_0/Gin 2 3 1315 958
+p SubB_0/SR2B_0/dff3B_7/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_7/inverter_11/in 2 6 1334 982
+p SubB_0/SR2B_0/dff3B_7/D SubB_0/SR2B_0/dff3B_7/inverter_11/in Vdd! 2 6 1334 974
+n SubB_0/SR2B_0/dff3B_7/inverter_7/out GND! SubB_0/SR2B_0/dff3B_7/nand2_0/a_n37_n6# 2 3 1312 982
+n SubB_0/SR2B_0/dff3B_7/D SubB_0/SR2B_0/dff3B_7/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_7/inverter_11/in 2 3 1312 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_7/inverter_7/out 2 6 1329 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_7/inverter_7/out 2 3 1315 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_6/gate_1/S 2 6 1129 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_6/gate_1/S 2 3 1115 845
+p SubB_0/SR2B_0/dff3B_6/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_6/gate_0/S 2 6 1128 897
+n SubB_0/SR2B_0/dff3B_6/gate_2/S GND! SubB_0/SR2B_0/dff3B_6/gate_0/S 2 3 1114 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_6/gate_2/S 2 6 1127 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_6/gate_2/S 2 3 1113 927
+p SubB_0/SR2B_0/Q6 Vdd! SubB_0/SR2B_0/dff3B_6/gate_3/Gout 2 6 1157 799
+n SubB_0/SR2B_0/Q6 GND! SubB_0/SR2B_0/dff3B_6/gate_3/Gout 2 3 1171 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_6/gate_3/Gin SubB_0/SR2B_0/dff3B_6/gate_3/Gout 2 6 1166 825
+n SubB_0/SR2B_0/dff3B_6/gate_1/S SubB_0/SR2B_0/dff3B_6/gate_3/Gin SubB_0/SR2B_0/dff3B_6/gate_3/Gout 2 3 1153 825
+p SubB_0/SR2B_0/dff3B_6/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_6/gate_2/Gout 2 6 1157 868
+n SubB_0/SR2B_0/dff3B_6/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_6/gate_2/Gout 2 3 1171 868
+p SubB_0/SR2B_0/dff3B_6/gate_2/S SubB_0/SR2B_0/dff3B_6/gate_2/Gin SubB_0/SR2B_0/dff3B_6/gate_2/Gout 2 6 1166 894
+n SubB_0/SR2B_0/dff3B_6/gate_0/S SubB_0/SR2B_0/dff3B_6/gate_2/Gin SubB_0/SR2B_0/dff3B_6/gate_2/Gout 2 3 1153 894
+p SubB_0/SR2B_0/Q6 Vdd! SubB_0/SR2B_0/dff3B_6/Qb 2 6 1199 781
+n SubB_0/SR2B_0/Q6 GND! SubB_0/SR2B_0/dff3B_6/Qb 2 3 1185 781
+p SubB_0/SR2B_0/dff3B_6/gate_3/Gin Vdd! SubB_0/SR2B_0/Q6 2 6 1199 816
+n SubB_0/SR2B_0/dff3B_6/gate_3/Gin GND! SubB_0/SR2B_0/Q6 2 3 1185 816
+p SubB_0/SR2B_0/dff3B_6/gate_1/S SubB_0/SR2B_0/dff3B_6/gate_1/Gin SubB_0/SR2B_0/dff3B_6/gate_3/Gin 2 6 1198 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_6/gate_1/Gin SubB_0/SR2B_0/dff3B_6/gate_3/Gin 2 3 1185 854
+p SubB_0/SR2B_0/dff3B_6/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_6/gate_1/Gin 2 6 1199 890
+n SubB_0/SR2B_0/dff3B_6/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_6/gate_1/Gin 2 3 1185 890
+p SubB_0/SR2B_0/dff3B_6/gate_0/S SubB_0/SR2B_0/dff3B_6/gate_0/Gin SubB_0/SR2B_0/dff3B_6/gate_2/Gin 2 6 1198 922
+n SubB_0/SR2B_0/dff3B_6/gate_2/S SubB_0/SR2B_0/dff3B_6/gate_0/Gin SubB_0/SR2B_0/dff3B_6/gate_2/Gin 2 3 1185 922
+p SubB_0/SR2B_0/dff3B_6/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_6/gate_0/Gin 2 6 1196 958
+n SubB_0/SR2B_0/dff3B_6/inverter_11/in GND! SubB_0/SR2B_0/dff3B_6/gate_0/Gin 2 3 1182 958
+p SubB_0/SR2B_0/dff3B_6/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_6/inverter_11/in 2 6 1201 982
+p SubB_0/SR2B_0/dff3B_6/D SubB_0/SR2B_0/dff3B_6/inverter_11/in Vdd! 2 6 1201 974
+n SubB_0/SR2B_0/dff3B_6/inverter_7/out GND! SubB_0/SR2B_0/dff3B_6/nand2_0/a_n37_n6# 2 3 1179 982
+n SubB_0/SR2B_0/dff3B_6/D SubB_0/SR2B_0/dff3B_6/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_6/inverter_11/in 2 3 1179 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_6/inverter_7/out 2 6 1196 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_6/inverter_7/out 2 3 1182 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_5/gate_1/S 2 6 996 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_5/gate_1/S 2 3 982 845
+p SubB_0/SR2B_0/dff3B_5/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_5/gate_0/S 2 6 995 897
+n SubB_0/SR2B_0/dff3B_5/gate_2/S GND! SubB_0/SR2B_0/dff3B_5/gate_0/S 2 3 981 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_5/gate_2/S 2 6 994 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_5/gate_2/S 2 3 980 927
+p SubB_0/SR2B_0/Q5 Vdd! SubB_0/SR2B_0/dff3B_5/gate_3/Gout 2 6 1024 799
+n SubB_0/SR2B_0/Q5 GND! SubB_0/SR2B_0/dff3B_5/gate_3/Gout 2 3 1038 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_5/gate_3/Gin SubB_0/SR2B_0/dff3B_5/gate_3/Gout 2 6 1033 825
+n SubB_0/SR2B_0/dff3B_5/gate_1/S SubB_0/SR2B_0/dff3B_5/gate_3/Gin SubB_0/SR2B_0/dff3B_5/gate_3/Gout 2 3 1020 825
+p SubB_0/SR2B_0/dff3B_5/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_5/gate_2/Gout 2 6 1024 868
+n SubB_0/SR2B_0/dff3B_5/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_5/gate_2/Gout 2 3 1038 868
+p SubB_0/SR2B_0/dff3B_5/gate_2/S SubB_0/SR2B_0/dff3B_5/gate_2/Gin SubB_0/SR2B_0/dff3B_5/gate_2/Gout 2 6 1033 894
+n SubB_0/SR2B_0/dff3B_5/gate_0/S SubB_0/SR2B_0/dff3B_5/gate_2/Gin SubB_0/SR2B_0/dff3B_5/gate_2/Gout 2 3 1020 894
+p SubB_0/SR2B_0/Q5 Vdd! SubB_0/SR2B_0/dff3B_5/Qb 2 6 1066 781
+n SubB_0/SR2B_0/Q5 GND! SubB_0/SR2B_0/dff3B_5/Qb 2 3 1052 781
+p SubB_0/SR2B_0/dff3B_5/gate_3/Gin Vdd! SubB_0/SR2B_0/Q5 2 6 1066 816
+n SubB_0/SR2B_0/dff3B_5/gate_3/Gin GND! SubB_0/SR2B_0/Q5 2 3 1052 816
+p SubB_0/SR2B_0/dff3B_5/gate_1/S SubB_0/SR2B_0/dff3B_5/gate_1/Gin SubB_0/SR2B_0/dff3B_5/gate_3/Gin 2 6 1065 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_5/gate_1/Gin SubB_0/SR2B_0/dff3B_5/gate_3/Gin 2 3 1052 854
+p SubB_0/SR2B_0/dff3B_5/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_5/gate_1/Gin 2 6 1066 890
+n SubB_0/SR2B_0/dff3B_5/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_5/gate_1/Gin 2 3 1052 890
+p SubB_0/SR2B_0/dff3B_5/gate_0/S SubB_0/SR2B_0/dff3B_5/gate_0/Gin SubB_0/SR2B_0/dff3B_5/gate_2/Gin 2 6 1065 922
+n SubB_0/SR2B_0/dff3B_5/gate_2/S SubB_0/SR2B_0/dff3B_5/gate_0/Gin SubB_0/SR2B_0/dff3B_5/gate_2/Gin 2 3 1052 922
+p SubB_0/SR2B_0/dff3B_5/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_5/gate_0/Gin 2 6 1063 958
+n SubB_0/SR2B_0/dff3B_5/inverter_11/in GND! SubB_0/SR2B_0/dff3B_5/gate_0/Gin 2 3 1049 958
+p SubB_0/SR2B_0/dff3B_5/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_5/inverter_11/in 2 6 1068 982
+p SubB_0/SR2B_0/dff3B_5/D SubB_0/SR2B_0/dff3B_5/inverter_11/in Vdd! 2 6 1068 974
+n SubB_0/SR2B_0/dff3B_5/inverter_7/out GND! SubB_0/SR2B_0/dff3B_5/nand2_0/a_n37_n6# 2 3 1046 982
+n SubB_0/SR2B_0/dff3B_5/D SubB_0/SR2B_0/dff3B_5/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_5/inverter_11/in 2 3 1046 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_5/inverter_7/out 2 6 1063 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_5/inverter_7/out 2 3 1049 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_4/gate_1/S 2 6 863 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_4/gate_1/S 2 3 849 845
+p SubB_0/SR2B_0/dff3B_4/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_4/gate_0/S 2 6 862 897
+n SubB_0/SR2B_0/dff3B_4/gate_2/S GND! SubB_0/SR2B_0/dff3B_4/gate_0/S 2 3 848 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_4/gate_2/S 2 6 861 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_4/gate_2/S 2 3 847 927
+p SubB_0/SR2B_0/Q4 Vdd! SubB_0/SR2B_0/dff3B_4/gate_3/Gout 2 6 891 799
+n SubB_0/SR2B_0/Q4 GND! SubB_0/SR2B_0/dff3B_4/gate_3/Gout 2 3 905 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_4/gate_3/Gin SubB_0/SR2B_0/dff3B_4/gate_3/Gout 2 6 900 825
+n SubB_0/SR2B_0/dff3B_4/gate_1/S SubB_0/SR2B_0/dff3B_4/gate_3/Gin SubB_0/SR2B_0/dff3B_4/gate_3/Gout 2 3 887 825
+p SubB_0/SR2B_0/dff3B_4/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_4/gate_2/Gout 2 6 891 868
+n SubB_0/SR2B_0/dff3B_4/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_4/gate_2/Gout 2 3 905 868
+p SubB_0/SR2B_0/dff3B_4/gate_2/S SubB_0/SR2B_0/dff3B_4/gate_2/Gin SubB_0/SR2B_0/dff3B_4/gate_2/Gout 2 6 900 894
+n SubB_0/SR2B_0/dff3B_4/gate_0/S SubB_0/SR2B_0/dff3B_4/gate_2/Gin SubB_0/SR2B_0/dff3B_4/gate_2/Gout 2 3 887 894
+p SubB_0/SR2B_0/Q4 Vdd! SubB_0/SR2B_0/dff3B_4/Qb 2 6 933 781
+n SubB_0/SR2B_0/Q4 GND! SubB_0/SR2B_0/dff3B_4/Qb 2 3 919 781
+p SubB_0/SR2B_0/dff3B_4/gate_3/Gin Vdd! SubB_0/SR2B_0/Q4 2 6 933 816
+n SubB_0/SR2B_0/dff3B_4/gate_3/Gin GND! SubB_0/SR2B_0/Q4 2 3 919 816
+p SubB_0/SR2B_0/dff3B_4/gate_1/S SubB_0/SR2B_0/dff3B_4/gate_1/Gin SubB_0/SR2B_0/dff3B_4/gate_3/Gin 2 6 932 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_4/gate_1/Gin SubB_0/SR2B_0/dff3B_4/gate_3/Gin 2 3 919 854
+p SubB_0/SR2B_0/dff3B_4/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_4/gate_1/Gin 2 6 933 890
+n SubB_0/SR2B_0/dff3B_4/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_4/gate_1/Gin 2 3 919 890
+p SubB_0/SR2B_0/dff3B_4/gate_0/S SubB_0/SR2B_0/dff3B_4/gate_0/Gin SubB_0/SR2B_0/dff3B_4/gate_2/Gin 2 6 932 922
+n SubB_0/SR2B_0/dff3B_4/gate_2/S SubB_0/SR2B_0/dff3B_4/gate_0/Gin SubB_0/SR2B_0/dff3B_4/gate_2/Gin 2 3 919 922
+p SubB_0/SR2B_0/dff3B_4/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_4/gate_0/Gin 2 6 930 958
+n SubB_0/SR2B_0/dff3B_4/inverter_11/in GND! SubB_0/SR2B_0/dff3B_4/gate_0/Gin 2 3 916 958
+p SubB_0/SR2B_0/dff3B_4/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_4/inverter_11/in 2 6 935 982
+p SubB_0/SR2B_0/dff3B_4/D SubB_0/SR2B_0/dff3B_4/inverter_11/in Vdd! 2 6 935 974
+n SubB_0/SR2B_0/dff3B_4/inverter_7/out GND! SubB_0/SR2B_0/dff3B_4/nand2_0/a_n37_n6# 2 3 913 982
+n SubB_0/SR2B_0/dff3B_4/D SubB_0/SR2B_0/dff3B_4/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_4/inverter_11/in 2 3 913 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_4/inverter_7/out 2 6 930 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_4/inverter_7/out 2 3 916 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_3/gate_1/S 2 6 730 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_3/gate_1/S 2 3 716 845
+p SubB_0/SR2B_0/dff3B_3/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_3/gate_0/S 2 6 729 897
+n SubB_0/SR2B_0/dff3B_3/gate_2/S GND! SubB_0/SR2B_0/dff3B_3/gate_0/S 2 3 715 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_3/gate_2/S 2 6 728 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_3/gate_2/S 2 3 714 927
+p SubB_0/SR2B_0/Q3 Vdd! SubB_0/SR2B_0/dff3B_3/gate_3/Gout 2 6 758 799
+n SubB_0/SR2B_0/Q3 GND! SubB_0/SR2B_0/dff3B_3/gate_3/Gout 2 3 772 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_3/gate_3/Gin SubB_0/SR2B_0/dff3B_3/gate_3/Gout 2 6 767 825
+n SubB_0/SR2B_0/dff3B_3/gate_1/S SubB_0/SR2B_0/dff3B_3/gate_3/Gin SubB_0/SR2B_0/dff3B_3/gate_3/Gout 2 3 754 825
+p SubB_0/SR2B_0/dff3B_3/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_3/gate_2/Gout 2 6 758 868
+n SubB_0/SR2B_0/dff3B_3/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_3/gate_2/Gout 2 3 772 868
+p SubB_0/SR2B_0/dff3B_3/gate_2/S SubB_0/SR2B_0/dff3B_3/gate_2/Gin SubB_0/SR2B_0/dff3B_3/gate_2/Gout 2 6 767 894
+n SubB_0/SR2B_0/dff3B_3/gate_0/S SubB_0/SR2B_0/dff3B_3/gate_2/Gin SubB_0/SR2B_0/dff3B_3/gate_2/Gout 2 3 754 894
+p SubB_0/SR2B_0/Q3 Vdd! SubB_0/SR2B_0/dff3B_3/Qb 2 6 800 781
+n SubB_0/SR2B_0/Q3 GND! SubB_0/SR2B_0/dff3B_3/Qb 2 3 786 781
+p SubB_0/SR2B_0/dff3B_3/gate_3/Gin Vdd! SubB_0/SR2B_0/Q3 2 6 800 816
+n SubB_0/SR2B_0/dff3B_3/gate_3/Gin GND! SubB_0/SR2B_0/Q3 2 3 786 816
+p SubB_0/SR2B_0/dff3B_3/gate_1/S SubB_0/SR2B_0/dff3B_3/gate_1/Gin SubB_0/SR2B_0/dff3B_3/gate_3/Gin 2 6 799 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_3/gate_1/Gin SubB_0/SR2B_0/dff3B_3/gate_3/Gin 2 3 786 854
+p SubB_0/SR2B_0/dff3B_3/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_3/gate_1/Gin 2 6 800 890
+n SubB_0/SR2B_0/dff3B_3/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_3/gate_1/Gin 2 3 786 890
+p SubB_0/SR2B_0/dff3B_3/gate_0/S SubB_0/SR2B_0/dff3B_3/gate_0/Gin SubB_0/SR2B_0/dff3B_3/gate_2/Gin 2 6 799 922
+n SubB_0/SR2B_0/dff3B_3/gate_2/S SubB_0/SR2B_0/dff3B_3/gate_0/Gin SubB_0/SR2B_0/dff3B_3/gate_2/Gin 2 3 786 922
+p SubB_0/SR2B_0/dff3B_3/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_3/gate_0/Gin 2 6 797 958
+n SubB_0/SR2B_0/dff3B_3/inverter_11/in GND! SubB_0/SR2B_0/dff3B_3/gate_0/Gin 2 3 783 958
+p SubB_0/SR2B_0/dff3B_3/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_3/inverter_11/in 2 6 802 982
+p SubB_0/SR2B_0/dff3B_3/D SubB_0/SR2B_0/dff3B_3/inverter_11/in Vdd! 2 6 802 974
+n SubB_0/SR2B_0/dff3B_3/inverter_7/out GND! SubB_0/SR2B_0/dff3B_3/nand2_0/a_n37_n6# 2 3 780 982
+n SubB_0/SR2B_0/dff3B_3/D SubB_0/SR2B_0/dff3B_3/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_3/inverter_11/in 2 3 780 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_3/inverter_7/out 2 6 797 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_3/inverter_7/out 2 3 783 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_2/gate_1/S 2 6 597 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_2/gate_1/S 2 3 583 845
+p SubB_0/SR2B_0/dff3B_2/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_2/gate_0/S 2 6 596 897
+n SubB_0/SR2B_0/dff3B_2/gate_2/S GND! SubB_0/SR2B_0/dff3B_2/gate_0/S 2 3 582 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_2/gate_2/S 2 6 595 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_2/gate_2/S 2 3 581 927
+p SubB_0/SR2B_0/Q2 Vdd! SubB_0/SR2B_0/dff3B_2/gate_3/Gout 2 6 625 799
+n SubB_0/SR2B_0/Q2 GND! SubB_0/SR2B_0/dff3B_2/gate_3/Gout 2 3 639 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_2/gate_3/Gin SubB_0/SR2B_0/dff3B_2/gate_3/Gout 2 6 634 825
+n SubB_0/SR2B_0/dff3B_2/gate_1/S SubB_0/SR2B_0/dff3B_2/gate_3/Gin SubB_0/SR2B_0/dff3B_2/gate_3/Gout 2 3 621 825
+p SubB_0/SR2B_0/dff3B_2/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_2/gate_2/Gout 2 6 625 868
+n SubB_0/SR2B_0/dff3B_2/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_2/gate_2/Gout 2 3 639 868
+p SubB_0/SR2B_0/dff3B_2/gate_2/S SubB_0/SR2B_0/dff3B_2/gate_2/Gin SubB_0/SR2B_0/dff3B_2/gate_2/Gout 2 6 634 894
+n SubB_0/SR2B_0/dff3B_2/gate_0/S SubB_0/SR2B_0/dff3B_2/gate_2/Gin SubB_0/SR2B_0/dff3B_2/gate_2/Gout 2 3 621 894
+p SubB_0/SR2B_0/Q2 Vdd! SubB_0/SR2B_0/dff3B_2/Qb 2 6 667 781
+n SubB_0/SR2B_0/Q2 GND! SubB_0/SR2B_0/dff3B_2/Qb 2 3 653 781
+p SubB_0/SR2B_0/dff3B_2/gate_3/Gin Vdd! SubB_0/SR2B_0/Q2 2 6 667 816
+n SubB_0/SR2B_0/dff3B_2/gate_3/Gin GND! SubB_0/SR2B_0/Q2 2 3 653 816
+p SubB_0/SR2B_0/dff3B_2/gate_1/S SubB_0/SR2B_0/dff3B_2/gate_1/Gin SubB_0/SR2B_0/dff3B_2/gate_3/Gin 2 6 666 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_2/gate_1/Gin SubB_0/SR2B_0/dff3B_2/gate_3/Gin 2 3 653 854
+p SubB_0/SR2B_0/dff3B_2/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_2/gate_1/Gin 2 6 667 890
+n SubB_0/SR2B_0/dff3B_2/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_2/gate_1/Gin 2 3 653 890
+p SubB_0/SR2B_0/dff3B_2/gate_0/S SubB_0/SR2B_0/dff3B_2/gate_0/Gin SubB_0/SR2B_0/dff3B_2/gate_2/Gin 2 6 666 922
+n SubB_0/SR2B_0/dff3B_2/gate_2/S SubB_0/SR2B_0/dff3B_2/gate_0/Gin SubB_0/SR2B_0/dff3B_2/gate_2/Gin 2 3 653 922
+p SubB_0/SR2B_0/dff3B_2/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_2/gate_0/Gin 2 6 664 958
+n SubB_0/SR2B_0/dff3B_2/inverter_11/in GND! SubB_0/SR2B_0/dff3B_2/gate_0/Gin 2 3 650 958
+p SubB_0/SR2B_0/dff3B_2/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_2/inverter_11/in 2 6 669 982
+p SubB_0/SR2B_0/dff3B_2/D SubB_0/SR2B_0/dff3B_2/inverter_11/in Vdd! 2 6 669 974
+n SubB_0/SR2B_0/dff3B_2/inverter_7/out GND! SubB_0/SR2B_0/dff3B_2/nand2_0/a_n37_n6# 2 3 647 982
+n SubB_0/SR2B_0/dff3B_2/D SubB_0/SR2B_0/dff3B_2/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_2/inverter_11/in 2 3 647 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_2/inverter_7/out 2 6 664 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_2/inverter_7/out 2 3 650 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_1/gate_1/S 2 6 464 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_1/gate_1/S 2 3 450 845
+p SubB_0/SR2B_0/dff3B_1/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_1/gate_0/S 2 6 463 897
+n SubB_0/SR2B_0/dff3B_1/gate_2/S GND! SubB_0/SR2B_0/dff3B_1/gate_0/S 2 3 449 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_1/gate_2/S 2 6 462 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_1/gate_2/S 2 3 448 927
+p SubB_0/SR2B_0/Q1 Vdd! SubB_0/SR2B_0/dff3B_1/gate_3/Gout 2 6 492 799
+n SubB_0/SR2B_0/Q1 GND! SubB_0/SR2B_0/dff3B_1/gate_3/Gout 2 3 506 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_1/gate_3/Gin SubB_0/SR2B_0/dff3B_1/gate_3/Gout 2 6 501 825
+n SubB_0/SR2B_0/dff3B_1/gate_1/S SubB_0/SR2B_0/dff3B_1/gate_3/Gin SubB_0/SR2B_0/dff3B_1/gate_3/Gout 2 3 488 825
+p SubB_0/SR2B_0/dff3B_1/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_1/gate_2/Gout 2 6 492 868
+n SubB_0/SR2B_0/dff3B_1/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_1/gate_2/Gout 2 3 506 868
+p SubB_0/SR2B_0/dff3B_1/gate_2/S SubB_0/SR2B_0/dff3B_1/gate_2/Gin SubB_0/SR2B_0/dff3B_1/gate_2/Gout 2 6 501 894
+n SubB_0/SR2B_0/dff3B_1/gate_0/S SubB_0/SR2B_0/dff3B_1/gate_2/Gin SubB_0/SR2B_0/dff3B_1/gate_2/Gout 2 3 488 894
+p SubB_0/SR2B_0/Q1 Vdd! SubB_0/SR2B_0/dff3B_1/Qb 2 6 534 781
+n SubB_0/SR2B_0/Q1 GND! SubB_0/SR2B_0/dff3B_1/Qb 2 3 520 781
+p SubB_0/SR2B_0/dff3B_1/gate_3/Gin Vdd! SubB_0/SR2B_0/Q1 2 6 534 816
+n SubB_0/SR2B_0/dff3B_1/gate_3/Gin GND! SubB_0/SR2B_0/Q1 2 3 520 816
+p SubB_0/SR2B_0/dff3B_1/gate_1/S SubB_0/SR2B_0/dff3B_1/gate_1/Gin SubB_0/SR2B_0/dff3B_1/gate_3/Gin 2 6 533 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_1/gate_1/Gin SubB_0/SR2B_0/dff3B_1/gate_3/Gin 2 3 520 854
+p SubB_0/SR2B_0/dff3B_1/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_1/gate_1/Gin 2 6 534 890
+n SubB_0/SR2B_0/dff3B_1/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_1/gate_1/Gin 2 3 520 890
+p SubB_0/SR2B_0/dff3B_1/gate_0/S SubB_0/SR2B_0/dff3B_1/gate_0/Gin SubB_0/SR2B_0/dff3B_1/gate_2/Gin 2 6 533 922
+n SubB_0/SR2B_0/dff3B_1/gate_2/S SubB_0/SR2B_0/dff3B_1/gate_0/Gin SubB_0/SR2B_0/dff3B_1/gate_2/Gin 2 3 520 922
+p SubB_0/SR2B_0/dff3B_1/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_1/gate_0/Gin 2 6 531 958
+n SubB_0/SR2B_0/dff3B_1/inverter_11/in GND! SubB_0/SR2B_0/dff3B_1/gate_0/Gin 2 3 517 958
+p SubB_0/SR2B_0/dff3B_1/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_1/inverter_11/in 2 6 536 982
+p SubB_0/SR2B_0/dff3B_1/D SubB_0/SR2B_0/dff3B_1/inverter_11/in Vdd! 2 6 536 974
+n SubB_0/SR2B_0/dff3B_1/inverter_7/out GND! SubB_0/SR2B_0/dff3B_1/nand2_0/a_n37_n6# 2 3 514 982
+n SubB_0/SR2B_0/dff3B_1/D SubB_0/SR2B_0/dff3B_1/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_1/inverter_11/in 2 3 514 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_1/inverter_7/out 2 6 531 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_1/inverter_7/out 2 3 517 998
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_0/gate_1/S 2 6 331 845
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_0/gate_1/S 2 3 317 845
+p SubB_0/SR2B_0/dff3B_0/gate_2/S Vdd! SubB_0/SR2B_0/dff3B_0/gate_0/S 2 6 330 897
+n SubB_0/SR2B_0/dff3B_0/gate_2/S GND! SubB_0/SR2B_0/dff3B_0/gate_0/S 2 3 316 897
+p fsm_0/CLK Vdd! SubB_0/SR2B_0/dff3B_0/gate_2/S 2 6 329 927
+n fsm_0/CLK GND! SubB_0/SR2B_0/dff3B_0/gate_2/S 2 3 315 927
+p SubB_0/QA0 Vdd! SubB_0/SR2B_0/dff3B_0/gate_3/Gout 2 6 359 799
+n SubB_0/QA0 GND! SubB_0/SR2B_0/dff3B_0/gate_3/Gout 2 3 373 799
+p fsm_0/CLK SubB_0/SR2B_0/dff3B_0/gate_3/Gin SubB_0/SR2B_0/dff3B_0/gate_3/Gout 2 6 368 825
+n SubB_0/SR2B_0/dff3B_0/gate_1/S SubB_0/SR2B_0/dff3B_0/gate_3/Gin SubB_0/SR2B_0/dff3B_0/gate_3/Gout 2 3 355 825
+p SubB_0/SR2B_0/dff3B_0/gate_1/Gin Vdd! SubB_0/SR2B_0/dff3B_0/gate_2/Gout 2 6 359 868
+n SubB_0/SR2B_0/dff3B_0/gate_1/Gin GND! SubB_0/SR2B_0/dff3B_0/gate_2/Gout 2 3 373 868
+p SubB_0/SR2B_0/dff3B_0/gate_2/S SubB_0/SR2B_0/dff3B_0/gate_2/Gin SubB_0/SR2B_0/dff3B_0/gate_2/Gout 2 6 368 894
+n SubB_0/SR2B_0/dff3B_0/gate_0/S SubB_0/SR2B_0/dff3B_0/gate_2/Gin SubB_0/SR2B_0/dff3B_0/gate_2/Gout 2 3 355 894
+p SubB_0/QA0 Vdd! SubB_0/SR2B_0/dff3B_0/Qb 2 6 401 781
+n SubB_0/QA0 GND! SubB_0/SR2B_0/dff3B_0/Qb 2 3 387 781
+p SubB_0/SR2B_0/dff3B_0/gate_3/Gin Vdd! SubB_0/QA0 2 6 401 816
+n SubB_0/SR2B_0/dff3B_0/gate_3/Gin GND! SubB_0/QA0 2 3 387 816
+p SubB_0/SR2B_0/dff3B_0/gate_1/S SubB_0/SR2B_0/dff3B_0/gate_1/Gin SubB_0/SR2B_0/dff3B_0/gate_3/Gin 2 6 400 854
+n fsm_0/CLK SubB_0/SR2B_0/dff3B_0/gate_1/Gin SubB_0/SR2B_0/dff3B_0/gate_3/Gin 2 3 387 854
+p SubB_0/SR2B_0/dff3B_0/gate_2/Gin Vdd! SubB_0/SR2B_0/dff3B_0/gate_1/Gin 2 6 401 890
+n SubB_0/SR2B_0/dff3B_0/gate_2/Gin GND! SubB_0/SR2B_0/dff3B_0/gate_1/Gin 2 3 387 890
+p SubB_0/SR2B_0/dff3B_0/gate_0/S SubB_0/SR2B_0/dff3B_0/gate_0/Gin SubB_0/SR2B_0/dff3B_0/gate_2/Gin 2 6 400 922
+n SubB_0/SR2B_0/dff3B_0/gate_2/S SubB_0/SR2B_0/dff3B_0/gate_0/Gin SubB_0/SR2B_0/dff3B_0/gate_2/Gin 2 3 387 922
+p SubB_0/SR2B_0/dff3B_0/inverter_11/in Vdd! SubB_0/SR2B_0/dff3B_0/gate_0/Gin 2 6 398 958
+n SubB_0/SR2B_0/dff3B_0/inverter_11/in GND! SubB_0/SR2B_0/dff3B_0/gate_0/Gin 2 3 384 958
+p SubB_0/SR2B_0/dff3B_0/inverter_7/out Vdd! SubB_0/SR2B_0/dff3B_0/inverter_11/in 2 6 403 982
+p SubB_0/SR2B_0/dff3B_0/D SubB_0/SR2B_0/dff3B_0/inverter_11/in Vdd! 2 6 403 974
+n SubB_0/SR2B_0/dff3B_0/inverter_7/out GND! SubB_0/SR2B_0/dff3B_0/nand2_0/a_n37_n6# 2 3 381 982
+n SubB_0/SR2B_0/dff3B_0/D SubB_0/SR2B_0/dff3B_0/nand2_0/a_n37_n6# SubB_0/SR2B_0/dff3B_0/inverter_11/in 2 3 381 978
+p fsm_0/CLR Vdd! SubB_0/SR2B_0/dff3B_0/inverter_7/out 2 6 398 998
+n fsm_0/CLR GND! SubB_0/SR2B_0/dff3B_0/inverter_7/out 2 3 384 998
+p SA1 SubB_0/SR2B_0/Q7 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 2 6 1235 945
+n SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb SubB_0/SR2B_0/Q7 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 2 3 1248 945
+p SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb SubB_0/QA0 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 2 6 1243 974
+n SA1 SubB_0/QA0 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 2 3 1230 974
+p SA0 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_7/D 2 6 1276 1001
+n SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_7/D 2 3 1289 1001
+p SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_7/D 2 6 1284 1030
+n SA0 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_7/D 2 3 1271 1030
+p SA1 SubB_0/SR2B_0/Q6 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 2 6 1235 1001
+n SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb SubB_0/SR2B_0/Q6 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 2 3 1248 1001
+p SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb A7 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 2 6 1243 1030
+n SA1 A7 SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 2 3 1230 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Smb 2 6 1266 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Smb 2 3 1266 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb 2 6 1225 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb 2 3 1225 1043
+p SA1 SubB_0/SR2B_0/Q6 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 2 6 1102 945
+n SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb SubB_0/SR2B_0/Q6 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 2 3 1115 945
+p SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb SubB_0/SR2B_0/Q7 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 2 6 1110 974
+n SA1 SubB_0/SR2B_0/Q7 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 2 3 1097 974
+p SA0 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_6/D 2 6 1143 1001
+n SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_6/D 2 3 1156 1001
+p SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_6/D 2 6 1151 1030
+n SA0 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_6/D 2 3 1138 1030
+p SA1 SubB_0/SR2B_0/Q5 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 2 6 1102 1001
+n SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb SubB_0/SR2B_0/Q5 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 2 3 1115 1001
+p SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb A6 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 2 6 1110 1030
+n SA1 A6 SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 2 3 1097 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Smb 2 6 1133 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Smb 2 3 1133 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb 2 6 1092 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb 2 3 1092 1043
+p SA1 SubB_0/SR2B_0/Q5 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 2 6 969 945
+n SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb SubB_0/SR2B_0/Q5 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 2 3 982 945
+p SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb SubB_0/SR2B_0/Q6 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 2 6 977 974
+n SA1 SubB_0/SR2B_0/Q6 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 2 3 964 974
+p SA0 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_5/D 2 6 1010 1001
+n SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_5/D 2 3 1023 1001
+p SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_5/D 2 6 1018 1030
+n SA0 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_5/D 2 3 1005 1030
+p SA1 SubB_0/SR2B_0/Q4 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 2 6 969 1001
+n SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb SubB_0/SR2B_0/Q4 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 2 3 982 1001
+p SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb A5 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 2 6 977 1030
+n SA1 A5 SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 2 3 964 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Smb 2 6 1000 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Smb 2 3 1000 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb 2 6 959 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb 2 3 959 1043
+p SA1 SubB_0/SR2B_0/Q4 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 2 6 836 945
+n SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb SubB_0/SR2B_0/Q4 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 2 3 849 945
+p SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb SubB_0/SR2B_0/Q5 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 2 6 844 974
+n SA1 SubB_0/SR2B_0/Q5 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 2 3 831 974
+p SA0 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_4/D 2 6 877 1001
+n SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_4/D 2 3 890 1001
+p SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_4/D 2 6 885 1030
+n SA0 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_4/D 2 3 872 1030
+p SA1 SubB_0/SR2B_0/Q3 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 2 6 836 1001
+n SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb SubB_0/SR2B_0/Q3 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 2 3 849 1001
+p SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb A4 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 2 6 844 1030
+n SA1 A4 SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 2 3 831 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Smb 2 6 867 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Smb 2 3 867 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb 2 6 826 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb 2 3 826 1043
+p SA1 SubB_0/SR2B_0/Q3 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 2 6 703 945
+n SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb SubB_0/SR2B_0/Q3 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 2 3 716 945
+p SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb SubB_0/SR2B_0/Q4 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 2 6 711 974
+n SA1 SubB_0/SR2B_0/Q4 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 2 3 698 974
+p SA0 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_3/D 2 6 744 1001
+n SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_3/D 2 3 757 1001
+p SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_3/D 2 6 752 1030
+n SA0 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_3/D 2 3 739 1030
+p SA1 SubB_0/SR2B_0/Q2 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 2 6 703 1001
+n SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb SubB_0/SR2B_0/Q2 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 2 3 716 1001
+p SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb A3 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 2 6 711 1030
+n SA1 A3 SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 2 3 698 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Smb 2 6 734 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Smb 2 3 734 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb 2 6 693 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb 2 3 693 1043
+p SA1 SubB_0/SR2B_0/Q2 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 2 6 570 945
+n SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb SubB_0/SR2B_0/Q2 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 2 3 583 945
+p SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb SubB_0/SR2B_0/Q3 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 2 6 578 974
+n SA1 SubB_0/SR2B_0/Q3 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 2 3 565 974
+p SA0 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_2/D 2 6 611 1001
+n SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_2/D 2 3 624 1001
+p SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_2/D 2 6 619 1030
+n SA0 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_2/D 2 3 606 1030
+p SA1 SubB_0/SR2B_0/Q1 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 2 6 570 1001
+n SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb SubB_0/SR2B_0/Q1 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 2 3 583 1001
+p SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb A2 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 2 6 578 1030
+n SA1 A2 SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 2 3 565 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Smb 2 6 601 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Smb 2 3 601 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb 2 6 560 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb 2 3 560 1043
+p SA1 SubB_0/SR2B_0/Q1 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 2 6 437 945
+n SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb SubB_0/SR2B_0/Q1 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 2 3 450 945
+p SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb SubB_0/SR2B_0/Q2 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 2 6 445 974
+n SA1 SubB_0/SR2B_0/Q2 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 2 3 432 974
+p SA0 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_1/D 2 6 478 1001
+n SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_1/D 2 3 491 1001
+p SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_1/D 2 6 486 1030
+n SA0 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_1/D 2 3 473 1030
+p SA1 SubB_0/QA0 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 2 6 437 1001
+n SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb SubB_0/QA0 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 2 3 450 1001
+p SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb A1 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 2 6 445 1030
+n SA1 A1 SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 2 3 432 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Smb 2 6 468 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Smb 2 3 468 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb 2 6 427 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb 2 3 427 1043
+p SA1 SubB_0/QA0 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 2 6 304 945
+n SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb SubB_0/QA0 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 2 3 317 945
+p SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb SubB_0/SR2B_0/Q1 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 2 6 312 974
+n SA1 SubB_0/SR2B_0/Q1 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 2 3 299 974
+p SA0 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_0/D 2 6 345 1001
+n SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 SubB_0/SR2B_0/dff3B_0/D 2 3 358 1001
+p SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Smb SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_0/D 2 6 353 1030
+n SA0 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 SubB_0/SR2B_0/dff3B_0/D 2 3 340 1030
+p SA1 SR SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 2 6 304 1001
+n SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb SR SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 2 3 317 1001
+p SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb A0 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 2 6 312 1030
+n SA1 A0 SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 2 3 299 1030
+p SA0 Vdd! SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Smb 2 6 335 1057
+n SA0 GND! SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Smb 2 3 335 1043
+p SA1 Vdd! SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb 2 6 294 1057
+n SA1 GND! SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb 2 3 294 1043
+p SubB_0/abs_0/nor2_0/out Vdd! SubB_0/dff3B_0/D 2 6 123 930
+n SubB_0/abs_0/nor2_0/out GND! SubB_0/dff3B_0/D 2 3 137 930
+p SubB_0/abs_0/nor2_0/in1 Vdd! SubB_0/abs_0/nor2_0/a_n37_6# 2 6 123 904
+p SubB_0/abs_0/nor2_0/in2 SubB_0/abs_0/nor2_0/a_n37_6# SubB_0/abs_0/nor2_0/out 2 6 123 908
+n SubB_0/abs_0/nor2_0/in1 GND! SubB_0/abs_0/nor2_0/out 2 3 137 904
+n SubB_0/abs_0/nor2_0/in2 SubB_0/abs_0/nor2_0/out GND! 2 3 137 912
+p SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 Vdd! SubB_0/abs_0/sum 2 6 227 860
+p SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 SubB_0/abs_0/sum Vdd! 2 6 227 868
+n SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 GND! SubB_0/abs_0/ha_1/xor2_0/nand2_4/a_n37_n6# 2 3 205 860
+n SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 SubB_0/abs_0/ha_1/xor2_0/nand2_4/a_n37_n6# SubB_0/abs_0/sum 2 3 205 864
+p SubB_0/abs_0/ha_1/ha_in1 Vdd! SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 2 6 227 831
+p SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 Vdd! 2 6 227 839
+n SubB_0/abs_0/ha_1/ha_in1 GND! SubB_0/abs_0/ha_1/xor2_0/nand2_3/a_n37_n6# 2 3 205 831
+n SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 SubB_0/abs_0/ha_1/xor2_0/nand2_3/a_n37_n6# SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 2 3 205 835
+p SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 Vdd! SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 2 6 171 860
+p SubB_0/abs_0/cin SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 Vdd! 2 6 171 868
+n SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 GND! SubB_0/abs_0/ha_1/xor2_0/nand2_2/a_n37_n6# 2 3 193 860
+n SubB_0/abs_0/cin SubB_0/abs_0/ha_1/xor2_0/nand2_2/a_n37_n6# SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 2 3 193 864
+p SubB_0/abs_0/ha_1/ha_in1 Vdd! SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 2 6 171 831
+p SubB_0/abs_0/cin SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 Vdd! 2 6 171 839
+n SubB_0/abs_0/ha_1/ha_in1 GND! SubB_0/abs_0/ha_1/xor2_0/nand2_1/a_n37_n6# 2 3 193 831
+n SubB_0/abs_0/cin SubB_0/abs_0/ha_1/xor2_0/nand2_1/a_n37_n6# SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 2 3 193 835
+p SubB_0/abs_0/ha_1/not1_0/not_in Vdd! SubB_0/abs_0/nor2_0/in2 2 6 124 855
+n SubB_0/abs_0/ha_1/not1_0/not_in GND! SubB_0/abs_0/nor2_0/in2 2 3 138 855
+p SubB_0/abs_0/ha_1/ha_in1 Vdd! SubB_0/abs_0/ha_1/not1_0/not_in 2 6 122 831
+p SubB_0/abs_0/cin SubB_0/abs_0/ha_1/not1_0/not_in Vdd! 2 6 122 839
+n SubB_0/abs_0/ha_1/ha_in1 GND! SubB_0/abs_0/ha_1/nand2_0/a_n37_n6# 2 3 144 831
+n SubB_0/abs_0/cin SubB_0/abs_0/ha_1/nand2_0/a_n37_n6# SubB_0/abs_0/ha_1/not1_0/not_in 2 3 144 835
+p SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 Vdd! SubB_0/abs_0/ha_1/ha_in1 2 6 227 787
+p SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 SubB_0/abs_0/ha_1/ha_in1 Vdd! 2 6 227 795
+n SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 GND! SubB_0/abs_0/ha_0/xor2_0/nand2_4/a_n37_n6# 2 3 205 787
+n SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_4/a_n37_n6# SubB_0/abs_0/ha_1/ha_in1 2 3 205 791
+p SubB_0/QA0 Vdd! SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 2 6 227 758
+p SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 Vdd! 2 6 227 766
+n SubB_0/QA0 GND! SubB_0/abs_0/ha_0/xor2_0/nand2_3/a_n37_n6# 2 3 205 758
+n SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_3/a_n37_n6# SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 2 3 205 762
+p SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 Vdd! SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 2 6 171 787
+p SubB_0/abs_0/ha_0/ha_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 Vdd! 2 6 171 795
+n SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 GND! SubB_0/abs_0/ha_0/xor2_0/nand2_2/a_n37_n6# 2 3 193 787
+n SubB_0/abs_0/ha_0/ha_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_2/a_n37_n6# SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 2 3 193 791
+p SubB_0/QA0 Vdd! SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 2 6 171 758
+p SubB_0/abs_0/ha_0/ha_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 Vdd! 2 6 171 766
+n SubB_0/QA0 GND! SubB_0/abs_0/ha_0/xor2_0/nand2_1/a_n37_n6# 2 3 193 758
+n SubB_0/abs_0/ha_0/ha_in2 SubB_0/abs_0/ha_0/xor2_0/nand2_1/a_n37_n6# SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 2 3 193 762
+p SubB_0/abs_0/ha_0/not1_0/not_in Vdd! SubB_0/abs_0/nor2_0/in1 2 6 124 782
+n SubB_0/abs_0/ha_0/not1_0/not_in GND! SubB_0/abs_0/nor2_0/in1 2 3 138 782
+p SubB_0/QA0 Vdd! SubB_0/abs_0/ha_0/not1_0/not_in 2 6 122 758
+p SubB_0/abs_0/ha_0/ha_in2 SubB_0/abs_0/ha_0/not1_0/not_in Vdd! 2 6 122 766
+n SubB_0/QA0 GND! SubB_0/abs_0/ha_0/nand2_0/a_n37_n6# 2 3 144 758
+n SubB_0/abs_0/ha_0/ha_in2 SubB_0/abs_0/ha_0/nand2_0/a_n37_n6# SubB_0/abs_0/ha_0/not1_0/not_in 2 3 144 762
+p SubB_0/abs_0/xor2_0/nand2_4/nand_in1 Vdd! SubB_0/abs_0/ha_0/ha_in2 2 6 184 716
+p SubB_0/abs_0/xor2_0/nand2_4/nand_in2 SubB_0/abs_0/ha_0/ha_in2 Vdd! 2 6 184 724
+n SubB_0/abs_0/xor2_0/nand2_4/nand_in1 GND! SubB_0/abs_0/xor2_0/nand2_4/a_n37_n6# 2 3 162 716
+n SubB_0/abs_0/xor2_0/nand2_4/nand_in2 SubB_0/abs_0/xor2_0/nand2_4/a_n37_n6# SubB_0/abs_0/ha_0/ha_in2 2 3 162 720
+p AbS Vdd! SubB_0/abs_0/xor2_0/nand2_4/nand_in1 2 6 184 687
+p SubB_0/abs_0/xor2_0/nand2_3/nand_in2 SubB_0/abs_0/xor2_0/nand2_4/nand_in1 Vdd! 2 6 184 695
+n AbS GND! SubB_0/abs_0/xor2_0/nand2_3/a_n37_n6# 2 3 162 687
+n SubB_0/abs_0/xor2_0/nand2_3/nand_in2 SubB_0/abs_0/xor2_0/nand2_3/a_n37_n6# SubB_0/abs_0/xor2_0/nand2_4/nand_in1 2 3 162 691
+p SubB_0/abs_0/xor2_0/nand2_3/nand_in2 Vdd! SubB_0/abs_0/xor2_0/nand2_4/nand_in2 2 6 128 716
+p SubB_0/QB0 SubB_0/abs_0/xor2_0/nand2_4/nand_in2 Vdd! 2 6 128 724
+n SubB_0/abs_0/xor2_0/nand2_3/nand_in2 GND! SubB_0/abs_0/xor2_0/nand2_2/a_n37_n6# 2 3 150 716
+n SubB_0/QB0 SubB_0/abs_0/xor2_0/nand2_2/a_n37_n6# SubB_0/abs_0/xor2_0/nand2_4/nand_in2 2 3 150 720
+p AbS Vdd! SubB_0/abs_0/xor2_0/nand2_3/nand_in2 2 6 128 687
+p SubB_0/QB0 SubB_0/abs_0/xor2_0/nand2_3/nand_in2 Vdd! 2 6 128 695
+n AbS GND! SubB_0/abs_0/xor2_0/nand2_1/a_n37_n6# 2 3 150 687
+n SubB_0/QB0 SubB_0/abs_0/xor2_0/nand2_1/a_n37_n6# SubB_0/abs_0/xor2_0/nand2_3/nand_in2 2 3 150 691
+p SubB_0/mux2x1_0/Sm AbS SubB_0/abs_0/cin 2 6 61 824
+n fsm_0/A3 AbS SubB_0/abs_0/cin 2 3 74 824
+p fsm_0/A3 SubB_0/dff3B_0/Q SubB_0/abs_0/cin 2 6 69 853
+n SubB_0/mux2x1_0/Sm SubB_0/dff3B_0/Q SubB_0/abs_0/cin 2 3 56 853
+p fsm_0/A3 Vdd! SubB_0/mux2x1_0/Sm 2 6 70 880
+n fsm_0/A3 GND! SubB_0/mux2x1_0/Sm 2 3 56 880
+p nor2_0/in1 Vdd! nor2_0/a_n37_6# 2 6 228 683
+p nor2_0/in2 nor2_0/a_n37_6# nor2_0/out 2 6 232 683
+n nor2_0/in1 GND! nor2_0/out 2 3 228 669
+n nor2_0/in2 nor2_0/out GND! 2 3 236 669
+p nor2_0/in2 Vdd! nor2_0/in1 2 6 212 683
+n nor2_0/in2 GND! nor2_0/in1 2 3 212 669
+p fsm_0/nor2_3/out Vdd! SB1 2 6 439 1132
+n fsm_0/nor2_3/out GND! SB1 2 3 453 1132
+p fsm_0/nor2_4/out Vdd! SA1 2 6 365 1132
+n fsm_0/nor2_4/out GND! SA1 2 3 379 1132
+p fsm_0/inverter_9/in Vdd! SS0 2 6 484 1158
+n fsm_0/inverter_9/in GND! SS0 2 3 470 1158
+p SS0 Vdd! fsm_0/nor2_3/a_n37_6# 2 6 439 1149
+p SB0 fsm_0/nor2_3/a_n37_6# fsm_0/nor2_3/out 2 6 439 1153
+n SS0 GND! fsm_0/nor2_3/out 2 3 453 1149
+n SB0 fsm_0/nor2_3/out GND! 2 3 453 1157
+p fsm_0/inverter_8/in Vdd! SB0 2 6 413 1158
+n fsm_0/inverter_8/in GND! SB0 2 3 399 1158
+p SS0 Vdd! fsm_0/nor2_4/a_n37_6# 2 6 365 1149
+p SA0 fsm_0/nor2_4/a_n37_6# fsm_0/nor2_4/out 2 6 365 1153
+n SS0 GND! fsm_0/nor2_4/out 2 3 379 1149
+n SA0 fsm_0/nor2_4/out GND! 2 3 379 1157
+p fsm_0/inverter_7/in Vdd! SA0 2 6 296 1158
+n fsm_0/inverter_7/in GND! SA0 2 3 282 1158
+p fsm_0/B2 Vdd! fsm_0/nor2_0/a_n37_6# 2 6 798 1173
+p fsm_0/B1 fsm_0/nor2_0/a_n37_6# fsm_0/nor2_0/out 2 6 794 1173
+n fsm_0/B2 GND! fsm_0/nor2_0/out 2 3 798 1187
+n fsm_0/B1 fsm_0/nor2_0/out GND! 2 3 790 1187
+p fsm_0/nor2_0/out Vdd! fsm_0/nor2_2/in2 2 6 774 1173
+n fsm_0/nor2_0/out GND! fsm_0/nor2_2/in2 2 3 774 1187
+p fsm_0/B0 Vdd! fsm_0/nor2_1/a_n37_6# 2 6 758 1173
+p fsm_0/B3 fsm_0/nor2_1/a_n37_6# fsm_0/nor2_1/out 2 6 754 1173
+n fsm_0/B0 GND! fsm_0/nor2_1/out 2 3 758 1187
+n fsm_0/B3 fsm_0/nor2_1/out GND! 2 3 750 1187
+p fsm_0/nor2_1/out Vdd! fsm_0/nor2_2/in1 2 6 734 1173
+n fsm_0/nor2_1/out GND! fsm_0/nor2_2/in1 2 3 734 1187
+p fsm_0/nor2_2/in1 Vdd! fsm_0/nor2_2/a_n37_6# 2 6 718 1173
+p fsm_0/nor2_2/in2 fsm_0/nor2_2/a_n37_6# fsm_0/nor2_2/out 2 6 714 1173
+n fsm_0/nor2_2/in1 GND! fsm_0/nor2_2/out 2 3 718 1187
+n fsm_0/nor2_2/in2 fsm_0/nor2_2/out GND! 2 3 710 1187
+p fsm_0/nor2_2/out Vdd! fsm_0/G 2 6 694 1173
+n fsm_0/nor2_2/out GND! fsm_0/G 2 3 694 1187
+p fsm_0/A4 Vdd! fsm_0/nor2_5/a_n37_6# 2 6 536 1175
+p fsm_0/A3 fsm_0/nor2_5/a_n37_6# fsm_0/nor2_5/out 2 6 532 1175
+n fsm_0/A4 GND! fsm_0/nor2_5/out 2 3 536 1189
+n fsm_0/A3 fsm_0/nor2_5/out GND! 2 3 528 1189
+p fsm_0/nor2_5/out Vdd! fsm_0/inverter_12/out 2 6 510 1172
+n fsm_0/nor2_5/out GND! fsm_0/inverter_12/out 2 3 510 1186
+p fsm_0/G Vdd! fsm_0/inverter_9/in 2 6 488 1182
+p fsm_0/inverter_12/out fsm_0/inverter_9/in Vdd! 2 6 488 1174
+n fsm_0/G GND! fsm_0/nand2_3/a_n37_n6# 2 3 466 1182
+n fsm_0/inverter_12/out fsm_0/nand2_3/a_n37_n6# fsm_0/inverter_9/in 2 3 466 1178
+p fsm_0/G Vdd! fsm_0/inverter_8/in 2 6 417 1182
+p fsm_0/SR4_0/Q2 fsm_0/inverter_8/in Vdd! 2 6 417 1174
+n fsm_0/G GND! fsm_0/nand2_2/a_n37_n6# 2 3 395 1182
+n fsm_0/SR4_0/Q2 fsm_0/nand2_2/a_n37_n6# fsm_0/inverter_8/in 2 3 395 1178
+p fsm_0/G Vdd! fsm_0/inverter_7/in 2 6 300 1182
+p fsm_0/A1 fsm_0/inverter_7/in Vdd! 2 6 300 1174
+n fsm_0/G GND! fsm_0/nand2_1/a_n37_n6# 2 3 278 1182
+n fsm_0/A1 fsm_0/nand2_1/a_n37_n6# fsm_0/inverter_7/in 2 3 278 1178
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dff3B_2/gate_1/S 2 6 1056 1294
+n fsm_0/CLK GND! fsm_0/SR4_1/dff3B_2/gate_1/S 2 3 1042 1294
+p fsm_0/SR4_1/dff3B_2/gate_2/S Vdd! fsm_0/SR4_1/dff3B_2/gate_0/S 2 6 1055 1346
+n fsm_0/SR4_1/dff3B_2/gate_2/S GND! fsm_0/SR4_1/dff3B_2/gate_0/S 2 3 1041 1346
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dff3B_2/gate_2/S 2 6 1054 1376
+n fsm_0/CLK GND! fsm_0/SR4_1/dff3B_2/gate_2/S 2 3 1040 1376
+p fsm_0/B3 Vdd! fsm_0/SR4_1/dff3B_2/gate_3/Gout 2 6 1084 1248
+n fsm_0/B3 GND! fsm_0/SR4_1/dff3B_2/gate_3/Gout 2 3 1098 1248
+p fsm_0/CLK fsm_0/SR4_1/dff3B_2/gate_3/Gin fsm_0/SR4_1/dff3B_2/gate_3/Gout 2 6 1093 1274
+n fsm_0/SR4_1/dff3B_2/gate_1/S fsm_0/SR4_1/dff3B_2/gate_3/Gin fsm_0/SR4_1/dff3B_2/gate_3/Gout 2 3 1080 1274
+p fsm_0/SR4_1/dff3B_2/gate_1/Gin Vdd! fsm_0/SR4_1/dff3B_2/gate_2/Gout 2 6 1084 1317
+n fsm_0/SR4_1/dff3B_2/gate_1/Gin GND! fsm_0/SR4_1/dff3B_2/gate_2/Gout 2 3 1098 1317
+p fsm_0/SR4_1/dff3B_2/gate_2/S fsm_0/SR4_1/dff3B_2/gate_2/Gin fsm_0/SR4_1/dff3B_2/gate_2/Gout 2 6 1093 1343
+n fsm_0/SR4_1/dff3B_2/gate_0/S fsm_0/SR4_1/dff3B_2/gate_2/Gin fsm_0/SR4_1/dff3B_2/gate_2/Gout 2 3 1080 1343
+p fsm_0/B3 Vdd! fsm_0/SR4_1/dff3B_2/Qb 2 6 1126 1230
+n fsm_0/B3 GND! fsm_0/SR4_1/dff3B_2/Qb 2 3 1112 1230
+p fsm_0/SR4_1/dff3B_2/gate_3/Gin Vdd! fsm_0/B3 2 6 1126 1265
+n fsm_0/SR4_1/dff3B_2/gate_3/Gin GND! fsm_0/B3 2 3 1112 1265
+p fsm_0/SR4_1/dff3B_2/gate_1/S fsm_0/SR4_1/dff3B_2/gate_1/Gin fsm_0/SR4_1/dff3B_2/gate_3/Gin 2 6 1125 1303
+n fsm_0/CLK fsm_0/SR4_1/dff3B_2/gate_1/Gin fsm_0/SR4_1/dff3B_2/gate_3/Gin 2 3 1112 1303
+p fsm_0/SR4_1/dff3B_2/gate_2/Gin Vdd! fsm_0/SR4_1/dff3B_2/gate_1/Gin 2 6 1126 1339
+n fsm_0/SR4_1/dff3B_2/gate_2/Gin GND! fsm_0/SR4_1/dff3B_2/gate_1/Gin 2 3 1112 1339
+p fsm_0/SR4_1/dff3B_2/gate_0/S fsm_0/SR4_1/dff3B_2/gate_0/Gin fsm_0/SR4_1/dff3B_2/gate_2/Gin 2 6 1125 1371
+n fsm_0/SR4_1/dff3B_2/gate_2/S fsm_0/SR4_1/dff3B_2/gate_0/Gin fsm_0/SR4_1/dff3B_2/gate_2/Gin 2 3 1112 1371
+p fsm_0/SR4_1/dff3B_2/inverter_11/in Vdd! fsm_0/SR4_1/dff3B_2/gate_0/Gin 2 6 1123 1407
+n fsm_0/SR4_1/dff3B_2/inverter_11/in GND! fsm_0/SR4_1/dff3B_2/gate_0/Gin 2 3 1109 1407
+p fsm_0/SR4_1/dff3B_2/inverter_7/out Vdd! fsm_0/SR4_1/dff3B_2/inverter_11/in 2 6 1128 1431
+p fsm_0/SR4_1/dff3B_2/D fsm_0/SR4_1/dff3B_2/inverter_11/in Vdd! 2 6 1128 1423
+n fsm_0/SR4_1/dff3B_2/inverter_7/out GND! fsm_0/SR4_1/dff3B_2/nand2_0/a_n37_n6# 2 3 1106 1431
+n fsm_0/SR4_1/dff3B_2/D fsm_0/SR4_1/dff3B_2/nand2_0/a_n37_n6# fsm_0/SR4_1/dff3B_2/inverter_11/in 2 3 1106 1427
+p RST Vdd! fsm_0/SR4_1/dff3B_2/inverter_7/out 2 6 1123 1447
+n RST GND! fsm_0/SR4_1/dff3B_2/inverter_7/out 2 3 1109 1447
+p fsm_0/SR4_1/S fsm_0/B3 fsm_0/SR4_1/dff3B_2/D 2 6 1074 1404
+n fsm_0/SR4_1/mux2x1_3/Smb fsm_0/B3 fsm_0/SR4_1/dff3B_2/D 2 3 1087 1404
+p fsm_0/SR4_1/mux2x1_3/Smb fsm_0/B2 fsm_0/SR4_1/dff3B_2/D 2 6 1082 1433
+n fsm_0/SR4_1/S fsm_0/B2 fsm_0/SR4_1/dff3B_2/D 2 3 1069 1433
+p fsm_0/SR4_1/S Vdd! fsm_0/SR4_1/mux2x1_3/Smb 2 6 1064 1460
+n fsm_0/SR4_1/S GND! fsm_0/SR4_1/mux2x1_3/Smb 2 3 1064 1446
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dff3B_1/gate_1/S 2 6 939 1294
+n fsm_0/CLK GND! fsm_0/SR4_1/dff3B_1/gate_1/S 2 3 925 1294
+p fsm_0/SR4_1/dff3B_1/gate_2/S Vdd! fsm_0/SR4_1/dff3B_1/gate_0/S 2 6 938 1346
+n fsm_0/SR4_1/dff3B_1/gate_2/S GND! fsm_0/SR4_1/dff3B_1/gate_0/S 2 3 924 1346
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dff3B_1/gate_2/S 2 6 937 1376
+n fsm_0/CLK GND! fsm_0/SR4_1/dff3B_1/gate_2/S 2 3 923 1376
+p fsm_0/B2 Vdd! fsm_0/SR4_1/dff3B_1/gate_3/Gout 2 6 967 1248
+n fsm_0/B2 GND! fsm_0/SR4_1/dff3B_1/gate_3/Gout 2 3 981 1248
+p fsm_0/CLK fsm_0/SR4_1/dff3B_1/gate_3/Gin fsm_0/SR4_1/dff3B_1/gate_3/Gout 2 6 976 1274
+n fsm_0/SR4_1/dff3B_1/gate_1/S fsm_0/SR4_1/dff3B_1/gate_3/Gin fsm_0/SR4_1/dff3B_1/gate_3/Gout 2 3 963 1274
+p fsm_0/SR4_1/dff3B_1/gate_1/Gin Vdd! fsm_0/SR4_1/dff3B_1/gate_2/Gout 2 6 967 1317
+n fsm_0/SR4_1/dff3B_1/gate_1/Gin GND! fsm_0/SR4_1/dff3B_1/gate_2/Gout 2 3 981 1317
+p fsm_0/SR4_1/dff3B_1/gate_2/S fsm_0/SR4_1/dff3B_1/gate_2/Gin fsm_0/SR4_1/dff3B_1/gate_2/Gout 2 6 976 1343
+n fsm_0/SR4_1/dff3B_1/gate_0/S fsm_0/SR4_1/dff3B_1/gate_2/Gin fsm_0/SR4_1/dff3B_1/gate_2/Gout 2 3 963 1343
+p fsm_0/B2 Vdd! fsm_0/SR4_1/dff3B_1/Qb 2 6 1009 1230
+n fsm_0/B2 GND! fsm_0/SR4_1/dff3B_1/Qb 2 3 995 1230
+p fsm_0/SR4_1/dff3B_1/gate_3/Gin Vdd! fsm_0/B2 2 6 1009 1265
+n fsm_0/SR4_1/dff3B_1/gate_3/Gin GND! fsm_0/B2 2 3 995 1265
+p fsm_0/SR4_1/dff3B_1/gate_1/S fsm_0/SR4_1/dff3B_1/gate_1/Gin fsm_0/SR4_1/dff3B_1/gate_3/Gin 2 6 1008 1303
+n fsm_0/CLK fsm_0/SR4_1/dff3B_1/gate_1/Gin fsm_0/SR4_1/dff3B_1/gate_3/Gin 2 3 995 1303
+p fsm_0/SR4_1/dff3B_1/gate_2/Gin Vdd! fsm_0/SR4_1/dff3B_1/gate_1/Gin 2 6 1009 1339
+n fsm_0/SR4_1/dff3B_1/gate_2/Gin GND! fsm_0/SR4_1/dff3B_1/gate_1/Gin 2 3 995 1339
+p fsm_0/SR4_1/dff3B_1/gate_0/S fsm_0/SR4_1/dff3B_1/gate_0/Gin fsm_0/SR4_1/dff3B_1/gate_2/Gin 2 6 1008 1371
+n fsm_0/SR4_1/dff3B_1/gate_2/S fsm_0/SR4_1/dff3B_1/gate_0/Gin fsm_0/SR4_1/dff3B_1/gate_2/Gin 2 3 995 1371
+p fsm_0/SR4_1/dff3B_1/inverter_11/in Vdd! fsm_0/SR4_1/dff3B_1/gate_0/Gin 2 6 1006 1407
+n fsm_0/SR4_1/dff3B_1/inverter_11/in GND! fsm_0/SR4_1/dff3B_1/gate_0/Gin 2 3 992 1407
+p fsm_0/SR4_1/dff3B_1/inverter_7/out Vdd! fsm_0/SR4_1/dff3B_1/inverter_11/in 2 6 1011 1431
+p fsm_0/SR4_1/dff3B_1/D fsm_0/SR4_1/dff3B_1/inverter_11/in Vdd! 2 6 1011 1423
+n fsm_0/SR4_1/dff3B_1/inverter_7/out GND! fsm_0/SR4_1/dff3B_1/nand2_0/a_n37_n6# 2 3 989 1431
+n fsm_0/SR4_1/dff3B_1/D fsm_0/SR4_1/dff3B_1/nand2_0/a_n37_n6# fsm_0/SR4_1/dff3B_1/inverter_11/in 2 3 989 1427
+p RST Vdd! fsm_0/SR4_1/dff3B_1/inverter_7/out 2 6 1006 1447
+n RST GND! fsm_0/SR4_1/dff3B_1/inverter_7/out 2 3 992 1447
+p fsm_0/SR4_1/S fsm_0/B2 fsm_0/SR4_1/dff3B_1/D 2 6 957 1404
+n fsm_0/SR4_1/mux2x1_2/Smb fsm_0/B2 fsm_0/SR4_1/dff3B_1/D 2 3 970 1404
+p fsm_0/SR4_1/mux2x1_2/Smb fsm_0/B1 fsm_0/SR4_1/dff3B_1/D 2 6 965 1433
+n fsm_0/SR4_1/S fsm_0/B1 fsm_0/SR4_1/dff3B_1/D 2 3 952 1433
+p fsm_0/SR4_1/S Vdd! fsm_0/SR4_1/mux2x1_2/Smb 2 6 947 1460
+n fsm_0/SR4_1/S GND! fsm_0/SR4_1/mux2x1_2/Smb 2 3 947 1446
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dff3B_0/gate_1/S 2 6 822 1294
+n fsm_0/CLK GND! fsm_0/SR4_1/dff3B_0/gate_1/S 2 3 808 1294
+p fsm_0/SR4_1/dff3B_0/gate_2/S Vdd! fsm_0/SR4_1/dff3B_0/gate_0/S 2 6 821 1346
+n fsm_0/SR4_1/dff3B_0/gate_2/S GND! fsm_0/SR4_1/dff3B_0/gate_0/S 2 3 807 1346
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dff3B_0/gate_2/S 2 6 820 1376
+n fsm_0/CLK GND! fsm_0/SR4_1/dff3B_0/gate_2/S 2 3 806 1376
+p fsm_0/B1 Vdd! fsm_0/SR4_1/dff3B_0/gate_3/Gout 2 6 850 1248
+n fsm_0/B1 GND! fsm_0/SR4_1/dff3B_0/gate_3/Gout 2 3 864 1248
+p fsm_0/CLK fsm_0/SR4_1/dff3B_0/gate_3/Gin fsm_0/SR4_1/dff3B_0/gate_3/Gout 2 6 859 1274
+n fsm_0/SR4_1/dff3B_0/gate_1/S fsm_0/SR4_1/dff3B_0/gate_3/Gin fsm_0/SR4_1/dff3B_0/gate_3/Gout 2 3 846 1274
+p fsm_0/SR4_1/dff3B_0/gate_1/Gin Vdd! fsm_0/SR4_1/dff3B_0/gate_2/Gout 2 6 850 1317
+n fsm_0/SR4_1/dff3B_0/gate_1/Gin GND! fsm_0/SR4_1/dff3B_0/gate_2/Gout 2 3 864 1317
+p fsm_0/SR4_1/dff3B_0/gate_2/S fsm_0/SR4_1/dff3B_0/gate_2/Gin fsm_0/SR4_1/dff3B_0/gate_2/Gout 2 6 859 1343
+n fsm_0/SR4_1/dff3B_0/gate_0/S fsm_0/SR4_1/dff3B_0/gate_2/Gin fsm_0/SR4_1/dff3B_0/gate_2/Gout 2 3 846 1343
+p fsm_0/B1 Vdd! fsm_0/SR4_1/dff3B_0/Qb 2 6 892 1230
+n fsm_0/B1 GND! fsm_0/SR4_1/dff3B_0/Qb 2 3 878 1230
+p fsm_0/SR4_1/dff3B_0/gate_3/Gin Vdd! fsm_0/B1 2 6 892 1265
+n fsm_0/SR4_1/dff3B_0/gate_3/Gin GND! fsm_0/B1 2 3 878 1265
+p fsm_0/SR4_1/dff3B_0/gate_1/S fsm_0/SR4_1/dff3B_0/gate_1/Gin fsm_0/SR4_1/dff3B_0/gate_3/Gin 2 6 891 1303
+n fsm_0/CLK fsm_0/SR4_1/dff3B_0/gate_1/Gin fsm_0/SR4_1/dff3B_0/gate_3/Gin 2 3 878 1303
+p fsm_0/SR4_1/dff3B_0/gate_2/Gin Vdd! fsm_0/SR4_1/dff3B_0/gate_1/Gin 2 6 892 1339
+n fsm_0/SR4_1/dff3B_0/gate_2/Gin GND! fsm_0/SR4_1/dff3B_0/gate_1/Gin 2 3 878 1339
+p fsm_0/SR4_1/dff3B_0/gate_0/S fsm_0/SR4_1/dff3B_0/gate_0/Gin fsm_0/SR4_1/dff3B_0/gate_2/Gin 2 6 891 1371
+n fsm_0/SR4_1/dff3B_0/gate_2/S fsm_0/SR4_1/dff3B_0/gate_0/Gin fsm_0/SR4_1/dff3B_0/gate_2/Gin 2 3 878 1371
+p fsm_0/SR4_1/dff3B_0/inverter_11/in Vdd! fsm_0/SR4_1/dff3B_0/gate_0/Gin 2 6 889 1407
+n fsm_0/SR4_1/dff3B_0/inverter_11/in GND! fsm_0/SR4_1/dff3B_0/gate_0/Gin 2 3 875 1407
+p fsm_0/SR4_1/dff3B_0/inverter_7/out Vdd! fsm_0/SR4_1/dff3B_0/inverter_11/in 2 6 894 1431
+p fsm_0/SR4_1/dff3B_0/D fsm_0/SR4_1/dff3B_0/inverter_11/in Vdd! 2 6 894 1423
+n fsm_0/SR4_1/dff3B_0/inverter_7/out GND! fsm_0/SR4_1/dff3B_0/nand2_0/a_n37_n6# 2 3 872 1431
+n fsm_0/SR4_1/dff3B_0/D fsm_0/SR4_1/dff3B_0/nand2_0/a_n37_n6# fsm_0/SR4_1/dff3B_0/inverter_11/in 2 3 872 1427
+p RST Vdd! fsm_0/SR4_1/dff3B_0/inverter_7/out 2 6 889 1447
+n RST GND! fsm_0/SR4_1/dff3B_0/inverter_7/out 2 3 875 1447
+p fsm_0/SR4_1/S fsm_0/B1 fsm_0/SR4_1/dff3B_0/D 2 6 840 1404
+n fsm_0/SR4_1/mux2x1_0/Smb fsm_0/B1 fsm_0/SR4_1/dff3B_0/D 2 3 853 1404
+p fsm_0/SR4_1/mux2x1_0/Smb fsm_0/B0 fsm_0/SR4_1/dff3B_0/D 2 6 848 1433
+n fsm_0/SR4_1/S fsm_0/B0 fsm_0/SR4_1/dff3B_0/D 2 3 835 1433
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dffP_0/gate_1/S 2 6 705 1293
+n fsm_0/CLK GND! fsm_0/SR4_1/dffP_0/gate_1/S 2 3 691 1293
+p fsm_0/SR4_1/dffP_0/gate_2/S Vdd! fsm_0/SR4_1/dffP_0/gate_0/S 2 6 704 1345
+n fsm_0/SR4_1/dffP_0/gate_2/S GND! fsm_0/SR4_1/dffP_0/gate_0/S 2 3 690 1345
+p fsm_0/CLK Vdd! fsm_0/SR4_1/dffP_0/gate_2/S 2 6 703 1375
+n fsm_0/CLK GND! fsm_0/SR4_1/dffP_0/gate_2/S 2 3 689 1375
+p fsm_0/B0 Vdd! fsm_0/SR4_1/dffP_0/gate_3/Gout 2 6 733 1247
+n fsm_0/B0 GND! fsm_0/SR4_1/dffP_0/gate_3/Gout 2 3 747 1247
+p fsm_0/CLK fsm_0/SR4_1/dffP_0/gate_3/Gin fsm_0/SR4_1/dffP_0/gate_3/Gout 2 6 742 1273
+n fsm_0/SR4_1/dffP_0/gate_1/S fsm_0/SR4_1/dffP_0/gate_3/Gin fsm_0/SR4_1/dffP_0/gate_3/Gout 2 3 729 1273
+p fsm_0/SR4_1/dffP_0/gate_1/Gin Vdd! fsm_0/SR4_1/dffP_0/gate_2/Gout 2 6 733 1316
+n fsm_0/SR4_1/dffP_0/gate_1/Gin GND! fsm_0/SR4_1/dffP_0/gate_2/Gout 2 3 747 1316
+p fsm_0/SR4_1/dffP_0/gate_2/S fsm_0/SR4_1/dffP_0/gate_2/Gin fsm_0/SR4_1/dffP_0/gate_2/Gout 2 6 742 1342
+n fsm_0/SR4_1/dffP_0/gate_0/S fsm_0/SR4_1/dffP_0/gate_2/Gin fsm_0/SR4_1/dffP_0/gate_2/Gout 2 3 729 1342
+p fsm_0/B0 Vdd! fsm_0/SR4_1/dffP_0/Qb 2 6 775 1229
+n fsm_0/B0 GND! fsm_0/SR4_1/dffP_0/Qb 2 3 761 1229
+p fsm_0/SR4_1/dffP_0/gate_3/Gin Vdd! fsm_0/B0 2 6 775 1264
+n fsm_0/SR4_1/dffP_0/gate_3/Gin GND! fsm_0/B0 2 3 761 1264
+p fsm_0/SR4_1/dffP_0/gate_1/S fsm_0/SR4_1/dffP_0/gate_1/Gin fsm_0/SR4_1/dffP_0/gate_3/Gin 2 6 774 1302
+n fsm_0/CLK fsm_0/SR4_1/dffP_0/gate_1/Gin fsm_0/SR4_1/dffP_0/gate_3/Gin 2 3 761 1302
+p fsm_0/SR4_1/dffP_0/gate_2/Gin Vdd! fsm_0/SR4_1/dffP_0/gate_1/Gin 2 6 775 1338
+n fsm_0/SR4_1/dffP_0/gate_2/Gin GND! fsm_0/SR4_1/dffP_0/gate_1/Gin 2 3 761 1338
+p fsm_0/SR4_1/dffP_0/gate_0/S fsm_0/SR4_1/dffP_0/gate_0/Gin fsm_0/SR4_1/dffP_0/gate_2/Gin 2 6 774 1370
+n fsm_0/SR4_1/dffP_0/gate_2/S fsm_0/SR4_1/dffP_0/gate_0/Gin fsm_0/SR4_1/dffP_0/gate_2/Gin 2 3 761 1370
+p fsm_0/SR4_1/dffP_0/nor2_0/out Vdd! fsm_0/SR4_1/dffP_0/gate_0/Gin 2 6 772 1406
+n fsm_0/SR4_1/dffP_0/nor2_0/out GND! fsm_0/SR4_1/dffP_0/gate_0/Gin 2 3 758 1406
+p RST Vdd! fsm_0/SR4_1/dffP_0/nor2_0/a_n37_6# 2 6 772 1430
+p fsm_0/SR4_1/dffP_0/D fsm_0/SR4_1/dffP_0/nor2_0/a_n37_6# fsm_0/SR4_1/dffP_0/nor2_0/out 2 6 772 1426
+n RST GND! fsm_0/SR4_1/dffP_0/nor2_0/out 2 3 758 1430
+n fsm_0/SR4_1/dffP_0/D fsm_0/SR4_1/dffP_0/nor2_0/out GND! 2 3 758 1422
+p fsm_0/SR4_1/S fsm_0/B0 fsm_0/SR4_1/dffP_0/D 2 6 727 1399
+n fsm_0/SR4_1/mux2x1_1/Smb fsm_0/B0 fsm_0/SR4_1/dffP_0/D 2 3 740 1399
+p fsm_0/SR4_1/mux2x1_1/Smb fsm_0/SR4_1/INP fsm_0/SR4_1/dffP_0/D 2 6 735 1428
+n fsm_0/SR4_1/S fsm_0/SR4_1/INP fsm_0/SR4_1/dffP_0/D 2 3 722 1428
+p fsm_0/SR4_1/S Vdd! fsm_0/SR4_1/mux2x1_0/Smb 2 6 830 1460
+n fsm_0/SR4_1/S GND! fsm_0/SR4_1/mux2x1_0/Smb 2 3 830 1446
+p fsm_0/SR4_1/S Vdd! fsm_0/SR4_1/mux2x1_1/Smb 2 6 717 1455
+n fsm_0/SR4_1/S GND! fsm_0/SR4_1/mux2x1_1/Smb 2 3 717 1441
+p fsm_0/B3 Vdd! fsm_0/SR4_1/INP 2 6 695 1440
+n fsm_0/B3 GND! fsm_0/SR4_1/INP 2 3 695 1426
+p fsm_0/CLK Vdd! fsm_0/dff3B_0/gate_1/S 2 6 539 1294
+n fsm_0/CLK GND! fsm_0/dff3B_0/gate_1/S 2 3 525 1294
+p fsm_0/dff3B_0/gate_2/S Vdd! fsm_0/dff3B_0/gate_0/S 2 6 538 1346
+n fsm_0/dff3B_0/gate_2/S GND! fsm_0/dff3B_0/gate_0/S 2 3 524 1346
+p fsm_0/CLK Vdd! fsm_0/dff3B_0/gate_2/S 2 6 537 1376
+n fsm_0/CLK GND! fsm_0/dff3B_0/gate_2/S 2 3 523 1376
+p fsm_0/A4 Vdd! fsm_0/dff3B_0/gate_3/Gout 2 6 567 1248
+n fsm_0/A4 GND! fsm_0/dff3B_0/gate_3/Gout 2 3 581 1248
+p fsm_0/CLK fsm_0/dff3B_0/gate_3/Gin fsm_0/dff3B_0/gate_3/Gout 2 6 576 1274
+n fsm_0/dff3B_0/gate_1/S fsm_0/dff3B_0/gate_3/Gin fsm_0/dff3B_0/gate_3/Gout 2 3 563 1274
+p fsm_0/dff3B_0/gate_1/Gin Vdd! fsm_0/dff3B_0/gate_2/Gout 2 6 567 1317
+n fsm_0/dff3B_0/gate_1/Gin GND! fsm_0/dff3B_0/gate_2/Gout 2 3 581 1317
+p fsm_0/dff3B_0/gate_2/S fsm_0/dff3B_0/gate_2/Gin fsm_0/dff3B_0/gate_2/Gout 2 6 576 1343
+n fsm_0/dff3B_0/gate_0/S fsm_0/dff3B_0/gate_2/Gin fsm_0/dff3B_0/gate_2/Gout 2 3 563 1343
+p fsm_0/A4 Vdd! fsm_0/dff3B_0/Qb 2 6 609 1230
+n fsm_0/A4 GND! fsm_0/dff3B_0/Qb 2 3 595 1230
+p fsm_0/dff3B_0/gate_3/Gin Vdd! fsm_0/A4 2 6 609 1265
+n fsm_0/dff3B_0/gate_3/Gin GND! fsm_0/A4 2 3 595 1265
+p fsm_0/dff3B_0/gate_1/S fsm_0/dff3B_0/gate_1/Gin fsm_0/dff3B_0/gate_3/Gin 2 6 608 1303
+n fsm_0/CLK fsm_0/dff3B_0/gate_1/Gin fsm_0/dff3B_0/gate_3/Gin 2 3 595 1303
+p fsm_0/dff3B_0/gate_2/Gin Vdd! fsm_0/dff3B_0/gate_1/Gin 2 6 609 1339
+n fsm_0/dff3B_0/gate_2/Gin GND! fsm_0/dff3B_0/gate_1/Gin 2 3 595 1339
+p fsm_0/dff3B_0/gate_0/S fsm_0/dff3B_0/gate_0/Gin fsm_0/dff3B_0/gate_2/Gin 2 6 608 1371
+n fsm_0/dff3B_0/gate_2/S fsm_0/dff3B_0/gate_0/Gin fsm_0/dff3B_0/gate_2/Gin 2 3 595 1371
+p fsm_0/dff3B_0/inverter_11/in Vdd! fsm_0/dff3B_0/gate_0/Gin 2 6 606 1407
+n fsm_0/dff3B_0/inverter_11/in GND! fsm_0/dff3B_0/gate_0/Gin 2 3 592 1407
+p fsm_0/dff3B_0/inverter_7/out Vdd! fsm_0/dff3B_0/inverter_11/in 2 6 611 1431
+p fsm_0/dff3B_0/D fsm_0/dff3B_0/inverter_11/in Vdd! 2 6 611 1423
+n fsm_0/dff3B_0/inverter_7/out GND! fsm_0/dff3B_0/nand2_0/a_n37_n6# 2 3 589 1431
+n fsm_0/dff3B_0/D fsm_0/dff3B_0/nand2_0/a_n37_n6# fsm_0/dff3B_0/inverter_11/in 2 3 589 1427
+p RST Vdd! fsm_0/dff3B_0/inverter_7/out 2 6 606 1447
+n RST GND! fsm_0/dff3B_0/inverter_7/out 2 3 592 1447
+p fsm_0/inverter_2/in Vdd! fsm_0/SR4_1/S 2 6 673 1447
+n fsm_0/inverter_2/in GND! fsm_0/SR4_1/S 2 3 673 1433
+p fsm_0/A4 Vdd! fsm_0/inverter_2/in 2 6 649 1453
+p fsm_0/G fsm_0/inverter_2/in Vdd! 2 6 657 1453
+n fsm_0/A4 GND! fsm_0/nand2_0/a_n37_n6# 2 3 649 1431
+n fsm_0/G fsm_0/nand2_0/a_n37_n6# fsm_0/inverter_2/in 2 3 653 1431
+p fsm_0/SR4_0/S fsm_0/A4 fsm_0/dff3B_0/D 2 6 558 1404
+n fsm_0/mux2x1_0/Smb fsm_0/A4 fsm_0/dff3B_0/D 2 3 571 1404
+p fsm_0/mux2x1_0/Smb fsm_0/A3 fsm_0/dff3B_0/D 2 6 566 1433
+n fsm_0/SR4_0/S fsm_0/A3 fsm_0/dff3B_0/D 2 3 553 1433
+p fsm_0/A4 Vdd! fsm_0/SR4_0/S 2 6 627 1461
+n fsm_0/A4 GND! fsm_0/SR4_0/S 2 3 627 1447
+p fsm_0/SR4_0/S Vdd! fsm_0/mux2x1_0/Smb 2 6 548 1460
+n fsm_0/SR4_0/S GND! fsm_0/mux2x1_0/Smb 2 3 548 1446
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dff3B_2/gate_1/S 2 6 422 1294
+n fsm_0/CLK GND! fsm_0/SR4_0/dff3B_2/gate_1/S 2 3 408 1294
+p fsm_0/SR4_0/dff3B_2/gate_2/S Vdd! fsm_0/SR4_0/dff3B_2/gate_0/S 2 6 421 1346
+n fsm_0/SR4_0/dff3B_2/gate_2/S GND! fsm_0/SR4_0/dff3B_2/gate_0/S 2 3 407 1346
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dff3B_2/gate_2/S 2 6 420 1376
+n fsm_0/CLK GND! fsm_0/SR4_0/dff3B_2/gate_2/S 2 3 406 1376
+p fsm_0/A3 Vdd! fsm_0/SR4_0/dff3B_2/gate_3/Gout 2 6 450 1248
+n fsm_0/A3 GND! fsm_0/SR4_0/dff3B_2/gate_3/Gout 2 3 464 1248
+p fsm_0/CLK fsm_0/SR4_0/dff3B_2/gate_3/Gin fsm_0/SR4_0/dff3B_2/gate_3/Gout 2 6 459 1274
+n fsm_0/SR4_0/dff3B_2/gate_1/S fsm_0/SR4_0/dff3B_2/gate_3/Gin fsm_0/SR4_0/dff3B_2/gate_3/Gout 2 3 446 1274
+p fsm_0/SR4_0/dff3B_2/gate_1/Gin Vdd! fsm_0/SR4_0/dff3B_2/gate_2/Gout 2 6 450 1317
+n fsm_0/SR4_0/dff3B_2/gate_1/Gin GND! fsm_0/SR4_0/dff3B_2/gate_2/Gout 2 3 464 1317
+p fsm_0/SR4_0/dff3B_2/gate_2/S fsm_0/SR4_0/dff3B_2/gate_2/Gin fsm_0/SR4_0/dff3B_2/gate_2/Gout 2 6 459 1343
+n fsm_0/SR4_0/dff3B_2/gate_0/S fsm_0/SR4_0/dff3B_2/gate_2/Gin fsm_0/SR4_0/dff3B_2/gate_2/Gout 2 3 446 1343
+p fsm_0/A3 Vdd! fsm_0/SR4_0/dff3B_2/Qb 2 6 492 1230
+n fsm_0/A3 GND! fsm_0/SR4_0/dff3B_2/Qb 2 3 478 1230
+p fsm_0/SR4_0/dff3B_2/gate_3/Gin Vdd! fsm_0/A3 2 6 492 1265
+n fsm_0/SR4_0/dff3B_2/gate_3/Gin GND! fsm_0/A3 2 3 478 1265
+p fsm_0/SR4_0/dff3B_2/gate_1/S fsm_0/SR4_0/dff3B_2/gate_1/Gin fsm_0/SR4_0/dff3B_2/gate_3/Gin 2 6 491 1303
+n fsm_0/CLK fsm_0/SR4_0/dff3B_2/gate_1/Gin fsm_0/SR4_0/dff3B_2/gate_3/Gin 2 3 478 1303
+p fsm_0/SR4_0/dff3B_2/gate_2/Gin Vdd! fsm_0/SR4_0/dff3B_2/gate_1/Gin 2 6 492 1339
+n fsm_0/SR4_0/dff3B_2/gate_2/Gin GND! fsm_0/SR4_0/dff3B_2/gate_1/Gin 2 3 478 1339
+p fsm_0/SR4_0/dff3B_2/gate_0/S fsm_0/SR4_0/dff3B_2/gate_0/Gin fsm_0/SR4_0/dff3B_2/gate_2/Gin 2 6 491 1371
+n fsm_0/SR4_0/dff3B_2/gate_2/S fsm_0/SR4_0/dff3B_2/gate_0/Gin fsm_0/SR4_0/dff3B_2/gate_2/Gin 2 3 478 1371
+p fsm_0/SR4_0/dff3B_2/inverter_11/in Vdd! fsm_0/SR4_0/dff3B_2/gate_0/Gin 2 6 489 1407
+n fsm_0/SR4_0/dff3B_2/inverter_11/in GND! fsm_0/SR4_0/dff3B_2/gate_0/Gin 2 3 475 1407
+p fsm_0/SR4_0/dff3B_2/inverter_7/out Vdd! fsm_0/SR4_0/dff3B_2/inverter_11/in 2 6 494 1431
+p fsm_0/SR4_0/dff3B_2/D fsm_0/SR4_0/dff3B_2/inverter_11/in Vdd! 2 6 494 1423
+n fsm_0/SR4_0/dff3B_2/inverter_7/out GND! fsm_0/SR4_0/dff3B_2/nand2_0/a_n37_n6# 2 3 472 1431
+n fsm_0/SR4_0/dff3B_2/D fsm_0/SR4_0/dff3B_2/nand2_0/a_n37_n6# fsm_0/SR4_0/dff3B_2/inverter_11/in 2 3 472 1427
+p RST Vdd! fsm_0/SR4_0/dff3B_2/inverter_7/out 2 6 489 1447
+n RST GND! fsm_0/SR4_0/dff3B_2/inverter_7/out 2 3 475 1447
+p fsm_0/SR4_0/S fsm_0/A3 fsm_0/SR4_0/dff3B_2/D 2 6 440 1404
+n fsm_0/SR4_0/mux2x1_3/Smb fsm_0/A3 fsm_0/SR4_0/dff3B_2/D 2 3 453 1404
+p fsm_0/SR4_0/mux2x1_3/Smb fsm_0/SR4_0/Q2 fsm_0/SR4_0/dff3B_2/D 2 6 448 1433
+n fsm_0/SR4_0/S fsm_0/SR4_0/Q2 fsm_0/SR4_0/dff3B_2/D 2 3 435 1433
+p fsm_0/SR4_0/S Vdd! fsm_0/SR4_0/mux2x1_3/Smb 2 6 430 1460
+n fsm_0/SR4_0/S GND! fsm_0/SR4_0/mux2x1_3/Smb 2 3 430 1446
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dff3B_1/gate_1/S 2 6 305 1294
+n fsm_0/CLK GND! fsm_0/SR4_0/dff3B_1/gate_1/S 2 3 291 1294
+p fsm_0/SR4_0/dff3B_1/gate_2/S Vdd! fsm_0/SR4_0/dff3B_1/gate_0/S 2 6 304 1346
+n fsm_0/SR4_0/dff3B_1/gate_2/S GND! fsm_0/SR4_0/dff3B_1/gate_0/S 2 3 290 1346
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dff3B_1/gate_2/S 2 6 303 1376
+n fsm_0/CLK GND! fsm_0/SR4_0/dff3B_1/gate_2/S 2 3 289 1376
+p fsm_0/SR4_0/Q2 Vdd! fsm_0/SR4_0/dff3B_1/gate_3/Gout 2 6 333 1248
+n fsm_0/SR4_0/Q2 GND! fsm_0/SR4_0/dff3B_1/gate_3/Gout 2 3 347 1248
+p fsm_0/CLK fsm_0/SR4_0/dff3B_1/gate_3/Gin fsm_0/SR4_0/dff3B_1/gate_3/Gout 2 6 342 1274
+n fsm_0/SR4_0/dff3B_1/gate_1/S fsm_0/SR4_0/dff3B_1/gate_3/Gin fsm_0/SR4_0/dff3B_1/gate_3/Gout 2 3 329 1274
+p fsm_0/SR4_0/dff3B_1/gate_1/Gin Vdd! fsm_0/SR4_0/dff3B_1/gate_2/Gout 2 6 333 1317
+n fsm_0/SR4_0/dff3B_1/gate_1/Gin GND! fsm_0/SR4_0/dff3B_1/gate_2/Gout 2 3 347 1317
+p fsm_0/SR4_0/dff3B_1/gate_2/S fsm_0/SR4_0/dff3B_1/gate_2/Gin fsm_0/SR4_0/dff3B_1/gate_2/Gout 2 6 342 1343
+n fsm_0/SR4_0/dff3B_1/gate_0/S fsm_0/SR4_0/dff3B_1/gate_2/Gin fsm_0/SR4_0/dff3B_1/gate_2/Gout 2 3 329 1343
+p fsm_0/SR4_0/Q2 Vdd! fsm_0/SR4_0/dff3B_1/Qb 2 6 375 1230
+n fsm_0/SR4_0/Q2 GND! fsm_0/SR4_0/dff3B_1/Qb 2 3 361 1230
+p fsm_0/SR4_0/dff3B_1/gate_3/Gin Vdd! fsm_0/SR4_0/Q2 2 6 375 1265
+n fsm_0/SR4_0/dff3B_1/gate_3/Gin GND! fsm_0/SR4_0/Q2 2 3 361 1265
+p fsm_0/SR4_0/dff3B_1/gate_1/S fsm_0/SR4_0/dff3B_1/gate_1/Gin fsm_0/SR4_0/dff3B_1/gate_3/Gin 2 6 374 1303
+n fsm_0/CLK fsm_0/SR4_0/dff3B_1/gate_1/Gin fsm_0/SR4_0/dff3B_1/gate_3/Gin 2 3 361 1303
+p fsm_0/SR4_0/dff3B_1/gate_2/Gin Vdd! fsm_0/SR4_0/dff3B_1/gate_1/Gin 2 6 375 1339
+n fsm_0/SR4_0/dff3B_1/gate_2/Gin GND! fsm_0/SR4_0/dff3B_1/gate_1/Gin 2 3 361 1339
+p fsm_0/SR4_0/dff3B_1/gate_0/S fsm_0/SR4_0/dff3B_1/gate_0/Gin fsm_0/SR4_0/dff3B_1/gate_2/Gin 2 6 374 1371
+n fsm_0/SR4_0/dff3B_1/gate_2/S fsm_0/SR4_0/dff3B_1/gate_0/Gin fsm_0/SR4_0/dff3B_1/gate_2/Gin 2 3 361 1371
+p fsm_0/SR4_0/dff3B_1/inverter_11/in Vdd! fsm_0/SR4_0/dff3B_1/gate_0/Gin 2 6 372 1407
+n fsm_0/SR4_0/dff3B_1/inverter_11/in GND! fsm_0/SR4_0/dff3B_1/gate_0/Gin 2 3 358 1407
+p fsm_0/SR4_0/dff3B_1/inverter_7/out Vdd! fsm_0/SR4_0/dff3B_1/inverter_11/in 2 6 377 1431
+p fsm_0/SR4_0/dff3B_1/D fsm_0/SR4_0/dff3B_1/inverter_11/in Vdd! 2 6 377 1423
+n fsm_0/SR4_0/dff3B_1/inverter_7/out GND! fsm_0/SR4_0/dff3B_1/nand2_0/a_n37_n6# 2 3 355 1431
+n fsm_0/SR4_0/dff3B_1/D fsm_0/SR4_0/dff3B_1/nand2_0/a_n37_n6# fsm_0/SR4_0/dff3B_1/inverter_11/in 2 3 355 1427
+p RST Vdd! fsm_0/SR4_0/dff3B_1/inverter_7/out 2 6 372 1447
+n RST GND! fsm_0/SR4_0/dff3B_1/inverter_7/out 2 3 358 1447
+p fsm_0/SR4_0/S fsm_0/SR4_0/Q2 fsm_0/SR4_0/dff3B_1/D 2 6 323 1404
+n fsm_0/SR4_0/mux2x1_2/Smb fsm_0/SR4_0/Q2 fsm_0/SR4_0/dff3B_1/D 2 3 336 1404
+p fsm_0/SR4_0/mux2x1_2/Smb fsm_0/A1 fsm_0/SR4_0/dff3B_1/D 2 6 331 1433
+n fsm_0/SR4_0/S fsm_0/A1 fsm_0/SR4_0/dff3B_1/D 2 3 318 1433
+p fsm_0/SR4_0/S Vdd! fsm_0/SR4_0/mux2x1_2/Smb 2 6 313 1460
+n fsm_0/SR4_0/S GND! fsm_0/SR4_0/mux2x1_2/Smb 2 3 313 1446
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dff3B_0/gate_1/S 2 6 188 1294
+n fsm_0/CLK GND! fsm_0/SR4_0/dff3B_0/gate_1/S 2 3 174 1294
+p fsm_0/SR4_0/dff3B_0/gate_2/S Vdd! fsm_0/SR4_0/dff3B_0/gate_0/S 2 6 187 1346
+n fsm_0/SR4_0/dff3B_0/gate_2/S GND! fsm_0/SR4_0/dff3B_0/gate_0/S 2 3 173 1346
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dff3B_0/gate_2/S 2 6 186 1376
+n fsm_0/CLK GND! fsm_0/SR4_0/dff3B_0/gate_2/S 2 3 172 1376
+p fsm_0/A1 Vdd! fsm_0/SR4_0/dff3B_0/gate_3/Gout 2 6 216 1248
+n fsm_0/A1 GND! fsm_0/SR4_0/dff3B_0/gate_3/Gout 2 3 230 1248
+p fsm_0/CLK fsm_0/SR4_0/dff3B_0/gate_3/Gin fsm_0/SR4_0/dff3B_0/gate_3/Gout 2 6 225 1274
+n fsm_0/SR4_0/dff3B_0/gate_1/S fsm_0/SR4_0/dff3B_0/gate_3/Gin fsm_0/SR4_0/dff3B_0/gate_3/Gout 2 3 212 1274
+p fsm_0/SR4_0/dff3B_0/gate_1/Gin Vdd! fsm_0/SR4_0/dff3B_0/gate_2/Gout 2 6 216 1317
+n fsm_0/SR4_0/dff3B_0/gate_1/Gin GND! fsm_0/SR4_0/dff3B_0/gate_2/Gout 2 3 230 1317
+p fsm_0/SR4_0/dff3B_0/gate_2/S fsm_0/SR4_0/dff3B_0/gate_2/Gin fsm_0/SR4_0/dff3B_0/gate_2/Gout 2 6 225 1343
+n fsm_0/SR4_0/dff3B_0/gate_0/S fsm_0/SR4_0/dff3B_0/gate_2/Gin fsm_0/SR4_0/dff3B_0/gate_2/Gout 2 3 212 1343
+p fsm_0/A1 Vdd! fsm_0/SR4_0/dff3B_0/Qb 2 6 258 1230
+n fsm_0/A1 GND! fsm_0/SR4_0/dff3B_0/Qb 2 3 244 1230
+p fsm_0/SR4_0/dff3B_0/gate_3/Gin Vdd! fsm_0/A1 2 6 258 1265
+n fsm_0/SR4_0/dff3B_0/gate_3/Gin GND! fsm_0/A1 2 3 244 1265
+p fsm_0/SR4_0/dff3B_0/gate_1/S fsm_0/SR4_0/dff3B_0/gate_1/Gin fsm_0/SR4_0/dff3B_0/gate_3/Gin 2 6 257 1303
+n fsm_0/CLK fsm_0/SR4_0/dff3B_0/gate_1/Gin fsm_0/SR4_0/dff3B_0/gate_3/Gin 2 3 244 1303
+p fsm_0/SR4_0/dff3B_0/gate_2/Gin Vdd! fsm_0/SR4_0/dff3B_0/gate_1/Gin 2 6 258 1339
+n fsm_0/SR4_0/dff3B_0/gate_2/Gin GND! fsm_0/SR4_0/dff3B_0/gate_1/Gin 2 3 244 1339
+p fsm_0/SR4_0/dff3B_0/gate_0/S fsm_0/SR4_0/dff3B_0/gate_0/Gin fsm_0/SR4_0/dff3B_0/gate_2/Gin 2 6 257 1371
+n fsm_0/SR4_0/dff3B_0/gate_2/S fsm_0/SR4_0/dff3B_0/gate_0/Gin fsm_0/SR4_0/dff3B_0/gate_2/Gin 2 3 244 1371
+p fsm_0/SR4_0/dff3B_0/inverter_11/in Vdd! fsm_0/SR4_0/dff3B_0/gate_0/Gin 2 6 255 1407
+n fsm_0/SR4_0/dff3B_0/inverter_11/in GND! fsm_0/SR4_0/dff3B_0/gate_0/Gin 2 3 241 1407
+p fsm_0/SR4_0/dff3B_0/inverter_7/out Vdd! fsm_0/SR4_0/dff3B_0/inverter_11/in 2 6 260 1431
+p fsm_0/SR4_0/dff3B_0/D fsm_0/SR4_0/dff3B_0/inverter_11/in Vdd! 2 6 260 1423
+n fsm_0/SR4_0/dff3B_0/inverter_7/out GND! fsm_0/SR4_0/dff3B_0/nand2_0/a_n37_n6# 2 3 238 1431
+n fsm_0/SR4_0/dff3B_0/D fsm_0/SR4_0/dff3B_0/nand2_0/a_n37_n6# fsm_0/SR4_0/dff3B_0/inverter_11/in 2 3 238 1427
+p RST Vdd! fsm_0/SR4_0/dff3B_0/inverter_7/out 2 6 255 1447
+n RST GND! fsm_0/SR4_0/dff3B_0/inverter_7/out 2 3 241 1447
+p fsm_0/SR4_0/S fsm_0/A1 fsm_0/SR4_0/dff3B_0/D 2 6 206 1404
+n fsm_0/SR4_0/mux2x1_0/Smb fsm_0/A1 fsm_0/SR4_0/dff3B_0/D 2 3 219 1404
+p fsm_0/SR4_0/mux2x1_0/Smb fsm_0/CLR fsm_0/SR4_0/dff3B_0/D 2 6 214 1433
+n fsm_0/SR4_0/S fsm_0/CLR fsm_0/SR4_0/dff3B_0/D 2 3 201 1433
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dffP_0/gate_1/S 2 6 71 1293
+n fsm_0/CLK GND! fsm_0/SR4_0/dffP_0/gate_1/S 2 3 57 1293
+p fsm_0/SR4_0/dffP_0/gate_2/S Vdd! fsm_0/SR4_0/dffP_0/gate_0/S 2 6 70 1345
+n fsm_0/SR4_0/dffP_0/gate_2/S GND! fsm_0/SR4_0/dffP_0/gate_0/S 2 3 56 1345
+p fsm_0/CLK Vdd! fsm_0/SR4_0/dffP_0/gate_2/S 2 6 69 1375
+n fsm_0/CLK GND! fsm_0/SR4_0/dffP_0/gate_2/S 2 3 55 1375
+p fsm_0/CLR Vdd! fsm_0/SR4_0/dffP_0/gate_3/Gout 2 6 99 1247
+n fsm_0/CLR GND! fsm_0/SR4_0/dffP_0/gate_3/Gout 2 3 113 1247
+p fsm_0/CLK fsm_0/SR4_0/dffP_0/gate_3/Gin fsm_0/SR4_0/dffP_0/gate_3/Gout 2 6 108 1273
+n fsm_0/SR4_0/dffP_0/gate_1/S fsm_0/SR4_0/dffP_0/gate_3/Gin fsm_0/SR4_0/dffP_0/gate_3/Gout 2 3 95 1273
+p fsm_0/SR4_0/dffP_0/gate_1/Gin Vdd! fsm_0/SR4_0/dffP_0/gate_2/Gout 2 6 99 1316
+n fsm_0/SR4_0/dffP_0/gate_1/Gin GND! fsm_0/SR4_0/dffP_0/gate_2/Gout 2 3 113 1316
+p fsm_0/SR4_0/dffP_0/gate_2/S fsm_0/SR4_0/dffP_0/gate_2/Gin fsm_0/SR4_0/dffP_0/gate_2/Gout 2 6 108 1342
+n fsm_0/SR4_0/dffP_0/gate_0/S fsm_0/SR4_0/dffP_0/gate_2/Gin fsm_0/SR4_0/dffP_0/gate_2/Gout 2 3 95 1342
+p fsm_0/CLR Vdd! fsm_0/SR4_0/dffP_0/Qb 2 6 141 1229
+n fsm_0/CLR GND! fsm_0/SR4_0/dffP_0/Qb 2 3 127 1229
+p fsm_0/SR4_0/dffP_0/gate_3/Gin Vdd! fsm_0/CLR 2 6 141 1264
+n fsm_0/SR4_0/dffP_0/gate_3/Gin GND! fsm_0/CLR 2 3 127 1264
+p fsm_0/SR4_0/dffP_0/gate_1/S fsm_0/SR4_0/dffP_0/gate_1/Gin fsm_0/SR4_0/dffP_0/gate_3/Gin 2 6 140 1302
+n fsm_0/CLK fsm_0/SR4_0/dffP_0/gate_1/Gin fsm_0/SR4_0/dffP_0/gate_3/Gin 2 3 127 1302
+p fsm_0/SR4_0/dffP_0/gate_2/Gin Vdd! fsm_0/SR4_0/dffP_0/gate_1/Gin 2 6 141 1338
+n fsm_0/SR4_0/dffP_0/gate_2/Gin GND! fsm_0/SR4_0/dffP_0/gate_1/Gin 2 3 127 1338
+p fsm_0/SR4_0/dffP_0/gate_0/S fsm_0/SR4_0/dffP_0/gate_0/Gin fsm_0/SR4_0/dffP_0/gate_2/Gin 2 6 140 1370
+n fsm_0/SR4_0/dffP_0/gate_2/S fsm_0/SR4_0/dffP_0/gate_0/Gin fsm_0/SR4_0/dffP_0/gate_2/Gin 2 3 127 1370
+p fsm_0/SR4_0/dffP_0/nor2_0/out Vdd! fsm_0/SR4_0/dffP_0/gate_0/Gin 2 6 138 1406
+n fsm_0/SR4_0/dffP_0/nor2_0/out GND! fsm_0/SR4_0/dffP_0/gate_0/Gin 2 3 124 1406
+p RST Vdd! fsm_0/SR4_0/dffP_0/nor2_0/a_n37_6# 2 6 138 1430
+p fsm_0/SR4_0/dffP_0/D fsm_0/SR4_0/dffP_0/nor2_0/a_n37_6# fsm_0/SR4_0/dffP_0/nor2_0/out 2 6 138 1426
+n RST GND! fsm_0/SR4_0/dffP_0/nor2_0/out 2 3 124 1430
+n fsm_0/SR4_0/dffP_0/D fsm_0/SR4_0/dffP_0/nor2_0/out GND! 2 3 124 1422
+p fsm_0/SR4_0/S fsm_0/CLR fsm_0/SR4_0/dffP_0/D 2 6 93 1399
+n fsm_0/SR4_0/mux2x1_1/Smb fsm_0/CLR fsm_0/SR4_0/dffP_0/D 2 3 106 1399
+p fsm_0/SR4_0/mux2x1_1/Smb fsm_0/SS1 fsm_0/SR4_0/dffP_0/D 2 6 101 1428
+n fsm_0/SR4_0/S fsm_0/SS1 fsm_0/SR4_0/dffP_0/D 2 3 88 1428
+p fsm_0/SR4_0/S Vdd! fsm_0/SR4_0/mux2x1_0/Smb 2 6 196 1460
+n fsm_0/SR4_0/S GND! fsm_0/SR4_0/mux2x1_0/Smb 2 3 196 1446
+p fsm_0/SR4_0/S Vdd! fsm_0/SR4_0/mux2x1_1/Smb 2 6 83 1455
+n fsm_0/SR4_0/S GND! fsm_0/SR4_0/mux2x1_1/Smb 2 3 83 1441
+p fsm_0/xor2_0/nand2_4/nand_in1 Vdd! fsm_0/SS1 2 6 37 1410
+p fsm_0/xor2_0/nand2_4/nand_in2 fsm_0/SS1 Vdd! 2 6 45 1410
+n fsm_0/xor2_0/nand2_4/nand_in1 GND! fsm_0/xor2_0/nand2_4/a_n37_n6# 2 3 37 1432
+n fsm_0/xor2_0/nand2_4/nand_in2 fsm_0/xor2_0/nand2_4/a_n37_n6# fsm_0/SS1 2 3 41 1432
+p fsm_0/SR4_0/S Vdd! fsm_0/xor2_0/nand2_4/nand_in1 2 6 8 1410
+p fsm_0/xor2_0/nand2_3/nand_in2 fsm_0/xor2_0/nand2_4/nand_in1 Vdd! 2 6 16 1410
+n fsm_0/SR4_0/S GND! fsm_0/xor2_0/nand2_3/a_n37_n6# 2 3 8 1432
+n fsm_0/xor2_0/nand2_3/nand_in2 fsm_0/xor2_0/nand2_3/a_n37_n6# fsm_0/xor2_0/nand2_4/nand_in1 2 3 12 1432
+p fsm_0/xor2_0/nand2_3/nand_in2 Vdd! fsm_0/xor2_0/nand2_4/nand_in2 2 6 37 1466
+p fsm_0/SR4_0/S fsm_0/xor2_0/nand2_4/nand_in2 Vdd! 2 6 45 1466
+n fsm_0/xor2_0/nand2_3/nand_in2 GND! fsm_0/xor2_0/nand2_2/a_n37_n6# 2 3 37 1444
+n fsm_0/SR4_0/S fsm_0/xor2_0/nand2_2/a_n37_n6# fsm_0/xor2_0/nand2_4/nand_in2 2 3 41 1444
+p fsm_0/SR4_0/S Vdd! fsm_0/xor2_0/nand2_3/nand_in2 2 6 8 1466
+p fsm_0/SR4_0/S fsm_0/xor2_0/nand2_3/nand_in2 Vdd! 2 6 16 1466
+n fsm_0/SR4_0/S GND! fsm_0/xor2_0/nand2_1/a_n37_n6# 2 3 8 1444
+n fsm_0/SR4_0/S fsm_0/xor2_0/nand2_1/a_n37_n6# fsm_0/xor2_0/nand2_3/nand_in2 2 3 12 1444
+p inverter_1/in Vdd! fsm_0/CLK 2 6 230 1149
+n inverter_1/in GND! fsm_0/CLK 2 3 230 1135
+p CLK Vdd! inverter_1/in 2 6 212 1149
+n CLK GND! inverter_1/in 2 3 212 1135
+C fsm_0/B0 Vdd! 2.8
+C fsm_0/SR4_0/Q2 Vdd! 5.3
+C SubB_0/QB0 Vdd! 2.1
+C SS0 fsm_0/CLR 2.2
+C Vdd! fsm_0/B3 5.8
+C nor2_0/in2 Vdd! 2.2
+C Vdd! fsm_0/B2 5.4
+C SA1 SA0 3.1
+C Vdd! fsm_0/CLK 33.4
+C Vdd! fsm_0/CLR 16.5
+C fsm_0/A1 Vdd! 5.0
+C SA1 Vdd! 2.3
+C SS0 Vdd! 6.0
+C SB1 Vdd! 2.6
+C fsm_0/CLK fsm_0/CLR 2.8
+C Vdd! fsm_0/B1 5.3
+C Vdd! fsm_0/A3 6.3
+C SA0 Vdd! 2.3
+C SB0 Vdd! 2.3
+C CLK GND 5.2
+R CLK 322
+C inverter_1/in GND 8.3
+R inverter_1/in 472
+R fsm_0/xor2_0/nand2_1/a_n37_n6# 40
+R fsm_0/xor2_0/nand2_2/a_n37_n6# 40
+R fsm_0/xor2_0/nand2_3/a_n37_n6# 40
+C fsm_0/xor2_0/nand2_3/nand_in2 GND 28.1
+R fsm_0/xor2_0/nand2_3/nand_in2 1381
+R fsm_0/xor2_0/nand2_4/a_n37_n6# 40
+C fsm_0/xor2_0/nand2_4/nand_in2 GND 17.8
+R fsm_0/xor2_0/nand2_4/nand_in2 748
+C fsm_0/xor2_0/nand2_4/nand_in1 GND 12.2
+R fsm_0/xor2_0/nand2_4/nand_in1 485
+C fsm_0/SS1 GND 9.9
+R fsm_0/SS1 577
+C fsm_0/SR4_0/mux2x1_1/Smb GND 20.4
+R fsm_0/SR4_0/mux2x1_1/Smb 993
+R fsm_0/SR4_0/dffP_0/nor2_0/a_n37_6# 179
+C fsm_0/SR4_0/dffP_0/D GND 13.4
+R fsm_0/SR4_0/dffP_0/D 1090
+C fsm_0/SR4_0/dffP_0/nor2_0/out GND 9.3
+R fsm_0/SR4_0/dffP_0/nor2_0/out 483
+C fsm_0/SR4_0/dffP_0/gate_0/Gin GND 6.2
+R fsm_0/SR4_0/dffP_0/gate_0/Gin 603
+C fsm_0/SR4_0/dffP_0/Qb GND 2.1
+R fsm_0/SR4_0/dffP_0/Qb 176
+C fsm_0/SR4_0/dffP_0/gate_2/Gin GND 16.9
+R fsm_0/SR4_0/dffP_0/gate_2/Gin 935
+C fsm_0/SR4_0/dffP_0/gate_2/Gout GND 4.4
+R fsm_0/SR4_0/dffP_0/gate_2/Gout 603
+C fsm_0/SR4_0/dffP_0/gate_1/Gin GND 17.3
+R fsm_0/SR4_0/dffP_0/gate_1/Gin 1151
+C fsm_0/SR4_0/dffP_0/gate_3/Gin GND 17.4
+R fsm_0/SR4_0/dffP_0/gate_3/Gin 936
+C fsm_0/SR4_0/dffP_0/gate_3/Gout GND 4.4
+R fsm_0/SR4_0/dffP_0/gate_3/Gout 603
+C fsm_0/SR4_0/dffP_0/gate_0/S GND 26.8
+R fsm_0/SR4_0/dffP_0/gate_0/S 976
+C fsm_0/SR4_0/dffP_0/gate_2/S GND 33.8
+R fsm_0/SR4_0/dffP_0/gate_2/S 1215
+C fsm_0/SR4_0/dffP_0/gate_1/S GND 27.0
+R fsm_0/SR4_0/dffP_0/gate_1/S 999
+C fsm_0/CLR GND 708.3
+R fsm_0/CLR 11623
+C fsm_0/SR4_0/mux2x1_0/Smb GND 20.4
+R fsm_0/SR4_0/mux2x1_0/Smb 993
+R fsm_0/SR4_0/dff3B_0/nand2_0/a_n37_n6# 40
+C fsm_0/SR4_0/dff3B_0/D GND 15.5
+R fsm_0/SR4_0/dff3B_0/D 1186
+C fsm_0/SR4_0/dff3B_0/inverter_7/out GND 11.5
+R fsm_0/SR4_0/dff3B_0/inverter_7/out 689
+C fsm_0/SR4_0/dff3B_0/inverter_11/in GND 10.5
+R fsm_0/SR4_0/dff3B_0/inverter_11/in 401
+C fsm_0/SR4_0/dff3B_0/gate_0/Gin GND 6.2
+R fsm_0/SR4_0/dff3B_0/gate_0/Gin 603
+C fsm_0/SR4_0/dff3B_0/Qb GND 2.1
+R fsm_0/SR4_0/dff3B_0/Qb 176
+C fsm_0/SR4_0/dff3B_0/gate_2/Gin GND 16.9
+R fsm_0/SR4_0/dff3B_0/gate_2/Gin 935
+C fsm_0/SR4_0/dff3B_0/gate_2/Gout GND 4.4
+R fsm_0/SR4_0/dff3B_0/gate_2/Gout 603
+C fsm_0/SR4_0/dff3B_0/gate_1/Gin GND 17.3
+R fsm_0/SR4_0/dff3B_0/gate_1/Gin 1151
+C fsm_0/SR4_0/dff3B_0/gate_3/Gin GND 17.4
+R fsm_0/SR4_0/dff3B_0/gate_3/Gin 936
+C fsm_0/SR4_0/dff3B_0/gate_3/Gout GND 4.4
+R fsm_0/SR4_0/dff3B_0/gate_3/Gout 603
+C fsm_0/SR4_0/dff3B_0/gate_0/S GND 26.8
+R fsm_0/SR4_0/dff3B_0/gate_0/S 976
+C fsm_0/SR4_0/dff3B_0/gate_2/S GND 33.8
+R fsm_0/SR4_0/dff3B_0/gate_2/S 1215
+C fsm_0/SR4_0/dff3B_0/gate_1/S GND 26.8
+R fsm_0/SR4_0/dff3B_0/gate_1/S 999
+C fsm_0/SR4_0/mux2x1_2/Smb GND 20.4
+R fsm_0/SR4_0/mux2x1_2/Smb 993
+R fsm_0/SR4_0/dff3B_1/nand2_0/a_n37_n6# 40
+C fsm_0/SR4_0/dff3B_1/D GND 15.5
+R fsm_0/SR4_0/dff3B_1/D 1186
+C fsm_0/SR4_0/dff3B_1/inverter_7/out GND 11.5
+R fsm_0/SR4_0/dff3B_1/inverter_7/out 689
+C fsm_0/SR4_0/dff3B_1/inverter_11/in GND 10.5
+R fsm_0/SR4_0/dff3B_1/inverter_11/in 401
+C fsm_0/SR4_0/dff3B_1/gate_0/Gin GND 6.2
+R fsm_0/SR4_0/dff3B_1/gate_0/Gin 603
+C fsm_0/SR4_0/dff3B_1/Qb GND 2.1
+R fsm_0/SR4_0/dff3B_1/Qb 176
+C fsm_0/SR4_0/dff3B_1/gate_2/Gin GND 16.9
+R fsm_0/SR4_0/dff3B_1/gate_2/Gin 935
+C fsm_0/SR4_0/dff3B_1/gate_2/Gout GND 4.4
+R fsm_0/SR4_0/dff3B_1/gate_2/Gout 603
+C fsm_0/SR4_0/dff3B_1/gate_1/Gin GND 17.3
+R fsm_0/SR4_0/dff3B_1/gate_1/Gin 1151
+C fsm_0/SR4_0/dff3B_1/gate_3/Gin GND 17.4
+R fsm_0/SR4_0/dff3B_1/gate_3/Gin 936
+C fsm_0/SR4_0/dff3B_1/gate_3/Gout GND 4.4
+R fsm_0/SR4_0/dff3B_1/gate_3/Gout 603
+C fsm_0/SR4_0/dff3B_1/gate_0/S GND 26.8
+R fsm_0/SR4_0/dff3B_1/gate_0/S 976
+C fsm_0/SR4_0/dff3B_1/gate_2/S GND 33.8
+R fsm_0/SR4_0/dff3B_1/gate_2/S 1215
+C fsm_0/SR4_0/dff3B_1/gate_1/S GND 26.8
+R fsm_0/SR4_0/dff3B_1/gate_1/S 999
+C fsm_0/SR4_0/mux2x1_3/Smb GND 20.4
+R fsm_0/SR4_0/mux2x1_3/Smb 993
+R fsm_0/SR4_0/dff3B_2/nand2_0/a_n37_n6# 40
+C fsm_0/SR4_0/dff3B_2/D GND 15.5
+R fsm_0/SR4_0/dff3B_2/D 1186
+C fsm_0/SR4_0/dff3B_2/inverter_7/out GND 11.5
+R fsm_0/SR4_0/dff3B_2/inverter_7/out 689
+C fsm_0/SR4_0/dff3B_2/inverter_11/in GND 10.5
+R fsm_0/SR4_0/dff3B_2/inverter_11/in 401
+C fsm_0/SR4_0/dff3B_2/gate_0/Gin GND 6.2
+R fsm_0/SR4_0/dff3B_2/gate_0/Gin 603
+C fsm_0/SR4_0/dff3B_2/Qb GND 2.1
+R fsm_0/SR4_0/dff3B_2/Qb 176
+C fsm_0/SR4_0/dff3B_2/gate_2/Gin GND 16.9
+R fsm_0/SR4_0/dff3B_2/gate_2/Gin 935
+C fsm_0/SR4_0/dff3B_2/gate_2/Gout GND 4.4
+R fsm_0/SR4_0/dff3B_2/gate_2/Gout 603
+C fsm_0/SR4_0/dff3B_2/gate_1/Gin GND 17.3
+R fsm_0/SR4_0/dff3B_2/gate_1/Gin 1151
+C fsm_0/SR4_0/dff3B_2/gate_3/Gin GND 17.4
+R fsm_0/SR4_0/dff3B_2/gate_3/Gin 936
+C fsm_0/SR4_0/dff3B_2/gate_3/Gout GND 4.4
+R fsm_0/SR4_0/dff3B_2/gate_3/Gout 603
+C fsm_0/SR4_0/dff3B_2/gate_0/S GND 26.8
+R fsm_0/SR4_0/dff3B_2/gate_0/S 976
+C fsm_0/SR4_0/dff3B_2/gate_2/S GND 33.8
+R fsm_0/SR4_0/dff3B_2/gate_2/S 1215
+C fsm_0/SR4_0/dff3B_2/gate_1/S GND 26.8
+R fsm_0/SR4_0/dff3B_2/gate_1/S 999
+C fsm_0/SR4_0/S GND 256.3
+R fsm_0/SR4_0/S 9771
+C fsm_0/A3 GND 186.3
+R fsm_0/A3 4443
+C fsm_0/mux2x1_0/Smb GND 20.3
+R fsm_0/mux2x1_0/Smb 1022
+R fsm_0/nand2_0/a_n37_n6# 40
+C fsm_0/G GND 87.0
+R fsm_0/G 1971
+C fsm_0/A4 GND 100.8
+R fsm_0/A4 2960
+C fsm_0/inverter_2/in GND 9.8
+R fsm_0/inverter_2/in 401
+R fsm_0/dff3B_0/nand2_0/a_n37_n6# 40
+C fsm_0/dff3B_0/D GND 15.4
+R fsm_0/dff3B_0/D 1186
+C fsm_0/dff3B_0/inverter_7/out GND 11.5
+R fsm_0/dff3B_0/inverter_7/out 689
+C fsm_0/dff3B_0/inverter_11/in GND 10.5
+R fsm_0/dff3B_0/inverter_11/in 401
+C fsm_0/dff3B_0/gate_0/Gin GND 6.2
+R fsm_0/dff3B_0/gate_0/Gin 603
+C fsm_0/dff3B_0/Qb GND 2.1
+R fsm_0/dff3B_0/Qb 176
+C fsm_0/dff3B_0/gate_2/Gin GND 16.9
+R fsm_0/dff3B_0/gate_2/Gin 935
+C fsm_0/dff3B_0/gate_2/Gout GND 4.4
+R fsm_0/dff3B_0/gate_2/Gout 603
+C fsm_0/dff3B_0/gate_1/Gin GND 17.3
+R fsm_0/dff3B_0/gate_1/Gin 1151
+C fsm_0/dff3B_0/gate_3/Gin GND 17.4
+R fsm_0/dff3B_0/gate_3/Gin 936
+C fsm_0/dff3B_0/gate_3/Gout GND 4.4
+R fsm_0/dff3B_0/gate_3/Gout 603
+C fsm_0/dff3B_0/gate_0/S GND 26.8
+R fsm_0/dff3B_0/gate_0/S 976
+C fsm_0/dff3B_0/gate_2/S GND 33.8
+R fsm_0/dff3B_0/gate_2/S 1215
+C fsm_0/dff3B_0/gate_1/S GND 26.8
+R fsm_0/dff3B_0/gate_1/S 999
+C fsm_0/CLK GND 2471.7
+R fsm_0/CLK 52243
+C fsm_0/B3 GND 173.1
+R fsm_0/B3 2396
+C fsm_0/SR4_1/INP GND 6.2
+R fsm_0/SR4_1/INP 603
+C fsm_0/SR4_1/mux2x1_1/Smb GND 20.4
+R fsm_0/SR4_1/mux2x1_1/Smb 993
+R fsm_0/SR4_1/dffP_0/nor2_0/a_n37_6# 179
+C fsm_0/SR4_1/dffP_0/D GND 13.4
+R fsm_0/SR4_1/dffP_0/D 1090
+C fsm_0/SR4_1/dffP_0/nor2_0/out GND 9.3
+R fsm_0/SR4_1/dffP_0/nor2_0/out 483
+C fsm_0/SR4_1/dffP_0/gate_0/Gin GND 6.2
+R fsm_0/SR4_1/dffP_0/gate_0/Gin 603
+C fsm_0/SR4_1/dffP_0/Qb GND 2.1
+R fsm_0/SR4_1/dffP_0/Qb 176
+C fsm_0/SR4_1/dffP_0/gate_2/Gin GND 16.9
+R fsm_0/SR4_1/dffP_0/gate_2/Gin 935
+C fsm_0/SR4_1/dffP_0/gate_2/Gout GND 4.4
+R fsm_0/SR4_1/dffP_0/gate_2/Gout 603
+C fsm_0/SR4_1/dffP_0/gate_1/Gin GND 17.3
+R fsm_0/SR4_1/dffP_0/gate_1/Gin 1151
+C fsm_0/SR4_1/dffP_0/gate_3/Gin GND 17.4
+R fsm_0/SR4_1/dffP_0/gate_3/Gin 936
+C fsm_0/SR4_1/dffP_0/gate_3/Gout GND 4.4
+R fsm_0/SR4_1/dffP_0/gate_3/Gout 603
+C fsm_0/SR4_1/dffP_0/gate_0/S GND 26.8
+R fsm_0/SR4_1/dffP_0/gate_0/S 976
+C fsm_0/SR4_1/dffP_0/gate_2/S GND 33.8
+R fsm_0/SR4_1/dffP_0/gate_2/S 1215
+C fsm_0/SR4_1/dffP_0/gate_1/S GND 26.8
+R fsm_0/SR4_1/dffP_0/gate_1/S 999
+C fsm_0/SR4_1/mux2x1_0/Smb GND 20.4
+R fsm_0/SR4_1/mux2x1_0/Smb 993
+R fsm_0/SR4_1/dff3B_0/nand2_0/a_n37_n6# 40
+C fsm_0/SR4_1/dff3B_0/D GND 15.5
+R fsm_0/SR4_1/dff3B_0/D 1186
+C fsm_0/SR4_1/dff3B_0/inverter_7/out GND 11.5
+R fsm_0/SR4_1/dff3B_0/inverter_7/out 689
+C fsm_0/SR4_1/dff3B_0/inverter_11/in GND 10.5
+R fsm_0/SR4_1/dff3B_0/inverter_11/in 401
+C fsm_0/SR4_1/dff3B_0/gate_0/Gin GND 6.2
+R fsm_0/SR4_1/dff3B_0/gate_0/Gin 603
+C fsm_0/SR4_1/dff3B_0/Qb GND 2.1
+R fsm_0/SR4_1/dff3B_0/Qb 176
+C fsm_0/SR4_1/dff3B_0/gate_2/Gin GND 16.9
+R fsm_0/SR4_1/dff3B_0/gate_2/Gin 935
+C fsm_0/SR4_1/dff3B_0/gate_2/Gout GND 4.4
+R fsm_0/SR4_1/dff3B_0/gate_2/Gout 603
+C fsm_0/SR4_1/dff3B_0/gate_1/Gin GND 17.3
+R fsm_0/SR4_1/dff3B_0/gate_1/Gin 1151
+C fsm_0/SR4_1/dff3B_0/gate_3/Gin GND 17.4
+R fsm_0/SR4_1/dff3B_0/gate_3/Gin 936
+C fsm_0/SR4_1/dff3B_0/gate_3/Gout GND 4.4
+R fsm_0/SR4_1/dff3B_0/gate_3/Gout 603
+C fsm_0/SR4_1/dff3B_0/gate_0/S GND 26.8
+R fsm_0/SR4_1/dff3B_0/gate_0/S 976
+C fsm_0/SR4_1/dff3B_0/gate_2/S GND 33.8
+R fsm_0/SR4_1/dff3B_0/gate_2/S 1215
+C fsm_0/SR4_1/dff3B_0/gate_1/S GND 27.0
+R fsm_0/SR4_1/dff3B_0/gate_1/S 999
+C fsm_0/B1 GND 113.0
+R fsm_0/B1 2558
+C fsm_0/SR4_1/mux2x1_2/Smb GND 20.4
+R fsm_0/SR4_1/mux2x1_2/Smb 993
+R fsm_0/SR4_1/dff3B_1/nand2_0/a_n37_n6# 40
+C fsm_0/SR4_1/dff3B_1/D GND 15.5
+R fsm_0/SR4_1/dff3B_1/D 1186
+C fsm_0/SR4_1/dff3B_1/inverter_7/out GND 11.5
+R fsm_0/SR4_1/dff3B_1/inverter_7/out 689
+C fsm_0/SR4_1/dff3B_1/inverter_11/in GND 10.5
+R fsm_0/SR4_1/dff3B_1/inverter_11/in 401
+C fsm_0/SR4_1/dff3B_1/gate_0/Gin GND 6.2
+R fsm_0/SR4_1/dff3B_1/gate_0/Gin 603
+C fsm_0/SR4_1/dff3B_1/Qb GND 2.1
+R fsm_0/SR4_1/dff3B_1/Qb 176
+C fsm_0/SR4_1/dff3B_1/gate_2/Gin GND 16.9
+R fsm_0/SR4_1/dff3B_1/gate_2/Gin 935
+C fsm_0/SR4_1/dff3B_1/gate_2/Gout GND 4.4
+R fsm_0/SR4_1/dff3B_1/gate_2/Gout 603
+C fsm_0/SR4_1/dff3B_1/gate_1/Gin GND 17.3
+R fsm_0/SR4_1/dff3B_1/gate_1/Gin 1151
+C fsm_0/SR4_1/dff3B_1/gate_3/Gin GND 17.4
+R fsm_0/SR4_1/dff3B_1/gate_3/Gin 936
+C fsm_0/SR4_1/dff3B_1/gate_3/Gout GND 4.4
+R fsm_0/SR4_1/dff3B_1/gate_3/Gout 603
+C fsm_0/SR4_1/dff3B_1/gate_0/S GND 26.8
+R fsm_0/SR4_1/dff3B_1/gate_0/S 976
+C fsm_0/SR4_1/dff3B_1/gate_2/S GND 33.8
+R fsm_0/SR4_1/dff3B_1/gate_2/S 1215
+C fsm_0/SR4_1/dff3B_1/gate_1/S GND 26.8
+R fsm_0/SR4_1/dff3B_1/gate_1/S 999
+R GND! 56144
+C fsm_0/B2 GND 118.3
+R fsm_0/B2 2267
+C fsm_0/SR4_1/mux2x1_3/Smb GND 20.4
+R fsm_0/SR4_1/mux2x1_3/Smb 993
+C fsm_0/SR4_1/S GND 156.9
+R fsm_0/SR4_1/S 5917
+C RST GND 231.9
+R RST 6469
+R fsm_0/SR4_1/dff3B_2/nand2_0/a_n37_n6# 40
+C fsm_0/SR4_1/dff3B_2/D GND 15.5
+R fsm_0/SR4_1/dff3B_2/D 1186
+C fsm_0/SR4_1/dff3B_2/inverter_7/out GND 11.5
+R fsm_0/SR4_1/dff3B_2/inverter_7/out 689
+C fsm_0/SR4_1/dff3B_2/inverter_11/in GND 10.5
+R fsm_0/SR4_1/dff3B_2/inverter_11/in 401
+C fsm_0/SR4_1/dff3B_2/gate_0/Gin GND 6.2
+R fsm_0/SR4_1/dff3B_2/gate_0/Gin 603
+C fsm_0/SR4_1/dff3B_2/Qb GND 2.1
+R fsm_0/SR4_1/dff3B_2/Qb 176
+C fsm_0/SR4_1/dff3B_2/gate_2/Gin GND 16.9
+R fsm_0/SR4_1/dff3B_2/gate_2/Gin 935
+C fsm_0/SR4_1/dff3B_2/gate_2/Gout GND 4.4
+R fsm_0/SR4_1/dff3B_2/gate_2/Gout 603
+C fsm_0/SR4_1/dff3B_2/gate_1/Gin GND 17.3
+R fsm_0/SR4_1/dff3B_2/gate_1/Gin 1151
+C fsm_0/SR4_1/dff3B_2/gate_3/Gin GND 17.4
+R fsm_0/SR4_1/dff3B_2/gate_3/Gin 936
+C fsm_0/SR4_1/dff3B_2/gate_3/Gout GND 4.4
+R fsm_0/SR4_1/dff3B_2/gate_3/Gout 603
+C Vdd! GND 1299.7
+R Vdd! 149783
+C fsm_0/SR4_1/dff3B_2/gate_0/S GND 26.8
+R fsm_0/SR4_1/dff3B_2/gate_0/S 976
+C fsm_0/SR4_1/dff3B_2/gate_2/S GND 33.8
+R fsm_0/SR4_1/dff3B_2/gate_2/S 1215
+C fsm_0/SR4_1/dff3B_2/gate_1/S GND 26.8
+R fsm_0/SR4_1/dff3B_2/gate_1/S 999
+R fsm_0/nand2_1/a_n37_n6# 40
+C fsm_0/A1 GND 112.4
+R fsm_0/A1 2481
+R fsm_0/nand2_2/a_n37_n6# 40
+C fsm_0/SR4_0/Q2 GND 108.3
+R fsm_0/SR4_0/Q2 2480
+R fsm_0/nand2_3/a_n37_n6# 40
+C fsm_0/inverter_12/out GND 11.0
+R fsm_0/inverter_12/out 664
+C fsm_0/nor2_5/out GND 9.5
+R fsm_0/nor2_5/out 483
+R fsm_0/nor2_5/a_n37_6# 179
+C fsm_0/nor2_2/out GND 9.2
+R fsm_0/nor2_2/out 483
+R fsm_0/nor2_2/a_n37_6# 179
+C fsm_0/nor2_2/in1 GND 8.8
+R fsm_0/nor2_2/in1 484
+C fsm_0/nor2_1/out GND 9.2
+R fsm_0/nor2_1/out 483
+R fsm_0/nor2_1/a_n37_6# 179
+C fsm_0/B0 GND 105.2
+R fsm_0/B0 2503
+C fsm_0/nor2_2/in2 GND 19.2
+R fsm_0/nor2_2/in2 617
+C fsm_0/nor2_0/out GND 9.2
+R fsm_0/nor2_0/out 483
+R fsm_0/nor2_0/a_n37_6# 179
+C fsm_0/inverter_7/in GND 10.4
+R fsm_0/inverter_7/in 401
+R fsm_0/nor2_4/a_n37_6# 179
+C SA0 GND 351.6
+R SA0 11444
+C fsm_0/inverter_8/in GND 10.4
+R fsm_0/inverter_8/in 401
+R fsm_0/nor2_3/a_n37_6# 179
+C SB0 GND 419.9
+R SB0 11416
+C SS0 GND 415.7
+R SS0 12338
+C fsm_0/inverter_9/in GND 10.4
+R fsm_0/inverter_9/in 401
+C SA1 GND 448.8
+R SA1 17693
+C fsm_0/nor2_4/out GND 11.0
+R fsm_0/nor2_4/out 627
+C SB1 GND 526.3
+R SB1 17702
+C fsm_0/nor2_3/out GND 11.0
+R fsm_0/nor2_3/out 627
+R nor2_0/a_n37_6# 179
+C nor2_0/in2 GND 35.6
+R nor2_0/in2 1571
+C nor2_0/in1 GND 8.4
+R nor2_0/in1 484
+C SubB_0/dff3B_0/Q GND 85.7
+R SubB_0/dff3B_0/Q 3065
+C SubB_0/mux2x1_0/Sm GND 17.5
+R SubB_0/mux2x1_0/Sm 986
+C AbS GND 75.4
+R AbS 2805
+R SubB_0/abs_0/xor2_0/nand2_1/a_n37_n6# 40
+R SubB_0/abs_0/xor2_0/nand2_2/a_n37_n6# 40
+R SubB_0/abs_0/xor2_0/nand2_3/a_n37_n6# 40
+C SubB_0/abs_0/xor2_0/nand2_3/nand_in2 GND 28.1
+R SubB_0/abs_0/xor2_0/nand2_3/nand_in2 1381
+R SubB_0/abs_0/xor2_0/nand2_4/a_n37_n6# 40
+C SubB_0/abs_0/xor2_0/nand2_4/nand_in2 GND 17.8
+R SubB_0/abs_0/xor2_0/nand2_4/nand_in2 748
+C SubB_0/abs_0/xor2_0/nand2_4/nand_in1 GND 12.2
+R SubB_0/abs_0/xor2_0/nand2_4/nand_in1 485
+R SubB_0/abs_0/ha_0/nand2_0/a_n37_n6# 40
+C SubB_0/abs_0/ha_0/not1_0/not_in GND 9.8
+R SubB_0/abs_0/ha_0/not1_0/not_in 401
+R SubB_0/abs_0/ha_0/xor2_0/nand2_1/a_n37_n6# 40
+R SubB_0/abs_0/ha_0/xor2_0/nand2_2/a_n37_n6# 40
+C SubB_0/abs_0/ha_0/ha_in2 GND 48.0
+R SubB_0/abs_0/ha_0/ha_in2 2242
+R SubB_0/abs_0/ha_0/xor2_0/nand2_3/a_n37_n6# 40
+C SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 GND 28.1
+R SubB_0/abs_0/ha_0/xor2_0/nand2_3/nand_in2 1381
+R SubB_0/abs_0/ha_0/xor2_0/nand2_4/a_n37_n6# 40
+C SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 GND 17.8
+R SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in2 748
+C SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 GND 12.2
+R SubB_0/abs_0/ha_0/xor2_0/nand2_4/nand_in1 485
+R SubB_0/abs_0/ha_1/nand2_0/a_n37_n6# 40
+C SubB_0/abs_0/ha_1/not1_0/not_in GND 9.8
+R SubB_0/abs_0/ha_1/not1_0/not_in 401
+R SubB_0/abs_0/ha_1/xor2_0/nand2_1/a_n37_n6# 40
+R SubB_0/abs_0/ha_1/xor2_0/nand2_2/a_n37_n6# 40
+C SubB_0/abs_0/cin GND 48.0
+R SubB_0/abs_0/cin 3025
+R SubB_0/abs_0/ha_1/xor2_0/nand2_3/a_n37_n6# 40
+C SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 GND 28.1
+R SubB_0/abs_0/ha_1/xor2_0/nand2_3/nand_in2 1381
+C SubB_0/abs_0/ha_1/ha_in1 GND 36.9
+R SubB_0/abs_0/ha_1/ha_in1 1990
+R SubB_0/abs_0/ha_1/xor2_0/nand2_4/a_n37_n6# 40
+C SubB_0/abs_0/sum GND 114.7
+R SubB_0/abs_0/sum 1389
+C SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 GND 17.8
+R SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in2 748
+C SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 GND 12.2
+R SubB_0/abs_0/ha_1/xor2_0/nand2_4/nand_in1 485
+R SubB_0/abs_0/nor2_0/a_n37_6# 179
+C SubB_0/abs_0/nor2_0/in2 GND 16.5
+R SubB_0/abs_0/nor2_0/in2 652
+C SubB_0/abs_0/nor2_0/in1 GND 21.2
+R SubB_0/abs_0/nor2_0/in1 677
+C SubB_0/dff3B_0/D GND 69.3
+R SubB_0/dff3B_0/D 1087
+C SubB_0/abs_0/nor2_0/out GND 8.8
+R SubB_0/abs_0/nor2_0/out 483
+C SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_0/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Smb 963
+C A0 GND 3.7
+R A0 201
+C SR GND 3.7
+R SR 201
+C SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_0/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb GND 39.5
+R SubB_0/SR2B_0/mux4x1_1/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Smb 963
+C A1 GND 3.7
+R A1 201
+C SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_1/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_2/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Smb 963
+C A2 GND 3.7
+R A2 201
+C SubB_0/SR2B_0/Q1 GND 147.3
+R SubB_0/SR2B_0/Q1 2325
+C SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_2/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_3/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Smb 963
+C A3 GND 3.7
+R A3 201
+C SubB_0/SR2B_0/Q2 GND 134.6
+R SubB_0/SR2B_0/Q2 2323
+C SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_3/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_4/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Smb 963
+C A4 GND 3.7
+R A4 201
+C SubB_0/SR2B_0/Q3 GND 146.9
+R SubB_0/SR2B_0/Q3 2325
+C SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_4/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_5/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Smb 963
+C A5 GND 3.7
+R A5 201
+C SubB_0/SR2B_0/Q4 GND 134.6
+R SubB_0/SR2B_0/Q4 2323
+C SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_5/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_6/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Smb 963
+C A6 GND 3.7
+R A6 201
+C SubB_0/SR2B_0/Q5 GND 118.7
+R SubB_0/SR2B_0/Q5 2321
+C SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min1 1054
+C SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_6/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_0/mux4x1_7/mux2x1_1/Smb 1989
+C SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Smb 963
+C A7 GND 3.7
+R A7 201
+C SubB_0/SR2B_0/Q6 GND 134.6
+R SubB_0/SR2B_0/Q6 2323
+C SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min1 1054
+C SubB_0/QA0 GND 249.6
+R SubB_0/QA0 4946
+C SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_0/mux4x1_7/mux2x1_2/Min2 1054
+C SubB_0/SR2B_0/Q7 GND 115.7
+R SubB_0/SR2B_0/Q7 1909
+R SubB_0/SR2B_0/dff3B_0/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_0/D GND 21.7
+R SubB_0/SR2B_0/dff3B_0/D 1234
+C SubB_0/SR2B_0/dff3B_0/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_0/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_0/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_0/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_0/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_0/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_0/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_0/Qb 176
+C SubB_0/SR2B_0/dff3B_0/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_0/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_0/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_0/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_0/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_0/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_0/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_0/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_0/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_0/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_0/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_0/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_0/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_0/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_0/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_0/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_1/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_1/D GND 21.7
+R SubB_0/SR2B_0/dff3B_1/D 1234
+C SubB_0/SR2B_0/dff3B_1/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_1/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_1/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_1/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_1/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_1/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_1/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_1/Qb 176
+C SubB_0/SR2B_0/dff3B_1/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_1/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_1/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_1/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_1/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_1/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_1/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_1/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_1/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_1/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_1/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_1/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_1/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_1/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_1/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_1/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_2/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_2/D GND 21.7
+R SubB_0/SR2B_0/dff3B_2/D 1234
+C SubB_0/SR2B_0/dff3B_2/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_2/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_2/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_2/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_2/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_2/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_2/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_2/Qb 176
+C SubB_0/SR2B_0/dff3B_2/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_2/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_2/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_2/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_2/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_2/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_2/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_2/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_2/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_2/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_2/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_2/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_2/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_2/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_2/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_2/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_3/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_3/D GND 21.7
+R SubB_0/SR2B_0/dff3B_3/D 1234
+C SubB_0/SR2B_0/dff3B_3/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_3/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_3/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_3/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_3/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_3/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_3/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_3/Qb 176
+C SubB_0/SR2B_0/dff3B_3/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_3/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_3/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_3/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_3/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_3/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_3/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_3/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_3/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_3/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_3/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_3/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_3/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_3/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_3/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_3/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_4/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_4/D GND 21.7
+R SubB_0/SR2B_0/dff3B_4/D 1234
+C SubB_0/SR2B_0/dff3B_4/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_4/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_4/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_4/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_4/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_4/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_4/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_4/Qb 176
+C SubB_0/SR2B_0/dff3B_4/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_4/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_4/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_4/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_4/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_4/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_4/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_4/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_4/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_4/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_4/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_4/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_4/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_4/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_4/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_4/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_5/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_5/D GND 21.7
+R SubB_0/SR2B_0/dff3B_5/D 1234
+C SubB_0/SR2B_0/dff3B_5/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_5/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_5/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_5/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_5/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_5/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_5/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_5/Qb 176
+C SubB_0/SR2B_0/dff3B_5/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_5/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_5/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_5/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_5/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_5/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_5/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_5/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_5/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_5/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_5/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_5/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_5/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_5/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_5/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_5/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_6/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_6/D GND 21.7
+R SubB_0/SR2B_0/dff3B_6/D 1234
+C SubB_0/SR2B_0/dff3B_6/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_6/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_6/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_6/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_6/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_6/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_6/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_6/Qb 176
+C SubB_0/SR2B_0/dff3B_6/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_6/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_6/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_6/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_6/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_6/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_6/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_6/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_6/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_6/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_6/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_6/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_6/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_6/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_6/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_6/gate_1/S 999
+R SubB_0/SR2B_0/dff3B_7/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_0/dff3B_7/D GND 21.7
+R SubB_0/SR2B_0/dff3B_7/D 1234
+C SubB_0/SR2B_0/dff3B_7/inverter_7/out GND 11.5
+R SubB_0/SR2B_0/dff3B_7/inverter_7/out 689
+C SubB_0/SR2B_0/dff3B_7/inverter_11/in GND 10.5
+R SubB_0/SR2B_0/dff3B_7/inverter_11/in 401
+C SubB_0/SR2B_0/dff3B_7/gate_0/Gin GND 6.2
+R SubB_0/SR2B_0/dff3B_7/gate_0/Gin 603
+C SubB_0/SR2B_0/dff3B_7/Qb GND 2.1
+R SubB_0/SR2B_0/dff3B_7/Qb 176
+C SubB_0/SR2B_0/dff3B_7/gate_2/Gin GND 16.9
+R SubB_0/SR2B_0/dff3B_7/gate_2/Gin 935
+C SubB_0/SR2B_0/dff3B_7/gate_2/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_7/gate_2/Gout 603
+C SubB_0/SR2B_0/dff3B_7/gate_1/Gin GND 17.3
+R SubB_0/SR2B_0/dff3B_7/gate_1/Gin 1151
+C SubB_0/SR2B_0/dff3B_7/gate_3/Gin GND 17.4
+R SubB_0/SR2B_0/dff3B_7/gate_3/Gin 936
+C SubB_0/SR2B_0/dff3B_7/gate_3/Gout GND 4.4
+R SubB_0/SR2B_0/dff3B_7/gate_3/Gout 603
+C SubB_0/SR2B_0/dff3B_7/gate_0/S GND 26.8
+R SubB_0/SR2B_0/dff3B_7/gate_0/S 976
+C SubB_0/SR2B_0/dff3B_7/gate_2/S GND 33.8
+R SubB_0/SR2B_0/dff3B_7/gate_2/S 1215
+C SubB_0/SR2B_0/dff3B_7/gate_1/S GND 27.4
+R SubB_0/SR2B_0/dff3B_7/gate_1/S 999
+R SubB_0/xor2_0/nand2_1/a_n37_n6# 40
+R SubB_0/xor2_0/nand2_2/a_n37_n6# 40
+R SubB_0/xor2_0/nand2_3/a_n37_n6# 40
+C SubB_0/xor2_0/nand2_3/nand_in2 GND 28.1
+R SubB_0/xor2_0/nand2_3/nand_in2 1381
+R SubB_0/xor2_0/nand2_4/a_n37_n6# 40
+C Cout GND 4.1
+R Cout 105
+C SubB_0/xor2_0/nand2_4/nand_in2 GND 17.8
+R SubB_0/xor2_0/nand2_4/nand_in2 748
+C SubB_0/xor2_0/nand2_4/nand_in1 GND 12.2
+R SubB_0/xor2_0/nand2_4/nand_in1 485
+R SubB_0/dff3B_0/nand2_0/a_n37_n6# 40
+C SubB_0/dff3B_0/inverter_7/out GND 11.5
+R SubB_0/dff3B_0/inverter_7/out 689
+C SubB_0/dff3B_0/inverter_11/in GND 10.5
+R SubB_0/dff3B_0/inverter_11/in 401
+C SubB_0/dff3B_0/gate_0/Gin GND 6.2
+R SubB_0/dff3B_0/gate_0/Gin 603
+C SubB_0/dff3B_0/Qb GND 2.1
+R SubB_0/dff3B_0/Qb 176
+C SubB_0/dff3B_0/gate_2/Gin GND 16.9
+R SubB_0/dff3B_0/gate_2/Gin 935
+C SubB_0/dff3B_0/gate_2/Gout GND 4.4
+R SubB_0/dff3B_0/gate_2/Gout 603
+C SubB_0/dff3B_0/gate_1/Gin GND 17.3
+R SubB_0/dff3B_0/gate_1/Gin 1151
+C SubB_0/dff3B_0/gate_3/Gin GND 17.4
+R SubB_0/dff3B_0/gate_3/Gin 936
+C SubB_0/dff3B_0/gate_0/S GND 26.8
+R SubB_0/dff3B_0/gate_0/S 976
+C SubB_0/dff3B_0/gate_2/S GND 33.8
+R SubB_0/dff3B_0/gate_2/S 1215
+C SubB_0/dff3B_0/gate_1/S GND 26.8
+R SubB_0/dff3B_0/gate_1/S 999
+C SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_0/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Smb 963
+C B0 GND 3.7
+R B0 201
+C SR2 GND 3.7
+R SR2 201
+C SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_0/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_1/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Smb 963
+C B1 GND 3.7
+R B1 201
+C SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_1/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_2/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Smb 963
+C B2 GND 3.7
+R B2 201
+C SubB_0/SR2B_1/Q1 GND 146.9
+R SubB_0/SR2B_1/Q1 2325
+C SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_2/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_3/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Smb 963
+C B3 GND 3.7
+R B3 201
+C SubB_0/SR2B_1/Q2 GND 134.6
+R SubB_0/SR2B_1/Q2 2323
+C SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_3/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_4/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Smb 963
+C B4 GND 3.7
+R B4 201
+C SubB_0/SR2B_1/Q3 GND 146.9
+R SubB_0/SR2B_1/Q3 2325
+C SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_4/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_5/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Smb 963
+C B5 GND 3.7
+R B5 201
+C SubB_0/SR2B_1/Q4 GND 134.6
+R SubB_0/SR2B_1/Q4 2323
+C SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_5/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_6/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Smb 963
+C B6 GND 3.7
+R B6 201
+C SubB_0/SR2B_1/Q5 GND 118.7
+R SubB_0/SR2B_1/Q5 2321
+C SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min1 1054
+C SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_6/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_1/mux4x1_7/mux2x1_1/Smb 1989
+C SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Smb 963
+C B7 GND 3.7
+R B7 201
+C SubB_0/SR2B_1/Q6 GND 134.6
+R SubB_0/SR2B_1/Q6 2323
+C SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min1 1054
+C SubB_0/QB0 GND 299.6
+R SubB_0/QB0 3903
+C SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_1/mux4x1_7/mux2x1_2/Min2 1054
+C SubB_0/SR2B_1/Q7 GND 115.7
+R SubB_0/SR2B_1/Q7 1909
+R SubB_0/SR2B_1/dff3B_0/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_0/D GND 21.7
+R SubB_0/SR2B_1/dff3B_0/D 1234
+C SubB_0/SR2B_1/dff3B_0/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_0/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_0/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_0/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_0/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_0/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_0/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_0/Qb 176
+C SubB_0/SR2B_1/dff3B_0/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_0/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_0/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_0/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_0/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_0/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_0/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_0/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_0/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_0/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_0/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_0/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_0/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_0/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_0/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_0/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_1/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_1/D GND 21.7
+R SubB_0/SR2B_1/dff3B_1/D 1234
+C SubB_0/SR2B_1/dff3B_1/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_1/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_1/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_1/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_1/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_1/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_1/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_1/Qb 176
+C SubB_0/SR2B_1/dff3B_1/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_1/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_1/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_1/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_1/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_1/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_1/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_1/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_1/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_1/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_1/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_1/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_1/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_1/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_1/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_1/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_2/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_2/D GND 21.7
+R SubB_0/SR2B_1/dff3B_2/D 1234
+C SubB_0/SR2B_1/dff3B_2/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_2/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_2/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_2/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_2/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_2/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_2/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_2/Qb 176
+C SubB_0/SR2B_1/dff3B_2/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_2/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_2/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_2/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_2/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_2/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_2/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_2/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_2/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_2/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_2/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_2/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_2/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_2/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_2/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_2/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_3/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_3/D GND 21.7
+R SubB_0/SR2B_1/dff3B_3/D 1234
+C SubB_0/SR2B_1/dff3B_3/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_3/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_3/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_3/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_3/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_3/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_3/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_3/Qb 176
+C SubB_0/SR2B_1/dff3B_3/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_3/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_3/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_3/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_3/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_3/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_3/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_3/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_3/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_3/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_3/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_3/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_3/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_3/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_3/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_3/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_4/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_4/D GND 21.7
+R SubB_0/SR2B_1/dff3B_4/D 1234
+C SubB_0/SR2B_1/dff3B_4/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_4/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_4/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_4/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_4/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_4/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_4/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_4/Qb 176
+C SubB_0/SR2B_1/dff3B_4/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_4/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_4/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_4/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_4/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_4/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_4/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_4/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_4/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_4/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_4/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_4/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_4/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_4/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_4/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_4/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_5/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_5/D GND 21.7
+R SubB_0/SR2B_1/dff3B_5/D 1234
+C SubB_0/SR2B_1/dff3B_5/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_5/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_5/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_5/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_5/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_5/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_5/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_5/Qb 176
+C SubB_0/SR2B_1/dff3B_5/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_5/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_5/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_5/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_5/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_5/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_5/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_5/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_5/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_5/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_5/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_5/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_5/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_5/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_5/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_5/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_6/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_6/D GND 21.7
+R SubB_0/SR2B_1/dff3B_6/D 1234
+C SubB_0/SR2B_1/dff3B_6/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_6/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_6/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_6/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_6/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_6/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_6/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_6/Qb 176
+C SubB_0/SR2B_1/dff3B_6/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_6/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_6/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_6/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_6/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_6/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_6/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_6/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_6/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_6/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_6/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_6/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_6/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_6/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_6/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_6/gate_1/S 999
+R SubB_0/SR2B_1/dff3B_7/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_1/dff3B_7/D GND 21.7
+R SubB_0/SR2B_1/dff3B_7/D 1234
+C SubB_0/SR2B_1/dff3B_7/inverter_7/out GND 11.5
+R SubB_0/SR2B_1/dff3B_7/inverter_7/out 689
+C SubB_0/SR2B_1/dff3B_7/inverter_11/in GND 10.5
+R SubB_0/SR2B_1/dff3B_7/inverter_11/in 401
+C SubB_0/SR2B_1/dff3B_7/gate_0/Gin GND 6.2
+R SubB_0/SR2B_1/dff3B_7/gate_0/Gin 603
+C SubB_0/SR2B_1/dff3B_7/Qb GND 2.1
+R SubB_0/SR2B_1/dff3B_7/Qb 176
+C SubB_0/SR2B_1/dff3B_7/gate_2/Gin GND 16.9
+R SubB_0/SR2B_1/dff3B_7/gate_2/Gin 935
+C SubB_0/SR2B_1/dff3B_7/gate_2/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_7/gate_2/Gout 603
+C SubB_0/SR2B_1/dff3B_7/gate_1/Gin GND 17.3
+R SubB_0/SR2B_1/dff3B_7/gate_1/Gin 1151
+C SubB_0/SR2B_1/dff3B_7/gate_3/Gin GND 17.4
+R SubB_0/SR2B_1/dff3B_7/gate_3/Gin 936
+C SubB_0/SR2B_1/dff3B_7/gate_3/Gout GND 4.4
+R SubB_0/SR2B_1/dff3B_7/gate_3/Gout 603
+C SubB_0/SR2B_1/dff3B_7/gate_0/S GND 26.8
+R SubB_0/SR2B_1/dff3B_7/gate_0/S 976
+C SubB_0/SR2B_1/dff3B_7/gate_2/S GND 33.8
+R SubB_0/SR2B_1/dff3B_7/gate_2/S 1215
+C SubB_0/SR2B_1/dff3B_7/gate_1/S GND 27.4
+R SubB_0/SR2B_1/dff3B_7/gate_1/S 999
+C SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_0/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Smb 963
+C D0 GND 3.7
+R D0 201
+C SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_0/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_1/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Smb 963
+C D1 GND 3.7
+R D1 201
+C SUM7 GND 89.6
+R SUM7 1906
+C SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_1/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_2/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Smb 963
+C D2 GND 3.7
+R D2 201
+C SUM6 GND 146.9
+R SUM6 2325
+C SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_2/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_3/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Smb 963
+C D3 GND 3.7
+R D3 201
+C SUM5 GND 134.6
+R SUM5 2323
+C SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_3/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_4/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Smb 963
+C D4 GND 3.7
+R D4 201
+C SUM4 GND 146.9
+R SUM4 2325
+C SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_4/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_5/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Smb 963
+C D5 GND 3.7
+R D5 201
+C SUM3 GND 134.6
+R SUM3 2323
+C SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_5/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_6/mux2x1_1/Smb 1989
+C SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Smb 963
+C D6 GND 3.7
+R D6 201
+C SUM2 GND 118.7
+R SUM2 2321
+C SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min1 1054
+C SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_6/mux2x1_2/Min2 1054
+C SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb GND 39.1
+R SubB_0/SR2B_2/mux4x1_7/mux2x1_1/Smb 1989
+C nor2_0/out GND 496.1
+R nor2_0/out 17709
+C SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Smb GND 22.7
+R SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Smb 963
+C D7 GND 3.7
+R D7 201
+C SUM1 GND 134.6
+R SUM1 2323
+C SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 GND 9.7
+R SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min1 1054
+C SL GND 3.7
+R SL 201
+C SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 GND 12.2
+R SubB_0/SR2B_2/mux4x1_7/mux2x1_2/Min2 1054
+C SUM0 GND 115.7
+R SUM0 1909
+R SubB_0/SR2B_2/dff3B_0/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_0/D GND 21.7
+R SubB_0/SR2B_2/dff3B_0/D 1234
+C SubB_0/SR2B_2/dff3B_0/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_0/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_0/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_0/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_0/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_0/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_0/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_0/Qb 176
+C SubB_0/SR2B_2/dff3B_0/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_0/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_0/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_0/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_0/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_0/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_0/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_0/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_0/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_0/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_0/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_0/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_0/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_0/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_0/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_0/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_1/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_1/D GND 21.7
+R SubB_0/SR2B_2/dff3B_1/D 1234
+C SubB_0/SR2B_2/dff3B_1/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_1/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_1/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_1/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_1/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_1/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_1/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_1/Qb 176
+C SubB_0/SR2B_2/dff3B_1/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_1/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_1/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_1/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_1/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_1/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_1/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_1/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_1/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_1/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_1/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_1/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_1/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_1/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_1/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_1/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_2/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_2/D GND 21.7
+R SubB_0/SR2B_2/dff3B_2/D 1234
+C SubB_0/SR2B_2/dff3B_2/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_2/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_2/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_2/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_2/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_2/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_2/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_2/Qb 176
+C SubB_0/SR2B_2/dff3B_2/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_2/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_2/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_2/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_2/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_2/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_2/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_2/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_2/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_2/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_2/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_2/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_2/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_2/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_2/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_2/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_3/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_3/D GND 21.7
+R SubB_0/SR2B_2/dff3B_3/D 1234
+C SubB_0/SR2B_2/dff3B_3/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_3/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_3/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_3/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_3/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_3/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_3/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_3/Qb 176
+C SubB_0/SR2B_2/dff3B_3/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_3/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_3/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_3/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_3/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_3/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_3/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_3/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_3/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_3/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_3/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_3/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_3/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_3/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_3/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_3/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_4/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_4/D GND 21.7
+R SubB_0/SR2B_2/dff3B_4/D 1234
+C SubB_0/SR2B_2/dff3B_4/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_4/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_4/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_4/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_4/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_4/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_4/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_4/Qb 176
+C SubB_0/SR2B_2/dff3B_4/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_4/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_4/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_4/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_4/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_4/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_4/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_4/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_4/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_4/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_4/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_4/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_4/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_4/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_4/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_4/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_5/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_5/D GND 21.7
+R SubB_0/SR2B_2/dff3B_5/D 1234
+C SubB_0/SR2B_2/dff3B_5/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_5/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_5/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_5/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_5/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_5/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_5/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_5/Qb 176
+C SubB_0/SR2B_2/dff3B_5/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_5/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_5/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_5/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_5/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_5/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_5/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_5/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_5/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_5/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_5/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_5/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_5/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_5/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_5/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_5/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_6/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_6/D GND 21.7
+R SubB_0/SR2B_2/dff3B_6/D 1234
+C SubB_0/SR2B_2/dff3B_6/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_6/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_6/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_6/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_6/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_6/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_6/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_6/Qb 176
+C SubB_0/SR2B_2/dff3B_6/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_6/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_6/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_6/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_6/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_6/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_6/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_6/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_6/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_6/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_6/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_6/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_6/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_6/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_6/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_6/gate_1/S 999
+R SubB_0/SR2B_2/dff3B_7/nand2_0/a_n37_n6# 40
+C SubB_0/SR2B_2/dff3B_7/D GND 21.7
+R SubB_0/SR2B_2/dff3B_7/D 1234
+C SubB_0/SR2B_2/dff3B_7/inverter_7/out GND 11.5
+R SubB_0/SR2B_2/dff3B_7/inverter_7/out 689
+C SubB_0/SR2B_2/dff3B_7/inverter_11/in GND 10.5
+R SubB_0/SR2B_2/dff3B_7/inverter_11/in 401
+C SubB_0/SR2B_2/dff3B_7/gate_0/Gin GND 6.2
+R SubB_0/SR2B_2/dff3B_7/gate_0/Gin 603
+C SubB_0/SR2B_2/dff3B_7/Qb GND 2.1
+R SubB_0/SR2B_2/dff3B_7/Qb 176
+C SubB_0/SR2B_2/dff3B_7/gate_2/Gin GND 16.9
+R SubB_0/SR2B_2/dff3B_7/gate_2/Gin 935
+C SubB_0/SR2B_2/dff3B_7/gate_2/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_7/gate_2/Gout 603
+C SubB_0/SR2B_2/dff3B_7/gate_1/Gin GND 17.3
+R SubB_0/SR2B_2/dff3B_7/gate_1/Gin 1151
+C SubB_0/SR2B_2/dff3B_7/gate_3/Gin GND 17.4
+R SubB_0/SR2B_2/dff3B_7/gate_3/Gin 936
+C SubB_0/SR2B_2/dff3B_7/gate_3/Gout GND 4.4
+R SubB_0/SR2B_2/dff3B_7/gate_3/Gout 603
+C SubB_0/SR2B_2/dff3B_7/gate_0/S GND 26.8
+R SubB_0/SR2B_2/dff3B_7/gate_0/S 976
+C SubB_0/SR2B_2/dff3B_7/gate_2/S GND 33.8
+R SubB_0/SR2B_2/dff3B_7/gate_2/S 1215
+C SubB_0/SR2B_2/dff3B_7/gate_1/S GND 27.4
+R SubB_0/SR2B_2/dff3B_7/gate_1/S 999

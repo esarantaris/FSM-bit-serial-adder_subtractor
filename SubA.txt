@@ -1,0 +1,324 @@
+h Vdd!
+l GND!
+vector A A7 A6 A5 A4 A3 A2 A1 A0
+vector B B7 B6 B5 B4 B3 B2 B1 B0
+vector SUM SUM7 SUM6 SUM5 SUM4 SUM3 SUM2 SUM1 SUM0
+vector S S1 S0
+analyzer CLK CLR AbS Sel S A B SUM Cout
+l CLK
+h CLR
+h AbS
+h Sel
+setvector S 00
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+h CLR
+h AbS
+h Sel
+setvector S 00
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+h Sel
+setvector S 11
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+h Sel
+setvector S 11
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+h Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+h Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+h CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+l CLK
+l CLR
+h AbS
+l Sel
+setvector S 10
+setvector A 00101001
+setvector B 00000111
+s
+s
+s
+s
+s
+s
+s
+s
+stepsize 100
+s

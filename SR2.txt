@@ -1,0 +1,121 @@
+h Vdd!
+l GND!
+vector Q Q7 Q6 Q5 Q4 Q3 Q2 Q1 Q0
+vector SR_IN IN7 IN6 IN5 IN4 IN3 IN2 IN1 IN0
+vector S S1 S0
+QnQlyzer CLK CLR S SR_IN SL SR Q
+l CLK
+h CLR
+setvector S 00
+setvector SR_IN 00000000
+l SL
+l SR
+s
+h CLK
+h CLR
+setvector S 00
+setvector SR_IN 00000000
+l SL
+l SR
+s
+l CLK
+h CLR
+setvector S 00
+setvector SR_IN 00000000
+l SL
+l SR
+s
+h CLK
+h CLR
+setvector S 00
+setvector SR_IN 00000000
+l SL
+l SR
+s
+l CLK
+l CLR
+setvector S 11
+setvector SR_IN 00000000
+l SL
+l SR
+s
+h CLK
+l CLR
+setvector S 11
+setvector SR_IN 11111111
+l SL
+l SR
+s
+l CLK
+l CLR
+setvector S 01
+setvector SR_IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector S 01
+setvector SR_IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector S 11
+setvector SR_IN 10101010
+l SL
+l SR
+s
+h CLK
+l CLR
+setvector S 11
+setvector SR_IN 10101010
+l SL
+l SR
+s
+l CLK
+l CLR
+setvector S 10
+setvector SR_IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector S 10
+setvector SR_IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector S 00
+setvector SR_IN 10101010
+l SL
+h SR
+s
+h CLK
+l CLR
+setvector S 00
+setvector SR_IN 10101010
+l SL
+h SR
+s
+l CLK
+h CLR
+setvector S 00
+setvector SR_IN 10101010
+l SL
+h SR
+s
+h CLK
+h CLR
+setvector S 00
+setvector SR_IN 10101010
+l SL
+h SR
+s
+s
+stepsize 2
+s

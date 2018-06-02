@@ -1,0 +1,9 @@
+| units: 100 tech: scmos format: MIT
+p S Gin Gout 2 6 -1 11
+n Sb Gin Gout 2 3 -1 -2
+C Sb GND 2.1
+R Sb 107
+R Gout 201
+C S GND 2.1
+R S 143
+R Gin 201

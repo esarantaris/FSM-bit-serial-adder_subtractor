@@ -1,0 +1,68 @@
+magic
+tech scmos
+timestamp 1353620947
+<< polysilicon >>
+rect 3 72 5 81
+rect 44 72 46 81
+rect 3 38 5 47
+rect 30 38 32 58
+rect 44 38 46 47
+rect 71 38 73 49
+rect 3 -18 5 8
+rect 30 -18 32 8
+<< metal1 >>
+rect -2 74 42 77
+rect -2 70 1 74
+rect 39 70 42 74
+rect 10 59 28 62
+rect -8 50 -2 53
+rect 18 50 39 53
+rect 51 50 69 53
+rect -8 42 0 45
+rect 39 32 42 45
+rect 28 29 42 32
+rect 69 21 80 24
+rect -8 1 0 4
+rect -8 -14 0 -11
+rect 39 -24 42 4
+rect 28 -27 42 -24
+<< metal2 >>
+rect 2 50 14 53
+<< polycontact >>
+rect 28 58 32 62
+rect 69 49 73 53
+<< ndcontact >>
+rect 39 50 43 54
+<< m2contact >>
+rect -2 50 2 54
+rect 14 49 18 53
+use inverter inverter_0
+timestamp 1351319193
+transform 1 0 3 0 1 57
+box -5 -10 7 15
+use inverter inverter_1
+timestamp 1351319193
+transform 1 0 44 0 1 57
+box -5 -10 7 15
+use mux2x1 mux2x1_0
+timestamp 1353607821
+transform 1 0 8 0 1 -5
+box -8 5 24 51
+use mux2x1 mux2x1_2
+timestamp 1353607821
+transform 1 0 49 0 1 -5
+box -8 5 24 51
+use mux2x1 mux2x1_1
+timestamp 1353607821
+transform 1 0 8 0 1 -61
+box -8 5 24 51
+<< labels >>
+rlabel metal1 20 75 20 75 1 Vdd!
+rlabel polysilicon 4 79 4 79 5 S1
+rlabel metal1 -6 43 -6 43 3 in1
+rlabel metal1 -6 2 -6 2 3 in2
+rlabel metal1 -6 -13 -6 -13 3 in3
+rlabel polysilicon 45 78 45 78 5 S0
+rlabel metal1 78 22 78 22 7 out
+rlabel ndcontact 41 52 41 52 1 GND
+<< end >>

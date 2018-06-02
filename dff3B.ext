@@ -1,0 +1,219 @@
+timestamp 1354117195
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use inverter inverter_7 1 0 -105 0 1 14
+use nand2 nand2_0 1 0 -50 0 1 10
+use inverter inverter_11 1 0 -65 0 1 14
+use gate gate_0 1 0 -28 0 1 12
+use inverter inverter_0 1 0 3 0 1 17
+use gate gate_1 1 0 40 0 1 12
+use inverter inverter_1 1 0 77 0 1 17
+use inverter inverter_10 1 0 112 0 1 17
+use gate gate_2 1 0 0 0 1 -20
+use inverter inverter_2 -1 0 26 0 -1 -10
+use gate gate_3 1 0 69 0 1 -20
+use inverter inverter_3 -1 0 95 0 -1 -10
+use inverter inverter_4 1 0 -34 0 1 -55
+use inverter inverter_5 1 0 -4 0 1 -54
+use inverter inverter_6 1 0 48 0 1 -53
+node "m1_76_n14#" 0 1833 76 -14 m1 0 0 0 0 0 0 0 0 0 0 0 0 39 32 0 0 0 0
+node "Qb" 0 987 117 18 m1 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "m1_5_n13#" 0 2397 5 -13 m1 0 0 0 0 0 0 0 0 0 0 0 0 51 40 0 0 0 0
+node "GND!" 6 30285 -110 7 v 0 0 0 0 0 0 0 0 0 0 0 0 192 192 1362 898 0 0
+node "m1_n61_17#" 0 3384 -61 17 m1 0 0 0 0 0 0 0 0 0 0 0 0 78 58 0 0 0 0
+node "Vdd!" 7 38048 -110 23 v 0 0 0 0 0 0 0 0 0 0 0 0 208 208 1765 1168 0 0
+node "a_n17_n22#" 405 16235 -17 -22 pc 0 0 0 0 76 76 0 0 0 0 0 0 185 128 0 0 0 0
+node "Q" 357 11382 92 16 pc 0 0 0 0 68 68 0 0 0 0 0 0 102 72 0 0 0 0
+node "a_74_17#" 25 10458 74 17 pc 0 0 0 0 16 16 0 0 0 0 0 0 214 148 0 0 0 0
+node "CLK" 742 43438 -35 -71 pc 0 0 0 0 132 132 0 0 0 0 0 0 654 438 0 0 0 0
+node "a_n31_n2#" 115 9536 -31 -2 pc 0 0 0 0 28 28 0 0 0 0 0 0 148 104 0 0 0 0
+node "a_39_20#" 609 22678 39 20 p 0 0 0 0 110 110 0 0 0 0 0 0 242 166 0 0 0 0
+node "a_23_17#" 273 9387 23 17 pc 0 0 0 0 54 54 0 0 0 0 0 0 79 58 0 0 0 0
+node "a_0_17#" 25 9800 0 17 pc 0 0 0 0 16 16 0 0 0 0 0 0 196 136 0 0 0 0
+node "a_n68_14#" 24 3455 -68 14 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "a_n92_14#" 24 2891 -92 14 pc 0 0 0 0 16 16 0 0 0 0 0 0 37 30 0 0 0 0
+node "a_n45_0#" 585 22650 -45 0 pc 0 0 0 0 106 106 0 0 0 0 0 0 214 150 128 90 0 0
+node "CLR" 60 1510 -105 27 p 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0 0 0
+node "D" 60 1510 -81 32 p 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n89_32#" 60 1510 -89 32 p 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_n45_0#" "Vdd!" 405
+cap "CLK" "Vdd!" 810
+cap "Q" "GND!" 114
+cap "a_n45_0#" "m1_n61_17#" 180
+cap "a_39_20#" "GND!" 114
+cap "a_n31_n2#" "Vdd!" 405
+cap "a_n17_n22#" "Vdd!" 405
+cap "a_23_17#" "GND!" 114
+cap "CLK" "a_74_17#" 180
+cap "a_n31_n2#" "a_n45_0#" 405
+cap "a_n17_n22#" "a_0_17#" 360
+cap "a_39_20#" "Vdd!" 810
+cap "a_n17_n22#" "a_n45_0#" 405
+cap "a_0_17#" "GND!" 405
+cap "a_n45_0#" "GND!" 114
+cap "CLK" "a_39_20#" 180
+cap "CLK" "GND!" 405
+cap "Vdd!" "CLR" 114
+cap "a_39_20#" "a_74_17#" 300
+cap "a_74_17#" "GND!" 405
+cap "Vdd!" "gate_0/Gout" 268
+cap "GND!" "gate_0/Gout" 1209
+cap "nand2_0/Vdd!" "Vdd!" 382
+cap "GND!" "inverter_11/GND" 720
+cap "inverter_7/GND" "a_n45_0#" -114
+cap "nand2_0/nand_out" "GND!" 660
+cap "nand2_0/nand_out" "Vdd!" 262
+cap "Vdd!" "gate_0/Sb" 854
+cap "GND!" "nand2_0/GND!" 764
+cap "inverter_7/GND" "gate_0/Gout" -405
+cap "inverter_11/out" "a_n45_0#" 180
+cap "Vdd!" "inverter_4/Vdd" 742
+cap "GND!" "nand2_0/a_n37_n6#" 88
+cap "inverter_7/in" "GND!" 114
+cap "inverter_7/in" "Vdd!" 38
+cap "inverter_4/GND" "GND!" 786
+cap "gate_0/Sb" "inverter_4/Vdd" -810
+cap "GND!" "gate_0/Sb" 606
+cap "inverter_7/in" "inverter_7/Vdd" -38
+cap "inverter_7/Vdd" "Vdd!" 720
+cap "inverter_7/out" "GND!" 38
+cap "inverter_7/GND" "GND!" 720
+cap "Vdd!" "inverter_11/out" 268
+cap "nand2_0/Vdd!" "Vdd!" 382
+cap "GND!" "inverter_11/out" 804
+cap "Vdd!" "inverter_11/Vdd" 720
+cap "inverter_4/in" "Vdd!" 76
+cap "GND!" "a_n45_0#" 114
+cap "nand2_0/nand_in2" "GND!" 38
+cap "GND!" "inverter_6/GND" 720
+cap "Vdd!" "gate_2/Sb" 493
+cap "Vdd!" "gate_1/Gout" 716
+cap "Vdd!" "gate_1/Sb" 405
+cap "Vdd!" "inverter_1/out" 202
+cap "inverter_1/Vdd" "Vdd!" 382
+cap "Vdd!" "gate_3/Sb" 739
+cap "GND!" "gate_3/Sb" 114
+cap "gate_1/Sb" "Vdd!" 405
+cap "Vdd!" "gate_3/Sb" 443
+cap "gate_2/Gin" "gate_2/S" 180
+cap "gate_1/Sb" "inverter_5/Vdd" -405
+cap "inverter_5/Vdd" "gate_2/Sb" -405
+cap "GND!" "inverter_1/out" 606
+cap "gate_1/Sb" "inverter_2/Vdd" -405
+cap "inverter_5/Vdd" "gate_3/Sb" -405
+cap "Vdd!" "inverter_5/Vdd" 764
+cap "Vdd!" "inverter_0/out" 470
+cap "inverter_2/Vdd" "gate_3/Sb" -405
+cap "inverter_5/GND" "GND!" 764
+cap "gate_1/Sb" "inverter_5/GND" -405
+cap "inverter_0/GND" "inverter_0/out" -114
+cap "inverter_2/GND" "GND!" 720
+cap "gate_1/Gout" "Vdd!" 268
+cap "Vdd!" "inverter_6/Vdd" 786
+cap "Vdd!" "inverter_2/Vdd" 720
+cap "inverter_5/in" "GND!" 38
+cap "gate_1/Gout" "inverter_0/GND" -405
+cap "Vdd!" "inverter_5/in" 38
+cap "GND!" "inverter_0/out" 1524
+cap "GND!" "inverter_1/GND" 786
+cap "Vdd!" "inverter_0/Vdd" 382
+cap "gate_1/Sb" "gate_1/Gout" 180
+cap "gate_3/Sb" "inverter_0/GND" -114
+cap "gate_2/Sb" "GND!" 404
+cap "gate_1/Sb" "GND!" 405
+cap "Vdd!" "gate_3/Gout" 806
+cap "GND!" "gate_1/Gout" 1209
+cap "GND!" "inverter_0/GND" 786
+cap "gate_1/Gout" "gate_3/Sb" 150
+cap "GND!" "inverter_10/GND" 720
+cap "inverter_3/out" "Vdd!" 244
+cap "Vdd!" "inverter_3/Vdd" 786
+cap "GND!" "inverter_10/in" 114
+cap "Vdd!" "inverter_10/out" 202
+cap "Vdd!" "inverter_10/Vdd" 382
+cap "inverter_3/GND" "inverter_10/in" -114
+cap "inverter_3/GND" "GND!" 720
+cap "Vdd!" "nand2_0/Vdd!" 404
+cap "Vdd!" "gate_0/Gout" 448
+cap "Vdd!" "inverter_11/in" 38
+cap "Vdd!" "nand2_0/nand_out" 448
+cap "Vdd!" "gate_0/S" 38
+cap "Vdd!" "gate_0/Gin" 448
+cap "nand2_0/Vdd!" "inverter_7/in" -76
+cap "Vdd!" "nand2_0/Vdd!" 404
+cap "Vdd!" "inverter_7/in" 76
+cap "Vdd!" "inverter_1/Vdd" 404
+cap "Vdd!" "inverter_0/out" 132
+cap "Vdd!" "inverter_1/out" 132
+cap "Vdd!" "gate_1/Gin" 448
+cap "gate_1/Gout" "Vdd!" 448
+cap "Vdd!" "inverter_0/Vdd" 404
+cap "Vdd!" "gate_1/S" 38
+cap "inverter_10/Vdd" "Vdd!" 404
+cap "inverter_10/out" "Vdd!" 132
+merge "inverter_3/GND" "inverter_10/GND" -30285 0 0 0 0 0 0 0 0 0 0 0 0 -192 -192 -1362 -904 0 0
+merge "inverter_10/GND" "inverter_6/GND"
+merge "inverter_6/GND" "inverter_5/GND"
+merge "inverter_5/GND" "inverter_2/GND"
+merge "inverter_2/GND" "inverter_1/GND"
+merge "inverter_1/GND" "inverter_0/GND"
+merge "inverter_0/GND" "inverter_4/GND"
+merge "inverter_4/GND" "inverter_11/GND"
+merge "inverter_11/GND" "nand2_0/GND!"
+merge "nand2_0/GND!" "inverter_7/GND"
+merge "inverter_7/GND" "GND!"
+merge "inverter_3/Vdd" "inverter_10/Vdd" -31482 0 0 0 0 0 0 0 0 0 0 0 0 -192 -192 -1443 -987 0 0
+merge "inverter_10/Vdd" "inverter_6/Vdd"
+merge "inverter_6/Vdd" "inverter_5/Vdd"
+merge "inverter_5/Vdd" "inverter_2/Vdd"
+merge "inverter_2/Vdd" "inverter_1/Vdd"
+merge "inverter_1/Vdd" "inverter_0/Vdd"
+merge "inverter_0/Vdd" "inverter_4/Vdd"
+merge "inverter_4/Vdd" "inverter_11/Vdd"
+merge "inverter_11/Vdd" "nand2_0/Vdd!"
+merge "nand2_0/Vdd!" "inverter_7/Vdd"
+merge "inverter_7/Vdd" "Vdd!"
+merge "inverter_3/out" "gate_3/Gout" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -16 0 0 0 0
+merge "gate_3/Gout" "m1_76_n14#"
+merge "inverter_7/in" "CLR" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_10/out" "Qb" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "gate_2/Gin" "inverter_0/in" -1661 0 0 0 0 -4 -10 0 0 0 0 0 0 -9 -18 0 0 0 0
+merge "inverter_0/in" "gate_0/Gout"
+merge "gate_0/Gout" "a_0_17#"
+merge "inverter_6/in" "gate_3/S" -5362 0 0 0 0 -14 -32 0 0 0 0 0 0 -48 -38 0 0 0 0
+merge "gate_3/S" "gate_1/Sb"
+merge "gate_1/Sb" "inverter_4/in"
+merge "inverter_4/in" "CLK"
+merge "inverter_2/in" "gate_1/Gin" -1219 0 0 0 0 -4 -8 0 0 0 0 0 0 -9 -18 0 0 0 0
+merge "gate_1/Gin" "inverter_0/out"
+merge "inverter_0/out" "a_23_17#"
+merge "inverter_3/in" "inverter_10/in" -1893 0 0 0 0 -8 -18 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "inverter_10/in" "inverter_1/out"
+merge "inverter_1/out" "Q"
+merge "nand2_0/nand_in1" "inverter_7/out" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_7/out" "a_n92_14#"
+merge "a_n92_14#" "a_n89_32#"
+merge "inverter_2/out" "gate_2/Gout" -846 0 0 0 0 0 0 0 0 0 0 0 0 -18 -24 0 0 0 0
+merge "gate_2/Gout" "m1_5_n13#"
+merge "inverter_5/in" "gate_2/S" -2968 0 0 0 0 -10 -24 0 0 0 0 0 0 -12 -20 0 0 0 0
+merge "gate_2/S" "inverter_4/out"
+merge "inverter_4/out" "gate_0/Sb"
+merge "gate_0/Sb" "a_n31_n2#"
+merge "a_n31_n2#" "a_n17_n22#"
+merge "gate_3/Gin" "inverter_1/in" -1896 0 0 0 0 -4 -10 0 0 0 0 0 0 -9 -18 0 0 0 0
+merge "inverter_1/in" "gate_1/Gout"
+merge "gate_1/Gout" "a_74_17#"
+merge "inverter_5/out" "gate_2/Sb" -1871 0 0 0 0 -6 -14 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "gate_2/Sb" "gate_0/S"
+merge "gate_0/S" "a_n45_0#"
+merge "gate_0/Gin" "inverter_11/out" -846 0 0 0 0 0 0 0 0 0 0 0 0 -12 -20 0 0 0 0
+merge "inverter_11/out" "m1_n61_17#"
+merge "inverter_11/in" "nand2_0/nand_out" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand2_0/nand_out" "a_n68_14#"
+merge "nand2_0/nand_in2" "D" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_6/out" "gate_3/Sb" -1495 0 0 0 0 -6 -14 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "gate_3/Sb" "gate_1/S"
+merge "gate_1/S" "a_39_20#"

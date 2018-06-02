@@ -1,0 +1,53 @@
+* SPICE3 file created from xor2.ext - technology: scmos
+
+M1000 xor_out nand2_4/nand_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=208p ps=176u 
+M1001 Vdd nand2_4/nand_in2 xor_out Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1002 nand2_4/a_n37_n6# nand2_4/nand_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=76p ps=72u 
+M1003 xor_out nand2_4/nand_in2 nand2_4/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1004 nand2_4/nand_in1 xor_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1005 Vdd nand2_3/nand_in2 nand2_4/nand_in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1006 nand2_3/a_n37_n6# xor_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1007 nand2_4/nand_in1 nand2_3/nand_in2 nand2_3/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1008 nand2_4/nand_in2 nand2_3/nand_in2 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1009 Vdd xor_in2 nand2_4/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1010 nand2_2/a_n37_n6# nand2_3/nand_in2 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1011 nand2_4/nand_in2 xor_in2 nand2_2/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1012 nand2_3/nand_in2 xor_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1013 Vdd xor_in2 nand2_3/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1014 nand2_1/a_n37_n6# xor_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1015 nand2_3/nand_in2 xor_in2 nand2_1/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 xor_in2 gnd! 24.4fF
+C1 nand2_3/nand_in2 gnd! 28.1fF
+C2 xor_in1 gnd! 17.0fF
+C3 Vdd gnd! 34.6fF
+C4 xor_out gnd! 3.7fF
+C5 nand2_4/nand_in2 gnd! 17.8fF
+C6 nand2_4/nand_in1 gnd! 12.2fF
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 xor_in1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 250ns 500ns)
+Vin2 xor_in2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 100ns 300ns)
+.tran 5ns 1000ns
+.probe
+.end

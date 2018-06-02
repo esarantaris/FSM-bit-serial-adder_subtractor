@@ -1,0 +1,18 @@
+* SPICE3 file created from not1.ext - technology: scmos
+.include ../usc-spice
+M1000 not_out not_in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=26p ps=22u 
+M1001 not_out not_in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=19p ps=18u 
+C0 not_in gnd! 4.8fF
+
+
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 not_in 0 pulse(0 2.8 0ns 0.1ns 0.1ns 250ns 500ns)
+.tran 5ns 1000ns
+.probe
+.end

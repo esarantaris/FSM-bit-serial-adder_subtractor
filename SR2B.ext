@@ -1,0 +1,355 @@
+timestamp 1354203817
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use mux4x1 mux4x1_0 1 0 -14 0 1 229
+use mux4x1 mux4x1_1 1 0 119 0 1 229
+use mux4x1 mux4x1_2 1 0 252 0 1 229
+use mux4x1 mux4x1_3 1 0 385 0 1 229
+use mux4x1 mux4x1_4 1 0 518 0 1 229
+use mux4x1 mux4x1_5 1 0 651 0 1 229
+use mux4x1 mux4x1_6 1 0 784 0 1 229
+use mux4x1 mux4x1_7 1 0 917 0 1 229
+use dff3B dff3B_0 0 1 72 -1 0 130
+use dff3B dff3B_1 0 1 205 -1 0 130
+use dff3B dff3B_2 0 1 338 -1 0 130
+use dff3B dff3B_3 0 1 471 -1 0 130
+use dff3B dff3B_4 0 1 604 -1 0 130
+use dff3B dff3B_5 0 1 737 -1 0 130
+use dff3B dff3B_6 0 1 870 -1 0 130
+use dff3B dff3B_7 0 1 1003 -1 0 130
+node "SL" 0 423 909 215 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_983_271#" 0 423 983 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN7" 0 564 909 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_1009_278#" 1 10583 1009 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 244 168 0 0
+node "Q7" 12 102507 776 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 2181 1460 0 0 0 0
+node "m1_850_271#" 0 423 850 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN6" 0 564 776 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_876_278#" 1 10583 876 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 244 168 0 0
+node "Q6" 16 133258 643 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 2828 1896 59 44 0 0
+node "m1_717_271#" 0 423 717 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN5" 0 564 643 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_743_278#" 1 10583 743 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 244 168 0 0
+node "Q5" 15 131482 510 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 2789 1870 62 46 0 0
+node "m1_584_271#" 0 423 584 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN4" 0 564 510 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_610_278#" 1 10526 610 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 241 166 0 0
+node "Q4" 16 133258 377 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 2828 1896 59 44 0 0
+node "m1_451_271#" 0 423 451 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN3" 0 564 377 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_477_278#" 1 10526 477 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 241 166 0 0
+node "Q3" 15 131482 244 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 2789 1870 62 46 0 0
+node "m1_318_271#" 0 423 318 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN2" 0 564 244 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_344_278#" 1 10526 344 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 241 166 0 0
+node "Q2" 16 133258 111 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 2828 1896 59 44 0 0
+node "GND!" 24 184499 13 -32 v 0 0 0 0 0 0 0 0 0 0 0 0 2908 1944 2875 1964 0 0
+node "CLK" 27 212905 6 -19 v 0 0 0 0 0 0 0 0 0 0 0 0 4388 2968 742 532 0 0
+node "Q0" 9 77409 -6 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 1647 1104 0 0 0 0
+node "m1_185_271#" 0 423 185 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN1" 0 564 111 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_211_278#" 1 10526 211 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 241 166 0 0
+node "Q1" 15 131482 -22 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 2789 1870 62 46 0 0
+node "SR" 0 423 -22 230 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_52_271#" 0 423 52 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "IN0" 0 564 -22 271 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_78_278#" 1 10526 78 278 v 0 0 0 0 0 0 0 0 0 0 0 0 133 94 241 166 0 0
+node "m1_957_302#" 2 19176 957 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 408 278 0 0 0 0
+node "m1_824_302#" 3 22278 824 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 474 322 0 0 0 0
+node "m1_691_302#" 3 22278 691 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 474 322 0 0 0 0
+node "m1_558_302#" 3 22278 558 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 474 322 0 0 0 0
+node "m1_425_302#" 3 22137 425 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 471 320 0 0 0 0
+node "m1_292_302#" 3 22278 292 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 474 322 0 0 0 0
+node "m1_159_302#" 3 22278 159 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 474 322 0 0 0 0
+node "Vdd!" 3 22278 26 302 m1 0 0 0 0 0 0 0 0 0 0 0 0 474 322 0 0 0 0
+node "a_994_212#" 140 8884 994 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_861_212#" 140 8884 861 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_728_212#" 140 8884 728 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_595_212#" 140 8884 595 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_462_212#" 140 8884 462 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_329_212#" 140 8884 329 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_196_212#" 140 8884 196 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "a_63_212#" 140 8884 63 212 pc 0 0 0 0 32 32 0 0 0 0 0 0 124 88 0 0 0 0
+node "CLR" 741 217671 86 234 pc 0 0 0 0 128 128 0 0 0 0 0 0 4461 3012 472 352 0 0
+node "S1" 1303 152569 -12 314 pc 0 0 0 0 224 224 0 0 0 0 0 0 2849 1900 0 0 0 0
+node "S0" 1876 166108 29 321 pc 0 0 0 0 320 320 0 0 0 0 0 0 2852 1902 0 0 0 0
+cap "Q6" "GND!" 810
+cap "Q0" "GND!" 405
+cap "Q5" "CLK" 810
+cap "S0" "S1" 1260
+cap "Q4" "Q5" 405
+cap "Q7" "CLK" 810
+cap "Q5" "GND!" 810
+cap "Q4" "CLK" 810
+cap "CLK" "Q2" 810
+cap "CLK" "GND!" 2835
+cap "m1_691_302#" "CLR" 405
+cap "Q7" "GND!" 810
+cap "m1_159_302#" "CLR" 405
+cap "Q4" "GND!" 810
+cap "GND!" "Q2" 810
+cap "m1_824_302#" "CLR" 405
+cap "m1_292_302#" "CLR" 405
+cap "Q3" "CLK" 810
+cap "m1_957_302#" "CLR" 405
+cap "S0" "CLR" 1260
+cap "Q4" "Q3" 405
+cap "Q3" "Q2" 405
+cap "m1_425_302#" "CLR" 405
+cap "Q3" "GND!" 810
+cap "m1_558_302#" "CLR" 405
+cap "CLR" "S1" 1260
+cap "Q1" "CLK" 810
+cap "Q1" "Q2" 405
+cap "Q1" "GND!" 810
+cap "Vdd!" "CLR" 405
+cap "Q6" "Q5" 405
+cap "Q6" "CLK" 810
+cap "Q0" "CLK" 405
+cap "Q6" "Q7" 405
+cap "GND!" "CLK" 405
+cap "GND!" "CLK" 405
+cap "dff3B_0/Vdd!" "dff3B_0/Q" 405
+cap "dff3B_1/Vdd!" "dff3B_1/Q" 405
+cap "dff3B_2/Vdd!" "dff3B_2/Q" 405
+cap "GND!" "dff3B_2/CLK" 405
+cap "GND!" "CLK" 405
+cap "GND!" "CLK" 405
+cap "dff3B_3/Q" "dff3B_3/Vdd!" 405
+cap "dff3B_4/Vdd!" "dff3B_4/Q" 405
+cap "GND!" "dff3B_5/CLK" 405
+cap "dff3B_5/Q" "dff3B_5/Vdd!" 405
+cap "GND!" "CLK" 405
+cap "dff3B_6/Vdd!" "dff3B_6/Q" 405
+cap "CLK" "GND!" 405
+cap "dff3B_7/Q" "dff3B_7/Vdd!" 405
+cap "GND!" "dff3B_0/inverter_6/out" 584
+cap "GND!" "dff3B_0/inverter_6/in" 38
+cap "GND!" "dff3B_0/inverter_6/GND" 44
+cap "dff3B_1/inverter_6/in" "GND!" 76
+cap "GND!" "dff3B_1/inverter_6/out" 517
+cap "dff3B_1/inverter_6/GND" "GND!" 22
+cap "GND!" "dff3B_2/inverter_6/GND" 22
+cap "GND!" "dff3B_2/gate_1/S" 517
+cap "GND!" "dff3B_2/gate_1/Sb" 76
+cap "GND!" "dff3B_3/inverter_6/out" 517
+cap "GND!" "dff3B_3/inverter_6/in" 76
+cap "GND!" "dff3B_3/inverter_6/GND" 22
+cap "dff3B_4/inverter_6/in" "GND!" 76
+cap "dff3B_4/inverter_6/GND" "GND!" 22
+cap "dff3B_4/inverter_6/out" "GND!" 517
+cap "GND!" "dff3B_5/gate_1/S" 584
+cap "dff3B_5/gate_1/Sb" "GND!" 38
+cap "GND!" "dff3B_5/inverter_6/GND" 44
+cap "GND!" "dff3B_6/inverter_6/out" 517
+cap "GND!" "dff3B_6/inverter_6/in" 76
+cap "GND!" "dff3B_6/inverter_6/GND" 22
+cap "GND!" "dff3B_7/inverter_6/out" 517
+cap "GND!" "dff3B_7/inverter_6/in" 76
+cap "GND!" "dff3B_7/inverter_6/GND" 22
+cap "dff3B_0/GND!" "mux4x1_0/mux2x1_1/Min2" 804
+cap "mux4x1_0/mux2x1_0/Smb" "dff3B_0/GND!" 228
+cap "dff3B_0/GND!" "mux4x1_0/mux2x1_2/Min2" 66
+cap "mux4x1_1/mux2x1_2/Min2" "dff3B_1/GND!" 66
+cap "mux4x1_1/mux2x1_0/gate_0/Sb" "dff3B_1/GND!" 228
+cap "mux4x1_1/in2" "dff3B_0/D" 180
+cap "mux4x1_1/mux2x1_1/Min2" "dff3B_1/GND!" 804
+cap "mux4x1_1/in2" "dff3B_0/inverter_7/out" 180
+cap "mux4x1_2/mux2x1_1/Min2" "dff3B_2/GND!" 536
+cap "dff3B_1/inverter_7/out" "mux4x1_2/in2" 180
+cap "mux4x1_2/mux2x1_1/Mout" "dff3B_2/GND!" 44
+cap "mux4x1_1/out" "mux4x1_2/in2" 180
+cap "mux4x1_2/mux2x1_1/gate_0/Gin" "dff3B_2/GND!" 268
+cap "mux4x1_2/mux2x1_2/Min2" "dff3B_2/GND!" 22
+cap "mux4x1_3/in2" "mux4x1_2/out" 180
+cap "mux4x1_2/mux2x1_0/Smb" "dff3B_2/GND!" 228
+cap "mux4x1_3/in2" "dff3B_2/inverter_7/out" 180
+cap "dff3B_3/GND!" "mux4x1_3/mux2x1_0/Smb" 228
+cap "dff3B_3/GND!" "mux4x1_3/mux2x1_2/Min2" 66
+cap "dff3B_3/GND!" "mux4x1_3/mux2x1_1/Min2" 804
+cap "dff3B_4/GND!" "mux4x1_4/mux2x1_0/gate_0/Sb" 228
+cap "mux4x1_4/in2" "dff3B_3/D" 180
+cap "dff3B_4/GND!" "mux4x1_4/mux2x1_1/Min2" 804
+cap "mux4x1_4/in2" "dff3B_3/inverter_7/out" 180
+cap "dff3B_4/GND!" "mux4x1_4/mux2x1_2/Min2" 66
+cap "mux4x1_5/mux2x1_1/Mout" "dff3B_5/GND!" 66
+cap "dff3B_5/GND!" "mux4x1_5/mux2x1_1/Min2" 804
+cap "mux4x1_5/in2" "mux4x1_4/out" 180
+cap "mux4x1_5/in2" "dff3B_4/inverter_7/out" 180
+cap "mux4x1_5/mux2x1_0/Smb" "dff3B_5/GND!" 228
+cap "mux4x1_6/in2" "dff3B_5/inverter_7/out" 180
+cap "mux4x1_6/in2" "mux4x1_5/out" 180
+cap "dff3B_6/GND!" "mux4x1_6/mux2x1_1/Min2" 804
+cap "dff3B_6/GND!" "mux4x1_6/mux2x1_0/Smb" 228
+cap "mux4x1_6/mux2x1_2/Min2" "dff3B_6/GND!" 66
+cap "dff3B_6/inverter_7/out" "mux4x1_7/in2" 180
+cap "dff3B_7/GND!" "mux4x1_7/mux2x1_2/Min2" 66
+cap "mux4x1_7/mux2x1_0/gate_0/Sb" "dff3B_7/GND!" 228
+cap "dff3B_7/GND!" "mux4x1_7/mux2x1_1/Min2" 804
+cap "dff3B_6/D" "mux4x1_7/in2" 180
+cap "mux4x1_0/Vdd!" "mux4x1_0/S0" 180
+cap "mux4x1_0/inverter_1/out" "mux4x1_0/GND" 3576
+cap "mux4x1_1/Vdd!" "mux4x1_1/S0" 180
+cap "mux4x1_1/inverter_1/out" "mux4x1_1/GND" 1686
+cap "mux4x1_1/a_69_49#" "m1_211_278#" 1890
+cap "mux4x1_2/inverter_1/Vdd" "mux4x1_2/S0" 180
+cap "mux4x1_2/inverter_1/out" "m1_344_278#" 3576
+cap "m1_344_278#" "mux4x1_2/GND" 2361
+cap "mux4x1_3/inverter_1/out" "mux4x1_3/GND" 3576
+cap "mux4x1_3/Vdd!" "mux4x1_3/S0" 180
+cap "mux4x1_4/Vdd!" "mux4x1_4/S0" 180
+cap "mux4x1_4/inverter_1/out" "mux4x1_4/GND" 1821
+cap "mux4x1_4/a_69_49#" "m1_610_278#" 1755
+cap "mux4x1_5/inverter_1/Vdd" "mux4x1_5/S0" 180
+cap "m1_743_278#" "mux4x1_5/inverter_1/out" 3576
+cap "m1_743_278#" "mux4x1_5/GND" 2226
+cap "mux4x1_6/GND" "mux4x1_6/inverter_1/out" 3576
+cap "mux4x1_6/S0" "mux4x1_6/Vdd!" 180
+cap "mux4x1_7/Vdd!" "mux4x1_7/S0" 180
+cap "mux4x1_7/GND" "mux4x1_7/inverter_1/out" 1956
+cap "m1_1009_278#" "mux4x1_7/a_69_49#" 1620
+merge "dff3B_2/D" "mux4x1_2/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_2/out" "a_329_212#"
+merge "mux4x1_7/S1" "mux4x1_6/S1" -4702 0 0 0 0 -18 -50 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mux4x1_6/S1" "mux4x1_5/S1"
+merge "mux4x1_5/S1" "mux4x1_4/S1"
+merge "mux4x1_4/S1" "mux4x1_3/S1"
+merge "mux4x1_3/S1" "mux4x1_2/S1"
+merge "mux4x1_2/S1" "mux4x1_1/S1"
+merge "mux4x1_1/S1" "mux4x1_0/S1"
+merge "mux4x1_0/S1" "S1"
+merge "mux4x1_3/in2" "mux4x1_2/mux2x1_1/Min2" -30315 0 0 0 0 0 0 0 0 0 0 0 0 -633 -446 0 0 0 0
+merge "mux4x1_2/mux2x1_1/Min2" "mux4x1_1/in3"
+merge "mux4x1_1/in3" "dff3B_2/Q"
+merge "dff3B_2/Q" "Q2"
+merge "mux4x1_0/in2" "SR" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "dff3B_7/inverter_7/in" "dff3B_6/CLR" -99632 0 0 0 0 -32 -80 0 0 0 0 0 0 -1984 -1888 -220 -168 0 0
+merge "dff3B_6/CLR" "dff3B_5/CLR"
+merge "dff3B_5/CLR" "dff3B_4/CLR"
+merge "dff3B_4/CLR" "dff3B_3/CLR"
+merge "dff3B_3/CLR" "dff3B_2/CLR"
+merge "dff3B_2/CLR" "dff3B_1/CLR"
+merge "dff3B_1/CLR" "dff3B_0/CLR"
+merge "dff3B_0/CLR" "CLR"
+merge "mux4x1_7/in2" "mux4x1_6/mux2x1_1/Min2" -30315 0 0 0 0 0 0 0 0 0 0 0 0 -633 -446 0 0 0 0
+merge "mux4x1_6/mux2x1_1/Min2" "mux4x1_5/in3"
+merge "mux4x1_5/in3" "dff3B_6/Q"
+merge "dff3B_6/Q" "Q6"
+merge "mux4x1_2/in2" "mux4x1_1/mux2x1_1/Min2" -16215 0 0 0 0 0 0 0 0 0 0 0 0 -333 -246 0 0 0 0
+merge "mux4x1_1/mux2x1_1/Min2" "mux4x1_0/in3"
+merge "mux4x1_0/in3" "dff3B_1/Q"
+merge "dff3B_1/Q" "Q1"
+merge "mux4x1_7/in3" "SL" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "mux4x1_7/S0" "mux4x1_6/S0" -4464 0 0 0 0 -16 -48 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mux4x1_6/S0" "mux4x1_5/S0"
+merge "mux4x1_5/S0" "mux4x1_4/S0"
+merge "mux4x1_4/S0" "mux4x1_3/S0"
+merge "mux4x1_3/S0" "mux4x1_2/S0"
+merge "mux4x1_2/S0" "mux4x1_1/S0"
+merge "mux4x1_1/S0" "mux4x1_0/S0"
+merge "mux4x1_0/S0" "S0"
+merge "dff3B_7/GND!" "dff3B_6/GND!" -23275 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1617 -1213 0 0
+merge "dff3B_6/GND!" "dff3B_5/GND!"
+merge "dff3B_5/GND!" "dff3B_4/GND!"
+merge "dff3B_4/GND!" "dff3B_3/GND!"
+merge "dff3B_3/GND!" "dff3B_2/GND!"
+merge "dff3B_2/GND!" "dff3B_1/GND!"
+merge "dff3B_1/GND!" "dff3B_0/GND!"
+merge "dff3B_0/GND!" "GND!"
+merge "mux4x1_5/Vdd!" "mux4x1_4/Vdd!" -1551 0 0 0 0 0 0 0 0 0 0 0 0 -27 -42 0 0 0 0
+merge "mux4x1_4/Vdd!" "mux4x1_3/Vdd!"
+merge "mux4x1_3/Vdd!" "mux4x1_2/inverter_1/Vdd"
+merge "mux4x1_2/inverter_1/Vdd" "dff3B_2/inverter_7/Vdd"
+merge "dff3B_2/inverter_7/Vdd" "m1_292_302#"
+merge "m1_292_302#" "dff3B_3/inverter_7/Vdd"
+merge "dff3B_3/inverter_7/Vdd" "m1_425_302#"
+merge "m1_425_302#" "dff3B_4/inverter_7/Vdd"
+merge "dff3B_4/inverter_7/Vdd" "m1_558_302#"
+merge "mux4x1_2/Vdd!" "mux4x1_1/Vdd!" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -30 -44 0 0 0 0
+merge "mux4x1_1/Vdd!" "mux4x1_0/Vdd!"
+merge "mux4x1_0/Vdd!" "dff3B_0/inverter_7/Vdd"
+merge "dff3B_0/inverter_7/Vdd" "Vdd!"
+merge "Vdd!" "dff3B_1/inverter_7/Vdd"
+merge "dff3B_1/inverter_7/Vdd" "m1_159_302#"
+merge "mux4x1_7/GND" "dff3B_7/inverter_7/GND" -3732 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 -66 -53 0 0
+merge "dff3B_7/inverter_7/GND" "m1_1009_278#"
+merge "mux4x1_6/GND" "dff3B_6/inverter_7/GND" -3276 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 -6 -10 0 0
+merge "dff3B_6/inverter_7/GND" "m1_876_278#"
+merge "dff3B_6/nand2_0/nand_in2" "mux4x1_6/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_6/out" "a_861_212#"
+merge "mux4x1_7/Vdd!" "mux4x1_6/Vdd!" -4089 0 0 0 0 0 0 0 0 0 0 0 0 -81 -75 0 0 0 0
+merge "mux4x1_6/Vdd!" "mux4x1_5/inverter_1/Vdd"
+merge "mux4x1_5/inverter_1/Vdd" "dff3B_5/inverter_7/Vdd"
+merge "dff3B_5/inverter_7/Vdd" "m1_691_302#"
+merge "m1_691_302#" "dff3B_6/inverter_7/Vdd"
+merge "dff3B_6/inverter_7/Vdd" "m1_824_302#"
+merge "m1_824_302#" "dff3B_7/inverter_7/Vdd"
+merge "dff3B_7/inverter_7/Vdd" "m1_957_302#"
+merge "dff3B_7/CLK" "dff3B_6/CLK" -96262 0 0 0 0 0 0 0 0 0 0 0 0 -2036 -1421 -158 -148 0 0
+merge "dff3B_6/CLK" "dff3B_5/CLK"
+merge "dff3B_5/CLK" "dff3B_4/CLK"
+merge "dff3B_4/CLK" "dff3B_3/CLK"
+merge "dff3B_3/CLK" "dff3B_2/CLK"
+merge "dff3B_2/CLK" "dff3B_1/CLK"
+merge "dff3B_1/CLK" "dff3B_0/CLK"
+merge "dff3B_0/CLK" "CLK"
+merge "mux4x1_0/mux2x1_2/Min1" "m1_52_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "dff3B_0/nand2_0/nand_in2" "mux4x1_0/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_0/out" "a_63_212#"
+merge "mux4x1_4/in1" "IN4" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_7/mux2x1_2/gate_1/Gin" "m1_983_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "mux4x1_1/in2" "mux4x1_0/mux2x1_1/Min2" -15792 0 0 0 0 0 0 0 0 0 0 0 0 -324 -234 0 0 0 0
+merge "mux4x1_0/mux2x1_1/Min2" "dff3B_0/Q"
+merge "dff3B_0/Q" "Q0"
+merge "mux4x1_3/mux2x1_2/Min1" "m1_451_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "mux4x1_4/in2" "mux4x1_3/mux2x1_1/Min2" -16215 0 0 0 0 0 0 0 0 0 0 0 0 -333 -246 0 0 0 0
+merge "mux4x1_3/mux2x1_1/Min2" "mux4x1_2/in3"
+merge "mux4x1_2/in3" "dff3B_3/Q"
+merge "dff3B_3/Q" "Q3"
+merge "mux4x1_0/GND" "dff3B_0/inverter_7/GND" -3219 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 -3 -8 0 0
+merge "dff3B_0/inverter_7/GND" "m1_78_278#"
+merge "mux4x1_6/in2" "mux4x1_5/mux2x1_1/Min2" -44415 0 0 0 0 0 0 0 0 0 0 0 0 -933 -646 0 0 0 0
+merge "mux4x1_5/mux2x1_1/Min2" "mux4x1_4/in3"
+merge "mux4x1_4/in3" "dff3B_5/Q"
+merge "dff3B_5/Q" "Q5"
+merge "dff3B_4/D" "mux4x1_4/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_4/out" "a_595_212#"
+merge "mux4x1_3/GND" "dff3B_3/inverter_7/GND" -3219 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 -3 -8 0 0
+merge "dff3B_3/inverter_7/GND" "m1_477_278#"
+merge "mux4x1_5/in2" "mux4x1_4/mux2x1_1/Min2" -30315 0 0 0 0 0 0 0 0 0 0 0 0 -633 -446 0 0 0 0
+merge "mux4x1_4/mux2x1_1/Min2" "mux4x1_3/in3"
+merge "mux4x1_3/in3" "dff3B_4/Q"
+merge "dff3B_4/Q" "Q4"
+merge "mux4x1_1/in1" "IN1" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_1/GND" "dff3B_1/inverter_7/GND" -3219 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 -3 -8 0 0
+merge "dff3B_1/inverter_7/GND" "m1_211_278#"
+merge "dff3B_3/nand2_0/nand_in2" "mux4x1_3/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_3/out" "a_462_212#"
+merge "mux4x1_2/GND" "dff3B_2/inverter_7/GND" -2706 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "dff3B_2/inverter_7/GND" "m1_344_278#"
+merge "mux4x1_4/mux2x1_2/gate_1/Gin" "m1_584_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "dff3B_7/nand2_0/nand_in2" "mux4x1_7/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_7/out" "a_994_212#"
+merge "dff3B_1/D" "mux4x1_1/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_1/out" "a_196_212#"
+merge "mux4x1_7/mux2x1_1/Min2" "mux4x1_6/in3" -15228 0 0 0 0 0 0 0 0 0 0 0 0 -324 -234 0 0 0 0
+merge "mux4x1_6/in3" "dff3B_7/Q"
+merge "dff3B_7/Q" "Q7"
+merge "mux4x1_4/GND" "dff3B_4/inverter_7/GND" -3219 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 -3 -8 0 0
+merge "dff3B_4/inverter_7/GND" "m1_610_278#"
+merge "mux4x1_5/in1" "IN5" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_2/mux2x1_2/Min1" "m1_318_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "mux4x1_5/mux2x1_2/Min1" "m1_717_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "mux4x1_2/in1" "IN2" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_0/in1" "IN0" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_6/mux2x1_2/Min1" "m1_850_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "mux4x1_6/in1" "IN6" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_3/in1" "IN3" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_5/GND" "dff3B_5/inverter_7/GND" -2649 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "dff3B_5/inverter_7/GND" "m1_743_278#"
+merge "mux4x1_7/in1" "IN7" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "mux4x1_1/mux2x1_2/gate_1/Gin" "m1_185_271#" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "dff3B_5/D" "mux4x1_5/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "mux4x1_5/out" "a_728_212#"

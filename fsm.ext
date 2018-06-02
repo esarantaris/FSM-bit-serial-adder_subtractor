@@ -1,0 +1,490 @@
+timestamp 1354710338
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use xor2 xor2_0 1 0 -112 0 1 256
+use SR4 SR4_0 1 0 6 0 1 13
+use inverter inverter_6 1 0 392 0 1 253
+use inverter inverter_0 1 0 471 0 1 254
+use mux2x1 mux2x1_0 1 0 397 0 1 191
+use nand2 nand2_0 1 0 532 0 1 237
+use inverter inverter_2 1 0 517 0 1 240
+use dff3B dff3B_0 0 1 429 -1 0 143
+use inverter inverter_1 1 0 539 0 1 233
+use SR4 SR4_1 1 0 640 0 1 13
+use nand2 nand2_1 0 1 128 -1 0 -56
+use nand2 nand2_2 0 1 245 -1 0 -56
+use nand2 nand2_3 0 1 316 -1 0 -56
+use inverter inverter_12 -1 0 355 0 -1 -20
+use nor2 nor2_5 -1 0 342 0 -1 -18
+use inverter inverter_3 -1 0 539 0 -1 -19
+use nor2 nor2_2 -1 0 524 0 -1 -20
+use inverter inverter_4 -1 0 579 0 -1 -19
+use nor2 nor2_1 -1 0 564 0 -1 -20
+use inverter inverter_5 -1 0 619 0 -1 -19
+use nor2 nor2_0 -1 0 604 0 -1 -20
+use inverter inverter_7 0 1 133 -1 0 -41
+use nor2 nor2_4 0 -1 216 1 0 -12
+use inverter inverter_8 0 1 250 -1 0 -41
+use nor2 nor2_3 0 -1 290 1 0 -12
+use inverter inverter_9 0 1 321 -1 0 -41
+use inverter inverter_10 0 -1 217 1 0 -68
+use inverter inverter_11 0 -1 291 1 0 -68
+node "SB1" 0 1645 287 -77 m1 0 0 0 0 0 0 0 0 0 0 0 0 45 36 0 0 0 0
+equiv "SB1" "GA23"
+node "SA1" 0 1927 213 -79 m1 0 0 0 0 0 0 0 0 0 0 0 0 51 40 0 0 0 0
+equiv "SA1" "GA13"
+node "m1_632_n30#" 0 423 632 -30 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_540_n32#" 3 13518 540 -32 v 0 0 0 0 0 0 0 0 0 0 0 0 96 96 597 400 0 0
+node "m1_540_n16#" 4 17199 540 -16 v 0 0 0 0 0 0 0 0 0 0 0 0 144 144 702 468 0 0
+node "m1_331_n39#" 2 13903 331 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 257 178 146 102 0 0
+node "m1_260_n39#" 2 9852 260 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 94 80 406 274 0 0
+node "m1_143_n39#" 2 12873 143 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 94 80 541 362 0 0
+node "B3" 0 423 979 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "B2" 0 423 862 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "B1" 0 423 745 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "B0" 0 423 628 6 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "CLK" 0 423 -85 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_356_n17#" 2 13171 356 -17 v 0 0 0 0 0 0 0 0 0 0 0 0 220 168 240 162 0 0
+node "m1_226_0#" 7 51314 226 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 1048 714 229 162 0 0
+node "CLR" 0 423 -6 6 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_534_226#" 0 1835 534 226 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 73 54 0 0
+node "m1_545_233#" 0 1410 545 233 m1 0 0 0 0 0 0 0 0 0 0 0 0 30 26 0 0 0 0
+node "m1_220_n73#" 6 32645 220 -73 v 0 0 0 0 0 0 0 0 0 0 0 0 412 338 943 628 0 0
+node "m1_121_n16#" 2 14859 121 -16 v 0 0 0 0 0 0 0 0 0 0 0 0 207 154 318 216 0 0
+node "m1_n159_191#" 1 7245 -159 191 m1 0 0 0 0 0 0 0 0 0 0 0 0 121 86 98 70 0 0
+node "SS1" 1 4057 -101 217 v 0 0 0 0 0 0 0 0 0 0 0 0 56 48 107 76 0 0
+node "m1_345_30#" 4 35955 345 30 m1 0 0 0 0 0 0 0 0 0 0 0 0 765 516 0 0 0 0
+node "m1_387_246#" 1 3317 387 246 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 169 118 0 0
+node "m1_521_249#" 1 11280 521 249 m1 0 0 0 0 0 0 0 0 0 0 0 0 240 166 0 0 0 0
+node "m1_387_262#" 4 20721 387 262 v 0 0 0 0 0 0 0 0 0 0 0 0 187 146 785 526 0 0
+node "m1_319_254#" 0 1833 319 254 m1 0 0 0 0 0 0 0 0 0 0 0 0 39 32 0 0 0 0
+node "Vdd!" 0 423 8 256 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_n93_258#" 0 2538 -93 258 m1 0 0 0 0 0 0 0 0 0 0 0 0 54 42 0 0 0 0
+node "GND!" 0 423 -32 262 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "m1_436_270#" 5 36317 436 270 v 0 0 0 0 0 0 0 0 0 0 0 0 458 314 885 594 0 0
+node "RST" 0 423 -11 277 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "a_286_n58#" 152 5033 286 -58 pc 0 0 0 0 34 34 0 0 0 0 0 0 37 30 0 0 0 0
+node "a_212_n58#" 152 5315 212 -58 pc 0 0 0 0 34 34 0 0 0 0 0 0 43 34 0 0 0 0
+node "SS0" 96 8773 300 -51 p 0 0 0 0 27 26 0 0 0 0 0 0 136 96 0 0 0 0
+equiv "SS0" "GA3"
+node "a_225_n51#" 620 12696 225 -51 p 0 0 0 0 104 108 0 0 0 0 0 0 0 0 0 0 0 0
+node "SB0" 77 9480 270 -46 pc 0 0 0 0 22 22 0 0 0 0 0 0 175 122 0 0 0 0
+equiv "SB0" "GA2"
+node "SA0" 128 15837 192 -48 pc 0 0 0 0 30 30 0 0 0 0 0 0 277 190 0 0 0 0
+equiv "SA0" "GA1"
+node "a_321_n42#" 24 3455 321 -42 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "a_250_n42#" 24 3455 250 -42 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "a_133_n42#" 24 3455 133 -42 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "a_556_n42#" 90 11880 556 -42 pc 0 0 0 0 24 24 0 0 0 0 0 0 208 144 0 0 0 0
+node "a_642_n23#" 27 22761 642 -23 pc 0 0 0 0 16 16 0 0 0 0 0 0 444 306 80 58 0 0
+node "a_618_n23#" 24 3455 618 -23 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "a_578_n23#" 24 3455 578 -23 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "a_562_n23#" 24 3173 562 -23 pc 0 0 0 0 16 16 0 0 0 0 0 0 43 34 0 0 0 0
+node "a_538_n23#" 24 3596 538 -23 pc 0 0 0 0 16 16 0 0 0 0 0 0 52 40 0 0 0 0
+node "a_354_n24#" 24 3737 354 -24 pc 0 0 0 0 16 16 0 0 0 0 0 0 55 42 0 0 0 0
+node "a_339_n27#" 63 2944 339 -27 p 0 0 0 0 20 20 0 0 0 0 0 0 28 24 0 0 0 0
+node "a_229_n24#" 115 6779 229 -24 pc 0 0 0 0 28 28 0 0 0 0 0 0 76 60 83 60 0 0
+node "A1" 115 6792 112 -24 pc 0 0 0 0 28 28 0 0 0 0 0 0 69 56 83 60 0 0
+node "a_633_n11#" 267 9003 633 -11 p 0 0 0 0 55 54 0 0 0 0 0 0 70 52 0 0 0 0
+node "a_598_6#" 248 5950 598 6 pc 0 0 0 0 50 50 0 0 0 0 0 0 16 16 0 0 0 0
+node "A3" 512 11186 344 6 pc 0 0 0 0 94 94 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_537_216#" 248 102861 537 216 pc 0 0 0 0 48 48 0 0 0 0 0 0 2111 1412 0 0 0 0
+node "G" 559 102657 133 -18 pc 0 0 0 0 100 100 0 0 0 0 0 0 2032 1358 0 0 0 0
+node "a_424_224#" 89 3984 424 224 pc 0 0 0 0 24 24 0 0 0 0 0 0 40 32 0 0 0 0
+node "a_514_240#" 24 3455 514 240 pc 0 0 0 0 16 16 0 0 0 0 0 0 49 38 0 0 0 0
+node "A4" 606 99003 378 6 pc 0 0 0 0 108 108 0 0 0 0 0 0 1881 1258 0 0 0 0
+node "a_392_232#" 155 3414 392 232 p 0 0 0 0 26 30 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_417_250#" 273 9246 417 250 pc 0 0 0 0 54 54 0 0 0 0 0 0 76 56 0 0 0 0
+node "a_443_277#" 409 43438 443 277 pc 0 0 0 0 76 76 0 0 0 0 0 0 679 462 235 160 0 0
+node "a_391_284#" 264 37772 391 284 pc 0 0 0 0 52 52 0 0 0 0 0 0 688 464 0 0 0 0
+node "a_n149_286#" 189 15617 -149 286 pc 0 0 0 0 40 40 0 0 0 0 0 0 263 180 0 0 0 0
+cap "m1_356_n17#" "A4" 405
+cap "m1_436_270#" "A4" 180
+cap "m1_540_n32#" "a_537_216#" 405
+cap "m1_260_n39#" "m1_220_n73#" 405
+cap "m1_387_246#" "A4" 405
+cap "a_633_n11#" "a_537_216#" 180
+cap "m1_226_0#" "a_229_n24#" 405
+cap "m1_356_n17#" "m1_226_0#" 405
+cap "a_225_n51#" "SB0" 360
+cap "m1_226_0#" "m1_220_n73#" 810
+cap "m1_226_0#" "m1_260_n39#" 405
+cap "a_642_n23#" "a_537_216#" 405
+cap "G" "a_229_n24#" 405
+cap "m1_356_n17#" "G" 405
+cap "a_286_n58#" "SB1" 300
+cap "a_212_n58#" "SA1" 300
+cap "m1_436_270#" "G" 180
+cap "a_443_277#" "m1_436_270#" 294
+cap "a_443_277#" "m1_387_262#" 114
+cap "m1_226_0#" "A4" 585
+cap "m1_540_n32#" "a_642_n23#" 405
+cap "m1_143_n39#" "G" 405
+cap "a_391_284#" "a_443_277#" 585
+cap "G" "m1_220_n73#" 810
+cap "a_443_277#" "m1_521_249#" 405
+cap "a_225_n51#" "m1_260_n39#" 114
+cap "m1_540_n16#" "a_537_216#" 405
+cap "m1_260_n39#" "G" 405
+cap "m1_540_n32#" "a_556_n42#" 135
+cap "m1_226_0#" "A3" 180
+cap "SB0" "m1_260_n39#" 405
+cap "SA0" "m1_143_n39#" 405
+cap "m1_345_30#" "m1_387_246#" 405
+cap "A4" "G" 180
+cap "m1_226_0#" "m1_331_n39#" 405
+cap "m1_226_0#" "a_537_216#" 405
+cap "m1_436_270#" "m1_387_262#" 1215
+cap "m1_540_n32#" "m1_632_n30#" 270
+cap "a_598_6#" "a_537_216#" 180
+cap "m1_226_0#" "G" 405
+cap "a_391_284#" "m1_436_270#" 519
+cap "a_391_284#" "m1_387_262#" 135
+cap "m1_436_270#" "m1_521_249#" 405
+cap "m1_521_249#" "m1_387_262#" 405
+cap "A3" "G" 930
+cap "m1_331_n39#" "G" 405
+cap "SR4_0/CLK" "m1_121_n16#" 270
+cap "nand2_1/GND!" "m1_121_n16#" 786
+cap "nand2_1/nand_in2" "SR4_0/CLK" 405
+cap "nand2_1/a_n37_n6#" "m1_121_n16#" 132
+cap "nand2_1/nand_out" "m1_121_n16#" 606
+cap "inverter_7/GND" "m1_121_n16#" 720
+cap "nand2_1/nand_out" "m1_143_n39#" 672
+cap "inverter_10/out" "m1_220_n73#" 606
+cap "inverter_10/Vdd" "m1_143_n39#" 786
+cap "inverter_10/GND" "G" -270
+cap "nand2_1/Vdd!" "nor2_4/in2" -405
+cap "nor2_4/in2" "m1_143_n39#" 405
+cap "SR4_0/CLK" "m1_121_n16#" 135
+cap "SR4_0/CLK" "m1_143_n39#" 405
+cap "nand2_1/Vdd!" "G" -405
+cap "inverter_10/GND" "m1_220_n73#" 786
+cap "nand2_2/a_n37_n6#" "m1_220_n73#" 88
+cap "nor2_4/GND!" "m1_220_n73#" 786
+cap "inverter_7/in" "m1_143_n39#" 76
+cap "G" "m1_143_n39#" 405
+cap "nor2_4/out" "nor2_4/in1" 180
+cap "nand2_2/nand_out" "m1_220_n73#" 404
+cap "inverter_7/out" "m1_143_n39#" 66
+cap "G" "m1_220_n73#" 270
+cap "nand2_1/Vdd!" "m1_143_n39#" 1483
+cap "nand2_1/Vdd!" "m1_143_n39#" 830
+cap "nor2_4/Vdd!" "m1_143_n39#" 720
+cap "nor2_4/out" "m1_220_n73#" 672
+cap "nand2_2/GND!" "m1_220_n73#" 584
+cap "inverter_10/out" "m1_143_n39#" 470
+cap "nor2_4/GND!" "m1_220_n73#" 786
+cap "nor2_4/out" "inverter_10/out" 180
+cap "SR4_0/CLK" "m1_220_n73#" 810
+cap "inverter_9/GND" "m1_220_n73#" 720
+cap "nand2_2/nand_out" "m1_260_n39#" 748
+cap "inverter_11/out" "m1_260_n39#" 334
+cap "nor2_3/out" "nor2_3/in1" 180
+cap "nand2_3/GND!" "m1_220_n73#" 786
+cap "inverter_11/Vdd" "m1_260_n39#" 786
+cap "nand2_3/Vdd!" "SR4_0/dff3B_2/Vdd!" 786
+cap "nand2_2/Vdd!" "m1_260_n39#" 1483
+cap "inverter_8/out" "m1_260_n39#" 471
+cap "nand2_2/nand_in1" "SR4_0/dff3B_2/Vdd!" 405
+cap "SR4_0/CLK" "SR4_0/dff3B_2/Vdd!" 405
+cap "nand2_2/nand_in1" "m1_260_n39#" 405
+cap "SR4_0/CLK" "m1_260_n39#" 405
+cap "nand2_2/GND!" "nand2_2/Vdd!" -405
+cap "nor2_3/GND!" "m1_220_n73#" 786
+cap "nand2_2/Vdd!" "m1_260_n39#" 830
+cap "SR4_0/Q3" "SR4_0/dff3B_2/Vdd!" 405
+cap "m1_220_n73#" "m1_260_n39#" 405
+cap "nand2_3/a_n37_n6#" "m1_220_n73#" 132
+cap "inverter_8/out" "nand2_2/Vdd!" -405
+cap "nor2_3/out" "inverter_11/out" 180
+cap "nand2_3/Vdd!" "SR4_0/dff3B_2/Vdd!" 786
+cap "nand2_2/a_n37_n6#" "m1_220_n73#" 44
+cap "nand2_2/nand_in1" "nand2_2/GND!" -540
+cap "nand2_2/GND!" "SR4_0/CLK" -810
+cap "nand2_3/nand_out" "m1_220_n73#" 606
+cap "nor2_3/in1" "m1_260_n39#" 114
+cap "nand2_2/nand_in1" "nand2_2/Vdd!" -405
+cap "nand2_2/nand_out" "m1_220_n73#" 202
+cap "nand2_2/Vdd!" "SR4_0/CLK" -405
+cap "inverter_11/out" "m1_220_n73#" 606
+cap "nor2_3/Vdd!" "m1_260_n39#" 720
+cap "nand2_2/GND!" "m1_220_n73#" 202
+cap "nor2_3/GND!" "m1_220_n73#" 786
+cap "nand2_2/nand_in1" "nand2_3/Vdd!" -405
+cap "nand2_3/Vdd!" "SR4_0/CLK" -405
+cap "inverter_11/GND" "m1_220_n73#" 786
+cap "nand2_3/nand_out" "SR4_0/dff3B_2/Vdd!" 672
+cap "nor2_3/in1" "nand2_2/Vdd!" -114
+cap "nor2_3/out" "m1_220_n73#" 672
+cap "inverter_8/GND" "m1_220_n73#" 720
+cap "nand2_2/nand_in1" "m1_220_n73#" 540
+cap "inverter_12/GND" "G" -405
+cap "nor2_5/GND!" "m1_356_n17#" 786
+cap "nor2_5/GND!" "m1_356_n17#" 786
+cap "m1_226_0#" "m1_356_n17#" 405
+cap "nor2_5/in1" "m1_356_n17#" 405
+cap "inverter_12/in" "m1_356_n17#" 672
+cap "m1_356_n17#" "G" 405
+cap "inverter_12/GND" "m1_226_0#" -405
+cap "nor2_5/in1" "inverter_12/GND" -405
+cap "inverter_12/GND" "m1_356_n17#" 720
+cap "inverter_3/Vdd" "m1_540_n32#" 180
+cap "m1_540_n16#" "inverter_3/GND" 180
+cap "m1_540_n16#" "nor2_1/GND!" 786
+cap "m1_540_n32#" "inverter_4/in" 470
+cap "nor2_2/Vdd!" "m1_540_n32#" 786
+cap "m1_540_n16#" "nor2_1/GND!" 786
+cap "m1_540_n16#" "inverter_5/in" 672
+cap "inverter_4/Vdd" "m1_540_n32#" 786
+cap "m1_540_n16#" "inverter_5/out" 606
+cap "m1_540_n32#" "inverter_5/in" 470
+cap "SR4_1/CLK" "nor2_1/in1" 180
+cap "m1_540_n32#" "inverter_5/out" 583
+cap "m1_540_n32#" "nor2_1/Vdd!" 786
+cap "nor2_1/a_n37_6#" "m1_540_n32#" 132
+cap "inverter_3/Vdd" "inverter_5/in" -270
+cap "inverter_3/Vdd" "inverter_5/out" -135
+cap "m1_540_n32#" "inverter_5/Vdd" 786
+cap "m1_540_n16#" "inverter_3/GND" 540
+cap "inverter_5/GND" "m1_540_n16#" 786
+cap "nor2_0/a_n37_6#" "m1_540_n32#" 132
+cap "m1_540_n16#" "nor2_2/GND!" 786
+cap "nor2_0/GND!" "m1_540_n16#" 786
+cap "m1_540_n16#" "nor2_2/out" 672
+cap "SR4_1/CLK" "nor2_0/in2" 180
+cap "m1_540_n32#" "nor2_2/out" 470
+cap "m1_540_n16#" "nor2_2/GND!" 786
+cap "inverter_3/Vdd" "m1_540_n32#" 540
+cap "m1_540_n16#" "nor2_2/in1" 606
+cap "m1_540_n16#" "inverter_4/GND" 786
+cap "m1_540_n32#" "nor2_2/in1" 470
+cap "nor2_2/a_n37_6#" "m1_540_n32#" 132
+cap "m1_540_n16#" "inverter_4/in" 672
+cap "m1_540_n16#" "nor2_0/GND!" 786
+cap "m1_540_n32#" "SR4_1/CLK" 405
+cap "a_537_216#" "nor2_0/Vdd!" -405
+cap "m1_540_n32#" "nor2_0/Vdd!" 786
+cap "a_537_216#" "m1_540_n16#" 405
+cap "nor2_0/in1" "nor2_0/Vdd!" -405
+cap "a_537_216#" "m1_540_n32#" 405
+cap "a_537_216#" "nor2_0/GND!" -405
+cap "m1_540_n32#" "nor2_0/in1" 405
+cap "m1_540_n16#" "SR4_1/CLK" 405
+cap "SR4_1/CLK" "a_642_n23#" 405
+cap "SR4_0/Q2" "m1_121_n16#" 270
+cap "SR4_0/dff3B_1/inverter_3/GND" "SR4_0/Q2" 135
+cap "SR4_0/dff3B_1/inverter_3/GND" "m1_143_n39#" 810
+cap "SR4_0/Q2" "m1_143_n39#" 270
+cap "SR4_0/Q3" "m1_260_n39#" 270
+cap "SR4_0/dff3B_2/inverter_3/GND" "SR4_0/Q3" 405
+cap "SR4_0/dff3B_2/inverter_3/GND" "m1_260_n39#" 810
+cap "dff3B_0/inverter_3/GND" "dff3B_0/Vdd!" 405
+cap "dff3B_0/Q" "dff3B_0/Vdd!" 405
+cap "SR4_1/dff3B_0/CLK" "m1_540_n16#" 405
+cap "SR4_1/dff3B_0/inverter_6/out" "m1_540_n16#" 202
+cap "SR4_1/dff3B_0/Vdd!" "SR4_1/Q1" 270
+cap "SR4_1/Q1" "m1_540_n16#" 405
+cap "m1_540_n16#" "SR4_1/dff3B_0/inverter_6/GND" 22
+cap "m1_540_n16#" "SR4_1/dff3B_0/inverter_6/in" 76
+cap "SR4_0/Q0" "xor2_0/GND!" 1440
+cap "mux2x1_0/Min2" "dff3B_0/GND!" 360
+cap "xor2_0/Vdd!" "xor2_0/nand2_4/nand_out" 405
+cap "SR4_0/GND!" "SR4_0/RST" 114
+cap "mux2x1_0/Min1" "inverter_6/in" 180
+cap "mux2x1_0/Min1" "m1_387_246#" 405
+cap "mux2x1_0/Min1" "inverter_6/GND" -405
+cap "SR4_0/dff3B_2/D" "mux2x1_0/Min1" 180
+cap "mux2x1_0/gate_1/Gout" "inverter_6/out" 180
+cap "inverter_6/out" "m1_387_262#" 470
+cap "m1_387_262#" "inverter_6/Vdd" 786
+cap "dff3B_0/inverter_7/GND" "inverter_6/Vdd" -405
+cap "inverter_6/GND" "m1_387_246#" 720
+cap "m1_387_262#" "dff3B_0/inverter_7/GND" 405
+cap "SR4_0/dff3B_2/nand2_0/nand_in1" "mux2x1_0/Min1" 180
+cap "nand2_0/Vdd!" "inverter_1/Vdd" 720
+cap "dff3B_0/inverter_7/out" "inverter_0/in" 180
+cap "inverter_0/Vdd" "nand2_0/GND!" -405
+cap "nand2_0/Vdd!" "nand2_0/GND!" 405
+cap "inverter_0/GND" "inverter_0/Vdd" -405
+cap "inverter_0/GND" "nand2_0/Vdd!" 405
+cap "dff3B_0/D" "inverter_0/in" 180
+cap "inverter_2/out" "inverter_0/Vdd" -405
+cap "nand2_0/Vdd!" "inverter_2/out" 405
+cap "nand2_0/Vdd!" "inverter_0/Vdd" 830
+cap "inverter_1/GND" "m1_534_226#" 786
+cap "inverter_0/Vdd" "dff3B_0/CLR" -114
+cap "nand2_0/Vdd!" "dff3B_0/CLR" 114
+cap "inverter_0/out" "inverter_0/Vdd" -135
+cap "nand2_0/Vdd!" "inverter_0/out" 606
+cap "SR4_1/S" "SR4_1/dffP_0/nor2_0/in1" 180
+cap "SR4_1/GND!" "SR4_1/S" 114
+cap "inverter_1/out" "SR4_1/m1_n84_228#" 606
+merge "SR4_0/S" "xor2_0/xor_in2" -1962 0 0 0 0 -4 -12 0 0 0 0 0 0 -18 -18 0 0 0 0
+merge "xor2_0/xor_in2" "xor2_0/xor_in1"
+merge "xor2_0/xor_in1" "a_n149_286#"
+merge "SR4_1/dff3B_0/GND!" "nor2_0/GND!" -17275 0 0 0 0 0 0 0 0 0 0 0 0 -144 -144 -714 -484 0 0
+merge "nor2_0/GND!" "inverter_5/GND"
+merge "inverter_5/GND" "nor2_1/GND!"
+merge "nor2_1/GND!" "inverter_4/GND"
+merge "inverter_4/GND" "nor2_2/GND!"
+merge "nor2_2/GND!" "inverter_3/GND"
+merge "inverter_3/GND" "m1_540_n16#"
+merge "SR4_1/Vdd!" "inverter_1/Vdd" -16702 0 0 0 0 0 0 0 0 0 0 0 0 -70 -82 -786 -551 0 0
+merge "inverter_1/Vdd" "inverter_2/Vdd"
+merge "inverter_2/Vdd" "nand2_0/Vdd!"
+merge "nand2_0/Vdd!" "dff3B_0/Vdd!"
+merge "dff3B_0/Vdd!" "inverter_0/Vdd"
+merge "inverter_0/Vdd" "inverter_6/Vdd"
+merge "inverter_6/Vdd" "SR4_0/Vdd!"
+merge "SR4_0/Vdd!" "Vdd!"
+merge "Vdd!" "m1_387_262#"
+merge "inverter_9/out" "nor2_3/in1" -1636 0 0 0 0 -6 -14 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "nor2_3/in1" "nor2_4/in1"
+merge "nor2_4/in1" "a_225_n51#"
+merge "a_225_n51#" "SS0"
+merge "SR4_1/INP" "inverter_1/out" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -16 0 0 0 0
+merge "inverter_1/out" "m1_545_233#"
+merge "SR4_1/dffP_0/nor2_0/in1" "dff3B_0/CLR" -15645 0 0 0 0 -2 -6 0 0 0 0 0 0 -321 -229 0 0 0 0
+merge "dff3B_0/CLR" "SR4_0/RST"
+merge "SR4_0/RST" "RST"
+merge "RST" "a_443_277#"
+merge "SR4_1/Q1" "B1" -2488 0 0 0 0 -4 -8 0 0 0 0 0 0 -36 -33 0 0 0 0
+merge "B1" "nor2_0/in2"
+merge "nor2_0/in2" "a_633_n11#"
+merge "inverter_4/out" "nor2_2/in1" -1379 0 0 0 0 -4 -10 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "nor2_2/in1" "a_562_n23#"
+merge "nor2_5/Vdd!" "inverter_12/Vdd" -11791 0 0 0 0 0 0 0 0 0 0 0 0 -73 -76 -609 -416 0 0
+merge "inverter_12/Vdd" "inverter_9/Vdd"
+merge "inverter_9/Vdd" "nand2_3/Vdd!"
+merge "nand2_3/Vdd!" "SR4_0/dff3B_2/Vdd!"
+merge "SR4_0/dff3B_2/Vdd!" "m1_331_n39#"
+merge "m1_331_n39#" "inverter_11/Vdd"
+merge "inverter_11/Vdd" "nor2_3/Vdd!"
+merge "nor2_3/Vdd!" "inverter_8/Vdd"
+merge "inverter_8/Vdd" "nand2_2/Vdd!"
+merge "nand2_2/Vdd!" "m1_260_n39#"
+merge "nor2_5/out" "inverter_12/in" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "inverter_12/in" "a_354_n24#"
+merge "inverter_12/out" "nand2_3/nand_in2" -699 0 0 0 0 -2 -6 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand2_3/nand_in2" "a_339_n27#"
+merge "dff3B_0/CLK" "SR4_1/CLK" -25501 0 0 0 0 0 0 0 0 0 0 0 0 -488 -354 -210 -147 0 0
+merge "SR4_1/CLK" "SR4_0/CLK"
+merge "SR4_0/CLK" "CLK"
+merge "CLK" "m1_226_0#"
+merge "SR4_1/Q2" "B2" -5266 0 0 0 0 -4 -10 0 0 0 0 0 0 -82 -66 -40 -32 0 0
+merge "B2" "nor2_0/in1"
+merge "nor2_0/in1" "a_642_n23#"
+merge "nor2_3/in2" "inverter_8/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_8/out" "SB0"
+merge "dff3B_0/nand2_0/nand_in2" "mux2x1_0/gate_1/Gout" -981 0 0 0 0 -2 -6 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "mux2x1_0/gate_1/Gout" "a_424_224#"
+merge "dff3B_0/inverter_3/GND" "nor2_5/GND!" -9881 0 0 0 0 0 0 0 0 0 0 0 0 -150 -121 -236 -156 0 0
+merge "nor2_5/GND!" "inverter_12/GND"
+merge "inverter_12/GND" "m1_356_n17#"
+merge "nand2_0/nand_in2" "inverter_3/out" -45194 0 0 0 0 -48 -68 0 0 0 0 0 0 -859 -584 0 0 0 0
+merge "inverter_3/out" "nand2_3/nand_in1"
+merge "nand2_3/nand_in1" "nand2_2/nand_in1"
+merge "nand2_2/nand_in1" "nand2_1/nand_in1"
+merge "nand2_1/nand_in1" "G"
+merge "SR4_0/dff3B_2/inverter_3/GND" "inverter_11/GND" -24441 0 0 0 0 0 0 0 0 0 0 0 0 -252 -232 -882 -585 0 0
+merge "inverter_11/GND" "inverter_9/GND"
+merge "inverter_9/GND" "nor2_3/GND!"
+merge "nor2_3/GND!" "inverter_8/GND"
+merge "inverter_8/GND" "nand2_3/GND!"
+merge "nand2_3/GND!" "inverter_10/GND"
+merge "inverter_10/GND" "nor2_4/GND!"
+merge "nor2_4/GND!" "nand2_2/GND!"
+merge "nand2_2/GND!" "m1_220_n73#"
+merge "inverter_11/out" "SB1" -564 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "SR4_1/GND!" "inverter_2/GND" -4201 0 0 0 0 0 0 0 0 0 0 0 0 -72 -78 -31 -34 0 0
+merge "inverter_2/GND" "nand2_0/GND!"
+merge "nand2_0/GND!" "inverter_0/GND"
+merge "inverter_0/GND" "dff3B_0/inverter_7/GND"
+merge "dff3B_0/inverter_7/GND" "SR4_0/GND!"
+merge "SR4_0/GND!" "GND!"
+merge "GND!" "m1_436_270#"
+merge "m1_436_270#" "m1_319_254#"
+merge "SR4_0/dff3B_1/Vdd!" "inverter_10/Vdd" -14812 0 0 0 0 0 0 0 0 0 0 0 0 -73 -76 -744 -504 0 0
+merge "inverter_10/Vdd" "nor2_4/Vdd!"
+merge "nor2_4/Vdd!" "inverter_7/Vdd"
+merge "inverter_7/Vdd" "nand2_1/Vdd!"
+merge "nand2_1/Vdd!" "m1_143_n39#"
+merge "inverter_1/in" "SR4_1/Q3" -12996 0 0 0 0 -6 -15 0 0 0 0 0 0 -246 -185 0 0 0 0
+merge "SR4_1/Q3" "B3"
+merge "B3" "nor2_1/in2"
+merge "nor2_1/in2" "a_537_216#"
+merge "inverter_7/in" "nand2_1/nand_out" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand2_1/nand_out" "a_133_n42#"
+merge "SR4_0/INP" "xor2_0/nand2_4/nand_out" -876 0 0 0 0 0 0 0 0 0 0 0 0 -15 -22 0 0 0 0
+merge "xor2_0/nand2_4/nand_out" "xor2_0/xor_out"
+merge "xor2_0/xor_out" "SS1"
+merge "nand2_1/nand_in2" "SR4_0/Q1" -1484 0 0 0 0 -4 -8 0 0 0 0 0 0 -11 -14 0 0 0 0
+merge "SR4_0/Q1" "A1"
+merge "inverter_5/out" "nor2_2/in2" -652 0 0 0 0 -2 -6 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nor2_2/in2" "a_556_n42#"
+merge "inverter_10/out" "SA1" -564 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_8/in" "nand2_2/nand_out" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand2_2/nand_out" "a_250_n42#"
+merge "SR4_1/dff3B_0/Vdd!" "nor2_0/Vdd!" -13518 0 0 0 0 0 0 0 0 0 0 0 0 -96 -96 -597 -400 0 0
+merge "nor2_0/Vdd!" "inverter_5/Vdd"
+merge "inverter_5/Vdd" "nor2_1/Vdd!"
+merge "nor2_1/Vdd!" "inverter_4/Vdd"
+merge "inverter_4/Vdd" "nor2_2/Vdd!"
+merge "nor2_2/Vdd!" "inverter_3/Vdd"
+merge "inverter_3/Vdd" "m1_540_n32#"
+merge "inverter_0/out" "mux2x1_0/gate_1/Sb" -2623 0 0 0 0 -12 -24 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "mux2x1_0/gate_1/Sb" "inverter_6/in"
+merge "inverter_6/in" "SR4_0/inverter_3/in"
+merge "SR4_0/inverter_3/in" "a_391_284#"
+merge "a_391_284#" "a_392_232#"
+merge "nor2_1/in1" "SR4_1/Q0" -1686 0 0 0 0 -2 -6 0 0 0 0 0 0 -22 -28 0 0 0 0
+merge "SR4_1/Q0" "a_598_6#"
+merge "a_598_6#" "B0"
+merge "SR4_0/dff3B_1/inverter_3/GND" "inverter_7/GND" -6904 0 0 0 0 0 0 0 0 0 0 0 0 -43 -48 -294 -193 0 0
+merge "inverter_7/GND" "nand2_1/GND!"
+merge "nand2_1/GND!" "m1_121_n16#"
+merge "nor2_2/out" "inverter_3/in" -1238 0 0 0 0 -4 -10 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_3/in" "a_538_n23#"
+merge "nand2_2/nand_in2" "SR4_0/Q2" -1642 0 0 0 0 -4 -8 0 0 0 0 0 0 -18 -18 0 0 0 0
+merge "SR4_0/Q2" "a_229_n24#"
+merge "SR4_0/inverter_1/Vdd" "xor2_0/Vdd!" -705 0 0 0 0 0 0 0 0 0 0 0 0 -15 -22 0 0 0 0
+merge "xor2_0/Vdd!" "m1_n93_258#"
+merge "nor2_4/in2" "inverter_7/out" -1078 0 0 0 0 -4 -8 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_7/out" "SA0"
+merge "mux2x1_0/gate_1/S" "inverter_6/out" -1316 0 0 0 0 -6 -10 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "inverter_6/out" "a_417_250#"
+merge "nor2_0/out" "m1_632_n30#" -1520 0 0 0 0 -4 -10 0 0 0 0 0 0 -12 -20 0 0 0 0
+merge "m1_632_n30#" "inverter_5/in"
+merge "inverter_5/in" "a_618_n23#"
+merge "inverter_10/in" "nor2_4/out" -1122 0 0 0 0 -2 -6 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "nor2_4/out" "a_212_n58#"
+merge "SR4_0/dffP_0/GND!" "xor2_0/GND!" -1259 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 -12 -14 0 0
+merge "xor2_0/GND!" "m1_n159_191#"
+merge "inverter_6/GND" "dff3B_0/GND!" -3317 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -169 -118 0 0
+merge "dff3B_0/GND!" "m1_387_246#"
+merge "SR4_1/S" "inverter_2/out" -1222 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "inverter_2/out" "m1_521_249#"
+merge "inverter_2/in" "nand2_0/nand_out" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand2_0/nand_out" "a_514_240#"
+merge "SR4_0/Q0" "CLR" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "mux2x1_0/Min1" "nor2_5/in2" -17343 0 0 0 0 0 0 0 0 0 0 0 0 -351 -246 0 0 0 0
+merge "nor2_5/in2" "SR4_0/Q3"
+merge "SR4_0/Q3" "A3"
+merge "A3" "m1_345_30#"
+merge "SR4_1/m1_n84_228#" "inverter_1/GND" -1265 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -28 -27 0 0
+merge "inverter_1/GND" "m1_534_226#"
+merge "nand2_0/nand_in1" "inverter_0/in" -39294 0 0 0 0 -32 -42 0 0 0 0 0 0 -742 -509 0 0 0 0
+merge "inverter_0/in" "mux2x1_0/Min2"
+merge "mux2x1_0/Min2" "dff3B_0/Q"
+merge "dff3B_0/Q" "nor2_5/in1"
+merge "nor2_5/in1" "A4"
+merge "inverter_11/in" "nor2_3/out" -840 0 0 0 0 -2 -6 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "nor2_3/out" "a_286_n58#"
+merge "inverter_9/in" "nand2_3/nand_out" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand2_3/nand_out" "a_321_n42#"
+merge "nor2_1/out" "inverter_4/in" -1097 0 0 0 0 -4 -10 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "inverter_4/in" "a_578_n23#"

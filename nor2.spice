@@ -1,0 +1,24 @@
+* SPICE3 file created from nor2.ext - technology: scmos
+
+M1000 a_n37_6# in1 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=26p ps=22u 
+M1001 out in2 a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1002 out in1 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=38p ps=36u 
+M1003 GND in2 out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+C0 in2 gnd! 6.0fF
+C1 in1 gnd! 5.0fF
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 in1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 2ns 10ns)
+Vin2 in2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 3ns 12ns)
+.tran 5ns 40ns
+.probe
+.end

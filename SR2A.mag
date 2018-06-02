@@ -1,0 +1,82 @@
+magic
+tech scmos
+timestamp 1354176348
+<< polysilicon >>
+rect 0 -10 2 -6
+<< metal1 >>
+rect 44 354 48 357
+rect 4 347 8 350
+rect 121 341 127 344
+rect 84 334 88 337
+rect 0 303 5 306
+rect 133 303 138 306
+rect 266 303 271 306
+rect 399 303 404 306
+rect 532 303 537 306
+rect 665 303 670 306
+rect 798 303 803 306
+rect 931 303 936 306
+rect 0 262 4 265
+rect 931 247 936 250
+rect 124 58 129 61
+rect 258 58 262 61
+rect 390 58 395 61
+rect 523 58 529 61
+rect 656 58 662 61
+rect 789 58 794 61
+rect 922 58 928 61
+rect 1055 58 1061 61
+rect 21 7 31 10
+rect 6 3 13 6
+rect 60 1 70 4
+rect -5 -7 -2 -3
+rect 11 -7 14 -3
+rect 35 -7 38 1
+rect -5 -10 38 -7
+<< metal2 >>
+rect 12 47 54 50
+rect 12 16 15 47
+rect -1 13 11 16
+<< polycontact >>
+rect 13 3 17 7
+<< m2contact >>
+rect -5 12 -1 16
+rect 11 12 15 16
+use SR2B SR2B_0
+timestamp 1354176348
+transform 1 0 22 0 1 32
+box -22 -32 1040 325
+use inverter inverter_0
+timestamp 1351319193
+transform 1 0 0 0 1 3
+box -5 -10 7 15
+use inverter inverter_1
+timestamp 1351319193
+transform 1 0 16 0 1 3
+box -5 -10 7 15
+<< labels >>
+rlabel polysilicon 1 -9 1 -9 1 CLK
+rlabel metal1 5 349 5 349 1 S1
+rlabel metal1 45 356 45 356 5 S0
+rlabel metal1 1 305 1 305 1 IN0
+rlabel metal1 2 264 2 264 1 SR
+rlabel metal1 126 59 126 59 1 Q0
+rlabel metal1 65 3 65 3 1 GND!
+rlabel metal1 259 59 259 59 1 Q1
+rlabel metal1 392 59 392 59 1 Q2
+rlabel metal1 525 59 525 59 1 Q3
+rlabel metal1 657 59 657 59 1 Q4
+rlabel metal1 791 59 791 59 1 Q5
+rlabel metal1 924 59 924 59 1 Q6
+rlabel metal1 1057 59 1057 59 7 Q7
+rlabel metal1 86 335 86 335 1 Vdd!
+rlabel metal1 123 342 123 342 1 CLR
+rlabel metal1 932 248 932 248 1 SL
+rlabel metal1 934 304 934 304 1 IN7
+rlabel metal1 800 304 800 304 1 IN6
+rlabel metal1 666 304 666 304 1 IN5
+rlabel metal1 533 304 533 304 1 IN4
+rlabel metal1 401 304 401 304 1 IN3
+rlabel metal1 267 304 267 304 1 IN2
+rlabel metal1 134 304 134 304 1 IN1
+<< end >>

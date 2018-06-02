@@ -1,0 +1,133 @@
+* SPICE3 file created from fa3.ext - technology: scmos
+
+M1000 cout nor2_0/out Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=624p ps=528u 
+M1001 cout nor2_0/out GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=285p ps=270u 
+M1002 nor2_0/a_n37_6# nor2_0/in1 Vdd Vdd pfet w=6u l=2u
++ ad=12p pd=16u as=0p ps=0u 
+M1003 nor2_0/out nor2_0/in2 nor2_0/a_n37_6# Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1004 nor2_0/out nor2_0/in1 GND Gnd nfet w=3u l=2u
++ ad=22p pd=20u as=0p ps=0u 
+M1005 GND nor2_0/in2 nor2_0/out Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1006 sum ha_1/xor2_0/nand2_4/nand_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1007 Vdd ha_1/xor2_0/nand2_4/nand_in2 sum Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1008 ha_1/xor2_0/nand2_4/a_n37_n6# ha_1/xor2_0/nand2_4/nand_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1009 sum ha_1/xor2_0/nand2_4/nand_in2 ha_1/xor2_0/nand2_4/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1010 ha_1/xor2_0/nand2_4/nand_in1 ha_1/ha_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1011 Vdd ha_1/xor2_0/nand2_3/nand_in2 ha_1/xor2_0/nand2_4/nand_in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1012 ha_1/xor2_0/nand2_3/a_n37_n6# ha_1/ha_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1013 ha_1/xor2_0/nand2_4/nand_in1 ha_1/xor2_0/nand2_3/nand_in2 ha_1/xor2_0/nand2_3/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1014 ha_1/xor2_0/nand2_4/nand_in2 ha_1/xor2_0/nand2_3/nand_in2 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1015 Vdd cin ha_1/xor2_0/nand2_4/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1016 ha_1/xor2_0/nand2_2/a_n37_n6# ha_1/xor2_0/nand2_3/nand_in2 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1017 ha_1/xor2_0/nand2_4/nand_in2 cin ha_1/xor2_0/nand2_2/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1018 ha_1/xor2_0/nand2_3/nand_in2 ha_1/ha_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1019 Vdd cin ha_1/xor2_0/nand2_3/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1020 ha_1/xor2_0/nand2_1/a_n37_n6# ha_1/ha_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1021 ha_1/xor2_0/nand2_3/nand_in2 cin ha_1/xor2_0/nand2_1/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1022 nor2_0/in2 ha_1/not1_0/not_in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1023 nor2_0/in2 ha_1/not1_0/not_in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1024 ha_1/not1_0/not_in ha_1/ha_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1025 Vdd cin ha_1/not1_0/not_in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1026 ha_1/nand2_0/a_n37_n6# ha_1/ha_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1027 ha_1/not1_0/not_in cin ha_1/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1028 ha_1/ha_in1 ha_0/xor2_0/nand2_4/nand_in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1029 Vdd ha_0/xor2_0/nand2_4/nand_in2 ha_1/ha_in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1030 ha_0/xor2_0/nand2_4/a_n37_n6# ha_0/xor2_0/nand2_4/nand_in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1031 ha_1/ha_in1 ha_0/xor2_0/nand2_4/nand_in2 ha_0/xor2_0/nand2_4/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1032 ha_0/xor2_0/nand2_4/nand_in1 in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1033 Vdd ha_0/xor2_0/nand2_3/nand_in2 ha_0/xor2_0/nand2_4/nand_in1 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1034 ha_0/xor2_0/nand2_3/a_n37_n6# in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1035 ha_0/xor2_0/nand2_4/nand_in1 ha_0/xor2_0/nand2_3/nand_in2 ha_0/xor2_0/nand2_3/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1036 ha_0/xor2_0/nand2_4/nand_in2 ha_0/xor2_0/nand2_3/nand_in2 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1037 Vdd in2 ha_0/xor2_0/nand2_4/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1038 ha_0/xor2_0/nand2_2/a_n37_n6# ha_0/xor2_0/nand2_3/nand_in2 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1039 ha_0/xor2_0/nand2_4/nand_in2 in2 ha_0/xor2_0/nand2_2/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1040 ha_0/xor2_0/nand2_3/nand_in2 in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1041 Vdd in2 ha_0/xor2_0/nand2_3/nand_in2 Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1042 ha_0/xor2_0/nand2_1/a_n37_n6# in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1043 ha_0/xor2_0/nand2_3/nand_in2 in2 ha_0/xor2_0/nand2_1/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1044 nor2_0/in1 ha_0/not1_0/not_in Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1045 nor2_0/in1 ha_0/not1_0/not_in GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1046 ha_0/not1_0/not_in in1 Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1047 Vdd in2 ha_0/not1_0/not_in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1048 ha_0/nand2_0/a_n37_n6# in1 GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1049 ha_0/not1_0/not_in in2 ha_0/nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 ha_0/not1_0/not_in gnd! 9.8fF
+C1 in2 gnd! 39.1fF
+C2 ha_0/xor2_0/nand2_3/nand_in2 gnd! 28.1fF
+C3 in1 gnd! 29.7fF
+C4 ha_0/xor2_0/nand2_4/nand_in2 gnd! 17.8fF
+C5 ha_0/xor2_0/nand2_4/nand_in1 gnd! 12.2fF
+C6 ha_1/not1_0/not_in gnd! 9.8fF
+C7 cin gnd! 39.1fF
+C8 ha_1/xor2_0/nand2_3/nand_in2 gnd! 28.1fF
+C9 ha_1/ha_in1 gnd! 36.9fF
+C10 sum gnd! 22.8fF
+C11 ha_1/xor2_0/nand2_4/nand_in2 gnd! 17.8fF
+C12 ha_1/xor2_0/nand2_4/nand_in1 gnd! 12.2fF
+C13 nor2_0/in2 gnd! 16.5fF
+C14 nor2_0/in1 gnd! 21.2fF
+C15 cout gnd! 10.0fF
+C16 Vdd gnd! 122.9fF
+C17 nor2_0/out gnd! 8.8fF
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 in1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 250ns 500ns)
+Vin2 in2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 100ns 300ns)
+Vin3 cin 0 pulse(0 2.8 520ns 0.1ns 0.1ns 400ns 500ns)
+.tran 5ns 1000ns
+.probe
+.end

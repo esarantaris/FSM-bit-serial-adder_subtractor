@@ -1,0 +1,96 @@
+* SPICE3 file created from dff3B.ext - technology: scmos
+
+M1000 gate_1/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=312p ps=264u 
+M1001 gate_1/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=209p ps=198u 
+M1002 gate_0/S gate_2/S Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1003 gate_0/S gate_2/S GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1004 gate_2/S CLK Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1005 gate_2/S CLK GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1006 gate_3/Gout Q Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1007 gate_3/Gout Q GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1008 gate_3/Gout CLK gate_3/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1009 gate_3/Gout gate_1/S gate_3/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1010 gate_2/Gout gate_1/Gin Vdd Vdd pfet w=6u l=2u
++ ad=75p pd=52u as=0p ps=0u 
+M1011 gate_2/Gout gate_1/Gin GND Gnd nfet w=3u l=2u
++ ad=47p pd=42u as=0p ps=0u 
+M1012 gate_2/Gout gate_2/S gate_2/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=98p ps=60u 
+M1013 gate_2/Gout gate_0/S gate_2/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=56p ps=48u 
+M1014 Qb Q Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1015 Qb Q GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1016 Q gate_3/Gin Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1017 Q gate_3/Gin GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1018 gate_3/Gin gate_1/S gate_1/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1019 gate_3/Gin CLK gate_1/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1020 gate_1/Gin gate_2/Gin Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1021 gate_1/Gin gate_2/Gin GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1022 gate_2/Gin gate_0/S gate_0/Gin Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=75p ps=52u 
+M1023 gate_2/Gin gate_2/S gate_0/Gin Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=47p ps=42u 
+M1024 gate_0/Gin inverter_11/in Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1025 gate_0/Gin inverter_11/in GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1026 inverter_11/in inverter_7/out Vdd Vdd pfet w=6u l=2u
++ ad=36p pd=24u as=0p ps=0u 
+M1027 Vdd D inverter_11/in Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1028 nand2_0/a_n37_n6# inverter_7/out GND Gnd nfet w=3u l=2u
++ ad=6p pd=10u as=0p ps=0u 
+M1029 inverter_11/in D nand2_0/a_n37_n6# Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+M1030 inverter_7/out CLR Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=0p ps=0u 
+M1031 inverter_7/out CLR GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=0p ps=0u 
+C0 CLR gnd! 5.6fF
+C1 D gnd! 8.1fF
+C2 inverter_7/out gnd! 11.5fF
+C3 inverter_11/in gnd! 10.5fF
+C4 gate_0/Gin gnd! 6.2fF
+C5 Qb gnd! 2.1fF
+C6 gate_2/Gin gnd! 16.9fF
+C7 gate_2/Gout gnd! 4.4fF
+C8 gate_1/Gin gnd! 17.3fF
+C9 gate_3/Gin gnd! 17.4fF
+C10 gate_3/Gout gnd! 4.4fF
+C11 Vdd gnd! 6.6fF
+C12 Q gnd! 21.2fF
+C13 gate_0/S gnd! 26.8fF
+C14 gate_2/S gnd! 33.8fF
+C15 gate_1/S gnd! 26.8fF
+C16 CLK gnd! 52.2fF
+
+.include ../usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 CLK 0 pulse(2.8 0 0ns 0.1ns 0.1ns 10ns 20ns)
+Vin2 D 0 pulse(0 2.8 0ns 0.1ns 0.1ns 50ns 100ns)
+Vin3 CLR 0 pulse(0 2.8 0ns 0.1ns 0.1ns 20ns 300ns)
+.tran 5ns 300ns
+.probe
+.end

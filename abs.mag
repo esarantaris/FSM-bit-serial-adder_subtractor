@@ -1,0 +1,90 @@
+magic
+tech scmos
+timestamp 1354114587
+<< polysilicon >>
+rect -60 134 -58 147
+rect -52 134 -50 147
+rect 11 132 13 147
+rect 19 132 21 136
+rect 92 132 94 147
+rect 147 131 149 147
+rect 157 126 159 141
+rect 187 138 189 147
+rect 187 136 192 138
+rect 165 97 167 104
+rect 73 24 84 26
+<< metal1 >>
+rect 141 141 155 144
+rect -6 137 17 140
+rect 178 138 181 147
+rect 39 135 181 138
+rect 39 131 42 135
+rect 112 131 115 135
+rect -3 128 6 131
+rect -71 40 0 43
+rect 146 27 149 127
+rect 152 123 155 135
+rect 178 126 181 135
+rect 168 114 180 117
+rect 193 116 196 134
+rect 190 113 196 116
+rect 152 85 155 106
+rect 162 93 165 96
+rect 172 85 175 109
+rect 178 85 181 106
+rect 199 85 202 147
+rect 152 82 202 85
+rect 152 0 155 82
+rect 0 -3 155 0
+<< metal2 >>
+rect 53 141 137 144
+rect -10 70 -7 136
+rect 53 116 56 141
+rect 126 96 129 111
+rect 126 93 158 96
+rect -9 66 -7 70
+<< polycontact >>
+rect 17 136 21 140
+rect 155 141 159 145
+rect 145 127 149 131
+rect 192 134 196 138
+rect 180 113 184 117
+rect 165 93 169 97
+rect 145 23 149 27
+<< m2contact >>
+rect 137 141 141 145
+rect -10 136 -6 140
+rect 52 112 56 116
+rect 125 111 129 115
+rect -13 66 -9 70
+rect 158 93 162 97
+use xor2 xor2_0
+timestamp 1352389694
+transform 1 0 -24 0 1 105
+box -47 -62 21 29
+use ha ha_0
+timestamp 1354114587
+transform 1 0 0 0 1 0
+box 0 0 73 132
+use ha ha_1
+timestamp 1354114587
+transform 1 0 73 0 1 0
+box 0 0 73 132
+use nor2 nor2_0
+timestamp 1351504687
+transform 1 0 196 0 1 114
+box -44 -11 -24 15
+use not1 not1_0
+timestamp 1352402877
+transform 1 0 183 0 1 113
+box -5 -10 7 15
+<< labels >>
+rlabel polysilicon 148 146 148 146 5 sum
+rlabel metal1 179 146 179 146 5 Vdd!
+rlabel metal1 200 146 200 146 6 GND!
+rlabel polysilicon 188 146 188 146 5 cout
+rlabel polysilicon 12 146 12 146 5 in1
+rlabel polysilicon 93 146 93 146 5 cin
+rlabel polysilicon -59 146 -59 146 5 AbS
+rlabel polysilicon -51 146 -51 146 5 in2
+<< end >>

@@ -1,0 +1,276 @@
+magic
+tech scmos
+timestamp 1357465246
+<< polysilicon >>
+rect -188 202 -185 204
+rect -65 161 -33 163
+rect -220 147 -218 153
+rect -206 147 -203 149
+rect -223 120 -221 135
+rect -205 120 -203 147
+rect -196 107 -184 109
+rect -50 26 19 28
+rect -195 -45 -184 -43
+rect -217 -104 -215 -83
+rect -193 -113 -182 -111
+rect -152 -270 -145 -268
+rect -116 -294 -107 -292
+<< metal1 >>
+rect -226 214 -184 217
+rect -226 152 -223 214
+rect -153 208 -149 211
+rect -210 153 -207 177
+rect -223 139 -220 143
+rect -241 126 -231 129
+rect -241 -86 -238 126
+rect -208 106 -200 109
+rect -218 -42 -215 86
+rect -218 -45 -199 -42
+rect -218 -79 -215 -45
+rect -241 -89 -203 -86
+rect -259 -153 -256 -148
+rect -192 -267 -189 200
+rect -182 -64 -179 -38
+rect -182 -67 -165 -64
+rect -168 -79 -165 -67
+rect -180 -90 -130 -87
+rect -180 -109 -177 -90
+rect -178 -113 -177 -109
+rect -167 -256 -164 -98
+rect -192 -270 -156 -267
+rect -167 -335 -164 -279
+rect -103 -295 -46 -292
+rect -167 -338 -41 -335
+rect -33 -467 -30 160
+rect -26 -147 -23 13
+rect -26 -349 -23 -151
+rect -26 -722 -23 -353
+rect -20 -21 -17 340
+rect -13 -9 -10 357
+rect 10 354 48 357
+rect -13 -19 -10 -13
+rect -7 -16 -4 350
+rect 0 300 3 306
+rect 130 303 135 306
+rect 263 303 268 306
+rect 396 303 401 306
+rect 529 303 534 306
+rect 662 303 667 306
+rect 795 303 800 306
+rect 928 303 933 306
+rect 1050 299 1073 302
+rect 0 259 3 265
+rect 960 1 1067 4
+rect 91 -6 930 -3
+rect 5 -12 47 -9
+rect -7 -19 8 -16
+rect -20 -291 -17 -25
+rect -20 -388 -17 -295
+rect -13 -382 -10 -36
+rect -7 -375 -4 -36
+rect -1 -66 2 -60
+rect 129 -63 134 -60
+rect 262 -63 267 -60
+rect 395 -63 400 -60
+rect 528 -63 533 -60
+rect 661 -63 666 -60
+rect 794 -63 799 -60
+rect 927 -63 932 -60
+rect -1 -107 2 -102
+rect 1064 -362 1067 1
+rect 965 -365 1067 -362
+rect 90 -372 929 -369
+rect -7 -378 47 -375
+rect -13 -385 7 -382
+rect -3 -396 8 -394
+rect 1 -397 8 -396
+rect -1 -432 2 -426
+rect 132 -432 135 -426
+rect 265 -432 268 -427
+rect 398 -432 401 -426
+rect 531 -432 534 -426
+rect 664 -432 667 -426
+rect 797 -432 800 -426
+rect 930 -432 933 -427
+rect 930 -488 933 -482
+rect 126 -674 129 -671
+rect 259 -674 262 -671
+rect 392 -674 395 -671
+rect 525 -674 528 -671
+rect 658 -674 661 -671
+rect 791 -674 794 -671
+rect 924 -674 927 -671
+rect 1057 -674 1060 -671
+rect -26 -725 31 -722
+rect 1064 -728 1067 -365
+rect 1070 -27 1073 299
+rect 1070 -393 1073 -31
+rect 958 -731 1067 -728
+<< metal2 >>
+rect -16 341 112 344
+rect -206 178 -179 181
+rect -36 55 36 58
+rect 12 48 54 49
+rect -43 46 54 48
+rect -43 45 15 46
+rect -23 13 30 16
+rect 88 -2 91 26
+rect 931 -2 934 247
+rect -10 -12 1 -9
+rect -16 -25 111 -22
+rect 1051 -31 1070 -28
+rect -154 -55 -107 -52
+rect -154 -67 -151 -55
+rect -250 -70 -151 -67
+rect -250 -91 -247 -70
+rect -199 -90 -184 -87
+rect -168 -94 -165 -83
+rect -37 -150 -27 -147
+rect -195 -160 -138 -157
+rect -167 -275 -164 -260
+rect -42 -295 -20 -292
+rect -140 -396 -137 -297
+rect -117 -362 -114 -296
+rect -37 -339 18 -336
+rect -23 -353 29 -350
+rect -117 -365 38 -362
+rect 87 -368 90 -340
+rect 930 -368 933 -119
+rect -16 -391 111 -388
+rect -140 -399 -3 -396
+rect 1051 -397 1070 -394
+rect -30 -470 -4 -467
+<< polycontact >>
+rect -192 200 -188 204
+rect -33 160 -29 164
+rect -223 135 -219 139
+rect -200 105 -196 109
+rect 19 26 23 30
+rect -182 -38 -178 -34
+rect -199 -46 -195 -42
+rect -219 -83 -215 -79
+rect -182 -113 -178 -109
+rect -156 -271 -152 -267
+rect -107 -295 -103 -291
+<< m2contact >>
+rect -20 340 -16 344
+rect -210 177 -206 181
+rect -203 -90 -199 -86
+rect -251 -95 -247 -91
+rect -199 -160 -195 -156
+rect -179 178 -175 182
+rect -40 55 -36 59
+rect -47 44 -43 48
+rect -107 -56 -103 -52
+rect -168 -83 -164 -79
+rect -184 -90 -180 -86
+rect -168 -98 -164 -94
+rect -41 -151 -37 -147
+rect -168 -260 -164 -256
+rect -168 -279 -164 -275
+rect -46 -295 -42 -291
+rect -41 -339 -37 -335
+rect -27 13 -23 17
+rect -27 -151 -23 -147
+rect -27 -353 -23 -349
+rect -34 -471 -30 -467
+rect -14 -13 -10 -9
+rect 931 247 935 251
+rect 87 26 91 30
+rect 87 -6 91 -2
+rect 930 -6 934 -2
+rect 1 -13 5 -9
+rect -20 -25 -16 -21
+rect 1047 -32 1051 -28
+rect -20 -295 -16 -291
+rect 930 -119 934 -115
+rect 18 -340 22 -336
+rect 86 -340 90 -336
+rect 86 -372 90 -368
+rect 929 -372 933 -368
+rect -20 -392 -16 -388
+rect -3 -400 1 -396
+rect 1047 -398 1051 -394
+rect -4 -471 0 -467
+rect 1070 -31 1074 -27
+rect 1070 -397 1074 -393
+use inverter inverter_0
+timestamp 1351319193
+transform 0 1 -220 -1 0 149
+box -5 -10 7 15
+use mux2x1 mux2x1_0
+timestamp 1353607821
+transform 1 0 -227 0 1 79
+box -8 5 24 51
+use abs abs_0
+timestamp 1354114587
+transform 0 -1 -39 1 0 15
+box -71 -3 202 147
+use SR2B SR2B_0
+timestamp 1354203817
+transform 1 0 22 0 1 32
+box -22 -32 1040 325
+use xor2 xor2_0
+timestamp 1352389694
+transform 0 1 -221 -1 0 -139
+box -47 -62 21 29
+use dff3B dff3B_0
+timestamp 1354117195
+transform 0 -1 -110 1 0 -189
+box -110 -72 130 37
+use SR2B SR2B_1
+timestamp 1354203817
+transform 1 0 21 0 1 -334
+box -22 -32 1040 325
+use SR2B SR2B_2
+timestamp 1354203817
+transform 1 0 21 0 1 -700
+box -22 -32 1040 325
+<< labels >>
+rlabel metal1 1065 -225 1065 -225 7 GND!
+rlabel metal1 1071 114 1071 114 7 Vdd!
+rlabel metal1 1 301 1 301 1 A0
+rlabel metal1 131 -62 131 -62 1 B1
+rlabel metal1 263 -62 263 -62 1 B2
+rlabel metal1 396 -62 396 -62 1 B3
+rlabel metal1 530 -62 530 -62 1 B4
+rlabel metal1 663 -62 663 -62 1 B5
+rlabel metal1 795 -62 795 -62 1 B6
+rlabel metal1 929 -62 929 -62 1 B7
+rlabel metal1 930 304 930 304 1 A7
+rlabel metal1 796 304 796 304 1 A6
+rlabel metal1 663 304 663 304 1 A5
+rlabel metal1 530 304 530 304 1 A4
+rlabel metal1 397 304 397 304 1 A3
+rlabel metal1 264 304 264 304 1 A2
+rlabel metal1 131 304 131 304 1 A1
+rlabel metal1 95 -5 95 -5 1 QA0
+rlabel metal1 102 -371 102 -371 1 QB0
+rlabel metal1 1 -65 1 -65 1 B0
+rlabel metal1 -12 51 -12 51 1 S0
+rlabel metal1 -6 56 -6 56 1 S1
+rlabel metal1 -19 76 -19 76 1 CLR
+rlabel metal1 -25 -143 -25 -143 3 CLK
+rlabel metal1 1059 -672 1059 -672 1 SUM0
+rlabel metal1 926 -672 926 -672 1 SUM1
+rlabel metal1 793 -672 793 -672 1 SUM2
+rlabel metal1 660 -672 660 -672 1 SUM3
+rlabel metal1 527 -672 527 -672 1 SUM4
+rlabel metal1 394 -672 394 -672 1 SUM5
+rlabel metal1 260 -672 260 -672 1 SUM6
+rlabel metal1 128 -672 128 -672 1 SUM7
+rlabel polysilicon -219 152 -219 152 1 Sel
+rlabel metal1 -217 -44 -217 -44 1 AbS
+rlabel metal1 2 261 2 261 1 SR
+rlabel metal1 1 -106 1 -106 1 SR2
+rlabel metal1 1 -431 1 -431 1 D0
+rlabel metal1 134 -431 134 -431 1 D1
+rlabel metal1 267 -431 267 -431 1 D2
+rlabel metal1 400 -431 400 -431 1 D3
+rlabel metal1 532 -431 532 -431 1 D4
+rlabel metal1 666 -430 666 -430 1 D5
+rlabel metal1 799 -431 799 -431 1 D6
+rlabel metal1 931 -431 931 -431 1 D7
+rlabel metal1 931 -487 931 -487 1 SL
+rlabel metal1 -258 -151 -258 -151 1 Cout
+<< end >>

@@ -1,0 +1,21 @@
+timestamp 1353607821
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use gate gate_1 0 1 2 -1 0 42
+use gate gate_0 0 -1 17 1 0 14
+node "Min2" 0 987 -8 6 m1 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "Mout" 0 1692 17 22 m1 0 0 0 0 0 0 0 0 0 0 0 0 36 30 0 0 0 0
+node "Min1" 0 987 -8 47 m1 0 0 0 0 0 0 0 0 0 0 0 0 21 20 0 0 0 0
+node "Smb" 358 7460 22 13 p 0 0 0 0 60 64 0 0 0 0 0 0 0 0 0 0 0 0
+node "Sm" 358 7460 -5 13 p 0 0 0 0 60 64 0 0 0 0 0 0 0 0 0 0 0 0
+merge "gate_0/S" "gate_1/Sb" -640 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "gate_1/Sb" "Sm"
+merge "gate_0/Sb" "gate_1/S" -640 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "gate_1/S" "Smb"
+merge "gate_1/Gin" "Min1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "gate_0/Gin" "Min2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "gate_0/Gout" "gate_1/Gout" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -16 0 0 0 0
+merge "gate_1/Gout" "Mout"
